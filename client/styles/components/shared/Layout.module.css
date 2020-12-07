@@ -1,0 +1,26 @@
+.container {
+  @apply grid grid-cols-12;
+  background: #12181F;
+  color: white;
+}
+
+.sidebar {
+  @apply col-span-3;
+}
+
+.tmpContainer {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  @apply col-span-9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
