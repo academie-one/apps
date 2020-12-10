@@ -3,8 +3,51 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "TTInterfaces";
-  src: url("/fonts/ttinterfaces/TTInterfaces-Regular.otf");
+  font-family: 'TTInterfaces';
+  src: url('/fonts/ttinterfaces/TTInterfaces-Regular.otf');
+}
+
+@font-face {
+  font-family: 'TTInterfaces';
+  src: url("path/GraublauWeb.otf") format("opentype"),
+      url('path/filename.ttf') format('truetype');
+}
+
+
+
+@font-face {
+  font-family: 'TTInterfaces';
+  src: url("path/GraublauWeb.otf") format("opentype"),
+      url('path/filename.ttf') format('truetype');
+}
+
+
+@font-face {
+  font-family: 'TTInterfaces';
+  src: url("path/GraublauWeb.otf") format("opentype"),
+      url('path/filename.ttf') format('truetype');
+}
+
+
+
+
+
+@font-face {
+  font-family: 'TTInterfaces-Regular';
+  src: url('/fonts/ttinterfaces/TTInterfaces-Regular.otf') format('opentype'),
+      url('/fonts/ttinterfaces/TTInterfaces-Regular.ttf') format('truetype');
+}
+
+
+
+@font-face {
+  font-family: 'TTInterfaces-Bold';
+  src: url('/fonts/ttinterfaces/TTInterfaces-Bold.otf');
+}
+
+@font-face {
+  font-family: 'TTInterfaces-ExtraLight';
+  src: url('/fonts/ttinterfaces/TTInterfaces-ExtraLight.otf');
 }
 
 html,
@@ -23,3 +66,37 @@ a {
 * {
   box-sizing: border-box;
 }
+
+
+@font-face {
+  font-family: 'TTInterfaces-Black';
+  src: url('/fonts/ttinterfaces/TTInterfaces-Black.otf') format('opentype'),
+      url('/fonts/ttinterfaces/TTInterfaces-Black.ttf') format('truetype');
+}
+TTInterfaces-Black.otf
+@font-face {
+  font-family: 'TTInterfaces-Black';
+  src: url('/fonts/ttinterfaces/TTInterfaces-Black.otf') format('opentype'),
+      url('/fonts/ttinterfaces/TTInterfaces-Black.ttf') format('truetype');
+}
+TTInterfaces-BlackItalic.otf
+TTInterfaces-Bold.otf
+TTInterfaces-BoldItalic.otf
+TTInterfaces-DemiBold.otf
+TTInterfaces-DemiBoldItalic.otf
+TTInterfaces-ExtraBold.otf
+TTInterfaces-ExtraBoldItalic.otf
+TTInterfaces-ExtraLight.otf
+TTInterfaces-ExtraLightItalic.otf
+TTInterfaces-Italic.otf
+TTInterfaces-Light.otf
+TTInterfaces-LightItalic.otf
+TTInterfaces-Medium.otf
+TTInterfaces-MediumItalic.otf
+TTInterfaces-Regular.otf
+TTInterfaces-Thin.otf
+TTInterfaces-ThinItalic.otf
+TTInterfacesMono-Bold.otf
+TTInterfacesMono-BoldItalic.otf
+TTInterfacesMono-Italic.otf
+TTInterfacesMono-Regular.otf
