@@ -7,23 +7,23 @@ const Sidebar = ({classes}) => {
     <aside className={classes}>
       <nav className={`${styles.nav} ${styles.pulsate}`}>
         <ul className="navbar--link">
-          <li className="navbar--link-item">
+          <li className={styles.navbarLinkItem}>
             <Link href="/">academie one</Link>
           </li>
-          <li className="navbar--link-item">
-            <Link href="/foundation">Foundation</Link>
+          <li className={styles.navbarLinkItem}>
+            <Link href="/foundation">foundation</Link>
           </li>
-          <li className="navbar--link-item">
-            <Link href="/academie">Academie</Link>
+          <li className={styles.navbarLinkItem}>
+            <Link href="/academie">academie</Link>
           </li>
-          <li className="navbar--link-item">
-            <Link href="/methodology">Methodology</Link>
+          <li className={styles.navbarLinkItem}>
+            <Link href="/methodology">methodology</Link>
           </li>
-          <li className="navbar--link-item">
-            <Link href="/admissions">Admission</Link>
+          <li className={styles.navbarLinkItem}>
+            <Link href="/admissions">admission</Link>
           </li>
-          <li className="navbar--link-item">
-            <Link href="/coming-soon">Apply</Link>
+          <li className={styles.navbarLinkItem}>
+            <Link href="/coming-soon">apply</Link>
           </li>
         </ul>
       </nav>
