@@ -31,19 +31,19 @@ const Header = ({classes}) => {
           </button>
         </div>
         <ul className={`${styles.menu} ${open ? 'flex' : 'hidden'}`}>
-          <li className={styles.navbarLinkItem}>
+          <li className={styles.navbarLinkItem} onClick={handleClick}>
             <Link href="/foundation">Foundation</Link>
           </li>
-          <li className={styles.navbarLinkItem}>
+          <li className={styles.navbarLinkItem} onClick={handleClick}>
             <Link href="/academie">Academie</Link>
           </li>
-          <li className={styles.navbarLinkItem}>
+          <li className={styles.navbarLinkItem} onClick={handleClick}>
             <Link href="/methodology">Methodology</Link>
           </li>
-          <li className={styles.navbarLinkItem}>
+          <li className={styles.navbarLinkItem} onClick={handleClick}>
             <Link href="/admissions">Admission</Link>
           </li>
-          <li className={styles.navbarLinkItem}>
+          <li className={styles.navbarLinkItem} onClick={handleClick}>
             <Link href="/coming-soon">Apply</Link>
           </li>
         </ul>
