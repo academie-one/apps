@@ -8,6 +8,9 @@ const Sidebar = ({classes}) => {
       <nav className={`${styles.nav} ${styles.pulsate}`}>
         <ul className="navbar--link">
           <li className="navbar--link-item">
+            <Link href="/">academie one</Link>
+          </li>
+          <li className="navbar--link-item">
             <Link href="/foundation">Foundation</Link>
           </li>
           <li className="navbar--link-item">
