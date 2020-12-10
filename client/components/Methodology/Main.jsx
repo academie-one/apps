@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-const Main = (data) => {
+const Main = ({data}) => {
     return (
         <>
             <h1>{data.title}</h1>

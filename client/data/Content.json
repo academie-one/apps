@@ -9,7 +9,7 @@
             "title": "Foundation",
             "Message": {
                 "title":"Message",
-                "data":{
+                "items":{
                     "name":"Yerdos Mendybayev",
                     "title":"Founder of the Academie",
                     "img":"put link here"
@@ -26,7 +26,7 @@
        "Model":{
           "title":"Educational Model",
           "body":"This unique method has its roots in 20 years of research and experimentation by Nicolas Sadirak and his team in the field of IT education.",
-          "data":[
+          "items":[
              {
                 "title":"Peer-to-Peer Learning",
                 "body":"No lessons, no teachers, no grades: at Academie One, students are accountable for their success. Cadets, while training, work as a collective mind."
@@ -55,7 +55,7 @@
           "title2":"High quality education for everyone who wants to challenge (who wants to be One).",
           "body":"Academie One believes that we should provide high-quality education to those who want to take on challenges, regardless of their educational background or profession. The entire educational model is based on peer-to-peer collaboration: a collaboration that allows developers to unleash their full creativity through collaborative work on projects.",
           "img":"put link here",
-          "data":[
+          "items":[
              {
                 "title":"Accessible",
                 "body":"Anyone over the age of 18 can study at Academie One, with no previous knowledge in the field or any other prerequisites necessary. Upon application, students are given a logic-based test. If successful, students can move to the next step."
@@ -95,7 +95,7 @@
        "Team":{
           "title":"The Team",
           "title2":"Founders",
-          "data":[
+          "items":[
              {
                 "title":"Yerdos Mendybayev",
                 "body":"Founder",
@@ -132,7 +132,7 @@
        "Peer":{
           "title":"Peer Education",
           "body":"To be successful, participants must work in a team, share information, alternately be a student and then a coach. This approach helps to maximize the creativity of participants while working on projects.",
-          "data":[
+          "items":[
              {
                 "title":"Peer Learning",
                 "body":"Collaboration is the foundation of pear learning. Cadets challenge each other, share ideas and experiences, and learn from each other. The training system provides tasks for which you need to find a solution.",
@@ -155,7 +155,7 @@
           "title2":"The Swimming Pool",
           "body":"The Pool test will decide your final admission to Academie One. No swimming, but an immersion in the deep end of the code which allows us to identify the most motivated and to confirm the aptitude of the students. Piscine is actually a chance to discover the methodology, it's a unique learning method, and above all what programming really is.",
           "img":"put link here",
-          "data":[
+          "items":[
              {
                 "title":"New experience",
                 "body":"A 4-week intensive course that will help you discover the academy, its unique teaching method and understand what programming really is."
@@ -181,7 +181,7 @@
        },
        "Skills":{
           "title":"Gain soft skills",
-          "data":[
+          "items":[
              {
                 "title":"Fundamentals",
                 "body":"After the pool, you will focus on command line interface projects, GO language fundamentals, and algorithms. The projects you work on will be the same projects that 01 edu system students all over the world complete. This stage is critical, as it lays the foundation for your future profession.",
@@ -204,7 +204,7 @@
        },
        "Areas":{
           "title":"Specialize in the following areas",
-          "data":[
+          "items":[
              {
                 "title":"AI",
                 "img":"put link here"
@@ -220,7 +220,7 @@
        "Road":{
           "title":"Your Road To Academie One",
           "body":"Before you can take off with coding at Academie One in Almaty there are some small steps you need to take. Buckle up and let's get started!",
-          "data":[
+          "items":[
              {
                 "title":"1. Registration",
                 "body":"Create an account on the 01 edu platform and try to complete two online games. You must reserve at least 2 hours to play. No coding is required – only logic.",
