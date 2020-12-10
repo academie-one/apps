@@ -4,7 +4,7 @@ import Link from "next/link";
 const Sidebar = ({ classes }) => {
   return (
     <aside className={classes}>
-      <nav className={styles.nav}>
+      <nav className={`${styles.nav} ${styles.pulsate}`}>
         <ul className="navbar--link">
           <li className="navbar--link-item">
             <Link href="/foundation">Foundation</Link>

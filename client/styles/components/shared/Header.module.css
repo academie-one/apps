@@ -1,0 +1,84 @@
+.nav {
+  @apply flex flex-col items-center justify-between w-full px-4 bg-white border-none;
+}
+
+.navContent {
+  @apply flex flex-row items-center self-start justify-between w-full flex-nowrap;
+}
+
+.menu {
+  @apply flex-col items-center self-end w-full h-full py-1 pb-4;
+}
+
+.navbarLinkItem {
+  @apply w-full py-2 text-base text-lg font-bold no-underline hover:text-red-50;
+}
+
+@screen sm {
+  .nav {
+    @apply flex-row px-6;
+  }
+
+  .navContent {
+    @apply self-center flex-none w-auto;
+  }
+
+  .hamburger {
+    @apply hidden;
+  }
+
+  .menu {
+    @apply flex flex-row self-center w-auto py-0 pb-0;
+  }
+
+  .navbarLinkItem {
+    @apply w-auto py-1 pt-2 pr-4;
+  }
+}
+
+.hamburger {
+  @apply flex items-center justify-center block cursor-pointer;
+  width: 48px;
+  height: 48px;
+  transition: all 0.25s;
+}
+
+.hamburger:focus {
+  @apply outline-none;
+}
+
+.hamburgerTopBun,
+.hamburgerBottomBun {
+  content: '';
+  position: absolute;
+  width: 24px;
+  height: 2px;
+  background: #000;
+  transform: rotate(0);
+  transition: all 0.5s;
+}
+
+.hamburger:hover [class*='-bun'] {
+  background: #333;
+}
+
+.hamburgerTopBun {
+  transform: translateY(-5px);
+}
+
+.hamburgerBottomBun {
+  transform: translateY(3px);
+}
+
+.open {
+  transform: rotate(90deg);
+  transform: translateY(-1px);
+}
+
+.open .hamburgerTopBun {
+  transform: rotate(45deg) translateY(0px);
+}
+
+.open .hamburgerBottomBun {
+  transform: rotate(-45deg) translateY(0px);
+}

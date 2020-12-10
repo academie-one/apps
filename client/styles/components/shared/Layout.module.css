@@ -1,11 +1,20 @@
 .container {
-  @apply grid grid-cols-12;
-  background: #12181F;
+  @apply grid grid-cols-12 grid-rows-6;
+  background: #12181f;
   color: white;
+  height: 100vh;
 }
 
 .sidebar {
-  @apply col-span-3;
+  @apply hidden col-span-3 row-span-6;
+}
+
+.header {
+  @apply sticky top-0 left-0 h-12;
+}
+
+.main {
+  @apply flex flex-col items-center justify-center overflow-auto col-span-12 row-span-6;
 }
 
 .tmpContainer {
@@ -17,10 +26,16 @@
   align-items: center;
 }
 
-.main {
-  @apply col-span-9;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+@screen sm {
+  .header {
+    @apply hidden;
+  }
+
+  .sidebar {
+    @apply block;
+  }
+
+  .main {
+    @apply col-span-9;
+  }
 }
