@@ -1,7 +1,8 @@
-import styles from "../../styles/components/shared/Sidebar.module.css";
-import Link from "next/link";
+import React, {memo} from 'react';
+import styles from '../../styles/components/shared/Sidebar.module.css';
+import Link from 'next/link';
 
-const Sidebar = ({ classes }) => {
+const Sidebar = ({classes}) => {
   return (
     <aside className={classes}>
       <nav className={`${styles.nav} ${styles.pulsate}`}>
@@ -27,4 +28,4 @@ const Sidebar = ({ classes }) => {
   );
 };
 
-export default Sidebar;
+export default memo(Sidebar);

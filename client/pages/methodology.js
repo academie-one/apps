@@ -1,7 +1,5 @@
-import Layout from "../components/shared/Layout";
-
 const Methodology = () => {
-  return <Layout title={"academie one"}>Methodology</Layout>;
+  return <h1>Methodology</h1>;
 };
 
 export default Methodology;

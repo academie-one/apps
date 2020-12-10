@@ -1,7 +1,5 @@
-import Layout from "../components/shared/Layout";
-
 const Academie = () => {
-  return <Layout title={"academie one"}>Best academie</Layout>;
+  return <h1>Best academie</h1>;
 };
 
 export default Academie;

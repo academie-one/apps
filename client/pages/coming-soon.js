@@ -1,11 +1,5 @@
-import Layout from "../components/shared/Layout";
-
 const ComingSoon = () => {
-  return (
-    <Layout title={"academie one"}>
-      <h1>Coming soon...</h1>
-    </Layout>
-  );
+  return <h1>Coming soon...</h1>;
 };
 
 export default ComingSoon;
