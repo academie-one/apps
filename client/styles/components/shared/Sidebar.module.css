@@ -13,12 +13,12 @@
 }
 
 .navbarLinkItem {
-  @apply w-full py-2 text-base text-lg font-bold no-underline hover:text-red-50;
+  @apply w-full text-base text-lg font-bold no-underline;
 }
 
 @screen sm {
   .navbarLinkItem {
-    @apply w-auto py-1 pl-4;
+    @apply w-auto py-px pl-4;
   }
 }
 
