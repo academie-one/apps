@@ -237,17 +237,17 @@
             {
                "title":"1. Registration",
                "body":"Create an account on the 01 edu platform and try to complete two online games. You must reserve at least 2 hours to play. No coding is required – only logic.",
-               "img":"put link here"
+               "img":"/images/Admissions/urban-1.png"
             },
             {
                "title":"2. Interview",
                "body":"Take part in an online interview and introduce yourself. You will be asked several questions to help us understand your motivation.",
-               "img":"put link here"
+               "img":"/images/Admissions/urban-2.png"
             },
             {
                "title":"3. Piscine",
                "body":"Take a four-week course in an Education Cluster that introduces you to our educational model and identifies motivated candidates for Academie One.",
-               "img":"put link here"
+               "img":"/images/Admissions/urban-3.png"
             }
          ]
       },
@@ -263,7 +263,7 @@
       "CadetPath":{
          "title":"Cadet Path",
          "body":"To apply, we only ask that you are open-minded, motivated and ready to commit to our 4-year educational and work program program and you must be at least 18.",
-         "img":"put link here"
+         "img":"/images/Admissions/cadetPath.png"
       },
       "Spec":{
          "title":"Specializations and skills",
@@ -272,7 +272,7 @@
       "Portfolio":{
          "title":"Create Your Own Portfolio",
          "body":"With the flexible curriculum at Academie One you take charge of your own skill set and create your very own portfolio depending on your interests and future plans.",
-         "img":"put link here"
+         "img":"/images/Admissions/42graphs.png"
       },
       "Career":{
          "title":"Career After Academie One",

@@ -1,23 +1,23 @@
 import * as React from 'react';
 import Typography from '../shared/Typography';
 
-const Skills = ({data}) => {
+const Road = ({data}) => {
     return (
-        <div className={`py-16`}>
-            <Typography variant='h4'>{data.title}</Typography>
+        <div className={`pb-16`}>
+            <Typography variant='h2'>{data.title}</Typography>
+            <br />
+            <Typography variant='body'>{data.body}</Typography>
             <br />
             <div class="grid grid-cols-2 gap-4">
                 {data.items.map((el, index) => (
                     <>
                         <div>
-                            <img className={`w-1/2`} src={el.img} alt="01"/>
+                            <img className={`w-3/5`} src={el.img} alt="01"/>
                         </div>
                         <div>
                             <Typography variant='h4'>{el.title}</Typography>
                             <br />
                             <Typography varaint='body'>{el.body}</Typography>
-                            <br />
-                            <Typography varaint='body'>{el.body2}</Typography>
                         </div>
                     </>
                 ))}
@@ -26,4 +26,4 @@ const Skills = ({data}) => {
     );
 };
 
-export default Skills;
+export default Road;

@@ -11,7 +11,7 @@ import Areas from '../components/Methodology/Areas.jsx';
 
 const Methodology = () => {
   return (
-    <div className={`w-2/3 mx-3.5`}>
+    <div className={`w-3/5 mx-3.5`}>
       <Main data={data.PageName}/>
       <Peer data={data.Peer} />
       <hr />
