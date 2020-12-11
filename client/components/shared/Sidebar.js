@@ -3,6 +3,8 @@ import Typography from '../shared/Typography';
 import styles from '../../styles/components/shared/Sidebar.module.css';
 import Link from 'next/link';
 
+// TODO: Active links bold
+// TODO: Apply triggers gloving
 const Sidebar = ({ classes }) => {
   return (
     <aside className={classes}>
