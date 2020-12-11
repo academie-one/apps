@@ -3,7 +3,7 @@
 }
 
 .sidebar {
-  @apply hidden col-span-3 row-span-6;
+  @apply hidden col-span-2 row-span-6;
 }
 
 .header {
@@ -28,7 +28,7 @@
   }
 
   .main {
-    @apply col-span-9;
+    @apply col-span-10;
   }
 
   .logo {

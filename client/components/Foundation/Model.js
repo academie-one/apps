@@ -8,13 +8,9 @@ const model = ({data}) => {
       <Typography variant="body">{data.body}</Typography>
       <div className={styles.body}>
         {data.items.map((item, index) => (
-          <div className={styles.model}>
-            <Typography variant="h4" key={index}>
-              {item.title}
-            </Typography>
-            <Typography variant="body" key={index}>
-              {item.body}
-            </Typography>
+          <div className={styles.model} key={index}>
+            <Typography variant="h4">{item.title}</Typography>
+            <Typography variant="body">{item.body}</Typography>
           </div>
         ))}
       </div>
