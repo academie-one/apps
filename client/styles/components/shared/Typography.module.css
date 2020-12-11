@@ -14,6 +14,12 @@
   @apply font-bold text-h4;
 }
 
+.menu {
+  @apply font-extralight text-h4 mb-4 text-menu;
+}
+.footer {
+  @apply font-extralight text-footer;
+}
 .body {
   @apply font-normal text-body;
 }

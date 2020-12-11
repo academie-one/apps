@@ -46,6 +46,18 @@ module.exports = {
           lineHeight: '120%',
         },
       ],
+      menu: [
+        '1.3rem',
+        {
+          lineHeight: '110%',
+        },
+      ],
+      footer: [
+        '0.5rem',
+        {
+          lineHeight: '120%',
+        },
+      ],
       body: [
         '1rem',
         {

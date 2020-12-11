@@ -6,6 +6,7 @@ const Home = () => {
       <Typography variant="h1">Can the future be changed?</Typography>
 
       <Typography variant="h2">Can the future be changed?</Typography>
+      <Typography variant="menu">Can the future be changed?</Typography>
 
       <Typography variant="h3">Can the future be changed?</Typography>
 
