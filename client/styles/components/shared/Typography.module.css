@@ -1,0 +1,51 @@
+.h1 {
+  @apply font-bold text-h1;
+}
+
+.h2 {
+  @apply font-extralight text-h2;
+}
+
+.h3 {
+  @apply font-extralight text-h3;
+}
+
+.h4 {
+  @apply font-bold text-h4;
+}
+
+.body {
+  @apply font-normal text-body;
+}
+
+.caption {
+  @apply font-normal text-caption;
+}
+
+.nav {
+  @apply font-normal text-nav;
+}
+
+.default {
+  @apply text-white;
+}
+
+.dark {
+  @apply text-darkMatter;
+}
+
+.blue {
+  @apply text-blueOne;
+}
+
+.grey {
+  @apply text-greyMatter;
+}
+
+.white {
+  @apply text-white;
+}
+
+.textSecondary {
+  color: rgba(0, 0, 0, 0.5);
+}

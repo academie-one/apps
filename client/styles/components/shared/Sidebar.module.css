@@ -13,7 +13,7 @@
 }
 
 .navbarLinkItem {
-  @apply w-full text-base text-lg font-bold no-underline;
+  @apply w-full font-bold no-underline;
 }
 
 @screen sm {

@@ -11,7 +11,7 @@
 }
 
 .navbarLinkItem {
-  @apply w-full py-2 text-base text-lg font-bold no-underline hover:text-red-50;
+  @apply w-full py-2 font-bold no-underline;
 }
 
 @screen sm {

@@ -3,16 +3,30 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "TTInterfaces";
-  src: url("/fonts/ttinterfaces/TTInterfaces-Regular.otf");
+  font-family: 'TTInterfaces-Regular';
+  src: url('/fonts/ttinterfaces/TTInterfaces-Regular.otf') format('opentype'),
+    url('/fonts/ttinterfaces/TTInterfaces-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'TTInterfaces-Bold';
+  src: url('/fonts/ttinterfaces/TTInterfaces-Bold.otf') format('opentype'),
+    url('/fonts/ttinterfaces/TTInterfaces-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'TTInterfaces-ExtraLight';
+  src: url('/fonts/ttinterfaces/TTInterfaces-ExtraLight.otf') format('opentype'),
+    url('/fonts/ttinterfaces/TTInterfaces-ExtraLight.ttf') format('truetype');
 }
 
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: TTInterfaces, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: TTInterfaces-Regular, -apple-system, BlinkMacSystemFont, Segoe UI,
+    Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+    sans-serif;
 }
 
 a {

@@ -1,10 +1,19 @@
+import Typography from '../components/shared/Typography';
+
 const Home = () => {
   return (
     <>
-      <h1 className={`text-7xl`}>Can the future be changed? </h1>
-      <h1 style={{color: '#B7DDE1'}} className={`text-8xl`}>
-        Be One.
-      </h1>
+      <Typography variant="h1">Can the future be changed? </Typography>
+
+      <Typography variant="h2">Can the future be changed? </Typography>
+
+      <Typography variant="h3">Can the future be changed? </Typography>
+
+      <Typography variant="h4">Can the future be changed? </Typography>
+
+      <Typography variant="body">Can the future be changed? </Typography>
+
+      <Typography variant="h1">Be One.</Typography>
     </>
   );
 };
