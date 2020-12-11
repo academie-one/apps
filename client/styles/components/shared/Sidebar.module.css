@@ -1,44 +1,55 @@
 .nav {
-  @apply flex items-center justify-center h-full;
-  position: absolute;
-  top: calc(50% - 150px);
-  left: 4%;
-  width: 300px;
-  height: 300px;
+  @apply flex  h-full;
+  position: relative;
+  left: 0;
+  top: 0;
+  transform: translate(-175vh, -50vh);
+  background-color: black;
+  width: 200vh;
+  height: 200vh;
   border-radius: 50%;
-  box-shadow: inset 0 0 50px #b7dde1, inset 20px 0 80px #b7dde1,
-    inset -20px 0 80px #b7dde1, inset 20px 0 300px #b7dde1,
-    inset -20px 0 300px #b7dde1, 0 0 50px #b7dde1, -10px 0 80px #b7dde1,
-    10px 0 80px #b7dde1;
+  box-shadow: 0px 0px 250px rgba(177, 225, 250, 0.6);
 }
 
 .navbarLinkItem {
-  @apply w-full no-underline;
+  @apply w-full justify-self-end no-underline;
 }
 
-.pulsate {
-  animation: pulse 3s infinite;
+.navUlLinks {
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  transform: translate(1vw, 20vh);
 }
-
-@keyframes pulse {
-  0% {
-    box-shadow: inset 0 0 50px #b7dde1, inset 20px 0 80px #b7dde1,
-      inset -20px 0 80px #b7dde1, inset 20px 0 300px #b7dde1,
-      inset -20px 0 300px #b7dde1, 0 0 50px #b7dde1, -10px 0 80px #b7dde1,
-      10px 0 80px #b7dde1;
-  }
-
-  50% {
-    box-shadow: inset 0 0 50px #b7dde1, inset 20px 0 80px #b7dde1,
-      inset -20px 0 80px #b7dde1, inset 20px 0 300px #b7dde1,
-      inset -20px 0 300px #b7dde1, 0 0 100px #b7dde1, -10px 0 80px #b7dde1,
-      10px 0 80px #b7dde1;
-  }
-
-  100% {
-    box-shadow: inset 0 0 50px #b7dde1, inset 20px 0 80px #b7dde1,
-      inset -20px 0 80px #b7dde1, inset 20px 0 300px #b7dde1,
-      inset -20px 0 300px #b7dde1, 0 0 50px #b7dde1, -10px 0 80px #b7dde1,
-      10px 0 80px #b7dde1;
-  }
+.navFooterLinks {
+  left: 0px;
+  bottom: 0px;
+  position: absolute;
+  transform: translate(1vw, -20vh);
 }
+/* .pulsate { */
+/*   animation: pulse 3s infinite; */
+/* } */
+
+/* @keyframes pulse { */
+/*   0% { */
+/*     box-shadow: inset 0 0 50px #b7dde1, inset 20px 0 80px #b7dde1, */
+/*       inset -20px 0 80px #b7dde1, inset 20px 0 300px #b7dde1, */
+/*       inset -20px 0 300px #b7dde1, 0 0 50px #b7dde1, -10px 0 80px #b7dde1, */
+/*       10px 0 80px #b7dde1; */
+/*   } */
+
+/*   50% { */
+/*     box-shadow: inset 0 0 50px #b7dde1, inset 20px 0 80px #b7dde1, */
+/*       inset -20px 0 80px #b7dde1, inset 20px 0 300px #b7dde1, */
+/*       inset -20px 0 300px #b7dde1, 0 0 100px #b7dde1, -10px 0 80px #b7dde1, */
+/*       10px 0 80px #b7dde1; */
+/*   } */
+
+/*   100% { */
+/*     box-shadow: inset 0 0 50px #b7dde1, inset 20px 0 80px #b7dde1, */
+/*       inset -20px 0 80px #b7dde1, inset 20px 0 300px #b7dde1, */
+/*       inset -20px 0 300px #b7dde1, 0 0 50px #b7dde1, -10px 0 80px #b7dde1, */
+/*       10px 0 80px #b7dde1; */
+/*   } */
+/* } */

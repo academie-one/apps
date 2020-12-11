@@ -8,6 +8,8 @@ const variantsMapping = {
   body: 'p',
   caption: 'p',
   nav: 'p',
+  menu: 'p',
+  footer: 'p',
 };
 
 const Typography = ({
