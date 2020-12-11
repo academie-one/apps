@@ -1,7 +1,6 @@
 .container {
-  @apply grid grid-cols-12 grid-rows-6;
+  @apply relative h-screen grid grid-cols-12 grid-rows-6;
   background: #12181f;
-  color: white;
   height: 100vh;
 }
 

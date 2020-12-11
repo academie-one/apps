@@ -16,12 +16,6 @@
   @apply w-full no-underline;
 }
 
-@screen sm {
-  .navbarLinkItem {
-    @apply w-auto py-px pl-4;
-  }
-}
-
 .pulsate {
   animation: pulse 3s infinite;
 }
