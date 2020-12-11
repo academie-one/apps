@@ -7,21 +7,22 @@
   "Foundation": {
     "PageName": {
       "title": "Foundation",
-      "Message": {
-        "title": "Message",
-        "items": {
-          "name": "Yerdos Mendybayev",
-          "title": "Founder of the Academie",
-          "img": "put link here"
-        },
-        "body": [
-          "Jõhvi Coding School is a modern and international programming school, created for adults at any age searching for self-development or retraining opportunities.",
-          "Starting from 2023, 200 new IT specialists will enter the job market every year. Besides offering a high-level education and creating top-level specialists, the school aims to develop local entrepreneurship and create new jobs to the region.",
-          "The school will help to reduce the lack of software engineers in Estonia, offer an innovative addition to regular schools and strengthen our educational system.",
-          "It’s a contribution to the diversification of the region and the development of digital competences.",
-          "Jõhvi Coding School creates a strong base for further studies at universities and working at technology companies. The school operates on a cloud-based learning platform, where each student moves at their own pace, solving the tasks set by the system, linking theory to practice. There’s no tuition fee for the students."
-        ]
-      }
+      "body": "Foundation is a science fiction novel by American writer Isaac Asimov. It is the first published in his Foundation Trilogy (later expanded into the Foundation Series). Foundation is a cycle of five interrelated short stories, first published as a single book by Gnome Press in 1951."
+    },
+    "Message": {
+      "title": "Message",
+      "items": {
+        "name": "Yerdos Mendybayev",
+        "title": "Founder of the Academie",
+        "img": "/images/yerdos.png"
+      },
+      "body": [
+        "Jõhvi Coding School is a modern and international programming school, created for adults at any age searching for self-development or retraining opportunities.",
+        "Starting from 2023, 200 new IT specialists will enter the job market every year. Besides offering a high-level education and creating top-level specialists, the school aims to develop local entrepreneurship and create new jobs to the region.",
+        "The school will help to reduce the lack of software engineers in Estonia, offer an innovative addition to regular schools and strengthen our educational system.",
+        "It’s a contribution to the diversification of the region and the development of digital competences.",
+        "Jõhvi Coding School creates a strong base for further studies at universities and working at technology companies. The school operates on a cloud-based learning platform, where each student moves at their own pace, solving the tasks set by the system, linking theory to practice. There’s no tuition fee for the students."
+      ]
     },
     "Model": {
       "title": "Educational Model",
