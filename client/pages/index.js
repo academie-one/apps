@@ -1,21 +1,8 @@
-import Typography from '../components/shared/Typography';
+import HomeHero from '../components/Home/HomeHero';
+import {MainPage as data} from '../data/Content.json';
 
 const Home = () => {
-  return (
-    <>
-      <Typography variant="h1">Can the future be changed?</Typography>
-
-      <Typography variant="h2">Can the future be changed?</Typography>
-
-      <Typography variant="h3">Can the future be changed?</Typography>
-
-      <Typography variant="h4">Can the future be changed?</Typography>
-
-      <Typography variant="body">Can the future be changed?</Typography>
-
-      <Typography variant="h1">Be One.</Typography>
-    </>
-  );
+  return <HomeHero data={data} />;
 };
 
 export default Home;

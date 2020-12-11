@@ -1,6 +1,5 @@
 .container {
-  @apply relative h-screen grid grid-cols-12 grid-rows-6;
-  background: #12181f;
+  @apply relative h-screen bg-darkMatter grid grid-cols-12 grid-rows-6;
   height: 100vh;
 }
 
@@ -16,13 +15,8 @@
   @apply flex flex-col items-center justify-center overflow-auto col-span-12 row-span-6;
 }
 
-.tmpContainer {
-  min-height: 100vh;
-  padding: 0 0.5rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.logo {
+  @apply absolute top-12 right-16;
 }
 
 @screen sm {
