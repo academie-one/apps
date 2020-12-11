@@ -1,6 +1,6 @@
-import Head from "next/head";
+import Head from 'next/head';
 
-const HeadMeta = ({ title }) => {
+const HeadMeta = ({title}) => {
   return (
     <Head>
       <title>{title}</title>

@@ -3,9 +3,15 @@
 }
 
 .body {
-  @apply flex flex-row space-x-4;
+  @apply flex flex-col space-y-6;
 }
 
 .model {
   @apply flex flex-col space-y-6;
+}
+
+@screen sm {
+  .body {
+    @apply flex-row space-x-4 space-y-0;
+  }
 }
