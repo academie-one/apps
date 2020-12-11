@@ -1,0 +1,11 @@
+.container {
+  @apply flex flex-col mb-12 space-y-6;
+}
+
+.body {
+  @apply flex flex-row space-x-4;
+}
+
+.model {
+  @apply flex flex-col space-y-6;
+}

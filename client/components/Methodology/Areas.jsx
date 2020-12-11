@@ -8,10 +8,12 @@ const Areas = ({data}) => {
             <br />
             <div class="grid grid-cols-5 gap-4">
                 {data.items.map((el, index) => (
-                    <div>
-                        <img className={`w-`} src={el.img} alt="01"/>
-                        <Typography variant='h4'>{el.title}</Typography>
-                    </div>
+                        <div key={index}>
+                            <img className={`w-full`} src={el.img} alt="01"/>
+                            <Typography variant='h4'>{el.title}</Typography>
+                            <br />
+                            <Typography varaint='body'>{el.body}</Typography>
+                        </div>
                 ))}
             </div>
         </div>
