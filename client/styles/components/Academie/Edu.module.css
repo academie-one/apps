@@ -1,0 +1,7 @@
+.container {
+  @apply flex flex-col mb-12 space-y-4;
+}
+
+.img {
+  @apply w-full;
+}

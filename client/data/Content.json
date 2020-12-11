@@ -55,7 +55,7 @@
       "title": "Concept",
       "title2": "High quality education for everyone who wants to challenge (who wants to be One).",
       "body": "Academie One believes that we should provide high-quality education to those who want to take on challenges, regardless of their educational background or profession. The entire educational model is based on peer-to-peer collaboration: a collaboration that allows developers to unleash their full creativity through collaborative work on projects.",
-      "img": "put link here",
+      "img": "/images/academie-people.png",
       "items": [
         {
           "title": "Accessible",
@@ -74,7 +74,7 @@
     "Map": {
       "title": "Part of the 01 Edu System",
       "body": "Nicolas Sadirac's new educational platform for high-level training in code and innovation. 01 Edu System presents an innovative curriculum in software engineering and programming. With a renowned industry-leading reputation, the curriculum has been rigorously designed for learning skills of the digital world and technology industry. Taking a different approach than the classic teaching methods today, learning is facilitated through a collective and co-créative process in a professional environment.",
-      "img": "put link here"
+      "img": "/images/map.png"
     },
     "Campus": {
       "title": "Campus",
@@ -86,12 +86,13 @@
     },
     "Cluster": {
       "title": "Education Cluster",
-      "body": "An educational campus is an open and immersive space designed for a complete and comfortable immersion in the learning process. It is a creative and safe space, equipped with cutting edge technologies that foster collaboration, communication and teamwork. The total area of the academy is 4042 sq. m"
+      "body": "An educational campus is an open and immersive space designed for a complete and comfortable immersion in the learning process. It is a creative and safe space, equipped with cutting edge technologies that foster collaboration, communication and teamwork. The total area of the academy is 4042 sq. m",
+      "images": ["/images/cluster1.png", "images/cluster2.png"]
     },
     "Almaty": {
       "title": "Almaty",
       "body": "Surrounded by beautiful mountain ranges, Almaty is located in the southern region of Kazakhstan. The city is recognized as a southern capital with huge potential and is home to many technology companies and large enterprises. A place with excellent infrastructure, beautiful views and an unusual history, it is an ideal place to study and live.",
-      "img": "put link here"
+      "img": "/images/almaty.png"
     },
     "Team": {
       "title": "The Team",
