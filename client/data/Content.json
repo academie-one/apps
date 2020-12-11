@@ -136,17 +136,17 @@
              {
                 "title":"Peer Learning",
                 "body":"Collaboration is the foundation of pear learning. Cadets challenge each other, share ideas and experiences, and learn from each other. The training system provides tasks for which you need to find a solution.",
-                "img":"put link here"
+                "img":"./images/Methodology/urban-1.png"
              },
              {
                 "title":"Peer Review",
                 "body":"A self-assessment system is established between the students, by which experts carefully study the project and evaluate it in accordance with the very nature of the project and the corresponding rating scale. When evaluating a project, you defend your point of view.",
-                "img":"put link here"
+                "img":"./images/Methodology/urban-2.png"
              },
              {
                 "title":"Peer Teaching",
                 "body":"All cadets take on the role of teacher and student. When explaining something to other students, the cadet understands the material being explained better. Others can help and support the cadet if he has any questions.",
-                "img":"put link here"
+                "img":"./images/Methodology/urban-3.png"
              }
           ]
        },
@@ -154,7 +154,7 @@
           "title":"Piscine",
           "title2":"The Swimming Pool",
           "body":"The Pool test will decide your final admission to Academie One. No swimming, but an immersion in the deep end of the code which allows us to identify the most motivated and to confirm the aptitude of the students. Piscine is actually a chance to discover the methodology, it's a unique learning method, and above all what programming really is.",
-          "img":"put link here",
+          "img":"./images/Methodology/42ivan.png",
           "items":[
              {
                 "title":"New experience",
@@ -173,7 +173,7 @@
        "Program":{
           "title":"Educational Program",
           "body":"The curriculum is based on a gamified self-learning platform in which cadets complete practical projects, acquiring knowledge while gaining experience in working in a team. The curriculum offers over 100 projects that are consistently updated to reflect the latest industry standards. With ten different learning areas to choose from, students will move through two stages of learning at the Academie: fundamentals, and specialization.",
-          "img":"put link here"
+          "img":"./images/Methodology/schema.png"
        },
        "Schedule":{
           "title":"Your schedule at Academie One",
@@ -186,13 +186,13 @@
                 "title":"Fundamentals",
                 "body":"After the pool, you will focus on command line interface projects, GO language fundamentals, and algorithms. The projects you work on will be the same projects that 01 edu system students all over the world complete. This stage is critical, as it lays the foundation for your future profession.",
                 "body2":"Duration: 15-18 months",
-                "img":"put link here"
+                "img":"./images/Methodology/01first.png"
              },
              {
                 "title":"Specialization",
                 "body":"Once you become more familiar with the basics of programming, you’ll begin working on significantly more complex projects that require more time and larger teams to complete. During this stage, you choose which field you want to specialize in.",
                 "body2":"Duration: 6 months",
-                "img":"put link here"
+                "img":"./images/Methodology/01second.png"
              }
           ]
        },
@@ -200,15 +200,28 @@
           "title":"Skills of the program",
           "title2":"That employers are looking for in digital world",
           "body":"The program generates a great diversity of co-creative digital talents highly valuable and sought-after to drive innovation and development, in all fields of digital transformation and technology.",
-          "img":"put link here"
+          "img":"./images/Methodology/skills.png"
        },
        "Areas":{
           "title":"Specialize in the following areas",
           "items":[
              {
                 "title":"AI",
-                "img":"put link here"
-             }
+                "img":"./images/Methodology/ai.png"
+             },
+             {
+               "title":"AI",
+               "img":"./images/Methodology/ai.png"
+            },{
+               "title":"AI",
+               "img":"./images/Methodology/ai.png"
+            },{
+               "title":"AI",
+               "img":"./images/Methodology/ai.png"
+            },{
+               "title":"AI",
+               "img":"./images/Methodology/ai.png"
+            }
           ]
        }
     },

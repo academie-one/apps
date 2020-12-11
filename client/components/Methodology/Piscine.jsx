@@ -1,17 +1,20 @@
 import * as React from 'react';
 import Typography from '../shared/Typography';
 
-const Peer = ({data}) => {
+const Piscine = ({data}) => {
     return (
-        <div className={`pb-16`}>
+        <div className={`py-16`}>
             <Typography variant='h2'>{data.title}</Typography>
+            <br />
+            <Typography variant='h4'>{data.title2}</Typography>
             <br />
             <Typography variant='body'>{data.body}</Typography>
             <br />
-            <div className={`flex items-baseline`}>
+            <img className={`w-full`} src={data.img} alt="Vanya"/>
+            <br />
+            <div className={`flex justify-start space-x-4`}>
                 {data.items.map((el, index) => (
-                    <div className={`px-4 text-left`}>
-                        <img className={`w-full`} src={el.img} alt="urban"/>
+                    <div className={`flex-1`}>
                         <Typography variant='h4'>{el.title}</Typography>
                         <br />
                         <Typography varaint='body'>{el.body}</Typography>
@@ -22,4 +25,4 @@ const Peer = ({data}) => {
     );
 };
 
-export default Peer;
+export default Piscine;
