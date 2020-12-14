@@ -24,7 +24,7 @@
   @apply absolute hidden top-12 right-16;
 }
 
-@screen sm {
+@screen md {
   .sidebar {
     @apply block;
   }

@@ -18,7 +18,7 @@
   @apply w-full py-2 font-bold no-underline;
 }
 
-@screen sm {
+@screen md {
   .header {
     @apply hidden;
   }
