@@ -3,14 +3,30 @@ import Typography from '../shared/Typography';
 import styles from '../../styles/components/shared/Sidebar.module.css';
 import Link from 'next/link';
 
+// TODO: Active links bold
+// TODO: Apply triggers gloving
 const Sidebar = ({classes}) => {
+  const [glowing, setGlowing] = React.useState(false);
+
+  const applyHovered = {
+    boxShadow: '0px 0px 300px rgba(195, 218, 231, 1)',
+    transition: 'box-shadow 0.5s ease-in-out',
+  };
+  const applyUnhovered = {
+    transition: 'box-shadow 0.5s ease-in-out',
+  };
   return (
     <aside className={classes}>
-      <nav className={`${styles.nav}`} />
+      <nav
+        style={glowing ? applyHovered : applyUnhovered}
+        className={`${styles.nav}`}
+      />
       <ul className={`${styles.navUlLinks}`}>
         <li className={styles.navbarLinkItem}>
           <Typography variant="menu">
-            <Link href="/">foundation</Link>
+            <Link activeClassName="active" href="/" onlyActiveOnIndex>
+              foundation
+            </Link>
           </Typography>
         </li>
         <li className={styles.navbarLinkItem}>
@@ -28,7 +44,11 @@ const Sidebar = ({classes}) => {
             <Link href="/admissions">admissions</Link>
           </Typography>
         </li>
-        <li className={styles.navbarLinkItem}>
+        <li
+          onMouseLeave={() => setGlowing(false)}
+          onMouseOver={() => setGlowing(true)}
+          className={styles.navbarLinkItem}
+        >
           <Typography variant="menu" color="blue">
             <Link href="/coming-soon">apply</Link>
           </Typography>
