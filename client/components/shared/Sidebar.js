@@ -1,16 +1,16 @@
-import React, { memo } from 'react';
+import React, {memo} from 'react';
 import Typography from '../shared/Typography';
 import styles from '../../styles/components/shared/Sidebar.module.css';
 import Link from 'next/link';
 
-const Sidebar = ({ classes }) => {
+const Sidebar = ({classes}) => {
   return (
     <aside className={classes}>
       <nav className={`${styles.nav}`} />
-      <ul className={`${styles.navUlLinks}`} >
+      <ul className={`${styles.navUlLinks}`}>
         <li className={styles.navbarLinkItem}>
           <Typography variant="menu">
-            <Link href="/foundation">foundation</Link>
+            <Link href="/">foundation</Link>
           </Typography>
         </li>
         <li className={styles.navbarLinkItem}>
@@ -37,7 +37,7 @@ const Sidebar = ({ classes }) => {
       <div className={`${styles.navFooterLinks}`}>
         <Typography variant="footer">
           <Link href="/coming-soon">Contact</Link>
-             &nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp;
           <Link href="/coming-soon">FAQ</Link>
         </Typography>
         <div className={`flex`}>
@@ -49,12 +49,15 @@ const Sidebar = ({ classes }) => {
         <Typography variant="footer">
           Copyright © 2020 <br />
           Academie One
-        </Typography><br />
+        </Typography>
+        <br />
         <Typography variant="footer">
-          <Link href="/coming-soon"><u>Terms & Conditions</u></Link>
+          <Link href="/coming-soon">
+            <u>Terms & Conditions</u>
+          </Link>
         </Typography>
       </div>
-    </aside >
+    </aside>
   );
 };
 

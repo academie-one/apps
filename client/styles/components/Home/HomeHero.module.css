@@ -1,5 +1,5 @@
 .container {
-  @apply flex flex-col justify-center flex-1 w-2/3;
+  @apply flex flex-col justify-center flex-1;
 }
 
 .content {

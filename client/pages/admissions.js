@@ -11,7 +11,7 @@ import Alumni from '../components/Admissions/Alumni';
 
 const Admissions = () => {
   return (
-    <div className={`w-3/5 mx-3.5`}>
+    <>
       <Main data={data.PageName} />
       <Road data={data.Road} />
       <ImportantDates data={data.ImportantDates} />
@@ -23,7 +23,7 @@ const Admissions = () => {
       <Alumni data={data.Alumni} />
       <hr />
       <br />
-    </div>
+    </>
   );
 };
 

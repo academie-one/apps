@@ -11,8 +11,8 @@ import Areas from '../components/Methodology/Areas.jsx';
 
 const Methodology = () => {
   return (
-    <div className={`w-3/5 mx-3.5`}>
-      <Main data={data.PageName}/>
+    <>
+      <Main data={data.PageName} />
       <Peer data={data.Peer} />
       <hr />
       <Piscine data={data.Piscine} />
@@ -23,7 +23,7 @@ const Methodology = () => {
       <hr />
       <Ability data={data.Ability} />
       <Areas data={data.Areas} />
-    </div>
+    </>
   );
 };
 

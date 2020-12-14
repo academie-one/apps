@@ -31,7 +31,7 @@ const Layout = ({children, title}) => {
         </div>
         <Sidebar classes={styles.sidebar} />
         <main ref={ref} className={styles.main}>
-          {children}
+          <div className={styles.content}>{children}</div>
         </main>
       </div>
     </>
