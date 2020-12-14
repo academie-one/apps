@@ -5,7 +5,7 @@ const concept = ({data}) => {
   return (
     <div className={styles.container}>
       <div className={styles.mainContent}>
-        <Typography variant="h1">{data.title}</Typography>
+        <Typography variant="h2">{data.title}</Typography>
         <Typography variant="h4">{data.title2}</Typography>
         <Typography variant="body">{data.body}</Typography>
       </div>

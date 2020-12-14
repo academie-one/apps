@@ -1,11 +1,22 @@
+import React, {useEffect, useRef} from 'react';
 import Head from './HeadMeta';
 import Header from './Header';
 import Sidebar from './Sidebar';
 import Link from 'next/link';
+import {useRouter} from 'next/router';
 
 import styles from '../../styles/components/shared/Layout.module.css';
 
 const Layout = ({children, title}) => {
+  const router = useRouter();
+  const ref = useRef(null);
+
+  useEffect(() => {
+    if (ref && ref.current) {
+      ref.current.scrollTo(0, 0);
+    }
+  }, [router.pathname]);
+
   return (
     <>
       <Head title={title} />
@@ -19,7 +30,9 @@ const Layout = ({children, title}) => {
           </Link>
         </div>
         <Sidebar classes={styles.sidebar} />
-        <main className={styles.main}>{children}</main>
+        <main ref={ref} className={styles.main}>
+          {children}
+        </main>
       </div>
     </>
   );
