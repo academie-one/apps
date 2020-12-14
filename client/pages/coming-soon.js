@@ -1,5 +1,7 @@
+import Typography from '../components/shared/Typography';
+
 const ComingSoon = () => {
-  return <h1>Coming soon...</h1>;
+  return <Typography variant="h2">Coming soon.</Typography>;
 };
 
 export default ComingSoon;

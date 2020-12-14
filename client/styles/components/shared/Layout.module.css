@@ -3,7 +3,7 @@
 }
 
 .sidebar {
-  @apply hidden col-span-2 row-span-6;
+  @apply hidden col-span-1 row-span-6;
 }
 
 .header {
@@ -11,11 +11,11 @@
 }
 
 .main {
-  @apply flex flex-col items-center py-32 overflow-auto col-span-12 row-span-6;
+  @apply flex flex-col py-32 overflow-auto col-span-12 row-span-6;
 }
 
 .content {
-  @apply w-10/12 mx-auto;
+  @apply flex flex-col items-center justify-center flex-1 w-10/12 mx-auto;
 }
 
 @screen md {
@@ -38,7 +38,7 @@
   }
 
   .main {
-    @apply col-span-12;
+    @apply col-span-11;
   }
 
   .logo {
