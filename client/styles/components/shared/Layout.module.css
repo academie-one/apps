@@ -6,10 +6,6 @@
   @apply hidden col-span-1 row-span-6;
 }
 
-.header {
-  @apply sticky top-0 left-0 h-12;
-}
-
 .main {
   @apply flex flex-col py-32 overflow-auto col-span-12 row-span-6;
 }
@@ -29,10 +25,6 @@
 }
 
 @screen sm {
-  .header {
-    @apply hidden;
-  }
-
   .sidebar {
     @apply block;
   }

@@ -20,8 +20,8 @@ const Layout = ({children, title}) => {
   return (
     <>
       <Head title={title} />
-      <Header classes={styles.header} />
       <div className={styles.container}>
+      <Header classes={styles.header} />
         <div className={styles.logo}>
           <Link href={`/`} passHref>
             <button>

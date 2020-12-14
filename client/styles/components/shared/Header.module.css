@@ -1,5 +1,9 @@
+.header {
+  @apply fixed top-0 left-0 z-50 w-full h-12 text-darkMatter;
+}
+
 .nav {
-  @apply flex flex-col items-center justify-between w-full px-4 bg-white border-none;
+  @apply relative flex flex-col items-center justify-between w-full px-4 bg-white border-none;
 }
 
 .navContent {
@@ -15,6 +19,10 @@
 }
 
 @screen sm {
+  .header {
+    @apply hidden;
+  }
+
   .nav {
     @apply flex-row px-6;
   }

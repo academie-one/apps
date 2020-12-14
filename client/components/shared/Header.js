@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 import styles from '../../styles/components/shared/Header.module.css';
 
-const Header = ({classes}) => {
+const Header = () => {
   const [open, setOpen] = useState(false);
 
   const handleClick = () => {
@@ -11,16 +11,14 @@ const Header = ({classes}) => {
   };
 
   return (
-    <header className={classes}>
+    <header className={styles.header}>
       <nav className={styles.nav}>
         <div className={styles.navContent}>
-          <div className={``}>
-            <Link href="/">
-              <h1 className="py-1 text-lg font-bold no-underline">
-                academie one
-              </h1>
-            </Link>
-          </div>
+          <Link href="/">
+            <h1 className="py-1 text-lg font-bold no-underline">
+              academie one
+            </h1>
+          </Link>
           <button
             className={`${styles.hamburger} ${open && styles.open}`}
             type="button"
@@ -32,7 +30,7 @@ const Header = ({classes}) => {
         </div>
         <ul className={`${styles.menu} ${open ? 'flex' : 'hidden'}`}>
           <li className={styles.navbarLinkItem} onClick={handleClick}>
-            <Link href="/foundation">Foundation</Link>
+            <Link href="/">Foundation</Link>
           </li>
           <li className={styles.navbarLinkItem} onClick={handleClick}>
             <Link href="/academie">Academie</Link>
