@@ -8,7 +8,7 @@ import Almaty from '../components/Academie/Almaty';
 
 const Academie = () => {
   return (
-    <div className={`w-3/5`}>
+    <div className={`w-3/5 leading-none`}>
       <Main data={data.PageName} />
       <Concept data={data.Concept} />
       <Edu data={data.Map} />

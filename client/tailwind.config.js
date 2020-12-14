@@ -61,7 +61,7 @@ module.exports = {
       body: [
         '1rem',
         {
-          lineHeight: '165%',
+          lineHeight: '110%',
         },
       ],
       caption: [
