@@ -6,7 +6,7 @@ const Skills = ({data}) => {
         <div className={`py-16`}>
             <Typography variant='h4'>{data.title}</Typography>
             <br />
-            <div class="grid grid-cols-2 gap-4">
+            <div className="grid grid-cols-2 gap-4">
                 {data.items.map((el, index) => (
                     <>
                         <div>

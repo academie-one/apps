@@ -24,24 +24,22 @@ const Sidebar = ({classes}) => {
       <ul className={`${styles.navUlLinks}`}>
         <li className={styles.navbarLinkItem}>
           <Typography variant="menu">
-            <Link activeClassName="active" href="/" onlyActiveOnIndex>
-              foundation
-            </Link>
+            <Link href="/">Foundation</Link>
           </Typography>
         </li>
         <li className={styles.navbarLinkItem}>
           <Typography variant="menu">
-            <Link href="/academie">academie</Link>
+            <Link href="/academie">Academie</Link>
           </Typography>
         </li>
         <li className={styles.navbarLinkItem}>
           <Typography variant="menu">
-            <Link href="/methodology">methodology</Link>
+            <Link href="/methodology">Methodology</Link>
           </Typography>
         </li>
         <li className={styles.navbarLinkItem}>
           <Typography variant="menu">
-            <Link href="/admissions">admissions</Link>
+            <Link href="/admissions">Admissions</Link>
           </Typography>
         </li>
         <li
@@ -50,7 +48,7 @@ const Sidebar = ({classes}) => {
           className={styles.navbarLinkItem}
         >
           <Typography variant="menu" color="blue">
-            <Link href="/coming-soon">apply</Link>
+            <Link href="/coming-soon">Apply</Link>
           </Typography>
         </li>
       </ul>
