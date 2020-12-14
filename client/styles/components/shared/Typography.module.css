@@ -15,7 +15,7 @@
 }
 
 .menu {
-  @apply font-extralight text-h4 mb-4 text-menu;
+  @apply mb-4 font-extralight text-h4 text-menu;
 }
 .footer {
   @apply font-extralight text-footer;
@@ -33,7 +33,7 @@
 }
 
 .default {
-  @apply text-white;
+  @apply text-greyMatter;
 }
 
 .dark {
