@@ -22,6 +22,11 @@
   position: absolute;
   transform: translate(1vw, 20vh);
 }
+
+.navUlLinks > li:hover {
+  text-decoration: underline;
+}
+
 .navFooterLinks {
   left: 0px;
   bottom: 0px;
