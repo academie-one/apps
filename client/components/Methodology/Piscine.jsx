@@ -12,12 +12,13 @@ const Piscine = ({data}) => {
             <br />
             <img className={`w-full`} src={data.img} alt="Vanya"/>
             <br />
-            <div className={`flex justify-start space-x-4`}>
+            <div className={`sm:flex sm:justify-start sm:space-x-4`}>
                 {data.items.map((el, index) => (
                     <div className={`flex-1`}>
                         <Typography variant='h4'>{el.title}</Typography>
                         <br />
                         <Typography varaint='body'>{el.body}</Typography>
+                        <br />
                     </div>
                 ))}
             </div>
