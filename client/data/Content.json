@@ -14,7 +14,7 @@
       "items": {
         "name": "Yerdos Mendybayev",
         "title": "Founder of the Academie",
-        "img": "/images/yerdos.png"
+        "img": "/images/yerdos.jpg"
       },
       "body": [
         "Jõhvi Coding School is a modern and international programming school, created for adults at any age searching for self-development or retraining opportunities.",
@@ -87,12 +87,12 @@
       "Cluster":{
          "title":"Education Cluster",
          "body":"An educational campus is an open and immersive space designed for a complete and comfortable immersion in the learning process. It is a creative and safe space, equipped with cutting edge technologies that foster collaboration, communication and teamwork. The total area of the academy is 4042 sq. m",
-        "images": ["/images/cluster1.png", "images/cluster2.png"]
+        "images": ["/images/cluster1.jpeg", "images/cluster2.jpeg"]
       },
       "Almaty":{
          "title":"Almaty",
          "body":"Surrounded by beautiful mountain ranges, Almaty is located in the southern region of Kazakhstan. The city is recognized as a southern capital with huge potential and is home to many technology companies and large enterprises. A place with excellent infrastructure, beautiful views and an unusual history, it is an ideal place to study and live.",
-         "img": "/images/almaty.png"
+         "img": "/images/almaty.jpg"
       },
       "Team":{
          "title":"The Team",
@@ -156,7 +156,7 @@
          "title":"Piscine",
          "title2":"The Swimming Pool",
          "body":"The Pool test will decide your final admission to Academie One. No swimming, but an immersion in the deep end of the code which allows us to identify the most motivated and to confirm the aptitude of the students. Piscine is actually a chance to discover the methodology, it's a unique learning method, and above all what programming really is.",
-         "img":"/images/Methodology/42ivan.png",
+         "img":"/images/Methodology/42ivan.jpg",
          "items":[
             {
                "title":"New experience",
@@ -274,7 +274,7 @@
       "Portfolio":{
          "title":"Create Your Own Portfolio",
          "body":"With the flexible curriculum at Academie One you take charge of your own skill set and create your very own portfolio depending on your interests and future plans.",
-         "img":"/images/Admissions/42graphs.png"
+         "img":"/images/Admissions/Graphic_cadet.png"
       },
       "Career":{
          "title":"Career After Academie One",
