@@ -22,7 +22,7 @@ const Methodology = () => {
       <Skills data={data.Skills} />
       <hr />
       <Ability data={data.Ability} />
-      <Areas data={data.Areas} />
+      {false && <Areas data={data.Areas} />}
     </>
   );
 };
