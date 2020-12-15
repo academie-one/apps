@@ -5,11 +5,12 @@ const HomeHero = ({data}) => {
   return (
     <div className={styles.container}>
       <div className={styles.content}>
-        <div className={styles.imageContainer}>
-          <Typography variant="h1" className={styles.photoText}>
+      <Typography variant="h1" className={styles.photoText}>
             {data.title}
           </Typography>
 
+        <div className={styles.imageContainer}>
+          
           <img src={data.img} alt="main" className={styles.image} />
         </div>
 
