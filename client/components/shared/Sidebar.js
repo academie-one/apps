@@ -1,11 +1,11 @@
-import React, {memo} from 'react';
+import React, { memo } from 'react';
 import Typography from '../shared/Typography';
 import styles from '../../styles/components/shared/Sidebar.module.css';
 import Link from 'next/link';
 
 // TODO: Active links bold
 // TODO: Apply triggers gloving
-const Sidebar = ({classes}) => {
+const Sidebar = ({ classes }) => {
   const [glowing, setGlowing] = React.useState(false);
 
   const applyHovered = {
@@ -58,12 +58,12 @@ const Sidebar = ({classes}) => {
           &nbsp;&nbsp;&nbsp;
           <Link href="/coming-soon">FAQ</Link>
         </Typography>
-        <div className={`flex-shrink-0`}>
-          <img className={`m-2`} rel="icon" src="/icons/001-telegram.png" />
-          <img className={`m-2`} rel="icon" src="/icons/002-instagram.png" />
-          <img className={`m-2`} rel="icon" src="/icons/003-facebook.png" />
-          <img className={`m-2`} rel="icon" src="/icons/004-youtube.png" />
-        </div>
+        {/* <div className={`flex-shrink-0`}> */}
+        {/*   <img className={`m-2`} rel="icon" src="/icons/001-telegram.png" /> */}
+        {/*   <img className={`m-2`} rel="icon" src="/icons/002-instagram.png" /> */}
+        {/*   <img className={`m-2`} rel="icon" src="/icons/003-facebook.png" /> */}
+        {/*   <img className={`m-2`} rel="icon" src="/icons/004-youtube.png" /> */}
+        {/* </div> */}
         <Typography variant="footer">
           Copyright © 2020 <br />
           Academie One
