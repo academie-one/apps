@@ -58,12 +58,12 @@ const Sidebar = ({ classes }) => {
           &nbsp;&nbsp;&nbsp;
           <Link href="/coming-soon">FAQ</Link>
         </Typography>
-        {/* <div className={`flex-shrink-0`}> */}
-        {/*   <img className={`m-2`} rel="icon" src="/icons/001-telegram.png" /> */}
-        {/*   <img className={`m-2`} rel="icon" src="/icons/002-instagram.png" /> */}
-        {/*   <img className={`m-2`} rel="icon" src="/icons/003-facebook.png" /> */}
-        {/*   <img className={`m-2`} rel="icon" src="/icons/004-youtube.png" /> */}
-        {/* </div> */}
+        <div className={`flex`}>
+          <img className={`m-2`} rel="icon" src="/icons/001-telegram.png" />
+          <img className={`m-2`} rel="icon" src="/icons/002-instagram.png" />
+          <img className={`m-2`} rel="icon" src="/icons/003-facebook.png" />
+          <img className={`m-2`} rel="icon" src="/icons/004-youtube.png" />
+        </div>
         <Typography variant="footer">
           Copyright © 2020 <br />
           Academie One

@@ -7,11 +7,11 @@
 }
 
 .main {
-  @apply flex-shrink-0 flex-col py-32 overflow-auto col-span-12 row-span-6;
+  @apply flex flex-col py-32 overflow-auto col-span-12 row-span-6;
 }
 
 .content {
-  @apply flex-shrink-0 flex-col items-center justify-center flex-1 w-10/12 mx-auto;
+  @apply flex flex-col items-center justify-center flex-1 w-10/12 mx-auto;
 }
 
 @screen md {

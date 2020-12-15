@@ -1,5 +1,5 @@
 .nav {
-  @apply flex-shrink-0  h-full;
+  @apply flex  h-full;
   position: relative;
   left: 0;
   top: 0;

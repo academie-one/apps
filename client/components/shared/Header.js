@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, {useState} from 'react';
 import Link from 'next/link';
 
 import styles from '../../styles/components/shared/Header.module.css';
@@ -28,7 +28,7 @@ const Header = () => {
             <span className={styles.hamburgerBottomBun}></span>
           </button>
         </div>
-        <ul className={`${styles.menu} ${open ? 'flex-shrink-0' : 'hidden'}`}>
+        <ul className={`${styles.menu} ${open ? 'flex' : 'hidden'}`}>
           <li className={styles.navbarLinkItem} onClick={handleClick}>
             <Link href="/">Foundation</Link>
           </li>
