@@ -2,17 +2,17 @@ import * as React from 'react';
 import Typography from '../shared/Typography';
 import styles from '../../styles/components/Admissions/Admissions.module.css';
 
-const ImportantDates = ({data}) => {
+const ImportantDates = ({ data }) => {
     return (
         <div className={styles.boxView}>
             <Typography variant='h4'>{data.title}</Typography>
-            <br />
-            <div className={`space-y-3`}>
+
+            <div>
                 {data.body.map((el, index) => (
-                        <>
-                            <Typography varaint='body'>{el}</Typography>
-                        </>
-                    ))}
+                    <>
+                        <Typography varaint='body'>{el}</Typography>
+                    </>
+                ))}
             </div>
         </div>
     );

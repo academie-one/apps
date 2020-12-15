@@ -1,11 +1,11 @@
 .container {
-  @apply flex flex-col mb-12 space-y-6;
+  @apply flex flex-col mb-20;
 }
 
 .investorContainer {
-  @apply flex flex-col space-y-4;
+  @apply flex flex-col;
 }
 
 .description {
-  @apply flex flex-col space-y-4;
+  @apply flex flex-col;
 }

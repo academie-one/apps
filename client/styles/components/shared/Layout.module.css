@@ -11,7 +11,7 @@
 }
 
 .content {
-  @apply flex flex-col items-center justify-center flex-1 w-10/12 mx-auto;
+  @apply flex flex-col justify-center flex-1 w-10/12 mx-auto;
 }
 
 @screen md {

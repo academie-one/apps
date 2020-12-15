@@ -6,7 +6,7 @@ const Main = ({data}) => {
     return (
         <div className={styles.container}>
             <Typography variant='h1'>{data.title}</Typography>
-            <br />
+            
             <Typography variant='body'>{data.body}</Typography>
         </div>
     );

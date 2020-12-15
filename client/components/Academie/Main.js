@@ -10,7 +10,7 @@ const main = ({data}) => {
           {el}
         </Typography>
       ))}
-      <hr />
+      
     </div>
   );
 };
