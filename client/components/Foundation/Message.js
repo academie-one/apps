@@ -7,7 +7,7 @@ const message = ({data}) => {
       <Typography variant="h2">{data.title}</Typography>
       <div className={styles.investorContainer}>
         <div>
-          <img src={data.items.img} alt="founder" />
+          <img src={data.items.img} className={`w-1/3`} alt="founder" />
         </div>
         <Typography variant="h3">{data.items.name}</Typography>
         <Typography variant="h4">{data.items.title}</Typography>
