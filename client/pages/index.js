@@ -10,7 +10,6 @@ import Model from '../components/Foundation/Model';
 const Home = () => {
   return (
     <>
-      <HomeHero data={data} />
       <Main data={foundationData.PageName} />
       <Message data={foundationData.Message} />
       <Model data={foundationData.Model} />
