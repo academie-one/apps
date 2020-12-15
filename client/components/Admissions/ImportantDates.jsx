@@ -3,7 +3,7 @@ import Typography from '../shared/Typography';
 
 const ImportantDates = ({data}) => {
     return (
-        <div className={`box-border rounded-2xl h-auto w-auto p-4 border-2`}>
+        <div className={`box-border rounded-2xl h-auto w-auto p-4 border-2 mb-12`}>
             <Typography variant='h4'>{data.title}</Typography>
             <br />
             <div className={`space-y-3`}>

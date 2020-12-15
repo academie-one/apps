@@ -3,7 +3,7 @@ import Typography from '../shared/Typography';
 
 const Areas = ({data}) => {
     return (
-        <div className={`py-16`}>
+        <div className={`mb-12`}>
             <Typography variant='h4'>{data.title}</Typography>
             <br />
             <div className="grid grid-cols-5 gap-4">

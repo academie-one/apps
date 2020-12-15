@@ -4,7 +4,7 @@ import Typography from '../shared/Typography';
 const Portfolio = ({data}) => {
   return (
     <div>
-      <div className="grid grid-cols-2 gap-4 py-16">
+      <div className="grid grid-cols-2 gap-4 mb-12">
         <div>
           <Typography variant="h4">{data.title}</Typography>
           <br />

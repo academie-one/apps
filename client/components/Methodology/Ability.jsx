@@ -3,8 +3,9 @@ import Typography from '../shared/Typography';
 
 const Ability = ({data}) => {
     return (
-        <div className={`py-16`}>
+        <div className={`mb-12`}>
             <Typography variant='h3'>{data.title}</Typography>
+            <br />
             <Typography variant='h4'>{data.title2}</Typography>
             <br />
             <Typography variant='body'>{data.body}</Typography>

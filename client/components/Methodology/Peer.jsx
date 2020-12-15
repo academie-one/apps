@@ -3,7 +3,7 @@ import Typography from '../shared/Typography';
 
 const Peer = ({data}) => {
     return (
-        <div className={`pb-16`}>
+        <div className={`mb-12`}>
             <Typography variant='h2'>{data.title}</Typography>
             <br />
             <Typography variant='body'>{data.body}</Typography>

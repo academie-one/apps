@@ -3,7 +3,7 @@ import Typography from '../shared/Typography';
 
 const Piscine = ({data}) => {
     return (
-        <div className={`py-16`}>
+        <div className={`my-12`}>
             <Typography variant='h2'>{data.title}</Typography>
             <br />
             <Typography variant='h4'>{data.title2}</Typography>
