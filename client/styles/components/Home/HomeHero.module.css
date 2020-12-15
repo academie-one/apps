@@ -1,9 +1,9 @@
 .container {
-  @apply flex flex-col justify-center flex-1 my-12;
+  @apply flex-shrink-0 flex-col justify-center flex-1 my-12;
 }
 
 .content {
-  @apply flex flex-col;
+  @apply flex-shrink-0 flex-col;
 }
 
 .image {

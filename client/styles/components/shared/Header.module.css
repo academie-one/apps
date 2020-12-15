@@ -3,11 +3,11 @@
 }
 
 .nav {
-  @apply relative flex flex-col items-center justify-between w-full px-4 bg-white border-none;
+  @apply relative flex-shrink-0 flex-col items-center justify-between w-full px-4 bg-white border-none;
 }
 
 .navContent {
-  @apply flex flex-row items-center self-start justify-between w-full flex-nowrap;
+  @apply flex-shrink-0 flex-row items-center self-start justify-between w-full flex-nowrap;
 }
 
 .menu {
@@ -36,7 +36,7 @@
   }
 
   .menu {
-    @apply flex flex-row self-center w-auto py-0 pb-0;
+    @apply flex-shrink-0 flex-row self-center w-auto py-0 pb-0;
   }
 
   .navbarLinkItem {
@@ -45,7 +45,7 @@
 }
 
 .hamburger {
-  @apply flex items-center justify-center block cursor-pointer;
+  @apply flex-shrink-0 items-center justify-center block cursor-pointer;
   width: 48px;
   height: 48px;
   transition: all 0.25s;

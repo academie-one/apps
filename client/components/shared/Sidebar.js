@@ -58,7 +58,7 @@ const Sidebar = ({classes}) => {
           &nbsp;&nbsp;&nbsp;
           <Link href="/coming-soon">FAQ</Link>
         </Typography>
-        <div className={`flex`}>
+        <div className={`flex-shrink-0`}>
           <img className={`m-2`} rel="icon" src="/icons/001-telegram.png" />
           <img className={`m-2`} rel="icon" src="/icons/002-instagram.png" />
           <img className={`m-2`} rel="icon" src="/icons/003-facebook.png" />
