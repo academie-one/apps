@@ -1,3 +1,7 @@
 .container {
   @apply flex flex-col mb-20;
 }
+
+.photo {
+  @apply mt-6;
+}

@@ -21,7 +21,7 @@
   @apply font-extralight text-footer;
 }
 .body {
-  @apply font-normal text-body;
+  @apply font-normal text-body max-w-xl;
 }
 
 .caption {
