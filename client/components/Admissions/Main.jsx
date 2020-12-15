@@ -1,9 +1,10 @@
 import * as React from 'react';
 import Typography from '../shared/Typography';
+import styles from '../../styles/components/Admissions/Admissions.module.css';
 
 const Main = ({data}) => {
     return (
-        <div className={`pb-16`}>
+        <div className={styles.container}>
             <Typography variant='h1'>{data.title}</Typography>
             <br />
             <Typography variant='body'>{data.body}</Typography>

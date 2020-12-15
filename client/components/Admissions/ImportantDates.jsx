@@ -1,9 +1,10 @@
 import * as React from 'react';
 import Typography from '../shared/Typography';
+import styles from '../../styles/components/Admissions/Admissions.module.css';
 
 const ImportantDates = ({data}) => {
     return (
-        <div className={`box-border rounded-2xl h-auto w-auto p-4 border-2`}>
+        <div className={styles.boxView}>
             <Typography variant='h4'>{data.title}</Typography>
             <br />
             <div className={`space-y-3`}>

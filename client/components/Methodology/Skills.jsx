@@ -1,12 +1,13 @@
 import * as React from 'react';
 import Typography from '../shared/Typography';
+import styles from '../../styles/components/Methodology/Methodology.module.css';
 
 const Skills = ({data}) => {
     return (
-        <div className={`py-16`}>
+        <div className={styles.container}>
             <Typography variant='h4'>{data.title}</Typography>
             <br />
-            <div className="grid grid-cols-2 gap-4">
+            <div className={styles.gridView2}>
                 {data.items.map((el, index) => (
                     <>
                         <div>

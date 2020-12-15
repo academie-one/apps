@@ -1,10 +1,11 @@
 import * as React from 'react';
 import Typography from '../shared/Typography';
+import styles from '../../styles/components/Admissions/Admissions.module.css';
 
 const Portfolio = ({data}) => {
   return (
     <div>
-      <div className="grid grid-cols-2 gap-4 py-16">
+      <div className={styles.gridView}>
         <div>
           <Typography variant="h4">{data.title}</Typography>
           <br />
