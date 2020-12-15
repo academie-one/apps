@@ -1,9 +1,10 @@
 import * as React from 'react';
 import Typography from '../shared/Typography';
+import styles from '../../styles/components/Methodology/Methodology.module.css';
 
 const Piscine = ({data}) => {
     return (
-        <div className={`my-12`}>
+        <div className={styles.container}>
             <Typography variant='h2'>{data.title}</Typography>
             <br />
             <Typography variant='h4'>{data.title2}</Typography>
