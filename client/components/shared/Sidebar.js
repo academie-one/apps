@@ -24,22 +24,22 @@ const Sidebar = ({ classes }) => {
       <ul className={`${styles.navUlLinks}`}>
         <li className={styles.navbarLinkItem}>
           <Typography variant="menu">
-            <Link href="/">Foundation</Link>
+            <Link href="/">foundation</Link>
           </Typography>
         </li>
         <li className={styles.navbarLinkItem}>
           <Typography variant="menu">
-            <Link href="/academie">Academie</Link>
+            <Link href="/academie">academie</Link>
           </Typography>
         </li>
         <li className={styles.navbarLinkItem}>
           <Typography variant="menu">
-            <Link href="/methodology">Methodology</Link>
+            <Link href="/methodology">methodology</Link>
           </Typography>
         </li>
         <li className={styles.navbarLinkItem}>
           <Typography variant="menu">
-            <Link href="/admissions">Admissions</Link>
+            <Link href="/admissions">admissions</Link>
           </Typography>
         </li>
         <li
@@ -48,7 +48,7 @@ const Sidebar = ({ classes }) => {
           className={styles.navbarLinkItem}
         >
           <Typography variant="menu" color="blue">
-            <Link href="/coming-soon">Apply</Link>
+            <Link href="/coming-soon">apply</Link>
           </Typography>
         </li>
       </ul>
@@ -58,17 +58,17 @@ const Sidebar = ({ classes }) => {
           &nbsp;&nbsp;&nbsp;
           <Link href="/coming-soon">FAQ</Link>
         </Typography>
-        <div className={`flex`}>
-          <img className={`m-2`} rel="icon" src="/icons/001-telegram.png" />
-          <img className={`m-2`} rel="icon" src="/icons/002-instagram.png" />
-          <img className={`m-2`} rel="icon" src="/icons/003-facebook.png" />
-          <img className={`m-2`} rel="icon" src="/icons/004-youtube.png" />
-        </div>
+        {/* <div className={`flex-shrink-0`}> */}
+        {/*   <img className={`m-2`} rel="icon" src="/icons/001-telegram.png" /> */}
+        {/*   <img className={`m-2`} rel="icon" src="/icons/002-instagram.png" /> */}
+        {/*   <img className={`m-2`} rel="icon" src="/icons/003-facebook.png" /> */}
+        {/*   <img className={`m-2`} rel="icon" src="/icons/004-youtube.png" /> */}
+        {/* </div> */}
         <Typography variant="footer">
-          Copyright © 2020 <br />
+          Copyright © 2020
           Academie One
         </Typography>
-        <br />
+
         <Typography variant="footer">
           <Link href="/coming-soon">
             <u>Terms & Conditions</u>

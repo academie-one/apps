@@ -6,7 +6,7 @@ const Skills = ({data}) => {
     return (
         <div className={styles.container}>
             <Typography variant='h4'>{data.title}</Typography>
-            <br />
+            
             <div className={styles.gridView2}>
                 {data.items.map((el, index) => (
                     <>
@@ -15,9 +15,9 @@ const Skills = ({data}) => {
                         </div>
                         <div>
                             <Typography variant='h4'>{el.title}</Typography>
-                            <br />
+                            
                             <Typography varaint='body'>{el.body}</Typography>
-                            <br />
+                            
                             <Typography varaint='body'>{el.body2}</Typography>
                         </div>
                     </>

@@ -20,7 +20,7 @@ const concept = ({data}) => {
           </div>
         ))}
       </div>
-      <hr />
+      
     </div>
   );
 };

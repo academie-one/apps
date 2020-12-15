@@ -1,7 +1,7 @@
 import Typography from '../shared/Typography';
 import styles from '../../styles/components/Foundation/Message.module.css';
 
-const message = ({data}) => {
+const message = ({ data }) => {
   return (
     <div className={styles.container}>
       <Typography variant="h2">{data.title}</Typography>
@@ -19,7 +19,7 @@ const message = ({data}) => {
           </Typography>
         ))}
       </div>
-      <hr />
+
     </div>
   );
 };

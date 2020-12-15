@@ -6,7 +6,7 @@ const Career = ({data}) => {
   return (
     <div className={styles.container}>
         <Typography variant="h4">{data.title}</Typography>
-        <br />
+        
         <Typography variant="body">{data.body}</Typography>
     </div>
   );

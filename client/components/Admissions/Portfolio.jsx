@@ -8,7 +8,7 @@ const Portfolio = ({data}) => {
       <div className={styles.gridView}>
         <div>
           <Typography variant="h4">{data.title}</Typography>
-          <br />
+          
           <Typography variant="body">{data.body}</Typography>
         </div>
         <img src={data.img} alt="cadet path" />

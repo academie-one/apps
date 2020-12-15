@@ -30,7 +30,7 @@ module.exports = {
         },
       ],
       h3: [
-        '1.875rem',
+        '2rem',
         {
           lineHeight: '125%',
         },
@@ -48,15 +48,15 @@ module.exports = {
         },
       ],
       footer: [
-        '0.5rem',
+        '0.7rem',
         {
           lineHeight: '120%',
         },
       ],
       body: [
-        '1rem',
+        '1.1rem',
         {
-          lineHeight: '110%',
+          lineHeight: '120%',
         },
       ],
       caption: [

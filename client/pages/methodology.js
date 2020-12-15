@@ -14,13 +14,13 @@ const Methodology = () => {
     <>
       <Main data={data.PageName} />
       <Peer data={data.Peer} />
-      <hr />
+      
       <Piscine data={data.Piscine} />
-      <hr />
+      
       <Program data={data.Program} />
       <Schedule data={data.Schedule} />
       <Skills data={data.Skills} />
-      <hr />
+      
       <Ability data={data.Ability} />
       {false && <Areas data={data.Areas} />}
     </>
