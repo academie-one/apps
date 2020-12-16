@@ -11,7 +11,7 @@ const Piscine = ({ data }) => {
 
             <Typography variant='body'>{data.body}</Typography>
 
-            <img className={`w-full`} src={data.img} alt="Vanya" />
+            <img className={`w-full my-8`} src={data.img} alt="Vanya" />
 
             <div className={`sm:flex sm:justify-start sm:space-x-4`}>
                 {data.items.map((el, index) => (
