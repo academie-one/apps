@@ -11,8 +11,8 @@ const Peer = ({ data }) => {
 
             <div className={`sm:flex sm:items-baseline`}>
                 {data.items.map((el, index) => (
-                    <div className={`sm:pr-4 sm:text-left`}>
-                        <img className={`w-full`} src={el.img} alt="urban" />
+                    <div className={`sm:mr-6 sm:text-left`}>
+                        <img className={`my-4 w-full`} src={el.img} alt="urban" />
                         <Typography variant='h4'>{el.title}</Typography>
 
                         <Typography varaint='body'>{el.body}</Typography>

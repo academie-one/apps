@@ -3,7 +3,7 @@
 }
 
 .module {
-  @apply flex flex-col;
+  @apply flex flex-col mr-6;
 }
 
 .items {
@@ -17,5 +17,5 @@
 }
 
 .img {
-  @apply w-full;
+  @apply w-full my-8;
 }

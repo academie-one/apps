@@ -3,7 +3,7 @@
 }
 
 .module {
-  @apply flex flex-col;
+  @apply flex flex-col mr-6;
 }
 
 .items {
