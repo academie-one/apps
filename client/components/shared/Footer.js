@@ -5,7 +5,7 @@ import styles from '../../styles/components/shared/Footer.module.css';
 const Footer = () => {
   return (
     <div className={`${styles.navFooterLinks}`}>
-      <Typography variant="footer">
+      <Typography variant="body">
         <Link href="/coming-soon">Contact</Link>
         &nbsp;&nbsp;&nbsp;
         <Link href="/faq">FAQ</Link>
