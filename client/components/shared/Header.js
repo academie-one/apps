@@ -37,27 +37,27 @@ const Header = () => {
         </div>
         <ul className={`${styles.menu} ${open ? 'flex' : 'hidden'}`}>
           <li className={styles.navbarLinkItem} onClick={handleClick}>
-            <Typography variant="h3">
+            <Typography variant="menu">
               <Link href="/">Foundation</Link>
             </Typography>
           </li>
           <li className={styles.navbarLinkItem} onClick={handleClick}>
-            <Typography variant="h3">
+            <Typography variant="menu">
               <Link href="/academie">Academie</Link>
             </Typography>
           </li>
           <li className={styles.navbarLinkItem} onClick={handleClick}>
-            <Typography variant="h3">
+            <Typography variant="menu">
               <Link href="/methodology">Methodology</Link>
             </Typography>
           </li>
           <li className={styles.navbarLinkItem} onClick={handleClick}>
-            <Typography variant="h3">
+            <Typography variant="menu">
               <Link href="/admissions">Admission</Link>
             </Typography>
           </li>
           <li className={styles.navbarLinkItem} onClick={handleClick}>
-            <Typography variant="h3">
+            <Typography variant="menu" className={`text-blueOne`}>
               <Link href="/coming-soon">Apply</Link>
             </Typography>
           </li>

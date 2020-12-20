@@ -24,7 +24,7 @@ const Layout = ({ children, title }) => {
         <Header classes={styles.header} />
         <div className={styles.logo}>
           <Link href={`/`} passHref>
-            <button className={`max-w-xs max-h-xs`}>
+            <button>
               <img type="image/svg+xml" src="/icons/logo_white_blue.svg" alt="logo" width="100%" />
             </button>
           </Link>

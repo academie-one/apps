@@ -21,7 +21,7 @@
 }
 
 .logo {
-  @apply absolute hidden top-12 right-16;
+  @apply absolute hidden w-full h-auto;
 }
 
 @screen md {
@@ -34,6 +34,20 @@
   }
 
   .logo {
-    @apply block;
+    @apply block right-2 top-8;
+    max-width: 12rem;
+  }
+}
+
+@screen lg {
+  .logo {
+    @apply right-4 top-12;
+    max-width: 15rem;
+  }
+}
+
+@screen xl {
+  .logo {
+    @apply max-w-xs top-12 right-16;
   }
 }

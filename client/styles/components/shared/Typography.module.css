@@ -1,9 +1,9 @@
 .h1 {
-  @apply font-bold text-h1 mb-2;
+  @apply mb-2 font-bold text-h1;
 }
 
 .h2 {
-  @apply font-extralight text-h2 mb-2;
+  @apply mb-2 font-extralight text-h2;
 }
 
 .h3 {
@@ -11,25 +11,23 @@
 }
 
 .h4 {
-  @apply font-normal text-h4 mb-1;
+  @apply mb-1 font-normal text-h4;
 }
 
 .menu {
-  @apply mb-4 font-extralight text-h4 text-menu;
+  @apply font-bold text-h3;
 }
+
 .footer {
   @apply font-extralight text-footer;
 }
+
 .body {
-  @apply font-normal text-body max-w-xl;
+  @apply max-w-xl font-normal text-body;
 }
 
 .caption {
   @apply font-normal text-caption;
-}
-
-.nav {
-  @apply font-normal text-nav;
 }
 
 .default {
@@ -50,4 +48,10 @@
 
 .white {
   @apply text-white;
+}
+
+@screen md {
+  .menu {
+    @apply mb-4 font-extralight text-menu;
+  }
 }

@@ -7,7 +7,6 @@ const variantsMapping = {
   h4: 'h4',
   body: 'p',
   caption: 'p',
-  nav: 'p',
   menu: 'p',
   footer: 'p',
 };

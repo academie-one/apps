@@ -3,7 +3,7 @@
 }
 
 .nav {
-  @apply relative flex flex-col items-center justify-between w-full px-4 border-none bg-darkMatterDarker;
+  @apply relative flex flex-col items-center justify-between w-full border-none bg-darkMatterDarker;
 }
 
 .navContent {
@@ -11,36 +11,16 @@
 }
 
 .menu {
-  @apply flex-col items-center self-end w-full h-screen py-1 pb-4;
+  @apply flex-col items-center self-end w-full h-screen px-4 py-1 pb-4;
 }
 
 .navbarLinkItem {
-  @apply w-full py-2 font-bold no-underline;
+  @apply w-full py-2 no-underline;
 }
 
 @screen md {
   .header {
     @apply hidden;
-  }
-
-  .nav {
-    @apply flex-row px-6;
-  }
-
-  .navContent {
-    @apply self-center flex-none w-auto;
-  }
-
-  .hamburger {
-    @apply hidden;
-  }
-
-  .menu {
-    @apply flex flex-row self-center w-auto py-0 pb-0;
-  }
-
-  .navbarLinkItem {
-    @apply w-auto py-1 pt-2 pr-4;
   }
 }
 

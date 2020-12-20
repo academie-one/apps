@@ -66,12 +66,6 @@ module.exports = {
           lineHeight: '140%',
         },
       ],
-      nav: [
-        '0.875rem',
-        {
-          lineHeight: '140%',
-        },
-      ],
     },
     extend: {},
   },
