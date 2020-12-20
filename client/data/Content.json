@@ -43,6 +43,47 @@
       ]
     }
   },
+  "Terms": {
+    "PageName": {
+      "title": "Terms"
+    },
+    "Legal": {
+      "title": "Terms",
+      "items": [
+        {
+          "question": "Conditions of Use",
+          "answer": "In keeping with Law 34/2002, of June 11, Information Society Services and Electronic Commerce (LSSI-CE), ACADEMIE ONE LLC informs the user that they are the owner of the website WWW.ACADEMIE.ONE. In keeping with what is established in Article 10 of the cited Law, ACADEMIE ONE LLC informs users of the following:"
+        },
+        {
+          "question": "Users and responsibility regime",
+          "answer": "By browsing, accessing and using ACADEMIE ONE LLC’s website, constitutes the person as a user. As a result of browsing ACADEMIE ONE LLC’s website, the said user accepts all the conditions of use established herein, notwithstanding the application of the corresponding obligatory regulations applicable in each case."
+        }
+      ]
+    }
+  },
+  "Faq": {
+    "PageName": {
+      "title": "FAQ",
+      "body": "To apply, we only ask that you are open-minded, motivated and ready to commit to our 4-year educational and work program program and you must be at least 18."
+    },
+    "Learning": {
+      "title": "Learning",
+      "items": [
+        {
+          "question": "What is Academie.one?",
+          "answer": "Anyone over the age of 18 can study at Academie One, with no previous knowledge in the field or any other prerequisites necessary. Upon application, students are given a logic-based test. If successful, students can move to the next step."
+        },
+        {
+          "question": "Flexible",
+          "answer": "With revolutionary educational program, students work on projects that interest them in close collaboration with their peers. The Education cluster will be open 7 days a week, 24 hours a day, so cadets will be able to attend classes according to their personal schedule."
+        },
+        {
+          "question": "Career",
+          "answer": "The Academie engages cadets in a 4-year collaboration, which includes 2 years of study and 2 years of career development, working on projects in an IT company, after which students become high-quality coders."
+        }
+      ]
+    }
+  },
   "Academie": {
     "PageName": {
       "title": "Academie",

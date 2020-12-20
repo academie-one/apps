@@ -72,7 +72,7 @@ const Sidebar = ({ classes }) => {
           onClick={() => setCurrentPage("contact")} variant="footer">
           <Link href="/coming-soon">Contact</Link>
           &nbsp;&nbsp;&nbsp;
-      <Link href="/coming-soon">FAQ</Link>
+      <Link href="/faq">FAQ</Link>
         </Typography>
         {/* <div className={`flex-shrink-0`}> */}
         {/*   <img className={`m-2`} rel="icon" src="/icons/001-telegram.png" /> */}
@@ -88,7 +88,7 @@ const Sidebar = ({ classes }) => {
         <Typography
           onClick={() => setCurrentPage("terms")}
           variant="footer">
-          <Link href="/coming-soon">
+          <Link href="/terms">
             Terms & Conditions
           </Link>
         </Typography>
