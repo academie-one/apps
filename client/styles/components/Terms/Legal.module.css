@@ -1,0 +1,25 @@
+.container {
+  @apply flex flex-col mb-20;
+}
+
+.module {
+  @apply flex flex-col mr-6;
+}
+
+.items {
+  @apply my-6;
+}
+
+.question {
+  @apply mb-6;
+}
+
+.answer {
+  @apply mb-6;
+}
+
+@screen sm {
+  .items {
+    @apply flex-row;
+  }
+}

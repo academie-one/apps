@@ -7,6 +7,7 @@ import Link from 'next/link';
 // TODO: Apply triggers gloving
 const Sidebar = ({ classes }) => {
   const [glowing, setGlowing] = React.useState(false);
+  const [currentPage, setCurrentPage] = React.useState("foundation");
 
   const applyHovered = {
     boxShadow: '0px 0px 300px rgba(195, 218, 231, 1)',
@@ -14,6 +15,9 @@ const Sidebar = ({ classes }) => {
   };
   const applyUnhovered = {
     transition: 'box-shadow 0.5s ease-in-out',
+  };
+  const highlightCurrentPage = {
+    textDecoration: 'underline',
   };
   return (
     <aside className={classes}>
@@ -23,22 +27,31 @@ const Sidebar = ({ classes }) => {
       />
       <ul className={`${styles.navUlLinks}`}>
         <li className={styles.navbarLinkItem}>
-          <Typography variant="menu">
-            <Link href="/">foundation</Link>
+          <Typography
+            onClick={() => setCurrentPage("foundation")}
+            style={currentPage == "foundation" ? highlightCurrentPage : {}} variant="menu">
+            <Link
+              href="/">foundation</Link>
           </Typography>
         </li>
         <li className={styles.navbarLinkItem}>
-          <Typography variant="menu">
+          <Typography
+            onClick={() => setCurrentPage("academie")}
+            style={currentPage == "academie" ? highlightCurrentPage : {}} variant="menu">
             <Link href="/academie">academie</Link>
           </Typography>
         </li>
         <li className={styles.navbarLinkItem}>
-          <Typography variant="menu">
+          <Typography
+            onClick={() => setCurrentPage("methodology")}
+            style={currentPage == "methodology" ? highlightCurrentPage : {}} variant="menu">
             <Link href="/methodology">methodology</Link>
           </Typography>
         </li>
         <li className={styles.navbarLinkItem}>
-          <Typography variant="menu">
+          <Typography
+            onClick={() => setCurrentPage("admissions")}
+            style={currentPage == "admissions" ? highlightCurrentPage : {}} variant="menu">
             <Link href="/admissions">admissions</Link>
           </Typography>
         </li>
@@ -47,16 +60,19 @@ const Sidebar = ({ classes }) => {
           onMouseOver={() => setGlowing(true)}
           className={styles.navbarLinkItem}
         >
-          <Typography variant="menu" color="blue">
+          <Typography
+            onClick={() => setCurrentPage("apply")}
+            style={currentPage == "apply" ? highlightCurrentPage : {}} color="blue" variant="menu">
             <Link href="/coming-soon">apply</Link>
           </Typography>
         </li>
       </ul>
       <div className={`${styles.navFooterLinks}`}>
-        <Typography variant="footer">
+        <Typography
+          onClick={() => setCurrentPage("contact")} variant="footer">
           <Link href="/coming-soon">Contact</Link>
           &nbsp;&nbsp;&nbsp;
-          <Link href="/coming-soon">FAQ</Link>
+      <Link href="/faq">FAQ</Link>
         </Typography>
         {/* <div className={`flex-shrink-0`}> */}
         {/*   <img className={`m-2`} rel="icon" src="/icons/001-telegram.png" /> */}
@@ -69,13 +85,15 @@ const Sidebar = ({ classes }) => {
           Academie One
         </Typography>
 
-        <Typography variant="footer">
-          <Link href="/coming-soon">
-            <u>Terms & Conditions</u>
+        <Typography
+          onClick={() => setCurrentPage("terms")}
+          variant="footer">
+          <Link href="/terms">
+            Terms & Conditions
           </Link>
         </Typography>
-      </div>
-    </aside>
+      </div >
+    </aside >
   );
 };
 
