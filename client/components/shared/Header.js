@@ -56,7 +56,7 @@ const Header = () => {
               <Link href="/coming-soon">Apply</Link>
             </Typography>
           </li>
-          <Footer />
+          <Footer propsClick={handleClick} />
         </ul>
       </nav>
     </header>
