@@ -1,5 +1,5 @@
 .nav {
-  @apply flex  h-full;
+  @apply flex h-full;
   position: relative;
   left: 0;
   top: 0;
@@ -13,7 +13,7 @@
 }
 
 .navbarLinkItem {
-  @apply w-full justify-self-end no-underline;
+  @apply w-full no-underline justify-self-end;
 }
 
 .navUlLinks {
@@ -27,12 +27,6 @@
   text-decoration: underline;
 }
 
-.navFooterLinks {
-  left: 0px;
-  bottom: 0px;
-  position: absolute;
-  transform: translate(1vw, -20vh);
-}
 /* .pulsate { */
 /*   animation: pulse 3s infinite; */
 /* } */
