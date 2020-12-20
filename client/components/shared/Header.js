@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import Link from 'next/link';
+import Typography from '../shared/Typography';
 
 import styles from '../../styles/components/shared/Header.module.css';
 
@@ -30,19 +31,29 @@ const Header = () => {
         </div>
         <ul className={`${styles.menu} ${open ? 'flex' : 'hidden'}`}>
           <li className={styles.navbarLinkItem} onClick={handleClick}>
-            <Link href="/">Foundation</Link>
+            <Typography variant='h4'>
+              <Link href="/">Foundation</Link>
+            </Typography>
           </li>
           <li className={styles.navbarLinkItem} onClick={handleClick}>
-            <Link href="/academie">Academie</Link>
+            <Typography variant='h4'>
+              <Link href="/academie">Academie</Link>
+            </Typography>
           </li>
           <li className={styles.navbarLinkItem} onClick={handleClick}>
-            <Link href="/methodology">Methodology</Link>
+            <Typography variant='h4'>
+              <Link href="/methodology">Methodology</Link>
+            </Typography>
           </li>
           <li className={styles.navbarLinkItem} onClick={handleClick}>
-            <Link href="/admissions">Admission</Link>
+            <Typography variant='h4'>
+              <Link href="/admissions">Admission</Link>
+            </Typography>
           </li>
           <li className={styles.navbarLinkItem} onClick={handleClick}>
-            <Link href="/coming-soon">Apply</Link>
+            <Typography variant='h4'>
+              <Link href="/coming-soon">Apply</Link>
+            </Typography>
           </li>
         </ul>
       </nav>
