@@ -29,6 +29,7 @@ body {
     Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
     sans-serif;
   font-size: 13px;
+  @apply antialiased;
 }
 
 a {

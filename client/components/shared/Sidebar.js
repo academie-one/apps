@@ -1,13 +1,15 @@
-import React, { memo } from 'react';
-import Typography from '../shared/Typography';
+import React, {memo} from 'react';
+import Typography from './Typography';
+import Footer from './Footer';
 import styles from '../../styles/components/shared/Sidebar.module.css';
 import Link from 'next/link';
+import {useRouter} from 'next/router';
 
 // TODO: Active links bold
 // TODO: Apply triggers gloving
-const Sidebar = ({ classes }) => {
+const Sidebar = ({classes}) => {
   const [glowing, setGlowing] = React.useState(false);
-  const [currentPage, setCurrentPage] = React.useState("foundation");
+  const router = useRouter();
 
   const applyHovered = {
     boxShadow: '0px 0px 300px rgba(195, 218, 231, 1)',
@@ -19,6 +21,9 @@ const Sidebar = ({ classes }) => {
   const highlightCurrentPage = {
     textDecoration: 'underline',
   };
+
+  const currentPage = router.route;
+
   return (
     <aside className={classes}>
       <nav
@@ -28,30 +33,33 @@ const Sidebar = ({ classes }) => {
       <ul className={`${styles.navUlLinks}`}>
         <li className={styles.navbarLinkItem}>
           <Typography
-            onClick={() => setCurrentPage("foundation")}
-            style={currentPage == "foundation" ? highlightCurrentPage : {}} variant="menu">
-            <Link
-              href="/">foundation</Link>
+            style={currentPage === '/' ? highlightCurrentPage : {}}
+            variant="menu"
+          >
+            <Link href="/">foundation</Link>
           </Typography>
         </li>
         <li className={styles.navbarLinkItem}>
           <Typography
-            onClick={() => setCurrentPage("academie")}
-            style={currentPage == "academie" ? highlightCurrentPage : {}} variant="menu">
+            style={currentPage === '/academie' ? highlightCurrentPage : {}}
+            variant="menu"
+          >
             <Link href="/academie">academie</Link>
           </Typography>
         </li>
         <li className={styles.navbarLinkItem}>
           <Typography
-            onClick={() => setCurrentPage("methodology")}
-            style={currentPage == "methodology" ? highlightCurrentPage : {}} variant="menu">
+            style={currentPage === '/methodology' ? highlightCurrentPage : {}}
+            variant="menu"
+          >
             <Link href="/methodology">methodology</Link>
           </Typography>
         </li>
         <li className={styles.navbarLinkItem}>
           <Typography
-            onClick={() => setCurrentPage("admissions")}
-            style={currentPage == "admissions" ? highlightCurrentPage : {}} variant="menu">
+            style={currentPage === '/admissions' ? highlightCurrentPage : {}}
+            variant="menu"
+          >
             <Link href="/admissions">admissions</Link>
           </Typography>
         </li>
@@ -61,39 +69,16 @@ const Sidebar = ({ classes }) => {
           className={styles.navbarLinkItem}
         >
           <Typography
-            onClick={() => setCurrentPage("apply")}
-            style={currentPage == "apply" ? highlightCurrentPage : {}} color="blue" variant="menu">
+            style={currentPage === '/coming-soon' ? highlightCurrentPage : {}}
+            color="blue"
+            variant="menu"
+          >
             <Link href="/coming-soon">apply</Link>
           </Typography>
         </li>
       </ul>
-      <div className={`${styles.navFooterLinks}`}>
-        <Typography
-          onClick={() => setCurrentPage("contact")} variant="footer">
-          <Link href="/coming-soon">Contact</Link>
-          &nbsp;&nbsp;&nbsp;
-      <Link href="/faq">FAQ</Link>
-        </Typography>
-        {/* <div className={`flex-shrink-0`}> */}
-        {/*   <img className={`m-2`} rel="icon" src="/icons/001-telegram.png" /> */}
-        {/*   <img className={`m-2`} rel="icon" src="/icons/002-instagram.png" /> */}
-        {/*   <img className={`m-2`} rel="icon" src="/icons/003-facebook.png" /> */}
-        {/*   <img className={`m-2`} rel="icon" src="/icons/004-youtube.png" /> */}
-        {/* </div> */}
-        <Typography variant="footer">
-          Copyright © 2020
-          Academie One
-        </Typography>
-
-        <Typography
-          onClick={() => setCurrentPage("terms")}
-          variant="footer">
-          <Link href="/terms">
-            Terms & Conditions
-          </Link>
-        </Typography>
-      </div >
-    </aside >
+      <Footer />
+    </aside>
   );
 };
 
