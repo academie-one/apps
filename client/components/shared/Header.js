@@ -14,12 +14,17 @@ const Header = () => {
 
   return (
     <header className={styles.header}>
-      <nav className={styles.nav}>
+      <nav className={`${styles.nav} ${open ? `` : `bg-opacity-95`}`}>
         <div className={styles.navContent}>
-          <Link href="/">
-            <h1 className="py-1 text-lg font-bold no-underline">
-              academie one
-            </h1>
+          <Link href="/" passHref>
+            <button className={`w-40 h-10`}>
+              <img
+                type="image/svg+xml"
+                src="/icons/logo_white_blue.svg"
+                alt="logo"
+                width="100%"
+              />
+            </button>
           </Link>
           <button
             className={`${styles.hamburger} ${open && styles.open}`}
@@ -32,27 +37,27 @@ const Header = () => {
         </div>
         <ul className={`${styles.menu} ${open ? 'flex' : 'hidden'}`}>
           <li className={styles.navbarLinkItem} onClick={handleClick}>
-            <Typography variant='h3'>
+            <Typography variant="h3">
               <Link href="/">Foundation</Link>
             </Typography>
           </li>
           <li className={styles.navbarLinkItem} onClick={handleClick}>
-            <Typography variant='h3'>
+            <Typography variant="h3">
               <Link href="/academie">Academie</Link>
             </Typography>
           </li>
           <li className={styles.navbarLinkItem} onClick={handleClick}>
-            <Typography variant='h3'>
+            <Typography variant="h3">
               <Link href="/methodology">Methodology</Link>
             </Typography>
           </li>
           <li className={styles.navbarLinkItem} onClick={handleClick}>
-            <Typography variant='h3'>
+            <Typography variant="h3">
               <Link href="/admissions">Admission</Link>
             </Typography>
           </li>
           <li className={styles.navbarLinkItem} onClick={handleClick}>
-            <Typography variant='h3'>
+            <Typography variant="h3">
               <Link href="/coming-soon">Apply</Link>
             </Typography>
           </li>
