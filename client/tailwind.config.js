@@ -24,8 +24,20 @@ module.exports = {
           lineHeight: '115%',
         },
       ],
+      'h1-mobile': [
+        '2.875rem',
+        {
+          lineHeight: '115%',
+        },
+      ],
       h2: [
         '3rem',
+        {
+          lineHeight: '110%',
+        },
+      ],
+      'h2-mobile': [
+        '2.625rem',
         {
           lineHeight: '110%',
         },
@@ -36,8 +48,20 @@ module.exports = {
           lineHeight: '125%',
         },
       ],
+      'h3-mobile': [
+        '1.875rem',
+        {
+          lineHeight: '125%',
+        },
+      ],
       h4: [
         '1.5rem',
+        {
+          lineHeight: '120%',
+        },
+      ],
+      'h4-mobile': [
+        '1.25rem',
         {
           lineHeight: '120%',
         },
@@ -55,7 +79,7 @@ module.exports = {
         },
       ],
       body: [
-        '1.1rem',
+        '1rem',
         {
           lineHeight: '120%',
         },
