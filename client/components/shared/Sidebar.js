@@ -26,7 +26,7 @@ const Sidebar = ({classes, darkMode}) => {
     <aside className={classes}>
       <nav
         style={glowing ? applyHovered : applyUnhovered}
-        className={`${styles.nav} bg-blueOne dark:bg-black`}
+        className={`${styles.nav} bg-white dark:bg-black`}
       />
       <ul className={`${styles.navUlLinks}`}>
         <li className={styles.navbarLinkItem}>
