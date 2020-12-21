@@ -37,7 +37,7 @@ module.exports = {
         },
       ],
       'h2-mobile': [
-        '2.625rem',
+        '2.5rem',
         {
           lineHeight: '110%',
         },
