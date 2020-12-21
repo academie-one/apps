@@ -50,10 +50,10 @@ const Header = ({darkMode, setDarkMode}) => {
               onClick={handleClick}
             >
               <span
-                className={`${styles.hamburgerTopBun} bg-black dark:bg-white`}
+                className={`${styles.hamburgerTopBun} bg-darkMatter dark:bg-white`}
               ></span>
               <span
-                className={`${styles.hamburgerBottomBun} bg-black dark:bg-white`}
+                className={`${styles.hamburgerBottomBun} bg-darkMatter dark:bg-white`}
               ></span>
             </button>
           </div>
