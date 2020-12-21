@@ -3,7 +3,7 @@
 }
 
 .nav {
-  @apply relative flex flex-col items-center justify-between w-full border-none bg-darkMatterDarker;
+  @apply relative flex flex-col items-center justify-between w-full border-none;
 }
 
 .navContent {

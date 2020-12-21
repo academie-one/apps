@@ -22,7 +22,9 @@ const Header = () => {
   return (
     <header className={styles.header}>
       <nav
-        className={`${styles.nav} ${open ? `bg-opacity-100` : `bg-opacity-90`}`}
+        className={`${styles.nav} bg-darkMatterDarker ${
+          open ? `bg-opacity-100` : `bg-opacity-90`
+        }`}
       >
         <div className={styles.navContent}>
           <Link href="/" passHref>
