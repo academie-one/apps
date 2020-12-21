@@ -1,5 +1,5 @@
 .container {
-  @apply relative h-screen text-white bg-darkMatter grid grid-cols-12 grid-rows-6;
+  @apply relative h-screen grid grid-cols-12 grid-rows-6;
 }
 
 .sidebar {
@@ -14,14 +14,18 @@
   @apply w-11/12 mx-auto;
 }
 
+.logo {
+  @apply absolute hidden w-full h-auto;
+}
+
+.darkModeIcon {
+  @apply absolute hidden;
+}
+
 @screen md {
   .content {
     @apply w-6/12 mx-auto;
   }
-}
-
-.logo {
-  @apply absolute hidden w-full h-auto;
 }
 
 @screen md {
@@ -37,6 +41,10 @@
     @apply block right-2 top-8;
     max-width: 12rem;
   }
+
+  .darkModeIcon {
+    @apply block right-2 bottom-8;
+  }
 }
 
 @screen lg {
@@ -44,10 +52,18 @@
     @apply right-4 top-12;
     max-width: 15rem;
   }
+
+  .darkModeIcon {
+    @apply block right-4 bottom-12;
+  }
 }
 
 @screen xl {
   .logo {
     @apply max-w-xs top-12 right-16;
+  }
+
+  .darkModeIcon {
+    @apply block right-16 bottom-12;
   }
 }

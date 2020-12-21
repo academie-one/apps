@@ -5,9 +5,7 @@ import styles from '../../styles/components/shared/Sidebar.module.css';
 import Link from 'next/link';
 import {useRouter} from 'next/router';
 
-// TODO: Active links bold
-// TODO: Apply triggers gloving
-const Sidebar = ({classes}) => {
+const Sidebar = ({classes, darkMode}) => {
   const [glowing, setGlowing] = React.useState(false);
   const router = useRouter();
 
@@ -28,7 +26,7 @@ const Sidebar = ({classes}) => {
     <aside className={classes}>
       <nav
         style={glowing ? applyHovered : applyUnhovered}
-        className={`${styles.nav}`}
+        className={`${styles.nav} bg-blueOne dark:bg-black`}
       />
       <ul className={`${styles.navUlLinks}`}>
         <li className={styles.navbarLinkItem}>
@@ -70,14 +68,14 @@ const Sidebar = ({classes}) => {
         >
           <Typography
             style={currentPage === '/coming-soon' ? highlightCurrentPage : {}}
-            color="blue"
             variant="menu"
+            className={`text-darkMatter font-normal dark:text-blueOne`}
           >
             <Link href="/coming-soon">apply</Link>
           </Typography>
         </li>
       </ul>
-      <Footer />
+      <Footer darkMode={darkMode} />
     </aside>
   );
 };

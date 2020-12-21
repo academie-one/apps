@@ -24,7 +24,12 @@ const Typography = ({
   const classNames = [`${styles[variant]} ${styles[color]}`, classes].join(' ');
 
   return (
-    <Component className={classNames} {...props}>
+    <Component
+      className={`${classNames} ${
+        color === 'default' ? 'text-darkMatter dark:text-white' : ''
+      }`}
+      {...props}
+    >
       {children}
     </Component>
   );

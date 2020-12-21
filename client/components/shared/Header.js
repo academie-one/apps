@@ -1,12 +1,13 @@
 import React, {useState} from 'react';
 import Link from 'next/link';
-import Typography from '../shared/Typography';
-import Footer from '../shared/Footer';
+import Typography from './Typography';
+import DarkModeToggle from './DarkModeToggle';
+import Footer from './Footer';
 import {useRouter} from 'next/router';
 
 import styles from '../../styles/components/shared/Header.module.css';
 
-const Header = () => {
+const Header = ({darkMode, setDarkMode}) => {
   const [open, setOpen] = useState(false);
   const router = useRouter();
   const currentPage = router.route;
@@ -22,29 +23,40 @@ const Header = () => {
   return (
     <header className={styles.header}>
       <nav
-        className={`${styles.nav} bg-darkMatterDarker ${
+        className={`${styles.nav} dark:bg-darkMatterDarker bg-white ${
           open ? `bg-opacity-100` : `bg-opacity-90`
         }`}
       >
         <div className={styles.navContent}>
           <Link href="/" passHref>
-            <button className={`w-40 h-10`}>
+            <button className={`w-20 h-12`}>
               <img
                 type="image/svg+xml"
-                src="/icons/logo_white_blue.svg"
+                src={darkMode ? '/icons/main.svg' : '/icons/main_inverse.svg'}
                 alt="logo"
                 width="100%"
               />
             </button>
           </Link>
-          <button
-            className={`${styles.hamburger} ${open && styles.open}`}
-            type="button"
-            onClick={handleClick}
-          >
-            <span className={styles.hamburgerTopBun}></span>
-            <span className={styles.hamburgerBottomBun}></span>
-          </button>
+          <div className={styles.navRight}>
+            <DarkModeToggle
+              darkMode={darkMode}
+              setDarkMode={setDarkMode}
+              navOpen={open}
+            />
+            <button
+              className={`${styles.hamburger} ${open && styles.open} ml-4`}
+              type="button"
+              onClick={handleClick}
+            >
+              <span
+                className={`${styles.hamburgerTopBun} bg-black dark:bg-white`}
+              ></span>
+              <span
+                className={`${styles.hamburgerBottomBun} bg-black dark:bg-white`}
+              ></span>
+            </button>
+          </div>
         </div>
         <ul className={`${styles.menu} ${open ? 'flex' : 'hidden'}`}>
           <li className={styles.navbarLinkItem} onClick={handleClick}>
@@ -82,13 +94,13 @@ const Header = () => {
           <li className={styles.navbarLinkItem} onClick={handleClick}>
             <Typography
               variant="menu"
-              className={`text-blueOne`}
+              color={'blue'}
               style={currentPage === '/coming-soon' ? highlightCurrentPage : {}}
             >
               <Link href="/coming-soon">Apply</Link>
             </Typography>
           </li>
-          <Footer propsClick={handleClick} />
+          <Footer propsClick={handleClick} darkMode={darkMode} />
         </ul>
       </nav>
     </header>

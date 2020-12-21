@@ -10,6 +10,10 @@
   @apply flex flex-row items-center self-start justify-between w-full flex-nowrap;
 }
 
+.navRight {
+  @apply flex flex-row items-center;
+}
+
 .menu {
   @apply flex-col items-center self-end w-full h-screen px-4 py-1 pb-4;
 }
@@ -41,7 +45,6 @@
   position: absolute;
   width: 24px;
   height: 2px;
-  background: white;
   transform: rotate(0);
   transition: all 0.5s;
 }

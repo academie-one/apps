@@ -1,14 +1,7 @@
 module.exports = {
   purge: [],
-  darkMode: false, // or 'media' or 'class'
+  darkMode: 'class', // or 'media' or 'class'
   theme: {
-    colors: {
-      darkMatter: '#101820',
-      darkMatterDarker: '#0d131a',
-      blueOne: '#B7DDE1',
-      greyMatter: '#A7A8A9',
-      white: '#FFFFFF',
-    },
     fontFamily: {
       extralight:
         'TTInterfaces-ExtraLight, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji',
@@ -91,7 +84,15 @@ module.exports = {
         },
       ],
     },
-    extend: {},
+    extend: {
+      colors: {
+        darkMatter: '#101820',
+        darkMatterDarker: '#0d131a',
+        blueOne: '#B7DDE1',
+        greyMatter: '#A7A8A9',
+        white: '#FFFFFF',
+      },
+    },
   },
   variants: {
     extend: {},
