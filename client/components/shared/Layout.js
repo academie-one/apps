@@ -1,13 +1,13 @@
-import React, { useEffect, useRef } from 'react';
+import React, {useEffect, useRef} from 'react';
 import Head from './HeadMeta';
 import Header from './Header';
 import Sidebar from './Sidebar';
 import Link from 'next/link';
-import { useRouter } from 'next/router';
+import {useRouter} from 'next/router';
 
 import styles from '../../styles/components/shared/Layout.module.css';
 
-const Layout = ({ children, title }) => {
+const Layout = ({children, title}) => {
   const router = useRouter();
   const ref = useRef(null);
 
@@ -24,8 +24,13 @@ const Layout = ({ children, title }) => {
         <Header classes={styles.header} />
         <div className={styles.logo}>
           <Link href={`/`} passHref>
-            <button>
-              <img type="image/svg+xml" src="/icons/logo_white_blue.svg" alt="logo" width="100%" />
+            <button className={`w-full h-full`}>
+              <img
+                type="image/svg+xml"
+                src="/icons/logo_white_blue.svg"
+                alt="logo"
+                width="100%"
+              />
             </button>
           </Link>
         </div>
