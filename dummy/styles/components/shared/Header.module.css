@@ -1,0 +1,75 @@
+.header {
+  @apply fixed top-0 left-0 z-50 w-full h-12 text-white;
+}
+
+.nav {
+  @apply relative flex flex-col items-center justify-between w-full border-none;
+}
+
+.navContent {
+  @apply flex flex-row items-center self-start justify-between w-full flex-nowrap;
+}
+
+.navRight {
+  @apply flex flex-row items-center mr-4;
+}
+
+.menu {
+  @apply flex-col items-center self-end w-full h-screen px-4 py-1 pb-4;
+}
+
+.navbarLinkItem {
+  @apply w-full py-2 no-underline;
+}
+
+@screen md {
+  .header {
+    @apply hidden;
+  }
+}
+
+.hamburger {
+  @apply flex items-center justify-center block cursor-pointer;
+  width: 48px;
+  height: 48px;
+  transition: all 0.25s;
+}
+
+.hamburger:focus {
+  @apply outline-none;
+}
+
+.hamburgerTopBun,
+.hamburgerBottomBun {
+  content: '';
+  position: absolute;
+  width: 24px;
+  height: 2px;
+  transform: rotate(0);
+  transition: all 0.5s;
+}
+
+.hamburger:hover [class*='-bun'] {
+  background: #333;
+}
+
+.hamburgerTopBun {
+  transform: translateY(-5px);
+}
+
+.hamburgerBottomBun {
+  transform: translateY(3px);
+}
+
+.open {
+  transform: rotate(90deg);
+  transform: translateY(-1px);
+}
+
+.open .hamburgerTopBun {
+  transform: rotate(45deg) translateY(0px);
+}
+
+.open .hamburgerBottomBun {
+  transform: rotate(-45deg) translateY(0px);
+}

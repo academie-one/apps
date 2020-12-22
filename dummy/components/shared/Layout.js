@@ -42,7 +42,6 @@ const Layout = ({children, title}) => {
                 }
                 alt="logo"
                 width="100%"
-                height="100%"
               />
             </button>
           </Link>
