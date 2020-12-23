@@ -9,9 +9,6 @@ const concept = ({data}) => {
         <Typography variant="h4">{data.title2}</Typography>
         <Typography variant="body">{data.body}</Typography>
       </div>
-      <div>
-        <img src={data.img} alt="academie people" className={styles.img} />
-      </div>
       <div className={styles.items}>
         {data.items.map((el, index) => (
           <div key={index} className={styles.module}>
@@ -20,7 +17,9 @@ const concept = ({data}) => {
           </div>
         ))}
       </div>
-      
+      <div>
+        <img src={data.img} alt="academie people" className={styles.img} />
+      </div>
     </div>
   );
 };

@@ -6,7 +6,10 @@ const edu = ({data}) => {
     <div className={styles.container}>
       <Typography variant="h4">{data.title}</Typography>
       <Typography variant="body">{data.body}</Typography>
-      
+      <br />
+      <Typography variant="body">
+        ..........Space for illustration........
+      </Typography>
     </div>
   );
 };

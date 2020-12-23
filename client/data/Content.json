@@ -23,24 +23,6 @@
         "It’s a contribution to the diversification of the region and the development of digital competences.",
         "Academie One creates a strong base for further studies at universities and working at technology companies. The school operates on a cloud-based learning platform, where each student moves at their own pace, solving the tasks set by the system, linking theory to practice. There’s no tuition fee for the students."
       ]
-    },
-    "Model": {
-      "title": "Educational Model",
-      "body": "This unique method has its roots in 20 years of research and experimentation by Nicolas Sadirak and his team in the field of IT education.",
-      "items": [
-        {
-          "title": "Peer-to-Peer Learning",
-          "body": "No lessons, no teachers, no grades: at Academie One, students are accountable for their success. Cadets, while training, work as a collective mind."
-        },
-        {
-          "title": "Gamification And Progression",
-          "body": "The learning process is presented in the form of game levels. The first completed projects allow you to unlock others, more significant and with even greater rewards."
-        },
-        {
-          "title": "Personalized Learning",
-          "body": "Each person progresses at their own pace. Certain tasks are solved quickly, while others require additional effort. The program adapts to each student."
-        }
-      ]
     }
   },
   "Terms": {
@@ -94,35 +76,46 @@
     },
     "Concept": {
       "title": "Concept",
-      "title2": "High quality education for challangers.",
-      "body": "Academie One believes that we should provide high-quality education to those who want to take on challenges, regardless of their educational background or profession. The entire educational model is based on peer-to-peer collaboration: a collaboration that allows developers to unleash their full creativity through collaborative work on projects.",
+      "title2": "Education for challengers",
+      "body": "We believe in high-quality education for those who want to take on challenges, regardless of their background. We help talents to unleash their full creativity.",
       "img": "/images/academie-people.jpg",
       "items": [
         {
-          "title": "Accessible",
-          "body": "Anyone over the age of 18 can study at Academie One, with no previous knowledge in the field or any other prerequisites necessary. Upon application, students are given a logic-based test. If successful, students can move to the next step."
+          "title": "For everyone",
+          "body": "Everyone over the age of 18 can study at Academie One. Just fill the application and try it yourself."
         },
         {
-          "title": "Flexible",
-          "body": "With revolutionary educational program, students work on projects that interest them in close collaboration with their peers. The Education cluster will be open 7 days a week, 24 hours a day, so cadets will be able to attend classes according to their personal schedule."
-        },
-        {
-          "title": "Career",
-          "body": "The Academie engages cadets in a 4-year collaboration, which includes 2 years of study and 2 years of career development, working on projects in an IT company, after which students become high-quality coders."
+          "title": "Job guaranteed",
+          "body": "The program lasts for four years. After two years of studies, students continue with two-year career development working on global projects."
         }
       ]
     },
+    "Model": {
+      "title": "Educational Model",
+      "body": "",
+      "items": [
+        {
+          "title": "Peer-to-Peer Learning",
+          "body": "No lessons, no teachers, no grades: at Academie One, students are accountable for their success. Cadets, while training, work as a collective mind."
+        },
+        {
+          "title": "Gamification And Progression",
+          "body": "The learning process is presented in the form of game levels. The first completed projects allow you to unlock others, more significant and with even greater rewards."
+        },
+        {
+          "title": "Personalized Learning",
+          "body": "Each person progresses at their own pace. Certain tasks are solved quickly, while others require additional effort. The program adapts to each student."
+        }
+      ]
+    },
+
     "Map": {
       "title": "Part of the 01 Edu System",
-      "body": "Nicolas Sadirac's new educational platform for high-level training in code and innovation. 01 Edu System presents an innovative curriculum in software engineering and programming. With a renowned industry-leading reputation, the curriculum has been rigorously designed for learning skills of the digital world and technology industry. Taking a different approach than the classic teaching methods today, learning is facilitated through a collective and co-créative process in a professional environment."
+      "body": "01 Edu System is a collaborative education platform to open and run revolutionary coding schools. Its founder Nicolas Sadirac has rigorously designed the curriculum for 20 years to prepare world-class software engineers."
     },
     "Campus": {
       "title": "Campus",
-      "title2": "Work and study environment",
-      "body": [
-        "We are located in an old refurbished historical tea packing factory. Feel free to get a seat in our cluster equipped with 500 IMacs, play some games in the gaming area, grab yourself your peer and discuss your thoughts in a group working area or just relax a little from your last coding session.",
-        "It’s in the making and we promise it’s going to be awesome!"
-      ]
+      "body": "We are located in an old refurbished historical tea packing factory. Feel free to study on our campus equipped with 256 iMacs. Relax from your coding session in the gaming area: play chess, tennis, or PS4. Meditate, stretch or chill in the quiet area. The library is also there for you ;)"
     },
     "Cluster": {
       "title": "Education Cluster",
@@ -131,7 +124,7 @@
     },
     "Almaty": {
       "title": "Almaty",
-      "body": "Surrounded by beautiful mountain ranges, Almaty is located in the southern region of Kazakhstan. The city is recognized as a southern capital with huge potential and is home to many technology companies and large enterprises. A place with excellent infrastructure, beautiful views and an unusual history, it is an ideal place to study and live.",
+      "body": "Surrounded by beautiful mountain ranges, it is home to many technology companies and large enterprises. It is ideal for studying and living with excellent infrastructure, stunning views, and warm culture.",
       "img": "/images/almaty.jpg"
     },
     "Team": {

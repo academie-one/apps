@@ -51,7 +51,7 @@ const Footer = ({propsClick, darkMode}) => {
           style={darkMode ? inverted : {}}
         />
       </div>
-      <Typography variant="footer">Copyright © 2020 Academie One</Typography>
+      <Typography variant="footer">© Academie One</Typography>
       <Typography variant="footer" className={`pt-8`} onClick={handleClick}>
         <Link href="/terms">Terms & Conditions</Link>
       </Typography>

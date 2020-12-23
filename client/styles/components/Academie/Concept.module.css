@@ -7,12 +7,12 @@
 }
 
 .items {
-  @apply mt-6 flex flex-col;
+  @apply flex flex-col mt-6;
 }
 
 @screen sm {
   .items {
-    @apply flex-row;
+    @apply flex-col space-y-8;
   }
 }
 

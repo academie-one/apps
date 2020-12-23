@@ -34,15 +34,7 @@ const Sidebar = ({classes, darkMode}) => {
             style={currentPage === '/' ? highlightCurrentPage : {}}
             variant="menu"
           >
-            <Link href="/">foundation</Link>
-          </Typography>
-        </li>
-        <li className={styles.navbarLinkItem}>
-          <Typography
-            style={currentPage === '/academie' ? highlightCurrentPage : {}}
-            variant="menu"
-          >
-            <Link href="/academie">academie</Link>
+            <Link href="/">academie</Link>
           </Typography>
         </li>
         <li className={styles.navbarLinkItem}>
@@ -59,6 +51,14 @@ const Sidebar = ({classes, darkMode}) => {
             variant="menu"
           >
             <Link href="/admissions">admissions</Link>
+          </Typography>
+        </li>
+        <li className={styles.navbarLinkItem}>
+          <Typography
+            style={currentPage === '/foundation' ? highlightCurrentPage : {}}
+            variant="menu"
+          >
+            <Link href="/foundation">foundation</Link>
           </Typography>
         </li>
         <li
