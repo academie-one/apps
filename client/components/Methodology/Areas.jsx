@@ -1,24 +1,12 @@
 import * as React from 'react';
-import Typography from '../shared/Typography';
 import styles from '../../styles/components/Methodology/Methodology.module.css';
 
 const Areas = ({data}) => {
-    return (
-        <div className={styles.container}>
-            <Typography variant='h4'>{data.title}</Typography>
-            
-            <div className={styles.gridView}>
-                {data.items.map((el, index) => (
-                        <div key={index}>
-                            <img className={`w-full`} src={el.img} alt="01"/>
-                            <Typography variant='h4'>{el.title}</Typography>
-                            
-                            <Typography varaint='body'>{el.body}</Typography>
-                        </div>
-                ))}
-            </div>
-        </div>
-    );
+  return (
+    <div className={styles.container}>
+      <img src={data.img} alt="specs" />
+    </div>
+  );
 };
 
 export default Areas;

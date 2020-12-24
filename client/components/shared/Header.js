@@ -29,7 +29,7 @@ const Header = ({darkMode, setDarkMode}) => {
       >
         <div className={styles.navContent}>
           <Link href="/" passHref>
-            <button className={`w-20 h-12`}>
+            <button className={`w-20 h-12 focus:outline-none`}>
               <img
                 type="image/svg+xml"
                 src={darkMode ? '/icons/main.svg' : '/icons/main_inverse.svg'}
@@ -64,23 +64,15 @@ const Header = ({darkMode, setDarkMode}) => {
               variant="menu"
               style={currentPage === '/' ? highlightCurrentPage : {}}
             >
-              <Link href="/">Foundation</Link>
+              <Link href="/">Academie</Link>
             </Typography>
           </li>
           <li className={styles.navbarLinkItem} onClick={handleClick}>
             <Typography
               variant="menu"
-              style={currentPage === '/academie' ? highlightCurrentPage : {}}
+              style={currentPage === '/journey' ? highlightCurrentPage : {}}
             >
-              <Link href="/academie">Academie</Link>
-            </Typography>
-          </li>
-          <li className={styles.navbarLinkItem} onClick={handleClick}>
-            <Typography
-              variant="menu"
-              style={currentPage === '/methodology' ? highlightCurrentPage : {}}
-            >
-              <Link href="/methodology">Methodology</Link>
+              <Link href="/journey">Journey</Link>
             </Typography>
           </li>
           <li className={styles.navbarLinkItem} onClick={handleClick}>
@@ -89,6 +81,14 @@ const Header = ({darkMode, setDarkMode}) => {
               style={currentPage === '/admissions' ? highlightCurrentPage : {}}
             >
               <Link href="/admissions">Admission</Link>
+            </Typography>
+          </li>
+          <li className={styles.navbarLinkItem} onClick={handleClick}>
+            <Typography
+              variant="menu"
+              style={currentPage === '/' ? highlightCurrentPage : {}}
+            >
+              <Link href="/">Foundation</Link>
             </Typography>
           </li>
           <li className={styles.navbarLinkItem} onClick={handleClick}>

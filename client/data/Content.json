@@ -86,7 +86,7 @@
         },
         {
           "title": "Job guaranteed",
-          "body": "The program lasts for four years. After two years of studies, students continue with two-year career development working on global projects."
+          "body": "The program lasts for four years. After two years of studies, you continue with two-year career development working on global projects."
         }
       ]
     },
@@ -115,7 +115,7 @@
     },
     "Campus": {
       "title": "Campus",
-      "body": "We are located in an old refurbished historical tea packing factory. Feel free to study on our campus equipped with 256 iMacs. Relax from your coding session in the gaming area: play chess, tennis, or PS4. Meditate, stretch or chill in the quiet area. The library is also there for you ;)"
+      "body": "We are located in an old refurbished historical tea packing factory. Feel free to study on our campus equipped with 256 iMacs. Relax from your coding session in the gaming area: play chess, tennis, or PS4. Meditate, stretch or chill in the quiet area. The library is also there for you ;) Campus is open 24 hours a day, 7 days a week."
     },
     "Cluster": {
       "title": "Education Cluster",
@@ -159,73 +159,88 @@
       ]
     }
   },
-  "Methodology": {
+  "Journey": {
     "PageName": {
-      "title": "Methodology",
-      "body": "Unique approach to learning involves no books, no teachers but no more boredom. In fact it’s based on peer learning, individual growth and a lot of hands-on practice."
+      "title": "Journey",
+      "body": "Our learning approach involves no books, no teachers, and no boredom — the program bases on peer learning, individual growth, and lots of practice. By the way, job guaranteed"
     },
     "Peer": {
-      "title": "Peer Education",
-      "body": "To be successful, participants must work in a team, share information, alternately be a student and then a coach. This approach helps to maximize the creativity of participants while working on projects.",
+      "title": "Methodology",
+      "body": "Collaboration is the foundation of peer learning. Students complete their projects in teams to maximize their creativity.",
+      "img": "/images/Methodology/peer-to-peer.png",
       "items": [
         {
-          "title": "Peer Learning",
-          "body": "Collaboration is the foundation of pear learning. Cadets challenge each other, share ideas and experiences, and learn from each other. The training system provides tasks for which you need to find a solution.",
+          "title": "Teamwork",
+          "body": "The Peer-to-Peer methodology teaches cadets to work as a team: share information, ideas, and experiences. Be a student and a teacher simultaneously.",
           "img": "/images/Methodology/urban-1.png"
         },
         {
-          "title": "Peer Review",
-          "body": "A self-assessment system is established between the students, by which experts carefully study the project and evaluate it in accordance with the very nature of the project and the corresponding rating scale. When evaluating a project, you defend your point of view.",
+          "title": "Informal communication",
+          "body": "Students do not talk in their professors' memorized words; instead, they explore the problem and defend their solutions.",
           "img": "/images/Methodology/urban-2.png"
         },
         {
-          "title": "Peer Teaching",
-          "body": "All cadets take on the role of teacher and student. When explaining something to other students, the cadet understands the material being explained better. Others can help and support the cadet if he has any questions.",
+          "title": "Revealing potential",
+          "body": "This approach helps to maximize students' potential and stimulates curiosity.",
           "img": "/images/Methodology/urban-3.png"
+        },
+        {
+          "title": "Flexible schedule",
+          "body": "The Education cluster will be open seven days a week, 24 hours a day, so you are free to set your schedule. Cadets usually spend an average of 40 hours per week."
         }
       ]
     },
     "Piscine": {
-      "title": "Piscine",
-      "title2": "The Swimming Pool",
-      "body": "The Pool test will decide your final admission to Academie One. No swimming, but an immersion in the deep end of the code which allows us to identify the most motivated and to confirm the aptitude of the students. Piscine is actually a chance to discover the methodology, it's a unique learning method, and above all what programming really is.",
+      "title": "1. Pisciner",
+      "body": "The Piscine is the final step to join the academy. You have a chance to discover the methodology, its unique learning method, and what programming is. And we have a chance to know you better.",
       "img": "/images/Methodology/42ivan.jpg",
       "items": [
         {
           "title": "New experience",
-          "body": "A 4-week intensive course that will help you discover the academy, its unique teaching method and understand what programming really is."
+          "body": "Many students consider Piscine to be one of the highlights of their student life. Everyone around you shares a similar vision and passion for learning."
         },
         {
-          "title": "Atmosphere of study",
-          "body": "Once immersed in the academy atmosphere, you will write your first lines of code before moving on to the more complex exercises."
-        },
-        {
-          "title": "Problem solving",
-          "body": "There will be a lot of trial and error to help you better understand the problem. You will study alone and in groups, asking for help from your fellow students, helping them and completing projects."
+          "title": "Trial and error",
+          "body": "There will be a lot of trial and error to help you better understand the problem. You work by yourself and in groups, ask your peers for help, and help your peers complete projects."
         }
       ]
     },
-    "Program": {
-      "title": "Educational Program",
-      "body": "The curriculum is based on a gamified self-learning platform in which cadets complete practical projects, acquiring knowledge while gaining experience in working in a team. The curriculum offers over 100 projects that are consistently updated to reflect the latest industry standards. With ten different learning areas to choose from, students will move through two stages of learning at the Academie: fundamentals, and specialization.",
-      "img": "/images/Methodology/schema.png"
+    "Cadet": {
+      "title": "2. Cadet",
+      "body": "The curriculum offers over 100 projects that are consistently updated to reflect the latest industry standards. With ten different learning areas to choose from, students will move through two learning stages at the Academie: fundamentals and specialization."
     },
-    "Schedule": {
-      "title": "Your schedule at Academie One",
-      "body": "The training program requires a high degree of dedication. Cadets will spend an average of 40 hours per week working on projects over two years. Prospective cadets are strongly encouraged to develop strong time management skills. However, cadets are free to set their own schedule. The educational cluster will be open 24 hours a day, 7 days a week, 365 days a year."
+    "Journey": {
+      "title": "Your Path",
+      "img": "/images/Admissions/cadetPath.png"
+    },
+    "Spec": {
+      "title": "Specializations to choose from"
+    },
+    "Portfolio": {
+      "title": "Create Your Portfolio",
+      "body": "Each project you finish in the curriculum goes to your portfolio, which will project your unique skillset.",
+      "img": "/images/Admissions/Graphic_cadet.png"
+    },
+    "Career": {
+      "title": "3. Career",
+      "body": "Once you graduate, Academie One guarantees employment to help you kick-start your career with international projects.",
+      "img": "put link here"
+    },
+    "Alumni": {
+      "title": "Academie One Alumni",
+      "body": "Once you finish the program, you have lifetime access to the 01 Edu System platform. You will always stay at a bleeding-edge as Academie One alumni."
     },
     "Skills": {
-      "title": "Gain soft skills",
       "items": [
         {
           "title": "Fundamentals",
-          "body": "After the pool, you will focus on command line interface projects, GO language fundamentals, and algorithms. The projects you work on will be the same projects that 01 edu system students all over the world complete. This stage is critical, as it lays the foundation for your future profession.",
+          "body": "The projects you work on will introduce you to the core principles of Computer Science. Rather than a series of languages and specific technologies, we will teach you how to learn effectively. With that knowledge, every new fancy technology will be easy to grasp. We call it skills for a lifetime.",
           "body2": "Duration: 15-18 months",
           "img": "/images/Methodology/01first.png"
         },
         {
           "title": "Specialization",
-          "body": "Once you become more familiar with the basics of programming, you’ll begin working on significantly more complex projects that require more time and larger teams to complete. During this stage, you choose which field you want to specialize in.",
+          "body": "Once you become more familiar with the basics, you will work on more complex projects in larger teams. It is the perfect time to choose which field you want to specialize in.",
           "body2": "Duration: 6 months",
           "img": "/images/Methodology/01second.png"
         }
@@ -234,39 +249,16 @@
     "Ability": {
       "title": "Skills of the program",
       "title2": "That employers are looking for in digital world",
-      "body": "The program generates a great diversity of co-creative digital talents highly valuable and sought-after to drive innovation and development, in all fields of digital transformation and technology.",
-      "img": "/images/Methodology/skills.png"
+      "body": "The program generates a great diversity of co-creative digital talents highly valuable and sought-after to drive innovation and development, in all fields of digital transformation and technology."
     },
     "Areas": {
-      "title": "Specialize in the following areas",
-      "items": [
-        {
-          "title": "AI",
-          "img": "/images/Methodology/ai.png"
-        },
-        {
-          "title": "AI",
-          "img": "/images/Methodology/ai.png"
-        },
-        {
-          "title": "AI",
-          "img": "/images/Methodology/ai.png"
-        },
-        {
-          "title": "AI",
-          "img": "/images/Methodology/ai.png"
-        },
-        {
-          "title": "AI",
-          "img": "/images/Methodology/ai.png"
-        }
-      ]
+      "img": "/images/Methodology/specs.jpeg"
     }
   },
   "Admissions": {
     "PageName": {
       "title": "Admissions",
-      "body": "Entering an Academie opens up new doors and opportunities to discover your potential. There was a chance to change the usual learning and try something new. Welcome!"
+      "body": "Before you can take off with coding at Academie One, you need to take some small steps. Buckle up and let's get started!"
     },
     "Road": {
       "title": "Your Road To Academie One",
@@ -274,17 +266,17 @@
       "items": [
         {
           "title": "1. Registration",
-          "body": "Create an account on the 01 edu platform and try to complete two online games. You must reserve at least 2 hours to play. No coding is required – only logic.",
+          "body": "Create an account on the 01 Edu platform and complete two online games. It usually takes at least 2 hours to complete. No coding is required.",
           "img": "/images/Admissions/urban-1.png"
         },
         {
           "title": "2. Interview",
-          "body": "Take part in an online interview and introduce yourself. You will be asked several questions to help us understand your motivation.",
+          "body": "Meet the Team One in one the introduction meetings before you sign up for a piscine. You will receive a link for the introduction meeting when you finished the logic games successfully.",
           "img": "/images/Admissions/urban-2.png"
         },
         {
           "title": "3. Piscine",
-          "body": "Take a four-week course in an Education Cluster that introduces you to our educational model and identifies motivated candidates for Academie One.",
+          "body": "Take a four-week training that introduces you to our educational model.",
           "img": "/images/Admissions/urban-3.png"
         }
       ]
@@ -292,34 +284,10 @@
     "ImportantDates": {
       "title": "Important Dates",
       "body": [
-        "Meet the Team One in one the introduction meetings before you sign up for a piscine. You will receive a link for the introduction meeting when you finished the logic games successfully.",
         "Piscine II: 01.03.2021 – 26.03.2021",
         "Piscine II: 01.03.2021 – 26.03.2021",
         "more dates for Piscines to be announced"
       ]
-    },
-    "CadetPath": {
-      "title": "Cadet Path",
-      "body": "To apply, we only ask that you are open-minded, motivated and ready to commit to our 4-year educational and work program program and you must be at least 18.",
-      "img": "/images/Admissions/cadetPath.png"
-    },
-    "Spec": {
-      "title": "Specializations and skills",
-      "body": "Each project in the curriculum has been designed to learn a particular aspect of programming. By completing projects and mastering your skills you will develop your own unique competences and you will be prepared for diverse challenges and creative opportunities. Let’s dive a little deeper…"
-    },
-    "Portfolio": {
-      "title": "Create Your Own Portfolio",
-      "body": "With the flexible curriculum at Academie One you take charge of your own skill set and create your very own portfolio depending on your interests and future plans.",
-      "img": "/images/Admissions/Graphic_cadet.png"
-    },
-    "Career": {
-      "title": "Career After Academie One",
-      "body": "Once you graduate from Academie One, you won’t just know how to code, more importantly you know how to effectively learn anything you want. So this means not only that you can bring your skills to any field and improve it, but that you can handle any new situation. You will be able to discover a new world of information technology. The Academie guarantees employment that will help you build your portfolio while still receiving salaries and good working conditions.",
-      "img": "put link here"
-    },
-    "Alumni": {
-      "title": "Academie One Alumni",
-      "body": "We are just starting to work in Almaty, but all over the world there are other educational institutions working on the 01 Edu System platform. By teaching through this system, you immediately join the 01 Edu international community. In addition, this privilege provides great opportunities for future growth."
     }
   }
 }

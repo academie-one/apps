@@ -39,10 +39,10 @@ const Sidebar = ({classes, darkMode}) => {
         </li>
         <li className={styles.navbarLinkItem}>
           <Typography
-            style={currentPage === '/methodology' ? highlightCurrentPage : {}}
+            style={currentPage === '/journey' ? highlightCurrentPage : {}}
             variant="menu"
           >
-            <Link href="/methodology">methodology</Link>
+            <Link href="/journey">journey</Link>
           </Typography>
         </li>
         <li className={styles.navbarLinkItem}>
