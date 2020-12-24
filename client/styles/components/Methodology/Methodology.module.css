@@ -2,6 +2,22 @@
   @apply flex flex-col mb-20;
 }
 
+.content {
+  @apply flex flex-col;
+}
+
+@screen md {
+  .content {
+    @apply flex-row items-center;
+  }
+}
+
 .items {
-  @apply flex flex-col items-baseline justify-between space-y-16;
+  @apply flex flex-col items-baseline justify-between my-10 space-y-8;
+}
+
+@screen md {
+  .items {
+    @apply space-y-16;
+  }
 }

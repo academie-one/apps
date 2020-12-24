@@ -7,7 +7,7 @@ const Peer = ({data}) => {
     <div className={styles.container}>
       <Typography variant="h2">{data.title}</Typography>
       <Typography variant="body">{data.body}</Typography>
-      <div className={`flex flex-row items-center mt-10`}>
+      <div className={styles.content}>
         <div className={styles.items}>
           {data.items.map((el, index) => (
             <div className={`sm:mr-6 sm:text-left`} key={index}>

@@ -1,18 +1,14 @@
 import * as React from 'react';
 import Typography from '../shared/Typography';
-import styles from '../../styles/components/Admissions/Admissions.module.css';
 
 const Portfolio = ({data}) => {
   return (
-    <div>
-      <div className={styles.gridView}>
-        <div>
-          <Typography variant="h4">{data.title}</Typography>
-          
-          <Typography variant="body">{data.body}</Typography>
-        </div>
-        <img src={data.img} alt="cadet path" />
+    <div className={``}>
+      <div>
+        <Typography variant="h4">{data.title}</Typography>
+        <Typography variant="body">{data.body}</Typography>
       </div>
+      <img src={data.img} alt="cadet path" />
     </div>
   );
 };

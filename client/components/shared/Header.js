@@ -86,9 +86,9 @@ const Header = ({darkMode, setDarkMode}) => {
           <li className={styles.navbarLinkItem} onClick={handleClick}>
             <Typography
               variant="menu"
-              style={currentPage === '/' ? highlightCurrentPage : {}}
+              style={currentPage === '/foundation' ? highlightCurrentPage : {}}
             >
-              <Link href="/">Foundation</Link>
+              <Link href="/foundation">Foundation</Link>
             </Typography>
           </li>
           <li className={styles.navbarLinkItem} onClick={handleClick}>

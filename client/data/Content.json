@@ -76,10 +76,12 @@
     },
     "Concept": {
       "title": "Concept",
-      "title2": "Education for challengers",
-      "body": "We believe in high-quality education for those who want to take on challenges, regardless of their background. We help talents to unleash their full creativity.",
       "img": "/images/academie-people.jpg",
       "items": [
+        {
+          "title": "Education for challengers",
+          "body": "We believe in high-quality education for those who want to take on challenges, regardless of their background. We help talents to unleash their full creativity."
+        },
         {
           "title": "For everyone",
           "body": "Everyone over the age of 18 can study at Academie One. Just fill the application and try it yourself."
@@ -115,7 +117,7 @@
     },
     "Campus": {
       "title": "Campus",
-      "body": "We are located in an old refurbished historical tea packing factory. Feel free to study on our campus equipped with 256 iMacs. Relax from your coding session in the gaming area: play chess, tennis, or PS4. Meditate, stretch or chill in the quiet area. The library is also there for you ;) Campus is open 24 hours a day, 7 days a week."
+      "body": "We are located in an old refurbished historical tea packing factory. Feel free to study on our campus equipped with 256 iMacs. Relax from your coding session in the gaming area: play chess, tennis, or PS4. Meditate, stretch or chill in the quiet area. The library is also there for you ;) The campus is open 24 hours a day, 7 days a week."
     },
     "Cluster": {
       "title": "Education Cluster",
@@ -262,7 +264,6 @@
     },
     "Road": {
       "title": "Your Road To Academie One",
-      "body": "Before you can take off with coding at Academie One in Almaty there are some small steps you need to take. Buckle up and let's get started!",
       "items": [
         {
           "title": "1. Registration",

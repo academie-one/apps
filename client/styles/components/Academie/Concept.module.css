@@ -2,18 +2,16 @@
   @apply flex flex-col mb-20;
 }
 
+.mainContent {
+  @apply mb-8 space-y-2;
+}
+
 .module {
   @apply flex flex-col mr-6;
 }
 
 .items {
-  @apply flex flex-col mt-6;
-}
-
-@screen sm {
-  .items {
-    @apply flex-col space-y-8;
-  }
+  @apply flex flex-col space-y-8;
 }
 
 .img {

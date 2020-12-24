@@ -31,6 +31,18 @@ body {
   @apply antialiased;
 }
 
+@media (min-width: 1560px) {
+  html {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 2000px) {
+  html {
+    font-size: 22px;
+  }
+}
+
 a {
   color: inherit;
   text-decoration: none;

@@ -2,29 +2,28 @@ import * as React from 'react';
 import Typography from '../shared/Typography';
 import styles from '../../styles/components/Admissions/Admissions.module.css';
 
-const Road = ({ data }) => {
-    return (
-        <div className={styles.container}>
-            <Typography variant='h2'>{data.title}</Typography>
-
-            <Typography variant='body'>{data.body}</Typography>
-
-            <div className="mt-12 grid grid-cols-2 gap-4">
-                {data.items.map((el, index) => (
-                    <>
-                        <div>
-                            <img className={`w-3/5`} src={el.img} alt="01" />
-                        </div>
-                        <div>
-                            <Typography variant='h4'>{el.title}</Typography>
-
-                            <Typography varaint='body'>{el.body}</Typography>
-                        </div>
-                    </>
-                ))}
+const Road = ({data}) => {
+  return (
+    <div className={styles.container}>
+      <Typography variant="h2">{data.title}</Typography>
+      <div className="flex flex-col mt-12">
+        {data.items.map((el, index) => (
+          <div
+            className={`flex md:flex-row flex-col items-center space-x-8 space-y-4`}
+            key={index}
+          >
+            <div className={`flex-1`}>
+              <img src={el.img} alt="01" />
             </div>
-        </div>
-    );
+            <div className={`flex-1`}>
+              <Typography variant="h4">{el.title}</Typography>
+              <Typography varaint="body">{el.body}</Typography>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
 };
 
 export default Road;
