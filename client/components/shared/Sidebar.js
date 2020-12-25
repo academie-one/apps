@@ -1,11 +1,11 @@
-import React, {memo} from 'react';
+import React, { memo } from 'react';
 import Typography from './Typography';
 import Footer from './Footer';
 import styles from '../../styles/components/shared/Sidebar.module.css';
 import Link from 'next/link';
-import {useRouter} from 'next/router';
+import { useRouter } from 'next/router';
 
-const Sidebar = ({classes, darkMode}) => {
+const Sidebar = ({ classes, darkMode }) => {
   const [glowing, setGlowing] = React.useState(false);
   const router = useRouter();
 
@@ -34,7 +34,7 @@ const Sidebar = ({classes, darkMode}) => {
             style={currentPage === '/' ? highlightCurrentPage : {}}
             variant="menu"
           >
-            <Link href="/">academie</Link>
+            <Link href="/">Academie</Link>
           </Typography>
         </li>
         <li className={styles.navbarLinkItem}>
@@ -42,7 +42,7 @@ const Sidebar = ({classes, darkMode}) => {
             style={currentPage === '/journey' ? highlightCurrentPage : {}}
             variant="menu"
           >
-            <Link href="/journey">journey</Link>
+            <Link href="/journey"> Journey</Link>
           </Typography>
         </li>
         <li className={styles.navbarLinkItem}>
@@ -50,7 +50,7 @@ const Sidebar = ({classes, darkMode}) => {
             style={currentPage === '/admissions' ? highlightCurrentPage : {}}
             variant="menu"
           >
-            <Link href="/admissions">admissions</Link>
+            <Link href="/admissions"> Admissions</Link>
           </Typography>
         </li>
         <li className={styles.navbarLinkItem}>
@@ -58,7 +58,7 @@ const Sidebar = ({classes, darkMode}) => {
             style={currentPage === '/foundation' ? highlightCurrentPage : {}}
             variant="menu"
           >
-            <Link href="/foundation">foundation</Link>
+            <Link href="/foundation">Foundation</Link>
           </Typography>
         </li>
         <li
@@ -71,7 +71,7 @@ const Sidebar = ({classes, darkMode}) => {
             variant="menu"
             className={`text-darkMatter font-normal dark:text-blueOne`}
           >
-            <Link href="/coming-soon">apply</Link>
+            <Link href="/coming-soon">Apply</Link>
           </Typography>
         </li>
       </ul>
