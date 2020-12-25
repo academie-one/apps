@@ -8,8 +8,8 @@ const Admissions = () => {
   return (
     <>
       <Main data={data.PageName} />
-      <Road data={data.Road} />
       <ImportantDates data={data.ImportantDates} />
+      <Road data={data.Road} />
     </>
   );
 };
