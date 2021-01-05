@@ -92,26 +92,11 @@
         }
       ]
     },
-    "Model": {
-      "title": "Educational Model",
-      "body": "",
-      "items": [
-        {
-          "title": "Peer-to-Peer Learning",
-          "body": "No lessons, no teachers, no grades: at Academie One, students are accountable for their success. Cadets, while training, work as a collective mind."
-        },
-        {
-          "title": "Gamification And Progression",
-          "body": "The learning process is presented in the form of game levels. The first completed projects allow you to unlock others, more significant and with even greater rewards."
-        },
-        {
-          "title": "Personalized Learning",
-          "body": "Each person progresses at their own pace. Certain tasks are solved quickly, while others require additional effort. The program adapts to each student."
-        }
-      ]
+    "FinancialModel": {
+      "title": "Financial Model",
+      "body": "We are making significant investments for offering everyone a high-quality education. To reduce the financial barrier to education, we offer a four-year contract - two years of education at the academy and two years of employment at an international outsourcing company based in Almaty. We call it 2+2 investment towards your future."
     },
-
-    "Map": {
+    "Edu": {
       "title": "Part of the 01 Edu System",
       "body": "01 Edu System is a collaborative education platform to open and run revolutionary coding schools. Its founder Nicolas Sadirac has rigorously designed the curriculum for 20 years to prepare world-class software engineers."
     },
@@ -266,18 +251,18 @@
       "title": "Your Road To Academie One",
       "items": [
         {
-          "title": "1. Registration",
-          "body": "Create an account on the 01 Edu platform and complete two online games. It usually takes at least 2 hours to complete. No coding is required.",
+          "title": "1. Registration & Interview",
+          "body": "Create an account on the 01 Edu platform and complete two online games. It usually takes at least two hours to complete. No coding is required. If you pass the game, you will receive a link for the introduction meeting with Team One.",
           "img": "/images/Admissions/urban-1.png"
         },
         {
-          "title": "2. Interview",
-          "body": "Meet the Team One in one the introduction meetings before you sign up for a piscine. You will receive a link for the introduction meeting when you finished the logic games successfully.",
+          "title": "2. Piscine",
+          "body": "Successful candidates who pass the online test will be invited to take the four-week Piscine at Academie One campus. It is the final part of our admission process that introduces you to our educational model.",
           "img": "/images/Admissions/urban-2.png"
         },
         {
-          "title": "3. Piscine",
-          "body": "Take a four-week training that introduces you to our educational model.",
+          "title": "3. Review",
+          "body": "If you are selected for the Cadet program, you will have a month to try the program and decide whether you fit in the academy environment. Enjoy the program? Let's evaluate your offer with us.",
           "img": "/images/Admissions/urban-3.png"
         }
       ]

@@ -1,14 +1,16 @@
-import React, {useState} from 'react';
+import React, {useState, useContext} from 'react';
 import Link from 'next/link';
 import Typography from './Typography';
-import DarkModeToggle from './DarkModeToggle';
+import ThemeContext from './ThemeContext';
+import ThemeSwitcher from './ThemeSwitcher';
 import Footer from './Footer';
 import {useRouter} from 'next/router';
 
 import styles from '../../styles/components/shared/Header.module.css';
 
-const Header = ({darkMode, setDarkMode}) => {
+const Header = () => {
   const [open, setOpen] = useState(false);
+  const {theme} = useContext(ThemeContext);
   const router = useRouter();
   const currentPage = router.route;
 
@@ -32,18 +34,18 @@ const Header = ({darkMode, setDarkMode}) => {
             <button className={`w-20 h-12 focus:outline-none`}>
               <img
                 type="image/svg+xml"
-                src={darkMode ? '/icons/main.svg' : '/icons/main_inverse.svg'}
+                src={
+                  theme === 'dark'
+                    ? '/icons/main.svg'
+                    : '/icons/main_inverse.svg'
+                }
                 alt="logo"
                 width="100%"
               />
             </button>
           </Link>
           <div className={styles.navRight}>
-            <DarkModeToggle
-              darkMode={darkMode}
-              setDarkMode={setDarkMode}
-              navOpen={open}
-            />
+            <ThemeSwitcher navOpen={open} />
             <button
               className={`${styles.hamburger} ${open && styles.open} ml-4`}
               type="button"
@@ -100,7 +102,7 @@ const Header = ({darkMode, setDarkMode}) => {
               <Link href="/coming-soon">Apply</Link>
             </Typography>
           </li>
-          <Footer propsClick={handleClick} darkMode={darkMode} />
+          <Footer propsClick={handleClick} />
         </ul>
       </nav>
     </header>

@@ -1,11 +1,11 @@
-import React, { memo } from 'react';
+import React, {memo} from 'react';
 import Typography from './Typography';
 import Footer from './Footer';
 import styles from '../../styles/components/shared/Sidebar.module.css';
 import Link from 'next/link';
-import { useRouter } from 'next/router';
+import {useRouter} from 'next/router';
 
-const Sidebar = ({ classes, darkMode }) => {
+const Sidebar = ({classes}) => {
   const [glowing, setGlowing] = React.useState(false);
   const router = useRouter();
 
@@ -75,7 +75,7 @@ const Sidebar = ({ classes, darkMode }) => {
           </Typography>
         </li>
       </ul>
-      <Footer darkMode={darkMode} />
+      <Footer />
     </aside>
   );
 };

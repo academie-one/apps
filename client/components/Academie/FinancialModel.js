@@ -6,14 +6,6 @@ const model = ({data}) => {
     <div className={styles.container}>
       <Typography variant="h2">{data.title}</Typography>
       <Typography variant="body">{data.body}</Typography>
-      <div className={styles.items}>
-        {data.items.map((item, index) => (
-          <div className={styles.module} key={index}>
-            <Typography variant="h4">{item.title}</Typography>
-            <Typography variant="body">{item.body}</Typography>
-          </div>
-        ))}
-      </div>
     </div>
   );
 };
