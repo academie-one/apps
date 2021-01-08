@@ -1,0 +1,29 @@
+.container {
+  @apply flex flex-col mb-16;
+}
+
+.mainContent {
+  @apply space-y-4;
+}
+
+.module {
+  @apply flex flex-col mr-6;
+}
+
+.items {
+  @apply flex flex-col mt-4 space-y-8;
+}
+
+.img {
+  @apply w-full my-8;
+}
+
+.content {
+  @apply flex flex-col;
+}
+
+@screen md {
+  .content {
+    @apply flex-row items-center;
+  }
+}

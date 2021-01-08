@@ -1,15 +1,11 @@
-import HomeHero from '../components/Home/HomeHero';
-import {
-  MainPage as data,
-  Foundation as foundationData,
-} from '../data/Content.json';
-import Main from '../components/Foundation/Main';
+import {Foundation as foundationData} from '../data/Content.json';
 import Message from '../components/Foundation/Message';
+import Container from '../components/shared/Container';
 
 const foundation = () => {
   return (
     <>
-      <Main data={foundationData.PageName} />
+      <Container data={foundationData.PageName} />
       <Message data={foundationData.Message} />
     </>
   );

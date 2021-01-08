@@ -23,7 +23,7 @@
 }
 
 .body {
-  @apply max-w-xl font-normal text-body;
+  @apply max-w-xl font-normal whitespace-pre-line text-body;
 }
 
 .caption {
