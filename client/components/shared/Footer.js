@@ -28,6 +28,9 @@ const Footer = ({propsClick}) => {
         <Typography variant="footer" onClick={handleClick}>
           <Link href="/faq">FAQ</Link>
         </Typography>
+        <Typography variant="footer" onClick={handleClick}>
+          <Link href="/media">Media</Link>
+        </Typography>
       </div>
 
       <div className={`flex flex-row space-x-2`}>

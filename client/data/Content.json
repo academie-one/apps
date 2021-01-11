@@ -283,5 +283,17 @@
         "more dates for Piscines to be announced"
       ]
     }
+  },
+  "Media": {
+    "items": [
+      {
+        "title": "MediaKit",
+        "click": "./images/almaty2.jpg"
+      },
+      {
+        "title": "Brandbook",
+        "click": "./images/main.png"
+      }
+    ]
   }
 }
