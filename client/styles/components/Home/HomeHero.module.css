@@ -1,5 +1,5 @@
 .container {
-  @apply flex flex-col justify-center flex-1 my-12;
+  @apply flex flex-col items-center justify-center h-screen -mt-32;
 }
 
 .content {
@@ -7,23 +7,26 @@
 }
 
 .image {
-  @apply absolute top-0 left-0 w-full;
-  opacity: 0.3;
-}
-
-@screen sm {
-  .image {
-    opacity: 1;
-  }
+  @apply w-full;
 }
 
 .imageContainer {
-  @apply relative;
-  padding-top: 56.25%;
 }
 
-.photoText {
-  @apply left-0 z-10 whitespace-pre-line -top-28;
-  font-size: 6rem;
-  line-height: 100%;
+.heroTitle {
+  font-size: 2rem;
+}
+
+@screen md {
+  .container {
+    @apply flex-row;
+  }
+
+  .content {
+    @apply w-7/12;
+  }
+
+  .imageContainer {
+    @apply w-5/12;
+  }
 }

@@ -72,7 +72,7 @@ module.exports = {
         },
       ],
       body: [
-        '1rem',
+        '1.1rem',
         {
           lineHeight: '120%',
         },

@@ -1,12 +1,12 @@
 {
   "MainPage": {
-    "title": "Be One with the Future",
-    "body": "Academie One is a college-level, tution-free, computer programming institution with a peer-to-peer learning environment. Learn the skills you need here to begin your career as a Software Engineer.",
+    "title": "We combine education with a career in IT and guaranteed employment.",
+    "body": "Academie One is open for anyone from 18 to 42 and does not require prior knowledge of programming, diploma or certificate. One can change the future - begin today!",
     "img": "/images/main.png"
   },
   "Foundation": {
     "PageName": {
-      "title": "Foundation",
+      "h1Title": "Foundation",
       "body": "«To succeed, planning alone is insufficient. One must improvise as well.»"
     },
     "Message": {
@@ -27,29 +27,29 @@
   },
   "Terms": {
     "PageName": {
-      "title": "Terms"
+      "h1Title": "Terms"
     },
     "Legal": {
       "title": "Terms",
       "items": [
         {
-          "question": "Conditions of Use",
-          "answer": "In keeping with Law 34/2002, of June 11, Information Society Services and Electronic Commerce (LSSI-CE), ACADEMIE ONE LLC informs the user that they are the owner of the website WWW.ACADEMIE.ONE. In keeping with what is established in Article 10 of the cited Law, ACADEMIE ONE LLC informs users of the following:"
+          "title": "Conditions of Use",
+          "body": "In keeping with Law 34/2002, of June 11, Information Society Services and Electronic Commerce (LSSI-CE), ACADEMIE ONE LLC informs the user that they are the owner of the website WWW.ACADEMIE.ONE. In keeping with what is established in Article 10 of the cited Law, ACADEMIE ONE LLC informs users of the following:"
         },
         {
-          "question": "Users and responsibility regime",
-          "answer": "By browsing, accessing and using ACADEMIE ONE LLC’s website, constitutes the person as a user. As a result of browsing ACADEMIE ONE LLC’s website, the said user accepts all the conditions of use established herein, notwithstanding the application of the corresponding obligatory regulations applicable in each case."
+          "title": "Users and responsibility regime",
+          "body": "By browsing, accessing and using ACADEMIE ONE LLC’s website, constitutes the person as a user. As a result of browsing ACADEMIE ONE LLC’s website, the said user accepts all the conditions of use established herein, notwithstanding the application of the corresponding obligatory regulations applicable in each case."
         }
       ]
     }
   },
   "Faq": {
     "PageName": {
-      "title": "FAQ",
+      "h1Title": "FAQ",
       "body": "To apply, we only ask that you are open-minded, motivated and ready to commit to our 4-year educational and work program program and you must be at least 18."
     },
     "Learning": {
-      "title": "Learning",
+      "h2Title": "Learning",
       "items": [
         {
           "question": "What is Academie.one?",
@@ -68,23 +68,22 @@
   },
   "Academie": {
     "PageName": {
-      "title": "Academie",
-      "body": [
-        "«My philosophy of life is that difficulties vanish when faced boldly»",
-        "― Isaac Asimov"
-      ]
+      "h1Title": "Academie",
+      "body": "«My philosophy of life is that difficulties vanish when faced boldly»\n ― Isaac Asimov"
     },
     "Concept": {
-      "title": "Concept",
+      "h2Title": "Concept",
       "img": "/images/academie-people.jpg",
+      "imgPos": "bottom",
+      "imgAlt": "academie people",
       "items": [
+        {
+          "title": "For everyone",
+          "body": "Everyone age 18-42 can study at Academie One. Just fill the application and try it yourself."
+        },
         {
           "title": "Education for challengers",
           "body": "We believe in high-quality education for those who want to take on challenges, regardless of their background. We help talents to unleash their full creativity."
-        },
-        {
-          "title": "For everyone",
-          "body": "Everyone over the age of 18 can study at Academie One. Just fill the application and try it yourself."
         },
         {
           "title": "Job guaranteed",
@@ -92,32 +91,28 @@
         }
       ]
     },
-    "Model": {
-      "title": "Educational Model",
-      "body": "",
-      "items": [
-        {
-          "title": "Peer-to-Peer Learning",
-          "body": "No lessons, no teachers, no grades: at Academie One, students are accountable for their success. Cadets, while training, work as a collective mind."
-        },
-        {
-          "title": "Gamification And Progression",
-          "body": "The learning process is presented in the form of game levels. The first completed projects allow you to unlock others, more significant and with even greater rewards."
-        },
-        {
-          "title": "Personalized Learning",
-          "body": "Each person progresses at their own pace. Certain tasks are solved quickly, while others require additional effort. The program adapts to each student."
-        }
-      ]
+    "Hero": {
+      "h2Title": "We combine education with a career in IT and guaranteed employment.",
+      "body": "Academie One is open for anyone from 18 to 42 and does not require prior knowledge of programming, diploma or certificate. One can change the future - begin today!",
+      "img": "/images/hero_logo.png",
+      "imgPos": "bottom",
+      "imgAlt": "Academie One Logo Blue"
     },
-
-    "Map": {
-      "title": "Part of the 01 Edu System",
-      "body": "01 Edu System is a collaborative education platform to open and run revolutionary coding schools. Its founder Nicolas Sadirac has rigorously designed the curriculum for 20 years to prepare world-class software engineers."
+    "FinancialModel": {
+      "h2Title": "Financial Model",
+      "body": "We are making significant investments for offering everyone a high-quality education. To reduce the financial barrier to education, we offer a four-year contract - two years of education at the academy and two years of employment at an international outsourcing company based in Almaty. We call it 2+2 investment towards your future."
+    },
+    "Edu": {
+      "h2Title": "In partnership with 01 Edu System",
+      "body": "01 Edu System is a collaborative education platform to open and run revolutionary coding schools. Its founder Nicolas Sadirac has rigorously designed the curriculum for 20 years to prepare world-class software engineers.",
+      "img": "images/map.png",
+      "imgPos": "bottom"
     },
     "Campus": {
-      "title": "Campus",
-      "body": "We are located in an old refurbished historical tea packing factory. Feel free to study on our campus equipped with 256 iMacs. Relax from your coding session in the gaming area: play chess, tennis, or PS4. Meditate, stretch or chill in the quiet area. The library is also there for you ;) The campus is open 27/7/365"
+      "h2Title": "Campus",
+      "body": "We are located in an old refurbished historical tea packing factory. Feel free to study on our campus equipped with 256 iMacs. Relax from your coding session in the gaming area: play chess, tennis, or PS4. Meditate, stretch or chill in the quiet area. The library is also there for you ;) The campus is open 27/7/365",
+      "img": "/images/cluster.png",
+      "imgPos": "bottom"
     },
     "Cluster": {
       "title": "Education Cluster",
@@ -125,9 +120,11 @@
       "images": ["/images/cluster1.jpeg"]
     },
     "Almaty": {
-      "title": "Almaty",
+      "h2Title": "Almaty",
       "body": "Surrounded by beautiful mountain ranges, it is home to many technology companies and large enterprises. It is ideal for studying and living with excellent infrastructure, stunning views, and warm culture.",
-      "img": "/images/almaty2.jpg"
+      "img": "/images/almaty_cropped.jpg",
+      "imgPos": "bottom",
+      "imgAlt": "Almaty"
     },
     "Team": {
       "title": "The Team",
@@ -163,13 +160,16 @@
   },
   "Journey": {
     "PageName": {
-      "title": "Journey",
+      "h1Title": "Journey",
       "body": "Our learning approach involves no teachers, no semesters and no boredom — the program bases on peer learning, individual growth, and lots of practice. By the way, job guaranteed"
     },
     "Peer": {
-      "title": "Methodology",
+      "h2Title": "Methodology",
       "body": "Collaboration is the foundation of peer learning. Students complete their projects in teams to maximize their creativity.",
-      "img": "/images/Methodology/peer-to-peer.png",
+      "img": "/images/Methodology/p2p.png",
+      "imgPos": "right",
+      "imgAlt": "peer-to-peer",
+      "imgInvert": "direct",
       "items": [
         {
           "title": "Teamwork",
@@ -208,28 +208,35 @@
       ]
     },
     "Cadet": {
-      "title": "2. Cadet",
+      "h2Title": "2. Cadet",
       "body": "The curriculum offers over 100 projects that are consistently updated to reflect the latest industry standards. With ten different learning areas to choose from, students will move through two learning stages at the Academie: fundamentals and specialization."
     },
     "Journey": {
-      "title": "Your Path",
-      "img": "/images/Admissions/cadetPath.png"
+      "h2Title": "Your journey",
+      "img": "/images/Admissions/cadetPath.png",
+      "imgPos": "bottom",
+      "imgAlt": "journey",
+      "imgInvert": "reverse"
     },
     "Spec": {
-      "title": "Specializations to choose from"
+      "h4Title": "Specializations to choose from",
+      "img": "/images/Methodology/specs.jpeg",
+      "imgAlt": "specializations",
+      "imgPos": "bottom"
     },
     "Portfolio": {
-      "title": "Create Your Portfolio",
+      "h4Title": "Create Your Portfolio",
       "body": "Each project you finish in the curriculum goes to your portfolio, which will project your unique skillset.",
-      "img": "/images/Admissions/Graphic_cadet.png"
+      "img": "/images/Admissions/Graphic_cadet.png",
+      "imgPos": "bottom",
+      "imgInvert": "reverse"
     },
     "Career": {
-      "title": "3. Career",
-      "body": "Once you graduate, Academie One guarantees employment to help you kick-start your career with international projects.",
-      "img": "put link here"
+      "h2Title": "3. Career",
+      "body": "Once you graduate, Academie One guarantees employment to help you kick-start your career with international projects."
     },
     "Alumni": {
-      "title": "Academie One Alumni",
+      "h4Title": "Academie One Alumni",
       "body": "Once you finish the program, you have lifetime access to the 01 Edu System platform. You will always stay at a bleeding-edge as Academie One alumni."
     },
     "Skills": {
@@ -252,32 +259,29 @@
       "title": "Skills of the program",
       "title2": "That employers are looking for in digital world",
       "body": "The program generates a great diversity of co-creative digital talents highly valuable and sought-after to drive innovation and development, in all fields of digital transformation and technology."
-    },
-    "Areas": {
-      "img": "/images/Methodology/specs.jpeg"
     }
   },
   "Admissions": {
     "PageName": {
-      "title": "Admissions",
+      "h1Title": "Admissions",
       "body": "Before you can take off with coding at Academie One, you need to take some small steps. Buckle up and let's get started!"
     },
     "Road": {
-      "title": "Your Road To Academie One",
+      "title": "The algorithm",
       "items": [
         {
-          "title": "1. Registration",
-          "body": "Create an account on the 01 Edu platform and complete two online games. It usually takes at least 2 hours to complete. No coding is required.",
+          "title": "1. Registration & Interview",
+          "body": "Create an account on the 01 Edu platform and complete two online games. First game takes around 5 minutes to complete. Second is a longer and usually takes 1 hour. `. No coding is required. If you pass the game, you will receive a link for the introduction meeting with Team One.",
           "img": "/images/Admissions/urban-1.png"
         },
         {
-          "title": "2. Interview",
-          "body": "Meet the Team One in one the introduction meetings before you sign up for a piscine. You will receive a link for the introduction meeting when you finished the logic games successfully.",
+          "title": "2. Piscine",
+          "body": "Successful candidates who pass the online test will be invited to take the four-week Piscine at Academie One campus. It is the final part of our admission process that introduces you to our educational model.",
           "img": "/images/Admissions/urban-2.png"
         },
         {
-          "title": "3. Piscine",
-          "body": "Take a four-week training that introduces you to our educational model.",
+          "title": "3. Review",
+          "body": "If you are selected for the Cadet program, you will have a month to try the program and decide whether you fit in the academy environment. Enjoy the program? Let's evaluate your offer with us.",
           "img": "/images/Admissions/urban-3.png"
         }
       ]
@@ -290,5 +294,18 @@
         "more dates for Piscines to be announced"
       ]
     }
+  },
+  "Media": {
+    "items": [
+      {
+        "title": "MediaKit",
+        "click": "./images/almaty2.jpg"
+      },
+      {
+        "title": "Brandbook",
+        "click": "./images/main.png"
+      }
+    ],
+    "body": "For press inquiries, contact us at press@academie.one"
   }
 }

@@ -1,22 +1,17 @@
-import {Academie as data} from '../data/Content.json';
-import Main from '../components/Academie/Main';
-import Concept from '../components/Academie/Concept';
-import Edu from '../components/Academie/Edu';
-import Campus from '../components/Academie/Campus';
-import Cluster from '../components/Academie/Cluster';
-import Almaty from '../components/Academie/Almaty';
-import Model from '../components/Academie/Model';
+import {
+  Academie as data,
+  Admissions as admissionData,
+} from '../data/Content.json';
+import HomeHero from '../components/Home/HomeHero';
+import ImportantDates from '../components/Admissions/ImportantDates';
 
-const Academie = () => {
+const Home = () => {
   return (
     <>
-      <Main data={data.PageName} />
-      <Concept data={data.Concept} />
-      <Edu data={data.Map} />
-      <Campus data={data.Campus} />
-      <Almaty data={data.Almaty} />
+      <HomeHero data={data.Hero} />
+      <ImportantDates data={admissionData.ImportantDates} />
     </>
   );
 };
 
-export default Academie;
+export default Home;

@@ -1,14 +1,16 @@
-import React, {useState} from 'react';
+import React, {useState, useContext} from 'react';
 import Link from 'next/link';
 import Typography from './Typography';
-import DarkModeToggle from './DarkModeToggle';
+import ThemeContext from './ThemeContext';
+import ThemeSwitcher from './ThemeSwitcher';
 import Footer from './Footer';
 import {useRouter} from 'next/router';
 
 import styles from '../../styles/components/shared/Header.module.css';
 
-const Header = ({darkMode, setDarkMode}) => {
+const Header = () => {
   const [open, setOpen] = useState(false);
+  const {theme} = useContext(ThemeContext);
   const router = useRouter();
   const currentPage = router.route;
 
@@ -16,9 +18,9 @@ const Header = ({darkMode, setDarkMode}) => {
     textDecoration: 'underline',
   };
 
-  const handleClick = () => {
-    setOpen(!open);
-  };
+  const handleClick = () => setOpen(false);
+
+  const handleOpen = () => setOpen(true);
 
   return (
     <header className={styles.header}>
@@ -29,25 +31,28 @@ const Header = ({darkMode, setDarkMode}) => {
       >
         <div className={styles.navContent}>
           <Link href="/" passHref>
-            <button className={`w-20 h-12 focus:outline-none`}>
+            <button
+              className={`w-20 h-12 focus:outline-none`}
+              onClick={handleClick}
+            >
               <img
                 type="image/svg+xml"
-                src={darkMode ? '/icons/main.svg' : '/icons/main_inverse.svg'}
+                src={
+                  theme === 'dark'
+                    ? '/icons/main.svg'
+                    : '/icons/main_inverse.svg'
+                }
                 alt="logo"
                 width="100%"
               />
             </button>
           </Link>
           <div className={styles.navRight}>
-            <DarkModeToggle
-              darkMode={darkMode}
-              setDarkMode={setDarkMode}
-              navOpen={open}
-            />
+            <ThemeSwitcher navOpen={open} />
             <button
               className={`${styles.hamburger} ${open && styles.open} ml-4`}
               type="button"
-              onClick={handleClick}
+              onClick={handleOpen}
             >
               <span
                 className={`${styles.hamburgerTopBun} bg-darkMatter dark:bg-white`}
@@ -62,9 +67,9 @@ const Header = ({darkMode, setDarkMode}) => {
           <li className={styles.navbarLinkItem} onClick={handleClick}>
             <Typography
               variant="menu"
-              style={currentPage === '/' ? highlightCurrentPage : {}}
+              style={currentPage === '/academie' ? highlightCurrentPage : {}}
             >
-              <Link href="/">Academie</Link>
+              <Link href="/academie">Academie</Link>
             </Typography>
           </li>
           <li className={styles.navbarLinkItem} onClick={handleClick}>
@@ -100,7 +105,7 @@ const Header = ({darkMode, setDarkMode}) => {
               <Link href="/coming-soon">Apply</Link>
             </Typography>
           </li>
-          <Footer propsClick={handleClick} darkMode={darkMode} />
+          <Footer propsClick={handleClick} />
         </ul>
       </nav>
     </header>

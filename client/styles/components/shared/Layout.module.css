@@ -38,8 +38,8 @@
   }
 
   .logo {
-    @apply block right-2 top-8;
-    max-width: 12rem;
+    @apply block right-2 top-6;
+    max-width: 10rem;
   }
 
   .darkModeIcon {
@@ -50,7 +50,7 @@
 @screen lg {
   .logo {
     @apply right-4 top-12;
-    max-width: 15rem;
+    max-width: 12rem;
   }
 
   .darkModeIcon {
@@ -60,7 +60,8 @@
 
 @screen xl {
   .logo {
-    @apply max-w-xs top-12 right-16;
+    @apply top-12 right-16;
+    max-width: 12rem;
   }
 
   .darkModeIcon {

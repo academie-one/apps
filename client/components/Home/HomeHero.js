@@ -4,17 +4,16 @@ import styles from '../../styles/components/Home/HomeHero.module.css';
 const HomeHero = ({data}) => {
   return (
     <div className={styles.container}>
+      <div className={styles.imageContainer}>
+        <img src={data.img} alt="main" className={styles.image} />
+      </div>
       <div className={styles.content}>
-      <Typography variant="h1" className={styles.photoText}>
-            {data.title}
+        <div>
+          <Typography variant="h2" className={styles.heroTitle}>
+            {data.h2Title}
           </Typography>
-
-        <div className={styles.imageContainer}>
-          
-          <img src={data.img} alt="main" className={styles.image} />
+          <Typography variant="body">{data.body}</Typography>
         </div>
-
-        <Typography variant="body">{data.body}</Typography>
       </div>
     </div>
   );

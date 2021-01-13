@@ -1,16 +1,17 @@
-import React, {useEffect, useState, useRef} from 'react';
+import React, {useEffect, useRef, useContext} from 'react';
 import Head from './HeadMeta';
 import Header from './Header';
 import Sidebar from './Sidebar';
-import DarkModeToggle from './DarkModeToggle';
+import ThemeSwitcher from './ThemeSwitcher';
 import Link from 'next/link';
 import {useRouter} from 'next/router';
+import ThemeContext from './ThemeContext';
 
 import styles from '../../styles/components/shared/Layout.module.css';
 
 const Layout = ({children, title}) => {
   const router = useRouter();
-  const [darkMode, setDarkMode] = useState(false);
+  const {theme} = useContext(ThemeContext);
   const ref = useRef(null);
 
   useEffect(() => {
@@ -25,20 +26,16 @@ const Layout = ({children, title}) => {
       <div
         className={`${styles.container} bg-white dark:text-white text-darkMatter dark:bg-darkMatter`}
       >
-        <Header
-          classes={styles.header}
-          darkMode={darkMode}
-          setDarkMode={setDarkMode}
-        />
+        <Header classes={styles.header} />
         <div className={styles.logo}>
           <Link href={`/`} passHref>
-            <button className={`w-full h-full`}>
+            <button className={`w-full h-full focus:outline-none`}>
               <img
                 type="image/svg+xml"
                 src={
-                  darkMode
-                    ? '/icons/logo_white_blue.svg'
-                    : '/icons/logo_black.svg'
+                  theme === 'dark'
+                    ? '/icons/logo_white_new.png'
+                    : '/icons/logo_new.png'
                 }
                 alt="logo"
                 width="100%"
@@ -48,9 +45,9 @@ const Layout = ({children, title}) => {
           </Link>
         </div>
         <div className={styles.darkModeIcon}>
-          <DarkModeToggle darkMode={darkMode} setDarkMode={setDarkMode} />
+          <ThemeSwitcher />
         </div>
-        <Sidebar classes={styles.sidebar} darkMode={darkMode} />
+        <Sidebar classes={styles.sidebar} />
         <main ref={ref} className={styles.main}>
           <div className={styles.content}>{children}</div>
         </main>

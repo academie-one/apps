@@ -1,17 +1,12 @@
-import Legal from '../components/Terms/Legal';
-import Main from '../components/Terms/Main';
-import {
-    Terms as termsData,
-} from '../data/Content.json';
+import Container from '../components/shared/Container';
+import {Terms as termsData} from '../data/Content.json';
 
+const contentArr = ['PageName', 'Legal'];
 
 const Terms = () => {
-    return (
-        <>
-            <Main data={termsData.PageName} />
-            <Legal data={termsData.Legal} />
-        </>
-    );
+  return contentArr.map((content, index) => (
+    <Container key={index} data={termsData[content]} />
+  ));
 };
 
 export default Terms;
