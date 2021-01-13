@@ -1,7 +1,8 @@
-import {Academie as data} from '../data/Content.json';
+import { Academie as data } from '../data/Content.json';
 import Container from '../components/shared/Container';
 
 const contentArr = [
+  'Hero',
   'PageName',
   'Concept',
   'Edu',

@@ -1,7 +1,7 @@
 {
   "MainPage": {
-    "title": "Be One with the Future",
-    "body": "Academie One is a college-level, tution-free, computer programming institution with a peer-to-peer learning environment. Learn the skills you need here to begin your career as a Software Engineer.",
+    "title": "We combine education with a career in IT and guaranteed employment.",
+    "body": "Academie One is open for anyone from 18 to 42 and does not require prior knowledge of programming, diploma or certificate. One can change the future - begin today!",
     "img": "/images/main.png"
   },
   "Foundation": {
@@ -90,6 +90,13 @@
           "body": "The program lasts for four years. After two years of studies, you continue with two-year career development working on global projects."
         }
       ]
+    },
+    "Hero": {
+      "h2Title": "We combine education with a career in IT and guaranteed employment.",
+      "body": "Academie One is open for anyone from 18 to 42 and does not require prior knowledge of programming, diploma or certificate. One can change the future - begin today!",
+      "img": "/images/hero_logo.png",
+      "imgPos": "bottom",
+      "imgAlt": "Academie One Logo Blue"
     },
     "FinancialModel": {
       "h2Title": "Financial Model",
