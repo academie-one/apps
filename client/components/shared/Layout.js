@@ -1,17 +1,17 @@
-import React, {useEffect, useRef, useContext} from 'react';
+import React, { useEffect, useRef, useContext } from 'react';
 import Head from './HeadMeta';
 import Header from './Header';
 import Sidebar from './Sidebar';
 import ThemeSwitcher from './ThemeSwitcher';
 import Link from 'next/link';
-import {useRouter} from 'next/router';
+import { useRouter } from 'next/router';
 import ThemeContext from './ThemeContext';
 
 import styles from '../../styles/components/shared/Layout.module.css';
 
-const Layout = ({children, title}) => {
+const Layout = ({ children, title }) => {
   const router = useRouter();
-  const {theme} = useContext(ThemeContext);
+  const { theme } = useContext(ThemeContext);
   const ref = useRef(null);
 
   useEffect(() => {
@@ -34,8 +34,8 @@ const Layout = ({children, title}) => {
                 type="image/svg+xml"
                 src={
                   theme === 'dark'
-                    ? '/icons/logo_white_blue.svg'
-                    : '/icons/logo_black.svg'
+                    ? '/icons/logo_white_new.png'
+                    : '/icons/logo_new.png'
                 }
                 alt="logo"
                 width="100%"
