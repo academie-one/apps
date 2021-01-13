@@ -201,7 +201,7 @@
       "body": "The curriculum offers over 100 projects that are consistently updated to reflect the latest industry standards. With ten different learning areas to choose from, students will move through two learning stages at the Academie: fundamentals and specialization."
     },
     "Journey": {
-      "h2Title": "Your Path",
+      "h2Title": "Your journey",
       "img": "/images/Admissions/cadetPath.png",
       "imgPos": "bottom",
       "imgAlt": "journey",
@@ -256,7 +256,7 @@
       "body": "Before you can take off with coding at Academie One, you need to take some small steps. Buckle up and let's get started!"
     },
     "Road": {
-      "title": "Your Road To Academie One",
+      "title": "The algorithm",
       "items": [
         {
           "title": "1. Registration & Interview",
