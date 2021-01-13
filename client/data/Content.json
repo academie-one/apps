@@ -104,11 +104,15 @@
     },
     "Edu": {
       "h2Title": "In partnership with 01 Edu System",
-      "body": "01 Edu System is a collaborative education platform to open and run revolutionary coding schools. Its founder Nicolas Sadirac has rigorously designed the curriculum for 20 years to prepare world-class software engineers."
+      "body": "01 Edu System is a collaborative education platform to open and run revolutionary coding schools. Its founder Nicolas Sadirac has rigorously designed the curriculum for 20 years to prepare world-class software engineers.",
+      "img": "images/map.png",
+      "imgPos": "bottom"
     },
     "Campus": {
       "h2Title": "Campus",
-      "body": "We are located in an old refurbished historical tea packing factory. Feel free to study on our campus equipped with 256 iMacs. Relax from your coding session in the gaming area: play chess, tennis, or PS4. Meditate, stretch or chill in the quiet area. The library is also there for you ;) The campus is open 27/7/365"
+      "body": "We are located in an old refurbished historical tea packing factory. Feel free to study on our campus equipped with 256 iMacs. Relax from your coding session in the gaming area: play chess, tennis, or PS4. Meditate, stretch or chill in the quiet area. The library is also there for you ;) The campus is open 27/7/365",
+      "img": "/images/cluster.png",
+      "imgPos": "bottom"
     },
     "Cluster": {
       "title": "Education Cluster",

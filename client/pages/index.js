@@ -1,20 +1,17 @@
-import { Academie as data } from '../data/Content.json';
-import Container from '../components/shared/Container';
+import {
+  Academie as data,
+  Admissions as admissionData,
+} from '../data/Content.json';
+import HomeHero from '../components/Home/HomeHero';
+import ImportantDates from '../components/Admissions/ImportantDates';
 
-const contentArr = [
-  'Hero',
-  'PageName',
-  'Concept',
-  'Edu',
-  'FinancialModel',
-  'Campus',
-  'Almaty',
-];
-
-const Academie = () => {
-  return contentArr.map((content, index) => (
-    <Container key={index} data={data[content]} />
-  ));
+const Home = () => {
+  return (
+    <>
+      <HomeHero data={data.Hero} />
+      <ImportantDates data={admissionData.ImportantDates} />
+    </>
+  );
 };
 
-export default Academie;
+export default Home;

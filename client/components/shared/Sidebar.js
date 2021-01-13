@@ -31,10 +31,10 @@ const Sidebar = ({classes}) => {
       <ul className={`${styles.navUlLinks}`}>
         <li className={styles.navbarLinkItem}>
           <Typography
-            style={currentPage === '/' ? highlightCurrentPage : {}}
+            style={currentPage === '/academie' ? highlightCurrentPage : {}}
             variant="menu"
           >
-            <Link href="/">Academie</Link>
+            <Link href="/academie">Academie</Link>
           </Typography>
         </li>
         <li className={styles.navbarLinkItem}>

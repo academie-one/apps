@@ -3,7 +3,7 @@ import ThemeContext from '../components/shared/ThemeContext';
 import Layout from '../components/shared/Layout';
 import '../styles/globals.css';
 
-function MyApp({Component, pageProps}) {
+const MyApp = ({Component, pageProps}) => {
   const [theme, setTheme] = useState('dark');
 
   useEffect(() => {
@@ -28,6 +28,6 @@ function MyApp({Component, pageProps}) {
       </Layout>
     </ThemeContext.Provider>
   );
-}
+};
 
 export default MyApp;

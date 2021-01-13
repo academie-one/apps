@@ -18,9 +18,9 @@ const Header = () => {
     textDecoration: 'underline',
   };
 
-  const handleClick = () => {
-    setOpen(!open);
-  };
+  const handleClick = () => setOpen(false);
+
+  const handleOpen = () => setOpen(true);
 
   return (
     <header className={styles.header}>
@@ -31,7 +31,10 @@ const Header = () => {
       >
         <div className={styles.navContent}>
           <Link href="/" passHref>
-            <button className={`w-20 h-12 focus:outline-none`}>
+            <button
+              className={`w-20 h-12 focus:outline-none`}
+              onClick={handleClick}
+            >
               <img
                 type="image/svg+xml"
                 src={
@@ -49,7 +52,7 @@ const Header = () => {
             <button
               className={`${styles.hamburger} ${open && styles.open} ml-4`}
               type="button"
-              onClick={handleClick}
+              onClick={handleOpen}
             >
               <span
                 className={`${styles.hamburgerTopBun} bg-darkMatter dark:bg-white`}
@@ -64,9 +67,9 @@ const Header = () => {
           <li className={styles.navbarLinkItem} onClick={handleClick}>
             <Typography
               variant="menu"
-              style={currentPage === '/' ? highlightCurrentPage : {}}
+              style={currentPage === '/academie' ? highlightCurrentPage : {}}
             >
-              <Link href="/">Academie</Link>
+              <Link href="/academie">Academie</Link>
             </Typography>
           </li>
           <li className={styles.navbarLinkItem} onClick={handleClick}>
