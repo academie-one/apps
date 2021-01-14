@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <>
       <HomeHero data={data.Hero} />
-      <ImportantDates data={admissionData.ImportantDates} />
+      { /* <ImportantDates data={admissionData.ImportantDates} /> */}
     </>
   );
 };
