@@ -13,6 +13,7 @@ const HomeHero = ({data}) => {
             {data.h2Title}
           </Typography>
           <Typography variant="body">{data.body}</Typography>
+          <Typography variant="body">{data.body2}</Typography>
         </div>
       </div>
     </div>

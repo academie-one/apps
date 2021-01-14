@@ -93,7 +93,8 @@
     },
     "Hero": {
       "h2Title": "We combine education with a career and guaranteed employment in IT.",
-      "body": "Academie One is open for anyone from 18 to 42 and does not require prior knowledge of programming, diploma or certificate. One can change the future - begin today!",
+      "body": "Academie One is open for anyone from 18 to 42 and does not require prior knowledge of programming, diploma or certificate.",
+      "body2": "One can change the future - begin today!",
       "img": "/images/hero_logo2.png",
       "imgPos": "bottom",
       "imgAlt": "Academie One Logo Blue"
