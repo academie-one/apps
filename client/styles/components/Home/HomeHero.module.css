@@ -7,7 +7,7 @@
 }
 
 .image {
-  @apply w-full;
+  @apply w-full pr-4;
 }
 
 .imageContainer {
@@ -23,10 +23,10 @@
   }
 
   .content {
-    @apply w-7/12;
+    @apply w-6/12;
   }
 
   .imageContainer {
-    @apply w-5/12;
+    @apply w-6/12;
   }
 }
