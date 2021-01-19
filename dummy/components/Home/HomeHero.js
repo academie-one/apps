@@ -6,7 +6,7 @@ const HomeHero = () => {
     <div className={styles.container}>
       <div className={styles.content}>
         <Typography variant="h1" className={styles.photoText}>
-          Happy birthday Dagar! (*≧▽≦)
+          Coming soon.
         </Typography>
       </div>
     </div>

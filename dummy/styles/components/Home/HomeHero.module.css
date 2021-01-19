@@ -24,6 +24,6 @@
 
 .photoText {
   @apply left-0 z-10 whitespace-pre-line -top-28;
-  font-size: 4rem;
+  font-size: 6rem;
   line-height: 100%;
 }
