@@ -1,6 +1,6 @@
 # academie.one
 
-##academie.one applications repository.
+## academie.one applications repository.
 
 To run a client app on local first install all dependencies
 
