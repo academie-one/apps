@@ -4,10 +4,10 @@
 
 To run a client app on local server first install all dependencies
 
-`cd client && yarn`
+`cd [folder name] && yarn`
 
-Then run an application locally.
+Then run an application locally make sure you are in the right application folder and run
 
-`cd client && yarn dev`
+`yarn dev`
 
 To deploy on production make sure *production* branch is up to date.
