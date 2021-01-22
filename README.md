@@ -2,12 +2,12 @@
 
 ## academie.one applications repository.
 
-To run a client app on local first install all dependencies
+To run a client app on local server first install all dependencies
 
-`yarn`
+`cd client && yarn`
 
 Then run an application locally.
 
-`yarn dev`
+`cd client && yarn dev`
 
 To deploy on production make sure *production* branch is up to date.
