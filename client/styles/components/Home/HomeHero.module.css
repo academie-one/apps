@@ -1,5 +1,5 @@
 .container {
-  @apply flex flex-col items-center justify-center h-screen -mt-32;
+  @apply flex flex-col items-center justify-center h-screen -mt-12;
 }
 
 .content {
@@ -11,6 +11,7 @@
 }
 
 .imageContainer {
+  @apply hidden w-full h-auto;
 }
 
 .heroTitle {
@@ -19,7 +20,7 @@
 
 @screen md {
   .container {
-    @apply flex-row;
+    @apply flex-row space-x-8;
   }
 
   .content {
@@ -27,6 +28,6 @@
   }
 
   .imageContainer {
-    @apply w-6/12;
+    @apply block w-6/12;
   }
 }

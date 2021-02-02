@@ -49,7 +49,13 @@ const Layout = ({children, title}) => {
         </div>
         <Sidebar classes={styles.sidebar} />
         <main ref={ref} className={styles.main}>
-          <div className={styles.content}>{children}</div>
+          <div
+            className={`${styles.content} ${
+              router.pathname === '/' ? '' : 'py-20'
+            }`}
+          >
+            {children}
+          </div>
         </main>
       </div>
     </>

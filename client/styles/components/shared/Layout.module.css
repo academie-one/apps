@@ -7,11 +7,11 @@
 }
 
 .main {
-  @apply flex flex-col py-32 overflow-auto col-span-12 row-span-6;
+  @apply w-full min-h-screen overflow-auto col-span-12 row-span-6;
 }
 
 .content {
-  @apply w-11/12 mx-auto;
+  @apply w-11/12 mx-auto mt-12;
 }
 
 .logo {

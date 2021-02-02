@@ -9,13 +9,13 @@ const Road = ({data}) => {
       <div className="flex flex-col mt-12">
         {data.items.map((el, index) => (
           <div
-            className={`flex md:flex-row flex-col items-center space-x-8 space-y-4`}
+            className={`flex md:flex-row flex-col items-center md:space-x-8 space-y-4`}
             key={index}
           >
             <div className={`flex-1`}>
               <img src={el.img} alt="01" />
             </div>
-            <div className={`flex-1`}>
+            <div className={`flex-1 space-y-2`}>
               <Typography variant="h4">{el.title}</Typography>
               <Typography varaint="body">{el.body}</Typography>
             </div>
