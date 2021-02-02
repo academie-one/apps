@@ -52,7 +52,7 @@ const Header = () => {
             <button
               className={`${styles.hamburger} ${open && styles.open} ml-4`}
               type="button"
-              onClick={handleOpen}
+              onClick={!open ? handleOpen : handleClick}
             >
               <span
                 className={`${styles.hamburgerTopBun} bg-darkMatter dark:bg-white`}
