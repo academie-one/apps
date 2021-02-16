@@ -7,7 +7,7 @@ const Learning = ({data}) => {
       <div className={styles.items}>
         {data.items.map((el, index) => (
           <div key={index} className={styles.module}>
-            <Typography className={styles.question} variant="h3">
+            <Typography className={styles.question} variant="h4">
               {el.question}
             </Typography>
             <Typography className={styles.answer} variant="body">
