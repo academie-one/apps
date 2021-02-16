@@ -123,7 +123,7 @@
     "Almaty": {
       "h2Title": "Almaty",
       "body": "Surrounded by beautiful mountain ranges, it is home to many technology companies and large enterprises. It is ideal for studying and living with excellent infrastructure, stunning views, and warm culture.",
-      "img": "/images/almaty_cropped.jpg",
+      "img": "/images/almaty2.jpg",
       "imgPos": "bottom",
       "imgAlt": "Almaty"
     },
@@ -196,7 +196,7 @@
     "Piscine": {
       "title": "1. Pisciner",
       "body": "The Piscine is the final step to join the academy. You have a will discover the methodology, its unique learning method, and what programming is. It's a chance to know each other better.",
-      "img": "/images/Methodology/42ivan.jpg",
+      "img": "/images/Methodology/unsplash-imacs.jpg",
       "items": [
         {
           "title": "New experience",
@@ -220,7 +220,7 @@
       "imgInvert": "reverse"
     },
     "Spec": {
-      "h4Title": "Specializations to choose from",
+      "h4Title": "Specializations to select from",
       "img": "/images/Methodology/specs.jpeg",
       "imgAlt": "specializations",
       "imgPos": "bottom"

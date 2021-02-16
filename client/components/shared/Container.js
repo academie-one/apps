@@ -40,7 +40,7 @@ const Container = ({data}) => {
           </div>
         )}
         {data.imgPos === 'right' && (
-          <img src={data.img} alt="peer-to-peer" style={imgStyle} />
+          <img className={`w-2/5`} src={data.img} alt="peer-to-peer" style={imgStyle} />
         )}
       </div>
 
