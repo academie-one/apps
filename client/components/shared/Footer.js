@@ -54,7 +54,7 @@ const Footer = ({propsClick}) => {
           <>
             <a href={iconLink.web} target="blank">
               <img
-                key={iconLink}
+                key={iconLink.icon}
                 className={`my-2 w-5 h-5 md:w-4 md:h-4`}
                 style={theme === 'dark' ? {} : inverted}
                 rel="icon"
