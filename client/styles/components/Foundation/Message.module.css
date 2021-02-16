@@ -7,5 +7,5 @@
 }
 
 .description {
-  @apply flex flex-col;
+  @apply flex flex-col space-y-4;
 }

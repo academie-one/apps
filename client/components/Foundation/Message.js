@@ -18,7 +18,6 @@ const message = ({ data }) => {
           <Typography variant="body" key={index}>
             {item}
           </Typography>
-          <br />
           </>
         ))}
         
