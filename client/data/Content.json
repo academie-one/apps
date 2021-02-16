@@ -313,6 +313,15 @@
     }
   },
   "Media": {
+    "PageName": {
+      "h1Title": "Media"
+    },
+    "News": {
+      "h2Title": "In the News"
+    },
+    "Kit": {
+      "h2Title": "Media Kit"
+    },
     "items": [
       {
         "title": "MediaKit",
@@ -323,6 +332,8 @@
         "click": "./images/main.png"
       }
     ],
-    "body": "For press inquiries, contact us at press@academie.one"
+    "inquire": {
+      "body": "For press inquiries, contact us at press@academie.one"
+    }
   }
 }
