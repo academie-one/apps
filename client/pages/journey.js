@@ -17,6 +17,8 @@ const Methodology = () => {
       <Container data={data.Spec} />
       <Container data={data.Portfolio} />
       <Container data={data.Career} />
+      <Container data={data.Contract} />
+      <Container data={data.Offer} />
       <Container data={data.Alumni} />
     </>
   );

@@ -236,6 +236,14 @@
       "h2Title": "3. Career",
       "body": "Once you graduate, Academie One guarantees employment to help you kick-start your career with international projects."
     },
+    "Contract": {
+      "h4Title": "Contract info",
+      "body": "When you sign a contract, you get guaranteed employment and free training. In general, the skills development program lasts four years. The first two years you learn programming skills, and the last two years you build up your portfolio with work projects. The contract provides both parties with a guarantee of future cooperation."
+    },
+    "Offer": {
+      "h4Title": "Job offer",
+      "body": "We provide guaranteed employment. This experience can help you in your future employment with other IT companies. The job offer includes such things as a market salary, a comfortable workspace, interesting international projects, lifetime access to Academie One, a social package, and a community of like-minded people and etc."
+    },
     "Alumni": {
       "h4Title": "Academie One Alumni",
       "body": "Once you finish the program, you have lifetime access to the 01 Edu System platform. You will always stay at a bleeding-edge as Academie One alumni."
@@ -290,8 +298,6 @@
     "ImportantDates": {
       "title": "Important Dates",
       "body": [
-        "Piscine II: 01.03.2021 – 26.03.2021",
-        "Piscine II: 01.03.2021 – 26.03.2021",
         "more dates for Piscines to be announced"
       ]
     }
