@@ -10,7 +10,6 @@ const Media = () => {
     <>
       <Container data={data.PageName} />
       {/* <Container data={data.News} /> */}
-      <Container data={data.Kit} />
       <MediaLinks data={data} />
       <Container data={data.inquire} />
       <Container data={data.Brand} />

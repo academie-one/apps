@@ -314,21 +314,23 @@
   },
   "Media": {
     "PageName": {
-      "h1Title": "Media"
+      "h1Title": "Media",
+      "body": "We have prepared a media kit to use our logo and branding elements. We hope you find the materials you need to create your content."
     },
     "News": {
       "h2Title": "In the News"
     },
-    "Kit": {
-      "h2Title": "Media Kit"
-    },
     "items": [
       {
         "title": "Media Kit",
+        "body": "Our current brand assets, including the logo, images, and additional materials.",
+        "msg": "Download materials ↓",
         "click": "./images/almaty2.jpg"
       },
       {
         "title": "Brandbook",
+        "body": "The main assistant who will advise on how to properly use the logo and corporate colors.",
+        "msg": "View guide ↓",
         "click": "./images/main.png"
       }
     ],
@@ -337,8 +339,7 @@
     },
     "Brand": {
       "h2Title": "Brand",
-      "h4Title": "Our Mission",
-      "body": "To Discover, Unite, and Advance talent for global impact."
+      "body": "Our Mission is to Discover, Unite, and Advance talent for global impact."
     },
     "BrandManifesto": {
       "title": "Brand Manifesto",
