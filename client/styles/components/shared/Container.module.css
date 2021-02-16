@@ -1,5 +1,5 @@
 .container {
-  @apply flex flex-col mb-16;
+  @apply flex flex-col mb-8;
 }
 
 .mainContent {
@@ -11,7 +11,7 @@
 }
 
 .items {
-  @apply flex flex-col mt-4 space-y-10;
+  @apply flex flex-col mt-4 space-y-8;
 }
 
 .img {

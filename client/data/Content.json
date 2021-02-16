@@ -324,7 +324,7 @@
     },
     "items": [
       {
-        "title": "MediaKit",
+        "title": "Media Kit",
         "click": "./images/almaty2.jpg"
       },
       {
@@ -334,6 +334,48 @@
     ],
     "inquire": {
       "body": "For press inquiries, contact us at press@academie.one"
+    },
+    "Brand": {
+      "h2Title": "Brand",
+      "h4Title": "Our Mission",
+      "body": "To Discover, Unite, and Advance talent for global impact."
+    },
+    "BrandManifesto": {
+      "title": "Brand Manifesto",
+      "body": [
+        "There's an idea behind our mission that we put into our work. Talent is what drives our society to change. The belief that we can change the future inspires us to change. Talent, when inspired, can change the future. After all, change is constant progress.",
+        "We believe that a whole new era awaits, one characterized by equal opportunities for people looking for self-fulfillment because the most valuable resource in the world is people with knowledge.",
+        "We aspire to connect local talent to the world. Let's build a digital community that can solve problems and influence change."
+      ]
+    },
+    "Values": {
+      "h4Title": "Our Values",
+      "items": [
+        {
+          "title": "Integrity",
+          "body": "Everything we do, we do in good faith and with honesty"
+        },
+        {
+          "title": "Inspired",
+          "body": "We do what we love and we do it for a greater idea."
+        },
+        {
+          "title": "Creative",
+          "body": "We are creative to make new things and improve existing ones."
+        },
+        {
+          "title": "Together",
+          "body": "We do it in cooperation. We are creating a new future opportunity. Each person's contribution is important to the common cause."
+        },
+        {
+          "title": "Discovery",
+          "body": "We support the freedom of each person to pursue knowledge and discover new talents."
+        },
+        {
+          "title": "Culture",
+          "body": "We create a supportive culture for growth, where everyone can reach their potential."
+        }
+      ]
     }
   }
 }
