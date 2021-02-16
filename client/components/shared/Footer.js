@@ -59,6 +59,7 @@ const Footer = ({propsClick}) => {
                 style={theme === 'dark' ? {} : inverted}
                 rel="icon"
                 src={`/icons/${iconLink.icon}.svg`}
+                alt="social-network"
               />
             </a>
           </>
