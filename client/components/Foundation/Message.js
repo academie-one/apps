@@ -14,10 +14,14 @@ const message = ({ data }) => {
       </div>
       <div className={styles.description}>
         {data.body.map((item, index) => (
+          <>
           <Typography variant="body" key={index}>
             {item}
           </Typography>
+          <br />
+          </>
         ))}
+        
       </div>
 
     </div>
