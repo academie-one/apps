@@ -302,6 +302,16 @@
       ]
     }
   },
+  "Contact": {
+    "PageName": {
+      "h1Title": "Contact",
+      "body": "For general inquiries, please contact us at contact@academie.one"
+    },
+    "Address": {
+      "h2Title": "Address",
+      "body": "Gogol st. 253/4 , 050026, Almaty, Kazakhstan"
+    }
+  },
   "Media": {
     "items": [
       {
