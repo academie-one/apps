@@ -1,7 +1,8 @@
 import * as React from 'react';
 import {Journey as data} from '../data/Content.json';
 import Piscine from '../components/Methodology/Piscine';
-import Skills from '../components/Methodology/Skills.jsx';
+import Skills from '../components/Methodology/Skills';
+import Spec from '../components/Methodology/Spec';
 
 import Container from '../components/shared/Container';
 
@@ -14,7 +15,7 @@ const Methodology = () => {
       <Piscine data={data.Piscine} />
       <Container data={data.Cadet} />
       <Skills data={data.Skills} />
-      <Container data={data.Spec} />
+      <Spec data={data.Spec} />
       <Container data={data.Portfolio} />
       <Container data={data.Career} />
       <Container data={data.Contract} />

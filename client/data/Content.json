@@ -249,10 +249,49 @@
     },
     "Spec": {
       "h4Title": "Specializations to select from",
-      "img": "/images/Methodology/skills/web.png",
-      "imgAlt": "specializations",
-      "imgPos": "bottom",
-      "imgInvert": "direct"
+      "imgInvert": "direct",
+      "item":[
+        {
+          "title": "Web ",
+          "img": "/images/Methodology/skills/web.png"
+        },
+        {
+          "title": "Mobile ",
+          "img": "/images/Methodology/skills/mobile.png"
+        },
+        {
+          "title": "AI",
+          "img": "/images/Methodology/skills/ai.png"
+        },
+        {
+          "title": "Data Science",
+          "img": "/images/Methodology/skills/data.png"
+        },
+        {
+          "title": "Cyber Security",
+          "img": "/images/Methodology/skills/cyber.png"
+        },
+        {
+          "title": "Cloud ",
+          "img": "/images/Methodology/skills/cloud.png"
+        },
+        {
+          "title": "Game ",
+          "img": "/images/Methodology/skills/game.png"
+        },
+        {
+          "title": "web",
+          "img": "/images/Methodology/skills/imac.png"
+        },
+        {
+          "title": "web",
+          "img": "/images/Methodology/skills/web.png"
+        },
+        {
+          "title": "web",
+          "img": "/images/Methodology/skills/web.png"
+        }
+      ]
     },
     "Portfolio": {
       "h4Title": "Create Your Portfolio",

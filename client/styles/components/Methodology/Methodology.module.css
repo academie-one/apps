@@ -2,6 +2,10 @@
   @apply flex flex-col mb-20;
 }
 
+.container2 {
+  @apply grid grid-flow-col grid-cols-2 grid-rows-5 gap-4 mb-20 my-8;
+}
+
 .content {
   @apply flex flex-col;
 }
@@ -9,6 +13,10 @@
 @screen md {
   .content {
     @apply flex-row items-center;
+  }
+
+  .container2 {
+    @apply grid grid-flow-col grid-cols-4 grid-rows-2 gap-4 mb-20 my-8;
   }
 }
 
