@@ -101,7 +101,7 @@
     },
     "Concept": {
       "h2Title": "Concept",
-      "img": "/images/academie-people.jpg",
+      "img": "/images/academie-people.png",
       "imgPos": "bottom",
       "imgAlt": "academie people",
       "items": [
@@ -195,7 +195,7 @@
     "Peer": {
       "h2Title": "Methodology",
       "body": "Collaboration is the foundation of peer learning. Students complete their projects in teams to maximize their creativity.",
-      "img": "/images/Methodology/p2p_old.png",
+      "img": "/images/Methodology/p2ptest.png",
       "imgPos": "right",
       "imgAlt": "peer-to-peer",
       "imgInvert": "direct",
@@ -353,7 +353,7 @@
         "title": "Media Kit",
         "body": "Our current brand assets, including the logo, images, and additional materials.",
         "msg": "Download materials ↓",
-        "click": "./images/almaty2.jpg"
+        "click": "./images/almaty2.png"
       },
       {
         "title": "Brandbook",
