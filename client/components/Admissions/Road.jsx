@@ -13,7 +13,7 @@ const Road = ({data}) => {
             key={index}
           >
             <div className={`flex-1`}>
-              <img className={`items-center`} src={el.img} alt="01" />
+              <img src={el.img} alt="01" />
             </div>
             <div className={`flex-1 space-y-2`}>
               <Typography variant="h4">{el.title}</Typography>

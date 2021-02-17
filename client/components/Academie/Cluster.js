@@ -8,7 +8,7 @@ const cluster = ({ data }) => {
       <Typography variant="h4">{data.title2}</Typography>
       <Typography variant="body">{data.body}</Typography>
       {data.images.map((image, index) => (
-        <img className={`my-8`} key={index} src={image} alt="cluster" />
+        <img className={`my-8`} key={index} src={image} alt={`cluster ${index}`} />
       ))}
     </div>
   );
