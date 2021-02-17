@@ -249,9 +249,10 @@
     },
     "Spec": {
       "h4Title": "Specializations to select from",
-      "img": "/images/Methodology/specs.jpeg",
+      "img": "/images/Methodology/skills/web.png",
       "imgAlt": "specializations",
-      "imgPos": "bottom"
+      "imgPos": "bottom",
+      "imgInvert": "direct"
     },
     "Portfolio": {
       "h4Title": "Create Your Portfolio",
