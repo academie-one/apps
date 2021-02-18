@@ -7,7 +7,7 @@ const MediaLinks = ({data}) => {
           <div className={`w-1/2`} key={index}>
             <div className={`flex-1 space-y-8`}>
               <Typography variant="h4">{el.title}</Typography>
-              <Typography variant="body">{el.body}</Typography>
+              <Typography variant="body" className={`pb-8`}>{el.body}</Typography>
               <a href={el.click} download>
                 <p style={{textDecoration: 'underline'}}>{el.msg}</p>
               </a>

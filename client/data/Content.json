@@ -1,7 +1,7 @@
 {
   "MainPage": {
     "title": "We combine education with a career in IT and guaranteed employment.",
-    "body": "Academie One is open for anyone from 18 to 42 and does not require prior knowledge of programming, diploma or certificate. One can change the future - begin today!",
+    "body": "Academie One is open for anyone from 18 to 42 and does not require prior knowledge of programming, diploma or certificate. Everyone can change the future – be One!",
     "img": "/images/main.png"
   },
   "Foundation": {
@@ -97,7 +97,7 @@
   "Academie": {
     "PageName": {
       "h1Title": "Academie",
-      "body": "«My philosophy of life is that difficulties vanish when faced boldly»\n ― Isaac Asimov"
+      "body": "It is an educational platform of a new format, which provides all the conditions for effective training in the IT field. This kind of educational institution has proven its effectiveness in the global world."
     },
     "Concept": {
       "h2Title": "Concept",
@@ -122,14 +122,16 @@
     "Hero": {
       "h2Title": "We combine education with a career and guaranteed employment in IT.",
       "body": "Academie One is open for anyone from 18 to 42 and does not require prior knowledge of programming, diploma or certificate.",
-      "body2": "One can change the future - begin today!",
+      "body2": "Everyone can change the future – be One!",
       "img": "/images/hero_logo2.png",
       "imgPos": "bottom",
       "imgAlt": "Academie One Logo Blue"
     },
     "FinancialModel": {
-      "h2Title": "Financial Model",
-      "body": "We are making significant investments for offering everyone a high-quality education. To reduce the financial barrier to education, we offer a four-year contract - two years of education at the academy and two years of employment at an international outsourcing company based in Almaty. We call it 2+2 investment towards your future."
+      "h2Title": "Business Model",
+      "body": "We are making significant investments for offering everyone a high-quality education. To reduce the financial barrier to education, we offer a four-year contract - two years of education at the academy and two years of employment at an international outsourcing company based in Almaty. We call it 2+2 investment towards your future.",
+      "img": "/images/ata.png",
+      "imgPos": "bottom"
     },
     "Edu": {
       "h2Title": "In partnership with 01 Edu System",
@@ -194,7 +196,7 @@
     },
     "Peer": {
       "h2Title": "Methodology",
-      "body": "Collaboration is the foundation of peer learning. Students complete their projects in teams to maximize their creativity.",
+      "body": "Collaboration is the foundation of peer learning. Students complete their projects in teams to maximize their creativity and stimulates curiosity.",
       "img": "/images/Methodology/p2ptest.png",
       "imgPos": "right",
       "imgAlt": "peer-to-peer",
@@ -209,11 +211,6 @@
           "title": "Informal communication",
           "body": "Students do not talk in their professors' memorized words; instead, they explore the problem and defend their solutions.",
           "img": "/images/Methodology/urban-2.png"
-        },
-        {
-          "title": "Revealing potential",
-          "body": "This approach helps to maximize students' potential and stimulates curiosity.",
-          "img": "/images/Methodology/urban-3.png"
         },
         {
           "title": "Flexible schedule",
@@ -241,8 +238,8 @@
       "body": "The curriculum offers over 100 projects that are consistently updated to reflect the latest industry standards. With ten different learning areas to choose from, students will move through two learning stages at the Academie: fundamentals and specialization."
     },
     "Journey": {
-      "h2Title": "Your journey",
-      "img": "/images/Admissions/cadetPath.png",
+      "h2Title": "Your journey begins here",
+      "img": "/images/Methodology/line.png",
       "imgPos": "bottom",
       "imgAlt": "journey",
       "imgInvert": "reverse"
@@ -252,44 +249,44 @@
       "imgInvert": "direct",
       "item":[
         {
-          "title": "Web ",
-          "img": "/images/Methodology/skills/web.png"
+          "title": "AI",
+          "img": "/images/Methodology/skills/ai.png"
+        },
+        {
+          "title": "Cyber Security",
+          "img": "/images/Methodology/skills/security.png"
         },
         {
           "title": "Mobile ",
           "img": "/images/Methodology/skills/mobile.png"
         },
         {
-          "title": "AI",
-          "img": "/images/Methodology/skills/ai.png"
+          "title": "Game ",
+          "img": "/images/Methodology/skills/game.png"
+        },
+        {
+          "title": "Network & Cloud",
+          "img": "/images/Methodology/skills/cloud.png"
+        },
+        {
+          "title": "Cryptography",
+          "img": "/images/Methodology/skills/cyber.png"
+        },
+        {
+          "title": "Graphic",
+          "img": "/images/Methodology/skills/graphic.png"
+        },
+        {
+          "title": "Web ",
+          "img": "/images/Methodology/skills/web.png"
         },
         {
           "title": "Data Science",
           "img": "/images/Methodology/skills/data.png"
         },
         {
-          "title": "Cyber Security",
-          "img": "/images/Methodology/skills/cyber.png"
-        },
-        {
-          "title": "Cloud ",
-          "img": "/images/Methodology/skills/cloud.png"
-        },
-        {
-          "title": "Game ",
-          "img": "/images/Methodology/skills/game.png"
-        },
-        {
-          "title": "web",
+          "title": "System",
           "img": "/images/Methodology/skills/imac.png"
-        },
-        {
-          "title": "web",
-          "img": "/images/Methodology/skills/web.png"
-        },
-        {
-          "title": "web",
-          "img": "/images/Methodology/skills/web.png"
         }
       ]
     },
@@ -345,6 +342,7 @@
     },
     "Road": {
       "title": "The algorithm",
+      "imgInvert": "direct",
       "items": [
         {
           "title": "1. Registration & Interview",
@@ -382,7 +380,7 @@
   },
   "Media": {
     "PageName": {
-      "h1Title": "Media",
+      "h1Title": "Brand",
       "body": "We have prepared a media kit to use our logo and branding elements. We hope you find the materials you need to create your content."
     },
     "News": {
@@ -397,7 +395,7 @@
       },
       {
         "title": "Brandbook",
-        "body": "The main assistant who will advise on how to properly use the logo and corporate colors.",
+        "body": "The main assistant who will advise on how to properly use the logo and colors.",
         "msg": "View guide ↓",
         "click": "./images/main.png"
       }
@@ -406,14 +404,14 @@
       "body": "For press inquiries, contact us at press@academie.one"
     },
     "Brand": {
-      "h2Title": "Brand",
-      "body": "Our Mission is to Discover, Unite, and Advance talent for global impact."
+      "h4Title": "Our Mission",
+      "body": "Discover, Unite, and Advance talent for global impact."
     },
     "BrandManifesto": {
-      "title": "Brand Manifesto",
+      "title": "Manifesto",
       "body": [
-        "There's an idea behind our mission that we put into our work. Talent is what drives our society to change. The belief that we can change the future inspires us to change. Talent, when inspired, can change the future. After all, change is constant progress.",
         "We believe that a whole new era awaits, one characterized by equal opportunities for people looking for self-fulfillment because the most valuable resource in the world is people with knowledge.",
+        "Talent is what drives our society to change. The belief that we can change the future inspires us to change. Talent, when inspired, can change the future. After all, change is constant progress.",
         "We aspire to connect local talent to the world. Let's build a digital community that can solve problems and influence change."
       ]
     },

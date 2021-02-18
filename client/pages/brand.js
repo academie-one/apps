@@ -1,11 +1,10 @@
 import * as React from 'react';
-import Typography from '../components/shared/Typography';
 import {Media as data} from '../data/Content.json';
 import MediaLinks from '../components/Media/MediaLinks';
 import BrandManifesto from '../components/Media/BrandManifesto';
 import Container from '../components/shared/Container';
 
-const Media = () => {
+const Brand = () => {
   return (
     <>
       <Container data={data.PageName} />
@@ -19,4 +18,4 @@ const Media = () => {
   );
 };
 
-export default Media;
+export default Brand;

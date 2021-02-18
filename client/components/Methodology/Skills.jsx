@@ -23,7 +23,7 @@ const Skills = ({data}) => {
               className={`w-56`}
               src={el.img}
               alt="01"
-              style={theme === 'dark' ? {} : inverted}
+              style={theme === 'dark' ? inverted : {}}
             />
             <div>
               <Typography variant="h4">{el.title}</Typography>

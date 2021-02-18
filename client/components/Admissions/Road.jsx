@@ -1,8 +1,24 @@
-import * as React from 'react';
+import React, {useContext} from 'react';
+import ThemeContext from '../shared/ThemeContext';
 import Typography from '../shared/Typography';
 import styles from '../../styles/components/Admissions/Admissions.module.css';
 
 const Road = ({data}) => {
+  const {theme} = useContext(ThemeContext);
+
+  const inverted = {
+    WebkitFilter: 'invert(1)',
+    filter: 'invert(1)',
+  };
+
+  let imgStyle = {};
+
+  if (theme === 'dark' && data.imgInvert === 'direct') {
+    imgStyle = inverted;
+  } else if (theme !== 'dark' && data.imgInvert === 'reverse') {
+    imgStyle = inverted;
+  }
+
   return (
     <div className={styles.container}>
       <Typography variant="h2">{data.title}</Typography>
@@ -13,7 +29,7 @@ const Road = ({data}) => {
             key={index}
           >
             <div className={`flex-1`}>
-              <img src={el.img} alt="01" />
+              <img src={el.img} alt="01" style={imgStyle}/>
             </div>
             <div className={`flex-1 space-y-2`}>
               <Typography variant="h4">{el.title}</Typography>
