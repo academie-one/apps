@@ -26,7 +26,7 @@ const HeadMeta = ({title}) => {
       <meta property="twitter:title" content="Academie One: Education, Career and Guaranteed Employment in IT" />
       <meta property="twitter:description" content="Welcome to Academie One - the modern training system for programming and career development in IT. The Academy is welcoming anyone from 18 to 42. Every can change the future – be One." />
       <meta property="twitter:image" content=""></meta>
-      <FACEBOOK_PIXEL />
+      {/* <FACEBOOK_PIXEL /> */}
       <link rel="icon" href="/icons/circle.svg" />
     </Head>
   );
