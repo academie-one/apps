@@ -49,51 +49,143 @@
       "body": "To apply, we only ask that you are open-minded, motivated and ready to commit to our 4-year educational and work program program and you must be at least 18."
     },
     "Learning": {
-      "sections": [
+      "h2Title": "Learning",
+      "items": [
         {
-          "h2Title": "Learning",
-          "items": [
-            {
-              "question": "What is 01 Edu System?",
-              "answer": "Platform 01 Edu System is the new generation of educational solutions developed by the team of Nicolas Sadirak. Its purpose is to fill the shortage of creative programmers around the world. Technological solutions like these have already proven their worth at Ecole 42, Epitech, and web@cademie."
-            },
-            {
-              "question": "What are the requirements to apply?",
-              "answer": "What matters most to us is your motivation and commitment to the two-year program. We do not look at your prior experience, education, or degree, as all applicants start from the same starting point in the training system. However, we ask that applicants be at least 18 years old and no more than 42 years old by the time the Piscine selection begins."
-            },
-            {
-              "question": "Do I have to come to Almaty to apply?",
-              "answer": "The online game can be played from anywhere. Your presence is required at Piscine and during the main program."
-            },
-            {
-              "question": "Do I need to be good at math?",
-              "answer": "The programming is not about math, programming is art. You have to be creative."
-            },
-            {
-              "question": "Why is the 4-week intensive training called Piscine?",
-              "answer": "The word “Piscine” is the French word for “swimming pool”, meaning that everyone dives into the deep end of coding and learns how to swim together."
-            },
-            {
-              "question": "How long does it take to complete the program?",
-              "answer": "We strongly believe that every student is unique and should be able to learn at their own pace. The course of study takes on average 2 years of full-time employment. But the course may take over 2 years or less. It depends on your pace of learning. But this is not a race. It is about learning, not winning."
-            },
-            {
-              "question": "What's the language used in the school?",
-              "answer": "All of the academy's content and projects will be available only in English. It is an important language to develop if you want to thrive in the digital world. We want our students to think globally."
-            },
-            {
-              "question": "Can I study part-time?",
-              "answer": "It is not impossible, but very difficult. To be successful in your studies, you will have to spend most of your time in the education cluster. During the pool more than sixty hours a week, and after that an average of forty hours a week to progress at a good pace."
-            },
-            {
-              "question": "Will foreigners be able to attend school?",
-              "answer": "Yes. But we can't provide a visa yet"
-            },
-            {
-              "question": "I am a coder already, why should I apply?",
-              "answer": "The training program is based on world-class experience, which sets tasks for cadets of increased complexity. Each challenge is unique and requires thinking outside the box with other talented and motivated colleagues. Everyone, programmer or not, can find a useful path to Academie One."
-            }
-          ]
+          "question": "What is 01 Edu System?",
+          "answer": "Platform 01 Edu System is the new generation of educational solutions developed by the team of Nicolas Sadirak. Its purpose is to fill the shortage of creative programmers around the world. Technological solutions like these have already proven their worth at Ecole 42, Epitech, and web@cademie."
+        },
+        {
+          "question": "What are the requirements to apply?",
+          "answer": "What matters most to us is your motivation and commitment to the two-year program. We do not look at your prior experience, education, or degree, as all applicants start from the same starting point in the training system. However, we ask that applicants be at least 18 years old and no more than 42 years old by the time the Piscine selection begins."
+        },
+        {
+          "question": "Do I have to come to Almaty to apply?",
+          "answer": "The online game can be played from anywhere. Your presence is required at Piscine and during the main program."
+        },
+        {
+          "question": "Do I need to be good at math?",
+          "answer": "The programming is not about math, programming is art. You have to be creative."
+        },
+        {
+          "question": "Why is the 4-week intensive training called Piscine?",
+          "answer": "The word “Piscine” is the French word for “swimming pool”, meaning that everyone dives into the deep end of coding and learns how to swim together."
+        },
+        {
+          "question": "How long does it take to complete the program?",
+          "answer": "We strongly believe that every student is unique and should be able to learn at their own pace. The course of study takes on average 2 years of full-time employment. But the course may take over 2 years or less. It depends on your pace of learning. But this is not a race. It is about learning, not winning."
+        },
+        {
+          "question": "What's the language used in the school?",
+          "answer": "All of the academy's content and projects will be available only in English. It is an important language to develop if you want to thrive in the digital world. We want our students to think globally."
+        },
+        {
+          "question": "Can I study part-time?",
+          "answer": "It is not impossible, but very difficult. To be successful in your studies, you will have to spend most of your time in the education cluster. During the pool more than sixty hours a week, and after that an average of forty hours a week to progress at a good pace."
+        },
+        {
+          "question": "Will foreigners be able to attend school?",
+          "answer": "Yes. But we can't provide a visa yet"
+        },
+        {
+          "question": "I am a coder already, why should I apply?",
+          "answer": "The training program is based on world-class experience, which sets tasks for cadets of increased complexity. Each challenge is unique and requires thinking outside the box with other talented and motivated colleagues. Everyone, programmer or not, can find a useful path to Academie One."
+        }
+      ]
+    },
+    "Requirements": {
+      "h2Title": "Requirements",
+      "items": [
+        {
+          "question": "What is 01 Edu System?",
+          "answer": "Platform 01 Edu System is the new generation of educational solutions developed by the team of Nicolas Sadirak. Its purpose is to fill the shortage of creative programmers around the world. Technological solutions like these have already proven their worth at Ecole 42, Epitech, and web@cademie."
+        },
+        {
+          "question": "What are the requirements to apply?",
+          "answer": "What matters most to us is your motivation and commitment to the two-year program. We do not look at your prior experience, education, or degree, as all applicants start from the same starting point in the training system. However, we ask that applicants be at least 18 years old and no more than 42 years old by the time the Piscine selection begins."
+        },
+        {
+          "question": "Do I have to come to Almaty to apply?",
+          "answer": "The online game can be played from anywhere. Your presence is required at Piscine and during the main program."
+        },
+        {
+          "question": "Do I need to be good at math?",
+          "answer": "The programming is not about math, programming is art. You have to be creative."
+        },
+        {
+          "question": "Why is the 4-week intensive training called Piscine?",
+          "answer": "The word “Piscine” is the French word for “swimming pool”, meaning that everyone dives into the deep end of coding and learns how to swim together."
+        },
+        {
+          "question": "How long does it take to complete the program?",
+          "answer": "We strongly believe that every student is unique and should be able to learn at their own pace. The course of study takes on average 2 years of full-time employment. But the course may take over 2 years or less. It depends on your pace of learning. But this is not a race. It is about learning, not winning."
+        },
+        {
+          "question": "What's the language used in the school?",
+          "answer": "All of the academy's content and projects will be available only in English. It is an important language to develop if you want to thrive in the digital world. We want our students to think globally."
+        },
+        {
+          "question": "Can I study part-time?",
+          "answer": "It is not impossible, but very difficult. To be successful in your studies, you will have to spend most of your time in the education cluster. During the pool more than sixty hours a week, and after that an average of forty hours a week to progress at a good pace."
+        },
+        {
+          "question": "Will foreigners be able to attend school?",
+          "answer": "Yes. But we can't provide a visa yet"
+        },
+        {
+          "question": "I am a coder already, why should I apply?",
+          "answer": "The training program is based on world-class experience, which sets tasks for cadets of increased complexity. Each challenge is unique and requires thinking outside the box with other talented and motivated colleagues. Everyone, programmer or not, can find a useful path to Academie One."
+        }
+      ]
+    },
+    "PiscineFaq": {
+      "h2Title": "Piscine",
+      "items": [
+        {
+          "question": "What is 01 Edu System?",
+          "answer": "Platform 01 Edu System is the new generation of educational solutions developed by the team of Nicolas Sadirak. Its purpose is to fill the shortage of creative programmers around the world. Technological solutions like these have already proven their worth at Ecole 42, Epitech, and web@cademie."
+        },
+        {
+          "question": "What are the requirements to apply?",
+          "answer": "What matters most to us is your motivation and commitment to the two-year program. We do not look at your prior experience, education, or degree, as all applicants start from the same starting point in the training system. However, we ask that applicants be at least 18 years old and no more than 42 years old by the time the Piscine selection begins."
+        },
+        {
+          "question": "Do I have to come to Almaty to apply?",
+          "answer": "The online game can be played from anywhere. Your presence is required at Piscine and during the main program."
+        }
+      ]
+    },
+    "Curriculum": {
+      "h2Title": "Curriculum",
+      "items": [
+        {
+          "question": "What is 01 Edu System?",
+          "answer": "Platform 01 Edu System is the new generation of educational solutions developed by the team of Nicolas Sadirak. Its purpose is to fill the shortage of creative programmers around the world. Technological solutions like these have already proven their worth at Ecole 42, Epitech, and web@cademie."
+        },
+        {
+          "question": "What are the requirements to apply?",
+          "answer": "What matters most to us is your motivation and commitment to the two-year program. We do not look at your prior experience, education, or degree, as all applicants start from the same starting point in the training system. However, we ask that applicants be at least 18 years old and no more than 42 years old by the time the Piscine selection begins."
+        },
+        {
+          "question": "Do I have to come to Almaty to apply?",
+          "answer": "The online game can be played from anywhere. Your presence is required at Piscine and during the main program."
+        }
+      ]
+    },
+    "Graduation": {
+      "h2Title": "After Graduation",
+      "items": [
+        {
+          "question": "What is 01 Edu System?",
+          "answer": "Platform 01 Edu System is the new generation of educational solutions developed by the team of Nicolas Sadirak. Its purpose is to fill the shortage of creative programmers around the world. Technological solutions like these have already proven their worth at Ecole 42, Epitech, and web@cademie."
+        },
+        {
+          "question": "What are the requirements to apply?",
+          "answer": "What matters most to us is your motivation and commitment to the two-year program. We do not look at your prior experience, education, or degree, as all applicants start from the same starting point in the training system. However, we ask that applicants be at least 18 years old and no more than 42 years old by the time the Piscine selection begins."
+        },
+        {
+          "question": "Do I have to come to Almaty to apply?",
+          "answer": "The online game can be played from anywhere. Your presence is required at Piscine and during the main program."
         }
       ]
     }

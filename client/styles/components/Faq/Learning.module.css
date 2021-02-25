@@ -3,19 +3,35 @@
 }
 
 .module {
-  @apply flex flex-col mr-6;
+  @apply flex flex-col mr-6 my-6;
 }
 
 .items {
-  @apply my-6;
+  @apply mb-4;
 }
 
 .question {
-  @apply mb-6;
+  @apply mb-4;
 }
 
 .answer {
+  @apply mb-4;
+}
+
+.hr {
+  @apply mt-6;
+  opacity: 0.30;
+}
+
+.hr2 {
   @apply mb-6;
+  opacity: 0.30;
+}
+
+.clickable
+{
+  @apply flex justify-between mb-2;
+  cursor: pointer;
 }
 
 @screen sm {

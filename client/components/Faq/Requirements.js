@@ -2,7 +2,7 @@ import * as React from 'react';
 import Typography from '../shared/Typography';
 import styles from '../../styles/components/Faq/Learning.module.css';
 
-const Learning = ({data}) => {
+const Requirements = ({data}) => {
   const [clicked, setClicked] = React.useState(false);
   const [drop, setDrop] = React.useState('+');
 
@@ -14,7 +14,6 @@ const Learning = ({data}) => {
   return (
     <>
       <div className={styles.items}>
-        <hr className={styles.hr2}/>
             <div className={styles.clickable} onClick={handleClick}>
               <Typography variant="h3">{data.h2Title}</Typography>
               <Typography variant="h3">
@@ -41,4 +40,4 @@ const Learning = ({data}) => {
   );
 };
 
-export default Learning;
+export default Requirements;
