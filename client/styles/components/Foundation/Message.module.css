@@ -1,5 +1,5 @@
 .container {
-  @apply flex flex-col mb-20;
+  
 }
 
 .investorContainer {
@@ -8,4 +8,9 @@
 
 .description {
   @apply flex flex-col space-y-4;
+}
+
+.hr {
+  @apply mt-6;
+  opacity: 0.30;
 }
