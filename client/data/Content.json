@@ -10,18 +10,55 @@
       "body": "«To succeed, planning alone is insufficient. One must improvise as well.»"
     },
     "Message": {
-      "title": "Message",
-      "items": {
-        "name": "Yerdos Mendybayev",
-        "title": "Founder of the Academie",
-        "img": "/images/yerdos.jpg"
-      },
-      "body": [
-        "The challenges faced by the country are known and well-documented by analysts and media throughout the world. With all-time same story again and again – oil & gas, mining, agriculture, logistics. What is missing though, is a contrarian perspective, which, while recognizing the challenges and risks, also gives a voice to the compelling reasons to consider other sectors of Kazakhstan economy as an investment destination.",
-        "With oil prices taking a deep dive and COVID-19 pandemia, Kazakh economy is struggling with no clear perspectives. Though, each crisis opens up opportunities, and the latter is the reason to consider investment opportunity into human talent advancement.",
-        "Companies in post-pandemic world will accelerate digitization, while finding the right human talent will represent greater challenge. By 2025, the number of new technology-oriented jobs available in global digital ecosystem is estimated at 149 million, according to a Microsoft study.",
-        "We have launched Academie One to discover and advance human talent from Central Asia for the global world. More than 2000 cadets will be integrated at our educational platform supported by Nicolas Sadirac's 01 Edu System.",
-        "We believe new generation of developers will benefit from an unprecedented global opportunities 21st century has to offer."
+      "title": "Founders",
+      "items": [
+        {
+          "name": "Yerdos Mendybayev",
+          "title": "Founder of the Academie",
+          "img": "/images/yerdos.jpg",
+          "bio": "the majority shareholder and historical leader of the Iliad Group. Self-taught entrepreneur, he has been working in the telematics, Internet and telecommunications industry since the end of the 1980s.",
+          "body": [
+            "The challenges faced by the country are known and well-documented by analysts and media throughout the world. With all-time same story again and again – oil & gas, mining, agriculture, logistics. What is missing though, is a contrarian perspective, which, while recognizing the challenges and risks, also gives a voice to the compelling reasons to consider other sectors of Kazakhstan economy as an investment destination.",
+            "With oil prices taking a deep dive and COVID-19 pandemia, Kazakh economy is struggling with no clear perspectives. Though, each crisis opens up opportunities, and the latter is the reason to consider investment opportunity into human talent advancement.",
+            "Companies in post-pandemic world will accelerate digitization, while finding the right human talent will represent greater challenge. By 2025, the number of new technology-oriented jobs available in global digital ecosystem is estimated at 149 million, according to a Microsoft study.",
+            "We have launched Academie One to discover and advance human talent from Central Asia for the global world. More than 2000 cadets will be integrated at our educational platform supported by Nicolas Sadirac's 01 Edu System.",
+            "We believe new generation of developers will benefit from an unprecedented global opportunities 21st century has to offer."
+          ]
+        },
+        {
+          "name": "Dzhambul Revshanov",
+          "title": "Founder of the Academie",
+          "img": "/images/yerdos.jpg",
+          "bio": "the majority shareholder and historical leader of the Iliad Group. Self-taught entrepreneur, he has been working in the telematics, Internet and telecommunications industry since the end of the 1980s.",
+          "body": [
+            "The challenges faced by the country are known and well-documented by analysts and media throughout the world. With all-time same story again and again – oil & gas, mining, agriculture, logistics. What is missing though, is a contrarian perspective, which, while recognizing the challenges and risks, also gives a voice to the compelling reasons to consider other sectors of Kazakhstan economy as an investment destination.",
+            "With oil prices taking a deep dive and COVID-19 pandemia, Kazakh economy is struggling with no clear perspectives. Though, each crisis opens up opportunities, and the latter is the reason to consider investment opportunity into human talent advancement.",
+            "Companies in post-pandemic world will accelerate digitization, while finding the right human talent will represent greater challenge. By 2025, the number of new technology-oriented jobs available in global digital ecosystem is estimated at 149 million, according to a Microsoft study.",
+            "We have launched Academie One to discover and advance human talent from Central Asia for the global world. More than 2000 cadets will be integrated at our educational platform supported by Nicolas Sadirac's 01 Edu System.",
+            "We believe new generation of developers will benefit from an unprecedented global opportunities 21st century has to offer."
+          ]
+        }
+      ]
+    },
+    "Team": {
+      "title": "Founding team",
+      "items": [
+        {
+          "name": "Alibek Sansyzbayev",
+          "img": "put link here"
+        },
+        {
+          "name": "Alibek Ashirali",
+          "img": "put link here"
+        },
+        {
+          "name": "Iskander Iskakov",
+          "img": "put link here"
+        },
+        {
+          "name": "Abdulkhakim Abdrakhman",
+          "img": "put link here"
+        }
       ]
     }
   },
@@ -56,40 +93,16 @@
           "answer": "Platform 01 Edu System is the new generation of educational solutions developed by the team of Nicolas Sadirak. Its purpose is to fill the shortage of creative programmers around the world. Technological solutions like these have already proven their worth at Ecole 42, Epitech, and web@cademie."
         },
         {
-          "question": "What are the requirements to apply?",
-          "answer": "What matters most to us is your motivation and commitment to the two-year program. We do not look at your prior experience, education, or degree, as all applicants start from the same starting point in the training system. However, we ask that applicants be at least 18 years old and no more than 42 years old by the time the Piscine selection begins."
+          "question": "Why are there no teachers?",
+          "answer": "Academie One is an education based on peer-to-peer learning, in which students learn and discover by themselves and with peers. There is, however, a pedagogical team that makes sure the learning environment works and that students are progressing."
         },
         {
-          "question": "Do I have to come to Almaty to apply?",
-          "answer": "The online game can be played from anywhere. Your presence is required at Piscine and during the main program."
+          "question": "What does 'peer-to-peer learning' mean?",
+          "answer": "Peer-to-peer learning is an education model where students learn from each other instead of learning from an appointed teacher. It emphasizes critical thinking, teamwork, and communication. Students also evaluate each other and learn from explaining to peers."
         },
         {
-          "question": "Do I need to be good at math?",
-          "answer": "The programming is not about math, programming is art. You have to be creative."
-        },
-        {
-          "question": "Why is the 4-week intensive training called Piscine?",
-          "answer": "The word “Piscine” is the French word for “swimming pool”, meaning that everyone dives into the deep end of coding and learns how to swim together."
-        },
-        {
-          "question": "How long does it take to complete the program?",
-          "answer": "We strongly believe that every student is unique and should be able to learn at their own pace. The course of study takes on average 2 years of full-time employment. But the course may take over 2 years or less. It depends on your pace of learning. But this is not a race. It is about learning, not winning."
-        },
-        {
-          "question": "What's the language used in the school?",
-          "answer": "All of the academy's content and projects will be available only in English. It is an important language to develop if you want to thrive in the digital world. We want our students to think globally."
-        },
-        {
-          "question": "Can I study part-time?",
-          "answer": "It is not impossible, but very difficult. To be successful in your studies, you will have to spend most of your time in the education cluster. During the pool more than sixty hours a week, and after that an average of forty hours a week to progress at a good pace."
-        },
-        {
-          "question": "Will foreigners be able to attend school?",
-          "answer": "Yes. But we can't provide a visa yet"
-        },
-        {
-          "question": "I am a coder already, why should I apply?",
-          "answer": "The training program is based on world-class experience, which sets tasks for cadets of increased complexity. Each challenge is unique and requires thinking outside the box with other talented and motivated colleagues. Everyone, programmer or not, can find a useful path to Academie One."
+          "question": "Is it possible to study at the academy without knowing English?",
+          "answer": "It is possible, but we highly recommend to learn English along the way."
         }
       ]
     },
@@ -97,44 +110,20 @@
       "h2Title": "Requirements",
       "items": [
         {
-          "question": "What is 01 Edu System?",
-          "answer": "Platform 01 Edu System is the new generation of educational solutions developed by the team of Nicolas Sadirak. Its purpose is to fill the shortage of creative programmers around the world. Technological solutions like these have already proven their worth at Ecole 42, Epitech, and web@cademie."
-        },
-        {
           "question": "What are the requirements to apply?",
           "answer": "What matters most to us is your motivation and commitment to the two-year program. We do not look at your prior experience, education, or degree, as all applicants start from the same starting point in the training system. However, we ask that applicants be at least 18 years old and no more than 42 years old by the time the Piscine selection begins."
         },
         {
-          "question": "Do I have to come to Almaty to apply?",
-          "answer": "The online game can be played from anywhere. Your presence is required at Piscine and during the main program."
+          "question": "Do I have to know the basics of coding before I apply?",
+          "answer": "No programming knowledge is required. The pool starts with the most basic things in computer science."
+        },
+        {
+          "question": "How many places are available each year?",
+          "answer": "It is planned to recruit 200 candidates for each piscine. After passing the piscine, the system determines the threshold passing score. Next, candidates are determined who have passed this threshold score."
         },
         {
           "question": "Do I need to be good at math?",
           "answer": "The programming is not about math, programming is art. You have to be creative."
-        },
-        {
-          "question": "Why is the 4-week intensive training called Piscine?",
-          "answer": "The word “Piscine” is the French word for “swimming pool”, meaning that everyone dives into the deep end of coding and learns how to swim together."
-        },
-        {
-          "question": "How long does it take to complete the program?",
-          "answer": "We strongly believe that every student is unique and should be able to learn at their own pace. The course of study takes on average 2 years of full-time employment. But the course may take over 2 years or less. It depends on your pace of learning. But this is not a race. It is about learning, not winning."
-        },
-        {
-          "question": "What's the language used in the school?",
-          "answer": "All of the academy's content and projects will be available only in English. It is an important language to develop if you want to thrive in the digital world. We want our students to think globally."
-        },
-        {
-          "question": "Can I study part-time?",
-          "answer": "It is not impossible, but very difficult. To be successful in your studies, you will have to spend most of your time in the education cluster. During the pool more than sixty hours a week, and after that an average of forty hours a week to progress at a good pace."
-        },
-        {
-          "question": "Will foreigners be able to attend school?",
-          "answer": "Yes. But we can't provide a visa yet"
-        },
-        {
-          "question": "I am a coder already, why should I apply?",
-          "answer": "The training program is based on world-class experience, which sets tasks for cadets of increased complexity. Each challenge is unique and requires thinking outside the box with other talented and motivated colleagues. Everyone, programmer or not, can find a useful path to Academie One."
         }
       ]
     },
@@ -142,16 +131,16 @@
       "h2Title": "Piscine",
       "items": [
         {
-          "question": "What is 01 Edu System?",
-          "answer": "Platform 01 Edu System is the new generation of educational solutions developed by the team of Nicolas Sadirak. Its purpose is to fill the shortage of creative programmers around the world. Technological solutions like these have already proven their worth at Ecole 42, Epitech, and web@cademie."
+          "question": "Why is the 4-week intensive training called Piscine?",
+          "answer": "The word “Piscine” is the French word for “swimming pool”, meaning that everyone dives into the deep end of coding and learns how to swim together. This is a four-week trial period. This period will be very stressful and will require commitment. During Piscine, you will discover the basics of programming from scratch."
         },
         {
-          "question": "What are the requirements to apply?",
-          "answer": "What matters most to us is your motivation and commitment to the two-year program. We do not look at your prior experience, education, or degree, as all applicants start from the same starting point in the training system. However, we ask that applicants be at least 18 years old and no more than 42 years old by the time the Piscine selection begins."
+          "question": "What happens if I fail the Piscine? Can I try again?",
+          "answer": "Unfortunately, after a fail in the pool, you will not be able to go through it again. These conditions allow students to take the pool seriously. Don't worry if you don't get through, there are different ways to learn to program and we encourage you to try other styles as well."
         },
         {
-          "question": "Do I have to come to Almaty to apply?",
-          "answer": "The online game can be played from anywhere. Your presence is required at Piscine and during the main program."
+          "question": "What if I want to quit the Piscine in the middle?",
+          "answer": "That is okay! Applicants are free to leave the admissions process at any point. You can just walk out, with no strings attached."
         }
       ]
     },
@@ -159,16 +148,16 @@
       "h2Title": "Curriculum",
       "items": [
         {
-          "question": "What is 01 Edu System?",
-          "answer": "Platform 01 Edu System is the new generation of educational solutions developed by the team of Nicolas Sadirak. Its purpose is to fill the shortage of creative programmers around the world. Technological solutions like these have already proven their worth at Ecole 42, Epitech, and web@cademie."
+          "question": "What does the curriculum include?",
+          "answer": "The first step in learning is to learn the Go programming language and fundamental programming concepts. As you progress through the pool, you will have access to many areas of computer science with deeper branches: object-oriented programming, mobile programming, functional programming, web security, reverse engineering, malicious code, kernel programming, network programming, artificial intelligence, 3D programming and many other areas of programming and IT."
         },
         {
-          "question": "What are the requirements to apply?",
-          "answer": "What matters most to us is your motivation and commitment to the two-year program. We do not look at your prior experience, education, or degree, as all applicants start from the same starting point in the training system. However, we ask that applicants be at least 18 years old and no more than 42 years old by the time the Piscine selection begins."
+          "question": "How long does it take to complete the program?",
+          "answer": "We strongly believe that every student is unique and should be able to learn at their own pace. The course of study takes on average 2 years of full-time employment. But the course may take over 2 years or less. It depends on your pace of learning. But this is not a race. It is about learning, not winning."
         },
         {
-          "question": "Do I have to come to Almaty to apply?",
-          "answer": "The online game can be played from anywhere. Your presence is required at Piscine and during the main program."
+          "question": "How's the curriculum is gamified?",
+          "answer": "You progress through the curriculum by completing projects and earning points. With these points, you level up and unlock more projects and specializations. You can also learn various skills, complete quests, and achievements."
         }
       ]
     },
@@ -176,16 +165,33 @@
       "h2Title": "After Graduation",
       "items": [
         {
-          "question": "What is 01 Edu System?",
-          "answer": "Platform 01 Edu System is the new generation of educational solutions developed by the team of Nicolas Sadirak. Its purpose is to fill the shortage of creative programmers around the world. Technological solutions like these have already proven their worth at Ecole 42, Epitech, and web@cademie."
+          "question": "What kind of jobs will I be able to apply for?",
+          "answer": "Completing the course gives you access to a multitude of positions and jobs in the digital world. Upon completion of the training, we will invite you to work and create pleasant working conditions. This will mean that you will gain invaluable hands-on experience working on real projects."
         },
         {
-          "question": "What are the requirements to apply?",
-          "answer": "What matters most to us is your motivation and commitment to the two-year program. We do not look at your prior experience, education, or degree, as all applicants start from the same starting point in the training system. However, we ask that applicants be at least 18 years old and no more than 42 years old by the time the Piscine selection begins."
+          "question": "Can I come back to school even after graduation?",
+          "answer": "Graduates can return to continue their studies at any time when they want to master new technologies and gain new knowledge. We would like to see alumni remain part of the community."
+        }
+      ]
+    },
+    "Practical": {
+      "h2Title": "Practical Information",
+      "items": [
+        {
+          "question": "What's the language used in the school?",
+          "answer": "All of the academy's content and projects will be available only in English. It is an important language to develop if you want to thrive in the digital world. We want our students to think globally."
         },
         {
-          "question": "Do I have to come to Almaty to apply?",
-          "answer": "The online game can be played from anywhere. Your presence is required at Piscine and during the main program."
+          "question": "Is it possible to study remotely?",
+          "answer": "You can work on your projects remotely from your computer, as well as meet and discuss your projects with other students, but you will not have access to the academy's servers."
+        },
+        {
+          "question": "Can I study part-time?",
+          "answer": "It is possible but very difficult. To be successful in your studies, you will have to spend most of your time in the education cluster. We recommend studying 40 hours a week."
+        },
+        {
+          "question": "Can I stop my studies halfway?",
+          "answer": "We strongly recommend that you do not stop studying, at least for the duration of basic training. But if necessary, you can pause your studies or rest for a couple of weeks."
         }
       ]
     }
