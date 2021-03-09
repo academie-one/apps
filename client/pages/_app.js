@@ -2,10 +2,28 @@ import React, {useState, useEffect} from 'react';
 import ThemeContext from '../components/shared/ThemeContext';
 import Layout from '../components/shared/Layout';
 import '../styles/globals.css';
-import { useRouter } from 'next/router'
+import Router from "next/router";
+
+
+ function ym() {
+  return (
+    "<script src='https://mc.yandex.ru/metrika/watch.js' type='text/javascript'></script>\
+    <script type='text/javascript'>\
+          try {\
+                var yaCounterXXXXX = new Ya.Metrika({\
+                id:72873511,\
+                clickmap:true,\
+                trackLinks:true,\
+                accurateTrackBounce:true,\
+                webvisor:true,\
+                trackHash:true\
+                });\
+          } catch(e) { }\
+    </script>"
+  );
+}
 
 function FacebookPixel() {
-  const Router = useRouter();
   React.useEffect(() => {
     import("react-facebook-pixel")
       .then((x) => x.default)
@@ -40,12 +58,16 @@ const MyApp = ({Component, pageProps}) => {
   }, [theme]);
 
   return (
-    <ThemeContext.Provider value={{theme, setTheme}}>
-      <Layout title={'academie one'}>
-        <Component {...pageProps} />
-        <FacebookPixel />
-      </Layout>
-    </ThemeContext.Provider>
+    <>
+      <ThemeContext.Provider value={{theme, setTheme}}>
+        <Layout title={'academie one'}>
+          <Component {...pageProps} />
+          <FacebookPixel />
+          <div dangerouslySetInnerHTML={{__html: ym()}}/>
+      
+        </Layout>
+      </ThemeContext.Provider>
+    </>
   );
 };
 
