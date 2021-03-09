@@ -2,6 +2,24 @@ import React, {useState, useEffect} from 'react';
 import ThemeContext from '../components/shared/ThemeContext';
 import Layout from '../components/shared/Layout';
 import '../styles/globals.css';
+import { useRouter } from 'next/router'
+
+function FacebookPixel() {
+  const Router = useRouter();
+  React.useEffect(() => {
+    import("react-facebook-pixel")
+      .then((x) => x.default)
+      .then((ReactPixel) => {
+        ReactPixel.init('269170401585750');
+        ReactPixel.pageView();
+
+        Router.events.on("routeChangeComplete", () => {
+          ReactPixel.pageView();
+        });
+      });
+  });
+  return null;
+}
 
 const MyApp = ({Component, pageProps}) => {
   const [theme, setTheme] = useState('dark');
@@ -25,6 +43,7 @@ const MyApp = ({Component, pageProps}) => {
     <ThemeContext.Provider value={{theme, setTheme}}>
       <Layout title={'academie one'}>
         <Component {...pageProps} />
+        <FacebookPixel />
       </Layout>
     </ThemeContext.Provider>
   );
