@@ -45,7 +45,7 @@ const Footer = ({propsClick}) => {
           <Link href="/faq">FAQ</Link>
         </Typography>
         <Typography variant="footer" onClick={handleClick}>
-          <Link href="/brand">Brand</Link>
+          <Link href="/media">Media</Link>
         </Typography>
       </div>
 

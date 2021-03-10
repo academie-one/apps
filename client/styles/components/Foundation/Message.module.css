@@ -1,5 +1,5 @@
 .container {
-  
+  @apply mb-8
 }
 
 .investorContainer {

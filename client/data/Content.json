@@ -7,7 +7,56 @@
   "Foundation": {
     "PageName": {
       "h1Title": "Foundation",
-      "body": "«To succeed, planning alone is insufficient. One must improvise as well.»"
+      "body": "«The foundation of the project lies in the team and in the people who believe in the academy. We share a common mission and work hard to open up new opportunities for future cadets.»"
+    },
+    "Project": {
+      "title": "About the project",
+      "body": [
+        "Academie One is Kazakhstan's first career-oriented programming academy, where we teach and learn differently. We solve the problem of a shortage of IT specialists on the market, while opening up access to a new educational learning environment for those who are looking for new ways to develop.",
+        "Modern teaching methods are based on peer-to-peer interaction. This means that everyone is a teacher and a student, and there will be no teachers or grades. There will be many lines of code and fellow students checking you out and discussing projects with you.",
+        "If you are looking for a way to learn to program and find yourself in the IT market, the academy will be useful for you to get yourself and your skills up to speed."
+     ]
+    },
+    "Brand": {
+      "h4Title": "Our Mission",
+      "body": "Discover, Unite, and Advance talent for global impact."
+    },
+    "BrandManifesto": {
+      "title": "Manifesto",
+      "body": [
+        "We believe that a whole new era awaits, one characterized by equal opportunities for people looking for self-fulfillment because the most valuable resource in the world is people with knowledge.",
+        "Talent is what drives our society to change. The belief that we can change the future inspires us to change. Talent, when inspired, can change the future. After all, change is constant progress.",
+        "We aspire to connect local talent to the world. Let's build a digital community that can solve problems and influence change."
+      ]
+    },
+    "Values": {
+      "h4Title": "Our Values",
+      "items": [
+        {
+          "title": "Integrity",
+          "body": "Everything we do, we do in good faith and with honesty"
+        },
+        {
+          "title": "Inspired",
+          "body": "We do what we love and we do it for a greater idea."
+        },
+        {
+          "title": "Creative",
+          "body": "We are creative to make new things and improve existing ones."
+        },
+        {
+          "title": "Together",
+          "body": "We do it in cooperation. We are creating a new future opportunity. Each person's contribution is important to the common cause."
+        },
+        {
+          "title": "Discovery",
+          "body": "We support the freedom of each person to pursue knowledge and discover new talents."
+        },
+        {
+          "title": "Culture",
+          "body": "We create a supportive culture for growth, where everyone can reach their potential."
+        }
+      ]
     },
     "Message": {
       "title": "Founders",
@@ -482,7 +531,7 @@
   },
   "Media": {
     "PageName": {
-      "h1Title": "Brand",
+      "h1Title": "Media",
       "body": "We have prepared a media kit to use our logo and branding elements. We hope you find the materials you need to create your content."
     },
     "News": {
@@ -504,47 +553,6 @@
     ],
     "inquire": {
       "body": "For press inquiries, contact us at press@academie.one"
-    },
-    "Brand": {
-      "h4Title": "Our Mission",
-      "body": "Discover, Unite, and Advance talent for global impact."
-    },
-    "BrandManifesto": {
-      "title": "Manifesto",
-      "body": [
-        "We believe that a whole new era awaits, one characterized by equal opportunities for people looking for self-fulfillment because the most valuable resource in the world is people with knowledge.",
-        "Talent is what drives our society to change. The belief that we can change the future inspires us to change. Talent, when inspired, can change the future. After all, change is constant progress.",
-        "We aspire to connect local talent to the world. Let's build a digital community that can solve problems and influence change."
-      ]
-    },
-    "Values": {
-      "h4Title": "Our Values",
-      "items": [
-        {
-          "title": "Integrity",
-          "body": "Everything we do, we do in good faith and with honesty"
-        },
-        {
-          "title": "Inspired",
-          "body": "We do what we love and we do it for a greater idea."
-        },
-        {
-          "title": "Creative",
-          "body": "We are creative to make new things and improve existing ones."
-        },
-        {
-          "title": "Together",
-          "body": "We do it in cooperation. We are creating a new future opportunity. Each person's contribution is important to the common cause."
-        },
-        {
-          "title": "Discovery",
-          "body": "We support the freedom of each person to pursue knowledge and discover new talents."
-        },
-        {
-          "title": "Culture",
-          "body": "We create a supportive culture for growth, where everyone can reach their potential."
-        }
-      ]
     }
   }
 }

@@ -6,7 +6,7 @@ const Team = ({ data }) => {
     <div className={styles.container}>
         <Typography variant="h2">{data.title}</Typography>
         {data.items.map((el,index) => (
-            <div className={`flex`}>
+            <div key={index} className={`flex`}>
                 <Typography variant="h4">{el.name}</Typography>
             </div>
         ))}
