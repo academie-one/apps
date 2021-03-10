@@ -13,7 +13,7 @@ const foundation = () => {
       <Project data={data.Project} />
       <Container data={data.Brand} />
       <BrandManifesto data={data.BrandManifesto} />
-      <Values data={data.Values} />
+      {/* <Values data={data.Values} /> */}
       <Message data={data.Message} />
       <Team data={data.Team} />
 

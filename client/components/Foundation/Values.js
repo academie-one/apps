@@ -8,8 +8,8 @@ const Values = ({ data }) => {
         <div className={`space-y-4`}>
             {data.items.map((el, index) => (
                 <div key={index} className={`flex space-x-1`}>
-                    <Typography variant="body" className={`font-bold`}>{el.title}</Typography>
-                    <Typography variant="body" className={`font-bold`}> - </Typography>
+                    <Typography variant="body" >{el.title}</Typography>
+                    <Typography variant="body" > - </Typography>
                     <Typography variant="body">{el.body}</Typography>   
                 </div>
             ))}
