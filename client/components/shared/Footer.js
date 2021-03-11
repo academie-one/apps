@@ -20,19 +20,23 @@ const Footer = ({propsClick}) => {
   const iconLinks = [
     {
       'icon': 'facebook',
-      'web': 'https://www.facebook.com/academie.one'
+      'web': 'https://www.facebook.com/academie.one',
+      'key': 1
     },
     {
       'icon': 'instagram',
-      'web': 'https://www.instagram.com/the.academie/'
+      'web': 'https://www.instagram.com/the.academie/',
+      'key': 2
     },
     {
       'icon': 'telegram',
-      'web': 'https://t.me/theacademie'
+      'web': 'https://t.me/theacademie',
+      'key': 3
     },
     {
       'icon': 'youtube',
-      'web': 'https://www.youtube.com/channel/UCCu8zvywggNLZoVeAuZYdzw'
+      'web': 'https://www.youtube.com/channel/UCCu8zvywggNLZoVeAuZYdzw',
+      'key': 4
     }];
 
   return (
@@ -50,11 +54,11 @@ const Footer = ({propsClick}) => {
       </div>
 
       <div className={`flex flex-row space-x-3`}>
-        {iconLinks.map((iconLink) => (
+        {iconLinks.map((iconLink, index) => (
           <>
             <a href={iconLink.web} target="blank">
               <img
-                key={iconLink.icon}
+                key={index}
                 className={`my-2 w-5 h-5 md:w-4 md:h-4`}
                 style={theme === 'dark' ? {} : inverted}
                 rel="icon"
