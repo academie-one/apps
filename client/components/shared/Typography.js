@@ -21,7 +21,11 @@ const Typography = ({
   const Component = variantProp ? variantsMapping[variantProp] : 'p';
   const variant = variantProp ? variantProp : 'body';
   const color = colorProp ? colorProp : 'default';
-  const classNames = [`${styles[variant]} ${styles[color]}`, classes].join(' ');
+  const classNames = [
+    `${styles[variant]} ${styles[color]}`,
+    'whitespace-pre-line',
+    classes,
+  ].join(' ');
 
   return (
     <Component

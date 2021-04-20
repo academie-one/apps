@@ -1,5 +1,5 @@
 import {
-  Academie as data,
+  Hero as data,
   // Admissions as admissionData,
 } from '../data/Content.json';
 import HomeHero from '../components/Home/HomeHero';
@@ -8,7 +8,7 @@ import HomeHero from '../components/Home/HomeHero';
 const Home = () => {
   return (
     <>
-      <HomeHero data={data.Hero} />
+      <HomeHero data={data} />
       {/* <ImportantDates data={admissionData.ImportantDates} /> */}
     </>
   );

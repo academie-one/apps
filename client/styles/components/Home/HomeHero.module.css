@@ -2,16 +2,21 @@
   @apply flex flex-col items-center justify-center h-screen -mt-12;
 }
 
-.content {
-  @apply flex flex-col;
+.leftText {
+  @apply flex justify-center flex-1;
 }
 
-.image {
-  @apply w-full pr-4;
+.rightText {
+  @apply flex justify-center flex-1;
 }
 
-.imageContainer {
-  @apply hidden w-full h-auto;
+.circleContainer {
+  @apply flex-1 w-full;
+}
+
+.circleDiv {
+  @apply rounded-full bg-blueOne;
+  padding-bottom: 100%;
 }
 
 .heroTitle {
@@ -21,13 +26,5 @@
 @screen md {
   .container {
     @apply flex-row space-x-8;
-  }
-
-  .content {
-    @apply w-6/12;
-  }
-
-  .imageContainer {
-    @apply block w-6/12;
   }
 }

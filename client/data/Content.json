@@ -1,8 +1,7 @@
 {
-  "MainPage": {
-    "title": "We combine education with a career in IT and guaranteed employment.",
-    "body": "Academie One is open for anyone from 18 to 42 and does not require prior knowledge of programming, diploma or certificate. Everyone can change the future – be One!",
-    "img": "/images/main.png"
+  "Hero": {
+    "textLeft": "Do you want to change\nthe industry?",
+    "textRight": "Be the change.\n Be one"
   },
   "Foundation": {
     "PageName": {
@@ -15,7 +14,7 @@
         "Academie One is Kazakhstan's first career-oriented programming academy, where we teach and learn differently. We solve the problem of a shortage of IT specialists on the market, while opening up access to a new educational learning environment for those who are looking for new ways to develop.",
         "Modern teaching methods are based on peer-to-peer interaction. This means that everyone is a teacher and a student, and there will be no teachers or grades. There will be many lines of code and fellow students checking you out and discussing projects with you.",
         "If you are looking for a way to learn to program and find yourself in the IT market, the academy will be useful for you to get yourself and your skills up to speed."
-     ]
+      ]
     },
     "Brand": {
       "h4Title": "Our Mission",
@@ -270,14 +269,6 @@
         }
       ]
     },
-    "Hero": {
-      "h2Title": "We combine education with a career and guaranteed employment in IT.",
-      "body": "Academie One is open for anyone from 18 to 42 and does not require prior knowledge of programming, diploma or certificate.",
-      "body2": "Everyone can change the future – be One!",
-      "img": "/images/hero_logo2.png",
-      "imgPos": "bottom",
-      "imgAlt": "Academie One Logo Blue"
-    },
     "FinancialModel": {
       "h2Title": "Business Model",
       "body": "We are making significant investments for offering everyone a high-quality education. To reduce the financial barrier to education, we offer a four-year contract - two years of education at the academy and two years of employment at an international outsourcing company based in Almaty. We call it 2+2 investment towards your future.",
@@ -398,7 +389,7 @@
     "Spec": {
       "h4Title": "Specializations to select from",
       "imgInvert": "direct",
-      "item":[
+      "item": [
         {
           "title": "AI",
           "img": "/images/Methodology/skills/ai.png"
@@ -514,9 +505,7 @@
     },
     "ImportantDates": {
       "title": "Important Dates",
-      "body": [
-        "more dates for Piscines to be announced"
-      ]
+      "body": ["more dates for Piscines to be announced"]
     }
   },
   "Contact": {
