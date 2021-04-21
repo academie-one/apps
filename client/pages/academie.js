@@ -5,7 +5,7 @@ const contentArr = [
   'PageName',
   'Concept',
   'Edu',
-  'FinancialModel',
+  'Methodology',
   'Campus',
   'Almaty',
 ];

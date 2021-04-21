@@ -247,43 +247,64 @@
   "Academie": {
     "PageName": {
       "h1Title": "Academie",
-      "body": "It is an educational platform of a new format, which provides all the conditions for effective training in the IT field. This kind of educational institution has proven its effectiveness in the global world."
+      "body": "We believe in high-quality IT education for those who want to take on challenges, regardless of their background. Thus, helping talents to unleash their full creativity."
     },
-    "Concept": {
-      "h2Title": "Concept",
-      "img": "/images/academie-people.png",
-      "imgPos": "bottom",
-      "imgAlt": "academie people",
+    "Methodology": {
+      "h2Title": "Methodology",
+      "body": "Collaboration is the foundation of peer learning. Students complete their projects in teams to maximize their creativity and stimulates curiosity.",
+      "img": "/images/Methodology/p2ptest.png",
       "items": [
         {
-          "title": "For everyone",
-          "body": "Everyone age 18-42 can study at Academie One. Just fill the application and try it yourself."
+          "title": "Peer Learning",
+          "body": "The Peer-to-Peer methodology teaches cadets to work as a team: share information, ideas, and experiences. Be a student and a teacher simultaneously.",
+          "img": "/images/peer-learning.jpeg"
         },
         {
-          "title": "Education for challengers",
-          "body": "We believe in high-quality education for those who want to take on challenges, regardless of their background. We help talents to unleash their full creativity."
+          "title": "Learning by doing",
+          "body": "Students do not talk in their professors' memorized words; instead, they explore the problem and defend their solutions.",
+          "img": "/images/learning-by-doing.jpeg"
         },
         {
-          "title": "Job guaranteed",
-          "body": "The program lasts for four years. After two years of studies, you continue with two-year career development working on global projects."
+          "title": "Flexible schedule",
+          "body": "The Education cluster will be open seven days a week, 24 hours a day, so you are free to set your schedule. Cadets usually spend an average of 40 hours per week.",
+          "img": "/images/flexible-schedule.jpeg"
         }
       ]
     },
-    "FinancialModel": {
-      "h2Title": "Business Model",
-      "body": "We are making significant investments for offering everyone a high-quality education. To reduce the financial barrier to education, we offer a four-year contract - two years of education at the academy and two years of employment at an international outsourcing company based in Almaty. We call it 2+2 investment towards your future.",
-      "img": "/images/ata.png",
-      "imgPos": "bottom"
+    "Concept": {
+      "h2Title": "Concept",
+      "itemsDir": "horizontal",
+      "items": [
+        {
+          "title": "Tuition Free",
+          "body": "World class IT education with a 100% scholarship.",
+          "imgAlt": "Tuition Free",
+          "img": "/images/tuition-free.JPG"
+        },
+        {
+          "title": "Job Guaranteed",
+          "body": "Build your experience and expand your portfolio with international projects with a competitive salary.",
+          "imgAlt": "Job Guaranteed",
+          "img": "/images/job-guaranteed.PNG"
+        },
+        {
+          "title": "Silicon Valley Lifestyle",
+          "body": "iMacs, Macbooks + Community library, gym and many more in a 24/7 open space.",
+          "imgAlt": "Silicon Valley Lifestyle",
+          "img": "/images/silicon-valley-lifestyle.JPG"
+        }
+      ]
     },
     "Edu": {
-      "h2Title": "In partnership with 01 Edu System",
+      "h2Title": "01 Edu System by world renown Nicolas Sadirac",
       "body": "01 Edu System is a collaborative education platform to open and run revolutionary coding schools. Its founder Nicolas Sadirac has rigorously designed the curriculum for 20 years to prepare world-class software engineers.",
-      "img": "images/map.png",
-      "imgPos": "bottom"
+      "img": "/images/nicolas.sadirac.jpg",
+      "imgPos": "leftToBody"
     },
     "Campus": {
       "h2Title": "Campus",
-      "body": "We are located in an old refurbished historical tea packing factory. Feel free to study on our campus equipped with 256 iMacs. Relax from your coding session in the gaming area: play chess, tennis, or PS4. Meditate, stretch or chill in the quiet area. The library is also there for you ;) The campus is open 27/7/365",
+      "body": "iMacs, library, gym, cafeteria, gaming area with chess, tennis and PS4, and meditation areas available 24/7 on the palms of your hands on the Academie One campus located in the historical refurbished tea packing factory...",
+      "bodyTail": "... in the city of Almaty.",
       "img": "/images/cluster.jpg",
       "imgPos": "bottom"
     },
@@ -295,7 +316,7 @@
     "Almaty": {
       "h2Title": "Almaty",
       "body": "Surrounded by beautiful mountain ranges, it is home to many technology companies and large enterprises. It is ideal for studying and living with excellent infrastructure, stunning views, and warm culture.",
-      "img": "/images/almaty.jpg",
+      "img": "/images/almaty-new.jpg",
       "imgPos": "bottom",
       "imgAlt": "Almaty"
     },
@@ -335,30 +356,6 @@
     "PageName": {
       "h1Title": "Journey",
       "body": "Our learning approach involves no teachers, no semesters and no boredom — the program bases on peer learning, individual growth, and lots of practice. By the way, job guaranteed"
-    },
-    "Peer": {
-      "h2Title": "Methodology",
-      "body": "Collaboration is the foundation of peer learning. Students complete their projects in teams to maximize their creativity and stimulates curiosity.",
-      "img": "/images/Methodology/p2ptest.png",
-      "imgPos": "right",
-      "imgAlt": "peer-to-peer",
-      "imgInvert": "direct",
-      "items": [
-        {
-          "title": "Teamwork",
-          "body": "The Peer-to-Peer methodology teaches cadets to work as a team: share information, ideas, and experiences. Be a student and a teacher simultaneously.",
-          "img": "/images/Methodology/urban-1.png"
-        },
-        {
-          "title": "Informal communication",
-          "body": "Students do not talk in their professors' memorized words; instead, they explore the problem and defend their solutions.",
-          "img": "/images/Methodology/urban-2.png"
-        },
-        {
-          "title": "Flexible schedule",
-          "body": "The Education cluster will be open seven days a week, 24 hours a day, so you are free to set your schedule. Cadets usually spend an average of 40 hours per week."
-        }
-      ]
     },
     "Piscine": {
       "title": "1. Pisciner",

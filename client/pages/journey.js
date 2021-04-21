@@ -10,7 +10,6 @@ const Methodology = () => {
   return (
     <>
       <Container data={data.PageName} />
-      <Container data={data.Peer} />
       <Container data={data.Journey} />
       <Piscine data={data.Piscine} />
       <Container data={data.Cadet} />
