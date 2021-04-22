@@ -1,0 +1,29 @@
+import React, {useContext} from 'react';
+import styles from '../../styles/components/Academie/InfiniteSlider.module.css';
+import ThemeContext from '../shared/ThemeContext';
+
+const Carousel = ({items}) => {
+  const {theme} = useContext(ThemeContext);
+  return (
+    <div
+      className={`${styles.slider} ${
+        theme === 'dark' ? styles.sliderDark : styles.sliderWhite
+      }`}
+    >
+      <div className={styles.slideTrack}>
+        {[0, 1].map((it) =>
+          items.map((item) => (
+            <img
+              key={item.img.concat(' ', it)}
+              src={item.img}
+              className={styles.companyLogo}
+              alt={item.imgAlt}
+            />
+          )),
+        )}
+      </div>
+    </div>
+  );
+};
+
+export default Carousel;

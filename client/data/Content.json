@@ -301,6 +301,39 @@
       "img": "/images/nicolas.sadirac.jpg",
       "imgPos": "leftToBody"
     },
+    "Graduates": {
+      "h4Title": "Graduates from 01 Edu System get the job at top Companies",
+      "items": [
+        {
+          "img": "/icons/company-logos/facebook.svg",
+          "imgAlt": "facebook-logo"
+        },
+        {
+          "img": "/icons/company-logos/apple.svg",
+          "imgAlt": "apple-logo"
+        },
+        {
+          "img": "/icons/company-logos/amazon.svg",
+          "imgAlt": "amazon-logo"
+        },
+        {
+          "img": "/icons/company-logos/netflix.svg",
+          "imgAlt": "netflix-logo"
+        },
+        {
+          "img": "/icons/company-logos/google.svg",
+          "imgAlt": "google-logo"
+        },
+        {
+          "img": "/icons/company-logos/tesla.svg",
+          "imgAlt": "tesla-logo"
+        },
+        {
+          "img": "/icons/company-logos/dropbox.svg",
+          "imgAlt": "dropbox-logo"
+        }
+      ]
+    },
     "Campus": {
       "h2Title": "Campus",
       "body": "iMacs, library, gym, cafeteria, gaming area with chess, tennis and PS4, and meditation areas available 24/7 on the palms of your hands on the Academie One campus located in the historical refurbished tea packing factory...",
