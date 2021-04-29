@@ -392,22 +392,54 @@
     },
     "Piscine": {
       "title": "1. Pisciner",
-      "body": "The Piscine is the final step to join the academy. You have a will discover the methodology, its unique learning method, and what programming is. It's a chance to know each other better.",
-      "img": "/images/Methodology/unsplash-imacs.jpg",
+      "titleVariant": "h2",
+      "subtitle": "Piscine - is a 4-week long exam that will decide your final admission to Academie One.",
+      "subtitleVariant": "body",
+      "subtitleClass": "font-bold",
+      "body": "Over the Piscine you will spend a 4-week in the premises of Academie One* to really discover the Academie, its unique method of learning and above all what programming really is. Over four weeks you will have coding exercises and projects to do and evaluate, while getting  to know the other Academie candidates.",
+      "img": "/images/tmp.png",
+      "imgPos": "right",
+      "imgAlt": "Piscine",
       "items": [
         {
-          "title": "New experience",
-          "body": "Many students consider Piscine to be one of the highlights of their student life. Everyone around you shares a similar vision and passion for learning."
+          "title": "No Previous Experience required",
+          "titleVariant": "h4",
+          "body": "No prior knowledge of coding is necessary...  other than knowing how to use a mouse and keyboard."
         },
         {
-          "title": "Growth mindset",
-          "body": "There will be a lot of trial and error to help you better understand the problem. You work by yourself and in groups, ask your peers for help, and help your peers complete projects."
+          "title": " High Intensity Exam like no other",
+          "titleVariant": "h4",
+          "body": "The intensity of a 4-week long Piscine period is compatible to 1 year of CS major instructions at on a university level."
+        },
+        {
+          "title": "You will be fully equipped to move on",
+          "titleVariant": "h4",
+          "body": " Our facilities are open 24/7 with everything you need (iMac, library, gym, cafeteria, etc.)  to expand your skills and network."
         }
       ]
     },
     "Cadet": {
-      "h2Title": "2. Cadet",
-      "body": "The curriculum offers over 100 projects that are consistently updated to reflect the latest industry standards. With ten different learning areas to choose from, students will move through two learning stages at the Academie: fundamentals and specialization."
+      "title": "2. Cadet",
+      "titleVariant": "h2",
+      "subtitle": "Сadet - become a world class developer in 2 years",
+      "subtitleVariant": "h4",
+      "body": "After successfully passing Piscine you become a Cadet.\n\nYou start from the fundamentals and transition to one of the specializations during your studies. This would help you become a developer who can solve world-class problems alongside with some of the biggest names in tech.",
+      "img": "/images/tmp.png",
+      "imgPos": "right",
+      "imgAlt": "Cadet",
+
+      "items": [
+        {
+          "title": "Learn from each other",
+          "titleVariant": "h4",
+          "body": "No teachers. No instructions. Make a full use of \"peer learning\" in which students teach each other, and with trial and error, cultivate your stamina as an engineer and problem-solving ability."
+        },
+        {
+          "title": "In Your own Rhythm",
+          "titleVariant": "h4",
+          "body": "Monday to Sunday, day and night. Up to you when you come and go."
+        }
+      ]
     },
     "Journey": {
       "h2Title": "Your journey begins here",
@@ -470,8 +502,31 @@
       "imgInvert": "reverse"
     },
     "Career": {
-      "h2Title": "3. Career",
-      "body": "Once you graduate, Academie One guarantees employment to help you kick-start your career with international projects."
+      "title": "3. Career",
+      "titleVariant": "h2",
+      "subtitle": "Career - kick-start you career with international projects.",
+      "subtitleVariant": "h4",
+      "body": "Quarantine and pandemic have transformed entire industries and businesses are now looking for growth opportunities. We are seeing a growing demand for software engineers, machine learning engineers, and in-house developers across a variety of industries. With Academie One, get ready to enter the IT world the right way.",
+      "items": [
+        {
+          "title": "Guaranteed employment",
+          "titleVariant": "h4",
+          "body": "Once you graduate the Academie you are to be provided by the guaranteed international working experience.",
+          "img": "/images/tmp.png"
+        },
+        {
+          "title": "Competitive salary",
+          "titleVariant": "h4",
+          "body": "Software developers in Kazakhstan earn 2-5x more in average than people of other professions. Be ready to kickstart your career and get compensated fairly.",
+          "img": "/images/tmp.png"
+        },
+        {
+          "title": "International projects",
+          "titleVariant": "h4",
+          "body": "International projects that you will work on would endow you a colossal potential to grow; thus, be even more ready to launch your IT career globally.",
+          "img": "/images/tmp.png"
+        }
+      ]
     },
     "Contract": {
       "h4Title": "Contract info",
@@ -484,22 +539,6 @@
     "Alumni": {
       "h4Title": "Academie One Alumni",
       "body": "Once you finish the program, you have lifetime access to the 01 Edu System platform. You will always stay at a bleeding-edge as Academie One alumni."
-    },
-    "Skills": {
-      "items": [
-        {
-          "title": "Fundamentals",
-          "body": "The projects you work on will introduce you to the core principles of Computer Science. Rather than a series of languages and specific technologies, we will teach you how to learn effectively. With that knowledge, every new fancy technology will be easy to grasp. We call it skills for a lifetime.",
-          "body2": "Duration: 15-18 months",
-          "img": "/images/Methodology/01first.png"
-        },
-        {
-          "title": "Specialization",
-          "body": "Once you become more familiar with the basics, you will work on more complex projects in larger teams. It is the perfect time to choose which field you want to specialize in.",
-          "body2": "Duration: 6 months",
-          "img": "/images/Methodology/01second.png"
-        }
-      ]
     },
     "Ability": {
       "title": "Skills of the program",

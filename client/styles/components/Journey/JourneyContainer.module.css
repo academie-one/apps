@@ -1,0 +1,11 @@
+.container {
+  @apply flex flex-col mb-8 space-y-4;
+}
+
+.itemsContainerRow {
+  @apply grid grid-flow-row gap-y-2;
+}
+
+.itemsContainerCol {
+  @apply grid grid-flow-col gap-x-8 auto-cols-fr;
+}

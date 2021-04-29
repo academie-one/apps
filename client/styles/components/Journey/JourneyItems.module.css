@@ -1,0 +1,11 @@
+.itemsCol {
+  @apply grid grid-flow-col gap-x-4 auto-cols-fr;
+}
+
+.itemsRow {
+  @apply grid grid-flow-row gap-y-4 auto-rows-fr;
+}
+
+.item {
+  @apply space-y-2;
+}
