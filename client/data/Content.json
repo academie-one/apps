@@ -386,13 +386,11 @@
     }
   },
   "Journey": {
-    "PageName": {
-      "h1Title": "Journey",
-      "body": "Our learning approach involves no teachers, no semesters and no boredom — the program bases on peer learning, individual growth, and lots of practice. By the way, job guaranteed"
-    },
     "Piscine": {
-      "title": "1. Pisciner",
-      "titleVariant": "h2",
+      "title": "Pisciner",
+      "preTitle": "1.",
+      "circleColor": "circleBlueOne",
+      "titleVariant": "h3",
       "subtitle": "Piscine - is a 4-week long exam that will decide your final admission to Academie One.",
       "subtitleVariant": "body",
       "subtitleClass": "font-bold",
@@ -403,26 +401,28 @@
       "items": [
         {
           "title": "No Previous Experience required",
-          "titleVariant": "h4",
+          "titleClass": "font-bold",
           "body": "No prior knowledge of coding is necessary...  other than knowing how to use a mouse and keyboard."
         },
         {
           "title": " High Intensity Exam like no other",
-          "titleVariant": "h4",
+          "titleClass": "font-bold",
           "body": "The intensity of a 4-week long Piscine period is compatible to 1 year of CS major instructions at on a university level."
         },
         {
           "title": "You will be fully equipped to move on",
-          "titleVariant": "h4",
+          "titleClass": "font-bold",
           "body": " Our facilities are open 24/7 with everything you need (iMac, library, gym, cafeteria, etc.)  to expand your skills and network."
         }
       ]
     },
     "Cadet": {
-      "title": "2. Cadet",
-      "titleVariant": "h2",
+      "title": "Cadet",
+      "preTitle": "2.",
+      "titleVariant": "h3",
+      "circleColor": "circleBlueOne",
       "subtitle": "Сadet - become a world class developer in 2 years",
-      "subtitleVariant": "h4",
+      "subtitleClass": "font-bold",
       "body": "After successfully passing Piscine you become a Cadet.\n\nYou start from the fundamentals and transition to one of the specializations during your studies. This would help you become a developer who can solve world-class problems alongside with some of the biggest names in tech.",
       "img": "/images/tmp.png",
       "imgPos": "right",
@@ -431,12 +431,12 @@
       "items": [
         {
           "title": "Learn from each other",
-          "titleVariant": "h4",
+          "titleClass": "font-bold",
           "body": "No teachers. No instructions. Make a full use of \"peer learning\" in which students teach each other, and with trial and error, cultivate your stamina as an engineer and problem-solving ability."
         },
         {
           "title": "In Your own Rhythm",
-          "titleVariant": "h4",
+          "titleClass": "font-bold",
           "body": "Monday to Sunday, day and night. Up to you when you come and go."
         }
       ]
@@ -494,51 +494,44 @@
         }
       ]
     },
-    "Portfolio": {
-      "h4Title": "Create Your Portfolio",
-      "body": "Each project you finish in the curriculum goes to your portfolio, which will project your unique skillset.",
-      "img": "/images/Admissions/Graphic_cadet.png",
-      "imgPos": "bottom",
-      "imgInvert": "reverse"
-    },
     "Career": {
-      "title": "3. Career",
-      "titleVariant": "h2",
+      "title": "Career",
+      "preTitle": "3.",
+      "circleColor": "circleCorale",
+      "titleVariant": "h3",
       "subtitle": "Career - kick-start you career with international projects.",
-      "subtitleVariant": "h4",
+      "subtitleClass": "font-bold",
       "body": "Quarantine and pandemic have transformed entire industries and businesses are now looking for growth opportunities. We are seeing a growing demand for software engineers, machine learning engineers, and in-house developers across a variety of industries. With Academie One, get ready to enter the IT world the right way.",
       "items": [
         {
           "title": "Guaranteed employment",
-          "titleVariant": "h4",
+          "titleClass": "font-bold",
           "body": "Once you graduate the Academie you are to be provided by the guaranteed international working experience.",
           "img": "/images/tmp.png"
         },
         {
           "title": "Competitive salary",
-          "titleVariant": "h4",
+          "titleClass": "font-bold",
           "body": "Software developers in Kazakhstan earn 2-5x more in average than people of other professions. Be ready to kickstart your career and get compensated fairly.",
           "img": "/images/tmp.png"
         },
         {
           "title": "International projects",
-          "titleVariant": "h4",
+          "titleClass": "font-bold",
           "body": "International projects that you will work on would endow you a colossal potential to grow; thus, be even more ready to launch your IT career globally.",
           "img": "/images/tmp.png"
         }
       ]
     },
-    "Contract": {
-      "h4Title": "Contract info",
-      "body": "When you sign a contract, you get guaranteed employment and free training. In general, the skills development program lasts four years. The first two years you learn programming skills, and the last two years you build up your portfolio with work projects. The contract provides both parties with a guarantee of future cooperation."
-    },
-    "Offer": {
-      "h4Title": "Job offer",
-      "body": "We provide guaranteed employment. This experience can help you in your future employment with other IT companies. The job offer includes such things as a market salary, a comfortable workspace, interesting international projects, lifetime access to Academie One, a social package, and a community of like-minded people and etc."
-    },
-    "Alumni": {
-      "h4Title": "Academie One Alumni",
-      "body": "Once you finish the program, you have lifetime access to the 01 Edu System platform. You will always stay at a bleeding-edge as Academie One alumni."
+    "Avantage": {
+      "items": [
+        {
+          "body": "Avantage One is a global IT outsourcing company in next-generation digital services and consulting. We are working on bringing contracts from innovative companies all over the globe to Kazakhstan.\n\nAccelerate your career in a company of talented engineers solving challenging problems on an International scale."
+        }
+      ],
+      "img": "/images/avantage.jpg",
+      "imgAlt": "Avantage",
+      "imgPos": "left"
     },
     "Ability": {
       "title": "Skills of the program",

@@ -8,17 +8,12 @@ import JourneyContainer from '../components/Journey/JourneyContainer';
 const Methodology = () => {
   return (
     <>
-      <Container data={data.PageName} />
       <Container data={data.Journey} />
       <JourneyContainer data={data.Piscine} />
       <JourneyContainer data={data.Cadet} />
       <Spec data={data.Spec} />
       <JourneyContainer data={data.Career} itemsDirection={'col'}/>
-
-      <Container data={data.Portfolio} />
-      <Container data={data.Contract} />
-      <Container data={data.Offer} />
-      <Container data={data.Alumni} />
+      <JourneyContainer data={data.Avantage} />
     </>
   );
 };

@@ -6,18 +6,31 @@ import styles from '../../styles/components/Journey/JourneyContainer.module.css'
 const JourneyContainer = ({data, itemsDirection = 'row'}) => {
   let containerType = 'row';
 
-  if (data.imgPos === 'bottom' || data.imgPos === 'top') {
-    containerType = 'row';
-  } else if (data.imgPos === 'left' || data.imgPos === 'right') {
-    containerType = 'col';
-  } else {
-    console.warn('something went wrong with container');
+  if (data && data.img) {
+    if (data.imgPos === 'bottom' || data.imgPos === 'top') {
+      containerType = 'row';
+    } else if (data.imgPos === 'left' || data.imgPos === 'right') {
+      containerType = 'col';
+    } else {
+      console.warn('something went wrong with container');
+    }
   }
 
   return (
     <div className={styles.container}>
       {data.title && (
-        <Typography variant={data.titleVariant}>{data.title}</Typography>
+        <div className={'flex'}>
+          {data.preTitle && (
+            <Typography
+              variant={data.titleVariant}
+              className={styles[data.circleColor]}
+            >
+              {data.preTitle}
+            </Typography>
+          )}
+          &nbsp;
+          <Typography variant={data.titleVariant}>{data.title}</Typography>
+        </div>
       )}
       {data.subtitle && (
         <Typography

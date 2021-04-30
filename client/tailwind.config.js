@@ -36,7 +36,7 @@ module.exports = {
         },
       ],
       h3: [
-        '2rem',
+        '2.5rem',
         {
           lineHeight: '125%',
         },

@@ -9,3 +9,16 @@
 .itemsContainerCol {
   @apply grid grid-flow-col gap-x-8 auto-cols-fr;
 }
+
+.circleBlueOne {
+  border-radius: 50%;
+  text-align: center;
+  @apply w-12 h-12 bg-blueOne;
+}
+
+.circleCorale {
+  border-radius: 50%;
+  text-align: center;
+  @apply w-12 h-12;
+  background: #ff9d8f;
+}
