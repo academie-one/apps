@@ -546,24 +546,23 @@
     },
     "Road": {
       "title": "The algorithm",
+      "imgProg": "/images/Admissions/admission_progress.png",
       "imgInvert": "direct",
       "items": [
         {
-          "title": "1. Registration & Interview",
-          "body": "Create an account on the 01 Edu platform and complete two online games. First game takes around 5 minutes to complete. Second is a longer and usually takes 1 hour. `. No coding is required. If you pass the game, you will receive a link for the introduction meeting with Team One.",
-          "img": "/images/Admissions/urban-1.png"
+          "title": "(1) Register          ",
+          "body": "You can create your Academie One account here...          "
         },
         {
-          "title": "2. Piscine",
-          "body": "Successful candidates who pass the online test will be invited to take the four-week Piscine at Academie One campus. It is the final part of our admission process that introduces you to our educational model.",
-          "img": "/images/Admissions/urban-2.png"
+          "title": "(2) Take a Test",
+          "body": "Go through two online logic games that would decide whether you qualify to become the Pisciner of Academie One...."
         },
         {
-          "title": "3. Review",
-          "body": "If you are selected for the Cadet program, you will have a month to try the program and decide whether you fit in the academy environment. Enjoy the program? Let's evaluate your offer with us.",
-          "img": "/images/Admissions/urban-3.png"
+          "title": "(3) Start your Piscine",
+          "body": "4-week long intensive probation period begins within which you will make your first steps in coding and delve into a supportive community of the Academie One..."
         }
-      ]
+      ],
+      "imgBottom": "/images/tmp.png"
     },
     "ImportantDates": {
       "title": "Important Dates",

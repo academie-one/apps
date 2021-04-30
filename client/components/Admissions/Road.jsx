@@ -21,16 +21,13 @@ const Road = ({data}) => {
 
   return (
     <div className={styles.container}>
-      <Typography variant="h2">{data.title}</Typography>
+      <img src={data.imgProg} alt="progress" style={imgStyle}/>
       <div className="flex flex-col mt-12">
         {data.items.map((el, index) => (
           <div
-            className={`flex md:flex-row flex-col items-center md:space-x-8 space-y-4`}
+            className={styles.listView}
             key={index}
           >
-            <div className={`flex-1`}>
-              <img src={el.img} alt="01" style={imgStyle}/>
-            </div>
             <div className={`flex-1 space-y-2`}>
               <Typography variant="h4">{el.title}</Typography>
               <Typography varaint="body">{el.body}</Typography>
