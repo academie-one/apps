@@ -1,5 +1,13 @@
 .container {
-  @apply mb-8
+  @apply mb-8;
+}
+
+.gridContainer {
+  @apply grid grid-rows-2 grid-flow-col gap-4 mb-16;
+}
+
+.imgContainer {
+  @apply w-full;
 }
 
 .investorContainer {

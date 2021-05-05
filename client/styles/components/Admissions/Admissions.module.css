@@ -1,9 +1,13 @@
 .container {
-  @apply flex flex-col mb-20;
+  @apply flex flex-col space-y-20;
 }
 
 .boxView {
   @apply box-border rounded-2xl h-auto w-auto p-4 border-2 mb-10;
+}
+
+.itemsView {
+  @apply mb-4;
 }
 
 .gridView {
@@ -13,3 +17,22 @@
 .listView {
   @apply flex md:flex-row flex-col items-center md:space-x-8 mb-4;
 }
+
+.container {
+  @apply flex flex-col mb-8 space-y-4;
+}
+
+.itemsContainerRow {
+  @apply grid grid-flow-row gap-y-2;
+}
+
+.itemsContainerCol {
+  @apply grid grid-flow-col gap-x-8 auto-cols-fr;
+}
+
+.circleBlueOne {
+  border-radius: 50%;
+  text-align: center;
+  @apply w-8 h-8 bg-blueOne;
+}
+

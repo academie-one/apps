@@ -28,8 +28,21 @@ const Road = ({data}) => {
             className={styles.listView}
             key={index}
           >
-            <div className={`flex-1 space-y-2`}>
+            <div className={styles.itemsView}> 
+            {el.title && (
+              <div className={'flex'}>
+                {el.preTitle && (
+                  <Typography
+                    variant='h4'
+                    className={styles[el.circleColor]}
+                  >
+                    {el.preTitle}
+                  </Typography>
+                )}
+                &nbsp;
               <Typography variant="h4">{el.title}</Typography>
+              </div>
+            )}
               <Typography varaint="body">{el.body}</Typography>
             </div>
           </div>
