@@ -8,6 +8,7 @@ const variantsMapping = {
   body: 'p',
   caption: 'p',
   menu: 'p',
+  'apply-menu': 'p',
   footer: 'p',
 };
 
