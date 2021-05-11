@@ -22,9 +22,9 @@ const Typography = ({
   const variant = variantProp ? variantProp : 'body';
   const color = colorProp ? colorProp : 'default';
   const classNames = [
-    classes,
     `${styles[variant]} ${styles[color]}`,
     'whitespace-pre-line',
+    classes,
   ].join(' ');
 
   return (
