@@ -248,49 +248,57 @@
   },
   "Academie": {
     "PageName": {
-      "h1Title": "Academie",
+      "title": "Academie",
+      "titleVariant": "h2",
       "body": "We believe in high-quality IT education for those who want to take on challenges, regardless of their background. Thus, helping talents to unleash their full creativity."
     },
     "Methodology": {
-      "h2Title": "Methodology",
+      "title": "Methodology",
+      "titleVariant": "h4",
       "body": "Collaboration is the foundation of peer learning. Students complete their projects in teams to maximize their creativity and stimulates curiosity.",
-      "img": "/images/Methodology/p2ptest.png",
       "items": [
         {
           "title": "Peer Learning",
+          "titleClass": "font-bold",
           "body": "The Peer-to-Peer methodology teaches cadets to work as a team: share information, ideas, and experiences. Be a student and a teacher simultaneously.",
           "img": "/images/peer-learning.jpeg"
         },
         {
           "title": "Learning by doing",
+          "titleClass": "font-bold",
           "body": "Students do not talk in their professors' memorized words; instead, they explore the problem and defend their solutions.",
           "img": "/images/learning-by-doing.jpeg"
         },
         {
           "title": "Flexible schedule",
+          "titleClass": "font-bold",
           "body": "The Education cluster will be open seven days a week, 24 hours a day, so you are free to set your schedule. Cadets usually spend an average of 40 hours per week.",
           "img": "/images/flexible-schedule.jpeg"
         }
       ]
     },
     "Concept": {
-      "h2Title": "Concept",
-      "itemsDir": "horizontal",
+      "title": "Concept",
+      "titleVariant": "h4",
+      "itemsDir": "vertical",
       "items": [
         {
           "title": "Tuition Free",
+          "titleClass": "font-bold",
           "body": "World class IT education with a 100% scholarship.",
           "imgAlt": "Tuition Free",
           "img": "/images/tuition-free.JPG"
         },
         {
           "title": "Job Guaranteed",
+          "titleClass": "font-bold",
           "body": "Build your experience and expand your portfolio with international projects with a competitive salary.",
           "imgAlt": "Job Guaranteed",
           "img": "/images/job-guaranteed.PNG"
         },
         {
           "title": "Silicon Valley Lifestyle",
+          "titleClass": "font-bold",
           "body": "iMacs, Macbooks + Community library, gym and many more in a 24/7 open space.",
           "imgAlt": "Silicon Valley Lifestyle",
           "img": "/images/silicon-valley-lifestyle.JPG"
@@ -298,10 +306,22 @@
       ]
     },
     "Edu": {
-      "h2Title": "01 Edu System by world renown Nicolas Sadirac",
-      "body": "01 Edu System is a collaborative education platform to open and run revolutionary coding schools. Its founder Nicolas Sadirac has rigorously designed the curriculum for 20 years to prepare world-class software engineers.",
-      "img": "/images/nicolas.sadirac.jpg",
-      "imgPos": "leftToBody"
+      "title": "01 Edu System by world renown Nicolas Sadirac",
+      "titleVariant": "h4",
+      "img": "/images/nicolas.sadirac.PNG",
+      "imgPos": "left",
+      "items": [
+        {
+          "body":"Nicolas Sadirac has been implementing a new methodology to education for 25 years. It is based on problem-solving, peer-to-peer learning, and most importantly participatory method. There are no teachers, no lectures, but there are amazing results that free students' collective creativity via project-based learning."
+        },
+        {
+          "body": "I completely agree that education needs to change as the world is changing. Teamwork, creativity and problem-solving skills are the skills of the future workforce and education needs to develop them.",
+          "bodyClass": "italic"
+        },
+        {
+          "body": "\"Over the years, I became convinced that we must completely revolutionize the education system. With technology, we can reinvent school, we can make it a place where all students develop their inventiveness within intelligent collectives. It's the only way to respond sustainably to the need of the digital economy.\""
+        }
+      ]
     },
     "Graduates": {
       "h4Title": "Graduates from 01 Edu System get the job at top Companies",
@@ -337,19 +357,14 @@
       ]
     },
     "Campus": {
-      "h2Title": "Campus",
+      "h4Title": "Campus",
       "body": "iMacs, library, gym, cafeteria, gaming area with chess, tennis and PS4, and meditation areas available 24/7 on the palms of your hands on the Academie One campus located in the historical refurbished tea packing factory...",
       "bodyTail": "... in the city of Almaty.",
       "img": "/images/cluster.jpg",
       "imgPos": "bottom"
     },
-    "Cluster": {
-      "title": "Education Cluster",
-      "body": "An educational campus is an open and immersive space designed for a complete and comfortable immersion in the learning process. It is a creative and safe space, equipped with cutting edge technologies that foster collaboration, communication and teamwork. The total area of the academy is 4042 sq. m",
-      "images": ["/images/cluster1.jpeg"]
-    },
     "Almaty": {
-      "h2Title": "Almaty",
+      "h4Title": "Almaty",
       "body": "Surrounded by beautiful mountain ranges, it is home to many technology companies and large enterprises. It is ideal for studying and living with excellent infrastructure, stunning views, and warm culture.",
       "img": "/images/almaty-new.jpg",
       "imgPos": "bottom",
@@ -429,7 +444,6 @@
       "img": "/images/tmp.png",
       "imgPos": "right",
       "imgAlt": "Cadet",
-
       "items": [
         {
           "title": "Learn from each other",

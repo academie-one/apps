@@ -13,6 +13,7 @@
 
 .sliderWhite::before,
 .sliderWhite::after {
+	@apply -m-px;
 	background: linear-gradient(
 		to right,
 		rgba(255, 255, 255, 1) 0%,

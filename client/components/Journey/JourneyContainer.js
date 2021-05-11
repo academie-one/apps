@@ -26,9 +26,9 @@ const JourneyContainer = ({data, itemsDirection = 'row'}) => {
               className={styles[data.circleColor]}
             >
               {data.preTitle}
+              &nbsp;
             </Typography>
           )}
-          &nbsp;
           <Typography variant={data.titleVariant}>{data.title}</Typography>
         </div>
       )}
