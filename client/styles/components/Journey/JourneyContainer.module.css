@@ -7,7 +7,7 @@
 }
 
 .itemsContainerCol {
-  @apply grid grid-flow-col gap-x-8 auto-cols-fr;
+  @apply grid grid-flow-row gap-y-8 auto-cols-fr;
 }
 
 .circleBlueOne {
@@ -21,4 +21,10 @@
   text-align: center;
   @apply w-12 h-12;
   background: #ff9d8f;
+}
+
+@screen md {
+  .itemsContainerCol {
+    @apply grid-flow-col gap-x-8 auto-cols-fr;
+  }
 }

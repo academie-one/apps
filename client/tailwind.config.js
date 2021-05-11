@@ -48,13 +48,13 @@ module.exports = {
         },
       ],
       h4: [
-        '1.5rem',
+        '1.75rem',
         {
           lineHeight: '120%',
         },
       ],
       'h4-mobile': [
-        '1.25rem',
+        '1.5rem',
         {
           lineHeight: '120%',
         },

@@ -1,5 +1,5 @@
 .itemsCol {
-  @apply grid grid-flow-col gap-x-4 auto-cols-fr;
+  @apply grid grid-flow-row gap-y-4;
 }
 
 .itemsRow {
@@ -8,4 +8,10 @@
 
 .item {
   @apply space-y-2;
+}
+
+@screen md {
+  .itemsCol {
+    @apply grid-flow-col gap-x-4 auto-cols-fr;
+  }
 }
