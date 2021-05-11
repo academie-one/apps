@@ -3,7 +3,7 @@
 }
 
 .itemsRow {
-  @apply grid grid-flow-row gap-y-4 auto-rows-fr;
+  @apply grid grid-flow-row gap-y-4;
 }
 
 .item {
