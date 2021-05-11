@@ -67,9 +67,9 @@ const Sidebar = ({classes}) => {
           className={styles.navbarLinkItem}
         >
           <Typography
+            className={`text-darkMatter font-normal dark:text-blueOne`}
             style={currentPage === '/coming-soon' ? highlightCurrentPage : {}}
             variant="menu"
-            className={`text-darkMatter font-normal dark:text-blueOne`}
           >
             <Link href="/coming-soon">Apply</Link>
           </Typography>
