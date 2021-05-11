@@ -3,7 +3,7 @@
 }
 
 .gridContainer {
-  @apply grid grid-rows-2 grid-flow-col gap-4 mb-16;
+  @apply mb-16;
 }
 
 .imgContainer {
@@ -21,4 +21,10 @@
 .hr {
   @apply mt-6;
   opacity: 0.30;
+}
+
+@screen sm {
+  .gridContainer {
+    @apply grid grid-rows-2 grid-cols-3 grid-flow-col gap-4 ;
+  }
 }
