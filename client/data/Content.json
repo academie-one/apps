@@ -259,19 +259,19 @@
       "items": [
         {
           "title": "Peer Learning",
-          "titleClass": "font-bold",
+          "titleClass": "text-bold",
           "body": "The Peer-to-Peer methodology teaches cadets to work as a team: share information, ideas, and experiences. Be a student and a teacher simultaneously.",
           "img": "/images/peer-learning.jpeg"
         },
         {
           "title": "Learning by doing",
-          "titleClass": "font-bold",
+          "titleClass": "text-bold",
           "body": "Students do not talk in their professors' memorized words; instead, they explore the problem and defend their solutions.",
           "img": "/images/learning-by-doing.jpeg"
         },
         {
           "title": "Flexible schedule",
-          "titleClass": "font-bold",
+          "titleClass": "text-bold",
           "body": "The Education cluster will be open seven days a week, 24 hours a day, so you are free to set your schedule. Cadets usually spend an average of 40 hours per week.",
           "img": "/images/flexible-schedule.jpeg"
         }
@@ -284,21 +284,21 @@
       "items": [
         {
           "title": "Tuition Free",
-          "titleClass": "font-bold",
+          "titleClass": "text-bold",
           "body": "World class IT education with a 100% scholarship.",
           "imgAlt": "Tuition Free",
           "img": "/images/tuition-free.JPG"
         },
         {
           "title": "Job Guaranteed",
-          "titleClass": "font-bold",
+          "titleClass": "text-bold",
           "body": "Build your experience and expand your portfolio with international projects with a competitive salary.",
           "imgAlt": "Job Guaranteed",
           "img": "/images/job-guaranteed.PNG"
         },
         {
           "title": "Silicon Valley Lifestyle",
-          "titleClass": "font-bold",
+          "titleClass": "text-bold",
           "body": "iMacs, Macbooks + Community library, gym and many more in a 24/7 open space.",
           "imgAlt": "Silicon Valley Lifestyle",
           "img": "/images/silicon-valley-lifestyle.JPG"
@@ -410,7 +410,7 @@
       "titleVariant": "h3",
       "subtitle": "Piscine - is a 4-week long exam that will decide your final admission to Academie One.",
       "subtitleVariant": "body",
-      "subtitleClass": "font-bold",
+      "subtitleClass": "text-bold",
       "body": "Over the Piscine you will spend a 4-week in the premises of Academie One* to really discover the Academie, its unique method of learning and above all what programming really is. Over four weeks you will have coding exercises and projects to do and evaluate, while getting  to know the other Academie candidates.",
       "img": "/images/tmp.png",
       "imgPos": "right",
@@ -418,17 +418,17 @@
       "items": [
         {
           "title": "No Previous Experience required",
-          "titleClass": "font-bold",
+          "titleClass": "text-bold",
           "body": "No prior knowledge of coding is necessary...  other than knowing how to use a mouse and keyboard."
         },
         {
           "title": " High Intensity Exam like no other",
-          "titleClass": "font-bold",
+          "titleClass": "text-bold",
           "body": "The intensity of a 4-week long Piscine period is compatible to 1 year of CS major instructions at on a university level."
         },
         {
           "title": "You will be fully equipped to move on",
-          "titleClass": "font-bold",
+          "titleClass": "text-bold",
           "body": " Our facilities are open 24/7 with everything you need (iMac, library, gym, cafeteria, etc.)  to expand your skills and network."
         }
       ]
@@ -439,7 +439,7 @@
       "titleVariant": "h3",
       "circleColor": "circleBlueOne",
       "subtitle": "Сadet - become a world class developer in 2 years",
-      "subtitleClass": "font-bold",
+      "subtitleClass": "text-bold",
       "body": "After successfully passing Piscine you become a Cadet.\n\nYou start from the fundamentals and transition to one of the specializations during your studies. This would help you become a developer who can solve world-class problems alongside with some of the biggest names in tech.",
       "img": "/images/tmp.png",
       "imgPos": "right",
@@ -447,12 +447,12 @@
       "items": [
         {
           "title": "Learn from each other",
-          "titleClass": "font-bold",
+          "titleClass": "text-bold",
           "body": "No teachers. No instructions. Make a full use of \"peer learning\" in which students teach each other, and with trial and error, cultivate your stamina as an engineer and problem-solving ability."
         },
         {
           "title": "In Your own Rhythm",
-          "titleClass": "font-bold",
+          "titleClass": "text-bold",
           "body": "Monday to Sunday, day and night. Up to you when you come and go."
         }
       ]
@@ -516,24 +516,24 @@
       "circleColor": "circleCorale",
       "titleVariant": "h3",
       "subtitle": "Career - kick-start you career with international projects.",
-      "subtitleClass": "font-bold",
+      "subtitleClass": "text-bold",
       "body": "Quarantine and pandemic have transformed entire industries and businesses are now looking for growth opportunities. We are seeing a growing demand for software engineers, machine learning engineers, and in-house developers across a variety of industries. With Academie One, get ready to enter the IT world the right way.",
       "items": [
         {
           "title": "Guaranteed employment",
-          "titleClass": "font-bold",
+          "titleClass": "text-bold",
           "body": "Once you graduate the Academie you are to be provided by the guaranteed international working experience.",
           "img": "/images/tmp.png"
         },
         {
           "title": "Competitive salary",
-          "titleClass": "font-bold",
+          "titleClass": "text-bold",
           "body": "Software developers in Kazakhstan earn 2-5x more in average than people of other professions. Be ready to kickstart your career and get compensated fairly.",
           "img": "/images/tmp.png"
         },
         {
           "title": "International projects",
-          "titleClass": "font-bold",
+          "titleClass": "text-bold",
           "body": "International projects that you will work on would endow you a colossal potential to grow; thus, be even more ready to launch your IT career globally.",
           "img": "/images/tmp.png"
         }

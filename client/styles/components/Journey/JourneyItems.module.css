@@ -10,6 +10,10 @@
   @apply space-y-2;
 }
 
+.text-bold {
+  @apply font-bold;
+}
+
 @screen md {
   .itemsCol {
     @apply grid-flow-col gap-x-4 auto-cols-fr;

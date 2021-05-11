@@ -12,7 +12,7 @@ const JourneyItems = ({items, direction = 'row'}) => {
           )}
 
           {el.title && (
-            <Typography variant={el.titleVariant} className={el.titleClass === 'font-bold' ? 'font-bold' : ''}>
+            <Typography variant={el.titleVariant} className={styles[el.titleClass]}>
               {el.title}
             </Typography>
           )}
