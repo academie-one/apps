@@ -390,7 +390,7 @@
   "Journey": {
     "Piscine": {
       "title": "Pisciner",
-      "preTitle": "1.",
+      "preTitle": "1",
       "circleColor": "circleBlueOne",
       "titleVariant": "h3",
       "subtitle": "Piscine - is a 4-week long exam that will decide your final admission to Academie One.",
@@ -420,7 +420,7 @@
     },
     "Cadet": {
       "title": "Cadet",
-      "preTitle": "2.",
+      "preTitle": "2",
       "titleVariant": "h3",
       "circleColor": "circleBlueOne",
       "subtitle": "Сadet - become a world class developer in 2 years",
@@ -498,7 +498,7 @@
     },
     "Career": {
       "title": "Career",
-      "preTitle": "3.",
+      "preTitle": "3",
       "circleColor": "circleCorale",
       "titleVariant": "h3",
       "subtitle": "Career - kick-start you career with international projects.",
@@ -552,19 +552,19 @@
       "imgInvert": "reverse",
       "items": [
         {
-          "preTitle": "1.",
+          "preTitle": "1",
           "circleColor": "circleBlueOne",
           "title": "Register          ",
           "body": "You can create your Academie One account here...          "
         },
         {
-          "preTitle": "2.",
+          "preTitle": "2",
           "circleColor": "circleBlueOne",
           "title": "Take a Test",
           "body": "Go through two online logic games that would decide whether you qualify to become the Pisciner of Academie One...."
         },
         {
-          "preTitle": "3.",
+          "preTitle": "3",
           "circleColor": "circleBlueOne",
           "title": "Start your Piscine",
           "body": "4-week long intensive probation period begins within which you will make your first steps in coding and delve into a supportive community of the Academie One..."

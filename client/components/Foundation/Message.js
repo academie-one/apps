@@ -6,10 +6,10 @@ const Message = ({ data }) => {
     <div className={styles.container}>
       {data.items.map((el, index) => (
       <div className={styles.gridContainer}>
-        <div class="row-span-2 ...">
+        <div class="sm:row-span-3">
           <img src={el.img} key={index} className={styles.imgContainer}/>
         </div>
-        <div class="space-y-8 row-span-2 col-span-2 ...">
+        <div class="space-y-8 sm:row-span-2 sm:col-span-2 ...">
           <Typography variant="h4">{el.name}</Typography>
           <Typography variant="body">{el.title}</Typography>
           <Typography variant="body">{el.bio}</Typography>
