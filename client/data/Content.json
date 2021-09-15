@@ -283,6 +283,13 @@
       "itemsDir": "vertical",
       "items": [
         {
+          "title": "For beginners, too",
+          "titleClass": "text-bold",
+          "body": "No prior coding or math experience required; training starts from scratch.",
+          "imgAlt": "Silicon Valley Lifestyle",
+          "img": "/images/silicon-valley-lifestyle.JPG"
+        },
+        {
           "title": "Tuition Free",
           "titleClass": "text-bold",
           "body": "World class IT education with a 100% scholarship.",
@@ -295,13 +302,6 @@
           "body": "Build your experience and expand your portfolio with international projects with a competitive salary.",
           "imgAlt": "Job Guaranteed",
           "img": "/images/job-guaranteed.PNG"
-        },
-        {
-          "title": "Silicon Valley Lifestyle",
-          "titleClass": "text-bold",
-          "body": "iMacs, Macbooks + Community library, gym and many more in a 24/7 open space.",
-          "imgAlt": "Silicon Valley Lifestyle",
-          "img": "/images/silicon-valley-lifestyle.JPG"
         }
       ]
     },
@@ -459,10 +459,10 @@
     },
     "Journey": {
       "h2Title": "Your journey begins here",
-      "img": "/images/Methodology/line.png",
+      "img": "/images/3dots/3dots_white.png",
+      "img2": "/images/3dots/3dots_black.png",
       "imgPos": "bottom",
-      "imgAlt": "journey",
-      "imgInvert": "reverse"
+      "imgAlt": "journey"
     },
     "Spec": {
       "h4Title": "Specializations to select from",

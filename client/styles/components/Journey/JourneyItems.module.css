@@ -16,6 +16,6 @@
 
 @screen md {
   .itemsCol {
-    @apply grid-flow-col gap-x-4 auto-cols-fr;
+    @apply grid-flow-col gap-x-8 auto-cols-fr;
   }
 }

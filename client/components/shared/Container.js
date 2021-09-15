@@ -18,6 +18,10 @@ const invertImage = (theme, imgInvert) => {
   return imgStyle;
 };
 
+const chooseImg = (theme, data) => {
+  return (theme === 'dark' ? data.img : data.img2); 
+};
+
 const HorizontalItems = ({items, theme}) => {
   return (
     <>
@@ -77,7 +81,7 @@ const Container = ({data}) => {
       {data.imgPos === 'bottom' && (
         <div>
           <img
-            src={data.img}
+            src={chooseImg(theme, data)}
             alt={data.imgAlt}
             className={styles.img}
             style={invertImage(theme, data.imgInvert)}
