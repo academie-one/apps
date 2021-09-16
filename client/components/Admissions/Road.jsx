@@ -3,6 +3,10 @@ import ThemeContext from '../shared/ThemeContext';
 import Typography from '../shared/Typography';
 import styles from '../../styles/components/Admissions/Admissions.module.css';
 
+const chooseImg = (theme, data) => {
+  return (theme === 'dark' ? data.img : data.img2); 
+};
+
 const Road = ({data}) => {
   const {theme} = useContext(ThemeContext);
 
@@ -21,7 +25,7 @@ const Road = ({data}) => {
 
   return (
     <div className={styles.container}>
-      <img src={data.imgProg} alt="progress" style={imgStyle}/>
+      <img src={chooseImg(theme, data)} alt="progress" style={imgStyle}/>
       <div className="flex flex-col mt-12">
         {data.items.map((el, index) => (
           <div

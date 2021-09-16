@@ -43,13 +43,10 @@ const Footer = ({propsClick}) => {
   return (
     <div className={`${styles.navFooterLinks}`}>
       <div className={`flex flex-row space-x-2`}>
-        <Typography variant="footer" onClick={handleClick}>
+        <Typography variant="caption" onClick={handleClick}>
           <Link href="/contact">Contact</Link>
         </Typography>
-        <Typography variant="footer" onClick={handleClick}>
-          <Link href="/faq">FAQ</Link>
-        </Typography>
-        <Typography variant="footer" onClick={handleClick}>
+        <Typography variant="caption" onClick={handleClick}>
           <Link href="/media">Media</Link>
         </Typography>
       </div>
@@ -68,10 +65,6 @@ const Footer = ({propsClick}) => {
           </a>
         ))}
       </div>
-      <Typography variant="footer">© Academie One</Typography>
-      <Typography variant="footer" className={`pt-8`} onClick={handleClick}>
-        <Link href="/terms">Terms & Conditions</Link>
-      </Typography>
     </div>
   );
 };

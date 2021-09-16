@@ -562,8 +562,8 @@
     },
     "Road": {
       "title": "The algorithm",
-      "imgProg": "/images/Admissions/admission_progress.png",
-      "imgInvert": "reverse",
+      "img": "/images/3dots/3dots_basic2.png",
+      "img2": "/images/3dots/3dots_basic.png",
       "items": [
         {
           "preTitle": "1",
