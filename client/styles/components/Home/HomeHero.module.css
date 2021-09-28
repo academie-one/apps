@@ -5,12 +5,17 @@
 .leftText {
   @apply flex items-center;
 }
+
 .rightText {
-  @apply ml-8 flex items-center;
+  @apply flex items-center;
 }
 
 .circleContainer {
-  @apply items-center;
+  @apply w-3/4 items-center;
+}
+
+.blueText {
+  @apply text-blueOne !important;
 }
 
 .circleDiv {

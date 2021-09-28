@@ -3,22 +3,20 @@ import styles from '../../styles/components/Foundation/Message.module.css';
 
 const Message = ({ data }) => {
   return (
-    <div className={styles.container}>
+    <>
+    <Typography variant="h2">{data.title}</Typography>
+      <div className="grid grid-cols-2 gap-4">
       {data.items.map((el, index) => (
-      <div className={styles.gridContainer}>
-        <div class="sm:row-span-3">
-          <img src={el.img} key={index} className={styles.imgContainer}/>
+        <div key={index}>
+          <div className={`flex-1`}>
+            <img src={el.img} alt="photo"/>
+            <Typography variant="h4">{el.name}</Typography>
+            <Typography variant="body" className={`pb-8`}>{el.title}</Typography>
+          </div>
         </div>
-        <div class="space-y-8 sm:row-span-2 sm:col-span-2 ...">
-          <Typography variant="h4">{el.name}</Typography>
-          <Typography variant="body">{el.title}</Typography>
-          <Typography variant="body">{el.bio}</Typography>
-          <Typography variant="body">{el.body}</Typography>
-        </div>
-      </div>  
       ))}
-
     </div>
+  </>
   );
 };
 

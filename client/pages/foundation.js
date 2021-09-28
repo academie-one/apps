@@ -15,7 +15,7 @@ const foundation = () => {
       {/* <BrandManifesto data={data.BrandManifesto} /> */}
       {/* <Values data={data.Values} /> */}
       <Message data={data.Message} />
-      <Team data={data.Team} />
+
 
     </>
   );

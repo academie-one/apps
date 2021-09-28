@@ -34,8 +34,8 @@ const Layout = ({children, title}) => {
                 type="image/svg+xml"
                 src={
                   theme === 'dark'
-                    ? '/icons/logo_white_new.png'
-                    : '/icons/logo_new.png'
+                    ? '/icons/logo_white3.png'
+                    : '/icons/logo_new2.png'
                 }
                 alt="logo"
                 width="100%"

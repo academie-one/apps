@@ -58,7 +58,7 @@ const Sidebar = ({classes}) => {
             style={currentPage === '/foundation' ? highlightCurrentPage : {}}
             variant="menu"
           >
-            <Link href="/foundation">Foundation</Link>
+            <Link href="/foundation">About us</Link>
           </Typography>
         </li>
         <li className={styles.navbarLinkItem}>

@@ -1,12 +1,13 @@
 {
   "Hero": {
-    "textLeft": "Do you want to change\nthe industry?",
-    "textRight": "Be the change.\n Be one"
+    "textLeft1": "Code your\n future",
+    "textLeft2": "your\n future",
+    "textRight": "Start IT\n career",
+    "heroImage": "images/circle_main.png"
   },
   "Foundation": {
     "PageName": {
-      "h1Title": "About us",
-      "body": "The foundation of the project lies in the team and in the people who believe in the academy. We share a common mission and work hard to open up new opportunities for future cadets."
+      "h1Title": "About us"
     },
     "Project": {
       "body": [
@@ -57,19 +58,12 @@
       ]
     },
     "Message": {
+      "title": "The Team",
       "items": [
         {
           "name": "Yerdos Mendybayev",
           "title": "Founder of the Academie",
-          "img": "/images/yerdos.jpg",
-          "bio": "the majority shareholder and historical leader of the Iliad Group. Self-taught entrepreneur, he has been working in the telematics, Internet and telecommunications industry since the end of the 1980s.",
-          "body": [
-            "The challenges faced by the country are known and well-documented by analysts and media throughout the world. With all-time same story again and again – oil & gas, mining, agriculture, logistics. What is missing though, is a contrarian perspective, which, while recognizing the challenges and risks, also gives a voice to the compelling reasons to consider other sectors of Kazakhstan economy as an investment destination.",
-            "With oil prices taking a deep dive and COVID-19 pandemia, Kazakh economy is struggling with no clear perspectives. Though, each crisis opens up opportunities, and the latter is the reason to consider investment opportunity into human talent advancement.",
-            "Companies in post-pandemic world will accelerate digitization, while finding the right human talent will represent greater challenge. By 2025, the number of new technology-oriented jobs available in global digital ecosystem is estimated at 149 million, according to a Microsoft study.",
-            "We have launched Academie One to discover and advance human talent from Central Asia for the global world. More than 2000 cadets will be integrated at our educational platform supported by Nicolas Sadirac's 01 Edu System.",
-            "We believe new generation of developers will benefit from an unprecedented global opportunities 21st century has to offer."
-          ]
+          "img": "/images/yerdos.jpg"
         },
         {
           "name": "Dzhambul Revshanov",
@@ -83,31 +77,26 @@
             "We have launched Academie One to discover and advance human talent from Central Asia for the global world. More than 2000 cadets will be integrated at our educational platform supported by Nicolas Sadirac's 01 Edu System.",
             "We believe new generation of developers will benefit from an unprecedented global opportunities 21st century has to offer."
           ]
-        }
-      ]
-    },
-    "Team": {
-      "title": "Founding team",
-      "items": [
-        {
-          "name": "Alibek",
-          "img": "/images/foundation/team/team.png"
         },
         {
-          "name": "Alibek",
-          "img": "/images/foundation/team/team.png"
+          "name": "Iskander Iskakov",
+          "title": "Founder of the Academie",
+          "img": "/images/yerdos.jpg"
         },
         {
-          "name": "Alibek",
-          "img": "/images/foundation/team/team.png"
+          "name": "Alibek Ashirali",
+          "title": "Founder of the Academie",
+          "img": "/images/yerdos.jpg"
         },
         {
-          "name": "Alibek",
-          "img": "/images/foundation/team/team.png"
+          "name": "Abdulkhakim Abdrakhman",
+          "title": "Founder of the Academie",
+          "img": "/images/yerdos.jpg"
         },
         {
-          "name": "Alibek",
-          "img": "/images/foundation/team/team.png"
+          "name": "Alibek Sansyzbayev",
+          "title": "Founder of the Academie",
+          "img": "/images/yerdos.jpg"
         }
       ]
     }
@@ -278,7 +267,6 @@
       ]
     },
     "Concept": {
-      "title": "Concept",
       "titleVariant": "h4",
       "itemsDir": "vertical",
       "items": [
@@ -313,13 +301,6 @@
       "items": [
         {
           "body":"Nicolas Sadirac has been implementing a new methodology to education for 25 years. It is based on problem-solving, peer-to-peer learning, and most importantly participatory method. There are no teachers, no lectures, but there are amazing results that free students' collective creativity via project-based learning."
-        },
-        {
-          "body": "I completely agree that education needs to change as the world is changing. Teamwork, creativity and problem-solving skills are the skills of the future workforce and education needs to develop them.",
-          "bodyClass": "italic"
-        },
-        {
-          "body": "\"Over the years, I became convinced that we must completely revolutionize the education system. With technology, we can reinvent school, we can make it a place where all students develop their inventiveness within intelligent collectives. It's the only way to respond sustainably to the need of the digital economy.\""
         }
       ]
     },
@@ -542,7 +523,7 @@
     "Avantage": {
       "items": [
         {
-          "body": "Avantage One is a global IT outsourcing company in next-generation digital services and consulting. We are working on bringing contracts from innovative companies all over the globe to Kazakhstan.\n\nAccelerate your career in a company of talented engineers solving challenging problems on an International scale."
+          "body": "Avantage One is a global IT service company in next-generation digital services and consulting. We are working on bringing contracts from innovative companies all over the globe to Kazakhstan.\n\nAccelerate your career in a company of talented engineers solving challenging problems on an International scale."
         }
       ],
       "img": "/images/avantage.jpg",
@@ -599,6 +580,24 @@
     "Address": {
       "h2Title": "Address",
       "body": "Gogol st. 253/4 , 050026, Almaty, Kazakhstan"
+    },
+    "Social": {
+      "title": "Social Networks",
+      "items": [
+        {
+          "body": "Follow us on social media and ask your questions through social networks",
+          "icon1": "/images/socials/facebook.svg",
+          "icon2": "/images/socials/instagram.svg",
+          "icon3": "/images/socials/telegram.svg"
+        },
+        {
+          "body": "Social accounts for entertainment",
+          "icon1": "/images/socials/tiktok.svg",
+          "icon2": "/images/socials/spotify.svg",
+          "icon3": "/images/socials/youtube.svg"
+        }
+      ]
+      
     }
   },
   "Media": {

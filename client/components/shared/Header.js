@@ -93,7 +93,7 @@ const Header = () => {
               variant="menu"
               style={currentPage === '/foundation' ? highlightCurrentPage : {}}
             >
-              <Link href="/foundation">Foundation</Link>
+              <Link href="/foundation">About us</Link>
             </Typography>
           </li>
           <li className={styles.navbarLinkItem} onClick={handleClick}>
