@@ -451,43 +451,43 @@
       "item": [
         {
           "title": "AI",
-          "img": "/images/Methodology/skills/ai.png"
+          "img": "/images/Methodology/skills/ai.svg"
         },
         {
           "title": "Security",
-          "img": "/images/Methodology/skills/security.png"
+          "img": "/images/Methodology/skills/security.svg"
         },
         {
           "title": "Mobile ",
-          "img": "/images/Methodology/skills/mobile.png"
+          "img": "/images/Methodology/skills/mobile.svg"
         },
         {
           "title": "Game ",
-          "img": "/images/Methodology/skills/game.png"
+          "img": "/images/Methodology/skills/game.svg"
         },
         {
           "title": "Network",
-          "img": "/images/Methodology/skills/cloud.png"
+          "img": "/images/Methodology/skills/network.svg"
         },
         {
           "title": "Crypto",
-          "img": "/images/Methodology/skills/cyber.png"
+          "img": "/images/Methodology/skills/cyber.svg"
         },
         {
           "title": "Graphic",
-          "img": "/images/Methodology/skills/graphic.png"
+          "img": "/images/Methodology/skills/graphic.svg"
         },
         {
           "title": "Web ",
-          "img": "/images/Methodology/skills/web.png"
+          "img": "/images/Methodology/skills/web.svg"
         },
         {
           "title": "Data",
-          "img": "/images/Methodology/skills/data.png"
+          "img": "/images/Methodology/skills/data.svg"
         },
         {
           "title": "System",
-          "img": "/images/Methodology/skills/imac.png"
+          "img": "/images/Methodology/skills/imac.svg"
         }
       ]
     },
