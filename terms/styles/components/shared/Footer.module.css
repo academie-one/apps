@@ -1,0 +1,12 @@
+.navFooterLinks {
+  left: 13px;
+  bottom: 0px;
+  position: absolute;
+  transform: translate(1vw, -20vh);
+}
+
+@screen md {
+  .navFooterLinks {
+    @apply left-0
+  }
+}
