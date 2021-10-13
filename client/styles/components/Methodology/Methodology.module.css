@@ -10,6 +10,14 @@
   @apply flex flex-col;
 }
 
+.icons {
+  @apply justify-self-center items-center text-center space-y-2;
+}
+
+.iconItems {
+  @apply w-1/2 m-auto;
+}
+
 @screen md {
   .content {
     @apply flex-row items-center;
