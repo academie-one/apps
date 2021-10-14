@@ -1,0 +1,30 @@
+.container {
+  @apply flex flex-col mb-8 space-y-6;
+}
+
+.itemsContainerRow {
+  @apply grid grid-flow-row gap-y-2;
+}
+
+.itemsContainerCol {
+  @apply grid grid-flow-row gap-y-8 auto-cols-fr;
+}
+
+.circleBlueOne {
+  text-align: center;
+  @apply w-11 h-11 bg-blueOne;
+  border-radius: 50%;
+}
+
+.circleCorale {
+  border-radius: 50%;
+  text-align: center;
+  @apply w-11 h-11;
+  background: #ff9d8f;
+}
+
+@screen md {
+  .itemsContainerCol {
+    @apply grid-flow-col gap-x-8 auto-cols-fr;
+  }
+}

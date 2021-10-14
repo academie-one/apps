@@ -24,8 +24,8 @@ const Spec = ({data}) => {
         <Typography variant="h4">{data.h4Title}</Typography>
         <div className={styles.container2}>
             {data.item.map((el, index) => (
-                <div className={`justify-self-center items-center`} key={index}>
-                    {el.img && <img className={`w-1/2`} src={el.img} alt={el.title} style={imgStyle}/>}
+                <div className={styles.icons} key={index}>
+                    {el.img && <img className={styles.iconItems} src={el.img} alt={el.title}/>}
                     {el.title && <Typography variant="body">{el.title}</Typography>}
                 </div>
                 ))}

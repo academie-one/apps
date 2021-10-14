@@ -10,13 +10,21 @@
   @apply flex flex-col;
 }
 
+.icons {
+  @apply justify-self-center items-center text-center space-y-2;
+}
+
+.iconItems {
+  @apply w-1/2 m-auto;
+}
+
 @screen md {
   .content {
     @apply flex-row items-center;
   }
 
   .container2 {
-    @apply grid grid-flow-col grid-cols-4 grid-rows-2 gap-4 mb-20 my-8;
+    @apply grid grid-flow-col grid-cols-5 grid-rows-2 gap-4 mb-20 my-8;
   }
 }
 

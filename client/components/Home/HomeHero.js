@@ -1,26 +1,26 @@
+import React, {useContext} from 'react';
 import Typography from '../shared/Typography';
 import styles from '../../styles/components/Home/HomeHero.module.css';
+import ThemeContext from '../shared/ThemeContext';
 
 const HomeHero = ({data}) => {
+  const {theme} = useContext(ThemeContext);
+
+  const inverted = {
+    WebkitFilter: 'invert(1)',
+    filter: 'invert(1)',
+  };
+
   return (
     <div className={styles.container}>
-      <div className={styles.imageContainer}>
-        <img
-          src={data.img}
-          alt="academie logo"
-          className={styles.image}
-          width={'100%'}
-          height={'auto'}
-        />
+      <div className={styles.leftText}>
+        <Typography className={styles.blueText} variant={'h2'}>{data.textLeft1}</Typography>
       </div>
-      <div className={styles.content}>
-        <div>
-          <Typography variant="h2" className={styles.heroTitle}>
-            {data.h2Title}
-          </Typography>
-          <Typography variant="body">{data.body}</Typography>
-          <Typography variant="body">{data.body2}</Typography>
-        </div>
+      <div className={styles.circleContainer}>
+        <img src={data.heroImage} style={theme === 'dark' ? inverted : {}} alt="cirlce_hero"/>
+      </div>
+      <div className={styles.rightText}>
+        <Typography variant={'h2'}>{data.textRight}</Typography>
       </div>
     </div>
   );

@@ -3,6 +3,10 @@ import ThemeContext from '../shared/ThemeContext';
 import Typography from '../shared/Typography';
 import styles from '../../styles/components/Admissions/Admissions.module.css';
 
+const chooseImg = (theme, data) => {
+  return (theme === 'dark' ? data.img : data.img2); 
+};
+
 const Road = ({data}) => {
   const {theme} = useContext(ThemeContext);
 
@@ -21,18 +25,28 @@ const Road = ({data}) => {
 
   return (
     <div className={styles.container}>
-      <Typography variant="h2">{data.title}</Typography>
+      <img src={chooseImg(theme, data)} alt="progress" style={imgStyle}/>
       <div className="flex flex-col mt-12">
         {data.items.map((el, index) => (
           <div
-            className={`flex md:flex-row flex-col items-center md:space-x-8 space-y-4`}
+            className={styles.listView}
             key={index}
           >
-            <div className={`flex-1`}>
-              <img src={el.img} alt="01" style={imgStyle}/>
-            </div>
-            <div className={`flex-1 space-y-2`}>
+            <div className={styles.itemsView}> 
+            {el.title && (
+              <div className={'flex'}>
+                {el.preTitle && (
+                  <Typography
+                    variant='h4'
+                    className={styles[el.circleColor]}
+                  >
+                    {el.preTitle}
+                  </Typography>
+                )}
+                &nbsp;
               <Typography variant="h4">{el.title}</Typography>
+              </div>
+            )}
               <Typography varaint="body">{el.body}</Typography>
             </div>
           </div>

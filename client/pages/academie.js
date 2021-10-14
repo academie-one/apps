@@ -1,19 +1,20 @@
 import {Academie as data} from '../data/Content.json';
 import Container from '../components/shared/Container';
-
-const contentArr = [
-  'PageName',
-  'Concept',
-  'Edu',
-  'FinancialModel',
-  'Campus',
-  'Almaty',
-];
+import JourneyContainer from "../components/Journey/JourneyContainer";
+import Graduates from '../components/Academie/Graduates';
 
 const Academie = () => {
-  return contentArr.map((content, index) => (
-    <Container key={index} data={data[content]} />
-  ));
+  return (
+    <>
+      <JourneyContainer data={data.PageName} />
+      <JourneyContainer data={data.Concept} itemsDirection={'col'} />
+      <JourneyContainer data={data.Edu} />
+      <Graduates data={data.Graduates} />
+      <JourneyContainer data={data.Methodology} itemsDirection={'col'} />
+      <Container data={data.Campus} />
+      <Container data={data.Almaty} />
+    </>
+  );
 };
 
 export default Academie;

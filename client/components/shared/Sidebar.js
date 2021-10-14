@@ -58,7 +58,15 @@ const Sidebar = ({classes}) => {
             style={currentPage === '/foundation' ? highlightCurrentPage : {}}
             variant="menu"
           >
-            <Link href="/foundation">Foundation</Link>
+            <Link href="/foundation">About us</Link>
+          </Typography>
+        </li>
+        <li className={styles.navbarLinkItem}>
+          <Typography
+            style={currentPage === '/faq' ? highlightCurrentPage : {}}
+            variant="menu"
+          >
+            <Link href="/faq">FAQ</Link>
           </Typography>
         </li>
         <li
@@ -67,11 +75,11 @@ const Sidebar = ({classes}) => {
           className={styles.navbarLinkItem}
         >
           <Typography
+            className={`text-darkMatter dark:text-blueOne`}
             style={currentPage === '/coming-soon' ? highlightCurrentPage : {}}
-            variant="menu"
-            className={`text-darkMatter font-normal dark:text-blueOne`}
+            variant="apply-menu"
           >
-            <Link href="/coming-soon">Apply</Link>
+            <Link href="https://zero.academie.one/">Apply</Link>
           </Typography>
         </li>
       </ul>

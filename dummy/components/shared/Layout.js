@@ -37,8 +37,8 @@ const Layout = ({children, title}) => {
                 type="image/svg+xml"
                 src={
                   darkMode
-                    ? '/icons/logo_white_blue.svg'
-                    : '/icons/logo_black.svg'
+                    ? '/icons/logo_white_new.png'
+                    : '/icons/logo_new2.png'
                 }
                 alt="logo"
                 width="100%"

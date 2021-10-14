@@ -1,5 +1,13 @@
 .container {
-  @apply mb-8
+  @apply mb-8;
+}
+
+.gridContainer {
+  @apply mb-16;
+}
+
+.imgContainer {
+  @apply w-full;
 }
 
 .investorContainer {
@@ -13,4 +21,10 @@
 .hr {
   @apply mt-6;
   opacity: 0.30;
+}
+
+@screen sm {
+  .gridContainer {
+    @apply grid grid-rows-2 grid-cols-3 grid-flow-col gap-4 ;
+  }
 }

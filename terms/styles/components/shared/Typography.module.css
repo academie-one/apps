@@ -1,0 +1,73 @@
+.h1 {
+  @apply mb-2 font-bold text-h1-mobile;
+}
+
+.h2 {
+  @apply mb-2 font-extralight text-h2-mobile;
+}
+
+.h3 {
+  @apply font-extralight text-h3-mobile;
+}
+
+.h4 {
+  @apply mb-1 font-normal text-h4-mobile;
+}
+
+.menu {
+  @apply font-bold text-h3;
+}
+
+.footer {
+  @apply font-extralight text-footer;
+}
+
+.body {
+  @apply max-w-xl font-normal text-body;
+}
+
+.caption {
+  @apply font-normal text-caption;
+}
+
+.default {
+  @apply text-darkMatter;
+}
+
+.dark {
+  @apply text-darkMatter;
+}
+
+.blue {
+  @apply text-blueOne;
+}
+
+.grey {
+  @apply text-greyMatter;
+}
+
+.white {
+  @apply text-white;
+}
+
+@screen md {
+  .h1 {
+    @apply text-h1;
+  }
+
+  .h2 {
+    @apply text-h2;
+  }
+
+  .h3 {
+    @apply text-h3;
+  }
+
+  .h4 {
+    @apply text-h4;
+  }
+
+  .menu {
+    @apply mb-4 font-extralight text-menu;
+  }
+}
