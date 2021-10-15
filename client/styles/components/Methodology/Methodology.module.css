@@ -3,7 +3,7 @@
 }
 
 .container2 {
-  @apply grid grid-flow-col grid-cols-2 grid-rows-5 gap-4 mb-20 my-8;
+  @apply grid grid-flow-col grid-cols-2 grid-rows-5 gap-9 mb-20 my-8;
 }
 
 .content {
@@ -11,7 +11,7 @@
 }
 
 .icons {
-  @apply justify-self-center items-center text-center space-y-2;
+  @apply justify-self-center items-center text-center space-y-3;
 }
 
 .iconItems {
