@@ -402,6 +402,7 @@
       "subtitleClass": "text-bold",
       "body": "Over the Piscine you will spend a 4-week in the premises of Academie One* to really discover the Academie, its unique method of learning and above all what programming really is. Over four weeks you will have coding exercises and projects to do and evaluate, while getting  to know the other Academie candidates.",
       "img": "/images/illustrations/academie_journey_pisciner.svg",
+      "img2": "/images/illustrations/academie_journey_pisciner.svg",
       "imgPos": "right",
       "imgAlt": "Piscine",
       "items": [
@@ -426,6 +427,7 @@
       "subtitleClass": "text-bold",
       "body": "After successfully passing Piscine you become a Cadet.\n\nYou start from the fundamentals and transition to one of the specializations during your studies. This would help you become a developer who can solve world-class problems alongside with some of the biggest names in tech.",
       "img": "/images/illustrations/academie_journey_cadet.svg",
+      "img2": "/images/illustrations/academie_journey_pisciner.svg",
       "imgPos": "right",
       "imgAlt": "Cadet",
       "items": [
@@ -507,6 +509,10 @@
       "subtitle": "Career - kick-start you career with international projects.",
       "subtitleClass": "text-bold",
       "body": "Quarantine and pandemic have transformed entire industries and businesses are now looking for growth opportunities. We are seeing a growing demand for software engineers, machine learning engineers, and in-house developers across a variety of industries. With Academie One, get ready to enter the IT world the right way.",
+      "img": "/images/illustrations/academie_journey_career.svg",
+      "img2": "/images/illustrations/academie_journey_career.svg",
+      "imgPos": "top",
+      "imgAlt": "career",
       "items": [
         {
           "title": "Guaranteed employment",
