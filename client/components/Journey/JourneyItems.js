@@ -8,7 +8,7 @@ const JourneyItems = ({items, direction = 'row'}) => {
       {items && items.map((el, index) => (
         <div key={index} className={styles.item}>
           {el.img && (
-            <img className={`w-full h-60`} src={el.img} alt={el.imgAlt} />
+            <img className={`w-3/4 h-60`} src={el.img} alt={el.imgAlt} />
           )}
 
           {el.title && (

@@ -408,11 +408,6 @@
           "title": " High Intensity Exam like no other",
           "titleClass": "text-bold",
           "body": "The intensity of a 4-week long Piscine period is compatible to 1 year of CS major instructions at on a university level."
-        },
-        {
-          "title": "You will be fully equipped to move on",
-          "titleClass": "text-bold",
-          "body": " Our facilities are open 24/7 with everything you need (iMac, library, gym, cafeteria, etc.)  to expand your skills and network."
         }
       ]
     },
@@ -437,6 +432,11 @@
           "title": "In Your own Rhythm",
           "titleClass": "text-bold",
           "body": "Monday to Sunday, day and night. Up to you when you come and go."
+        },
+        {
+          "title": "You will be fully equipped to move on",
+          "titleClass": "text-bold",
+          "body": " Our facilities are open 24/7 with everything you need (iMac, library, gym, cafeteria, etc.)  to expand your skills and network."
         }
       ]
     },
