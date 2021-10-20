@@ -3,7 +3,7 @@
     "textLeft1": "Code your\n future",
     "textLeft2": "your\n future",
     "textRight": "Start IT\n career",
-    "heroImage": "images/circle_main.png"
+    "heroImage": "images/academie_one_KV_expanded.svg"
   },
   "Foundation": {
     "PageName": {
@@ -250,19 +250,22 @@
           "title": "Peer Learning",
           "titleClass": "text-bold",
           "body": "The Peer-to-Peer methodology teaches cadets to work as a team: share information, ideas, and experiences. Be a student and a teacher simultaneously.",
-          "img": "/images/peer-learning.jpeg"
+          "img": "/images/illustrations/academie_one_academie_peer_lerning_dark_bg.svg",
+          "img2": "/images/illustrations/academie_one_academie_peer_lerning.svg"
         },
         {
           "title": "Learning by doing",
           "titleClass": "text-bold",
           "body": "Students do not talk in their professors' memorized words; instead, they explore the problem and defend their solutions.",
-          "img": "/images/learning-by-doing.jpeg"
+          "img": "/images/illustrations/academie_one_academie_learning_by_doing_dark_bg.svg",
+          "img2": "/images/illustrations/academie_one_academie_learning_by_doing.svg"
         },
         {
           "title": "Flexible schedule",
           "titleClass": "text-bold",
           "body": "The Education cluster will be open seven days a week, 24 hours a day, so you are free to set your schedule. Cadets usually spend an average of 40 hours per week.",
-          "img": "/images/flexible-schedule.jpeg"
+          "img2": "/images/illustrations/academie_one_academie_flexible schedule.svg",
+          "img": "/images/illustrations/academie_one_academie_flexible schedule_dark_bg.svg"
         }
       ]
     },
@@ -275,32 +278,35 @@
           "titleClass": "text-bold",
           "body": "No prior coding or math experience required; training starts from scratch.",
           "imgAlt": "Silicon Valley Lifestyle",
-          "img": "/images/silicon-valley-lifestyle.JPG"
+          "img": "/images/illustrations/academie_one_academie_For_beginners.svg"
         },
         {
           "title": "Tuition Free",
           "titleClass": "text-bold",
           "body": "World class IT education with a 100% scholarship.",
           "imgAlt": "Tuition Free",
-          "img": "/images/tuition-free.JPG"
+          "img": "/images/illustrations/academie_one_academie_tuition_free.svg"
         },
         {
           "title": "Job Guaranteed",
           "titleClass": "text-bold",
           "body": "Build your experience and expand your portfolio with international projects with a competitive salary.",
           "imgAlt": "Job Guaranteed",
-          "img": "/images/job-guaranteed.PNG"
+          "img": "/images/illustrations/academie_one_academie_job_guaranteed.svg"
         }
       ]
     },
     "Edu": {
       "title": "01 Edu System by world renown Nicolas Sadirac",
       "titleVariant": "h4",
-      "img": "/images/nicolas.sadirac.PNG",
+      "img": "https://01-edu.org/images/w/o/r/l/d/world-network-f321d572.png",
       "imgPos": "left",
       "items": [
         {
-          "body":"Nicolas Sadirac has been implementing a new methodology to education for 25 years. It is based on problem-solving, peer-to-peer learning, and most importantly participatory method. There are no teachers, no lectures, but there are amazing results that free students' collective creativity via project-based learning."
+          "body":"01 Edu System is a collaborative education platform to open and run revolutionary coding schools. The platform presents an innovative curriculum in software engineering and programming. With a renowned industry-leading reputation, the curriculum has been rigorously designed for learning skills of the digital world and technology industry. "
+        },
+        {
+          "body":"Its founder Nicolas Sadirac has rigorously designed the curriculum for 20 years to prepare world-class software engineers. There are no teachers, no lectures, but there are amazing results that allow cadets receive first-rate programming knowledge."
         }
       ]
     },
@@ -341,13 +347,15 @@
       "h4Title": "Campus",
       "body": "iMacs, library, gym, cafeteria, gaming area with chess, tennis and PS4, and meditation areas available 24/7 on the palms of your hands on the Academie One campus located in the historical refurbished tea packing factory...",
       "bodyTail": "... in the city of Almaty.",
-      "img": "/images/cluster.jpg",
+      "img": "/images/illustrations/academie_one_academie_campus.svg",
+      "img2": "/images/illustrations/academie_one_academie_campus.svg",
       "imgPos": "bottom"
     },
     "Almaty": {
       "h4Title": "Almaty",
       "body": "Surrounded by beautiful mountain ranges, it is home to many technology companies and large enterprises. It is ideal for studying and living with excellent infrastructure, stunning views, and warm culture.",
-      "img": "/images/almaty-new.jpg",
+      "img": "/images/illustrations/academie_one_academie_almaty_dark_bg.svg",
+      "img2": "/images/illustrations/academie_one_academie_almaty_light_bg.svg",
       "imgPos": "bottom",
       "imgAlt": "Almaty"
     },
@@ -393,7 +401,8 @@
       "subtitleVariant": "body",
       "subtitleClass": "text-bold",
       "body": "Over the Piscine you will spend a 4-week in the premises of Academie One* to really discover the Academie, its unique method of learning and above all what programming really is. Over four weeks you will have coding exercises and projects to do and evaluate, while getting  to know the other Academie candidates.",
-      "img": "/images/tmp.png",
+      "img": "/images/illustrations/academie_journey_pisciner.svg",
+      "img2": "/images/illustrations/academie_journey_pisciner.svg",
       "imgPos": "right",
       "imgAlt": "Piscine",
       "items": [
@@ -406,11 +415,6 @@
           "title": " High Intensity Exam like no other",
           "titleClass": "text-bold",
           "body": "The intensity of a 4-week long Piscine period is compatible to 1 year of CS major instructions at on a university level."
-        },
-        {
-          "title": "You will be fully equipped to move on",
-          "titleClass": "text-bold",
-          "body": " Our facilities are open 24/7 with everything you need (iMac, library, gym, cafeteria, etc.)  to expand your skills and network."
         }
       ]
     },
@@ -422,7 +426,8 @@
       "subtitle": "Сadet - become a world class developer in 2 years",
       "subtitleClass": "text-bold",
       "body": "After successfully passing Piscine you become a Cadet.\n\nYou start from the fundamentals and transition to one of the specializations during your studies. This would help you become a developer who can solve world-class problems alongside with some of the biggest names in tech.",
-      "img": "/images/tmp.png",
+      "img": "/images/illustrations/academie_journey_cadet.svg",
+      "img2": "/images/illustrations/academie_journey_pisciner.svg",
       "imgPos": "right",
       "imgAlt": "Cadet",
       "items": [
@@ -435,6 +440,11 @@
           "title": "In Your own Rhythm",
           "titleClass": "text-bold",
           "body": "Monday to Sunday, day and night. Up to you when you come and go."
+        },
+        {
+          "title": "You will be fully equipped to move on",
+          "titleClass": "text-bold",
+          "body": " Our facilities are open 24/7 with everything you need (iMac, library, gym, cafeteria, etc.)  to expand your skills and network."
         }
       ]
     },
@@ -451,43 +461,53 @@
       "item": [
         {
           "title": "AI",
-          "img": "/images/Methodology/skills/ai.svg"
+          "img": "/images/Methodology/skills/ai.png",
+          "img2": "/images/Methodology/skills/dark_icon/ai.png"
         },
         {
           "title": "Security",
-          "img": "/images/Methodology/skills/security.svg"
+          "img": "/images/Methodology/skills/security.png",
+          "img2": "/images/Methodology/skills/dark_icon/security.png"
         },
         {
           "title": "Mobile ",
-          "img": "/images/Methodology/skills/mobile.svg"
+          "img": "/images/Methodology/skills/mobile.png",
+          "img2": "/images/Methodology/skills/dark_icon/mobile.png"
         },
         {
           "title": "Game ",
-          "img": "/images/Methodology/skills/game.svg"
+          "img": "/images/Methodology/skills/game.png",
+          "img2": "/images/Methodology/skills/dark_icon/game.png"
         },
         {
           "title": "Network",
-          "img": "/images/Methodology/skills/network.svg"
+          "img": "/images/Methodology/skills/network.png",
+          "img2": "/images/Methodology/skills/dark_icon/network.png"
         },
         {
           "title": "Crypto",
-          "img": "/images/Methodology/skills/cyber.svg"
+          "img": "/images/Methodology/skills/cyber.png",
+          "img2": "/images/Methodology/skills/dark_icon/cyber.png"
         },
         {
           "title": "Graphic",
-          "img": "/images/Methodology/skills/graphic.svg"
+          "img": "/images/Methodology/skills/graphic.png",
+          "img2": "/images/Methodology/skills/dark_icon/graphic.png"
         },
         {
           "title": "Web ",
-          "img": "/images/Methodology/skills/web.svg"
+          "img": "/images/Methodology/skills/web.png",
+          "img2": "/images/Methodology/skills/dark_icon/web.png"
         },
         {
           "title": "Data",
-          "img": "/images/Methodology/skills/data.svg"
+          "img": "/images/Methodology/skills/data.png",
+          "img2": "/images/Methodology/skills/dark_icon/data.png"
         },
         {
           "title": "System",
-          "img": "/images/Methodology/skills/imac.svg"
+          "img": "/images/Methodology/skills/imac.png",
+          "img2": "/images/Methodology/skills/dark_icon/imac.png"
         }
       ]
     },
@@ -499,24 +519,31 @@
       "subtitle": "Career - kick-start you career with international projects.",
       "subtitleClass": "text-bold",
       "body": "Quarantine and pandemic have transformed entire industries and businesses are now looking for growth opportunities. We are seeing a growing demand for software engineers, machine learning engineers, and in-house developers across a variety of industries. With Academie One, get ready to enter the IT world the right way.",
+      "img": "/images/illustrations/academie_journey_career.svg",
+      "img2": "/images/illustrations/academie_journey_career.svg",
+      "imgPos": "top",
+      "imgAlt": "career",
       "items": [
         {
           "title": "Guaranteed employment",
           "titleClass": "text-bold",
           "body": "Once you graduate the Academie you are to be provided by the guaranteed international working experience.",
-          "img": "/images/tmp.png"
+          "img": "/images/illustrations/academie_journey_job_guaranteed_dark_bg.svg",
+          "img2": "/images/illustrations/academie_journey_job_guaranteed.svg"
         },
         {
           "title": "Competitive salary",
           "titleClass": "text-bold",
           "body": "Software developers in Kazakhstan earn 2-5x more in average than people of other professions. Be ready to kickstart your career and get compensated fairly.",
-          "img": "/images/tmp.png"
+          "img": "/images/illustrations/competitive_salary_dark_bg.svg",
+          "img2": "/images/illustrations/academie_journey_competitive_salary.svg"
         },
         {
           "title": "International projects",
           "titleClass": "text-bold",
           "body": "International projects that you will work on would endow you a colossal potential to grow; thus, be even more ready to launch your IT career globally.",
-          "img": "/images/tmp.png"
+          "img": "/images/illustrations/academie_journey_international_projects__dark_bg.svg",
+          "img2": "/images/illustrations/academie_journey_international_projects.svg"
         }
       ]
     },
@@ -526,7 +553,8 @@
           "body": "Avantage One is a global IT service company in next-generation digital services and consulting. We are working on bringing contracts from innovative companies all over the globe to Kazakhstan.\n\nAccelerate your career in a company of talented engineers solving challenging problems on an International scale."
         }
       ],
-      "img": "/images/avantage.jpg",
+      "img": "/images/illustrations/avantage-02.svg",
+      "img2": "/images/illustrations/avantage-01.svg",
       "imgAlt": "Avantage",
       "imgPos": "left"
     },
