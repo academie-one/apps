@@ -3,7 +3,7 @@
     "textLeft1": "Code your\n future",
     "textLeft2": "your\n future",
     "textRight": "Start IT\n career",
-    "heroImage": "images/circle_main.png"
+    "heroImage": "images/academie_one_KV_expanded.svg"
   },
   "Foundation": {
     "PageName": {
@@ -250,19 +250,19 @@
           "title": "Peer Learning",
           "titleClass": "text-bold",
           "body": "The Peer-to-Peer methodology teaches cadets to work as a team: share information, ideas, and experiences. Be a student and a teacher simultaneously.",
-          "img": "/images/peer-learning.jpeg"
+          "img": "/images/illustrations/academie_one_academie_peer_lerning.svg"
         },
         {
           "title": "Learning by doing",
           "titleClass": "text-bold",
           "body": "Students do not talk in their professors' memorized words; instead, they explore the problem and defend their solutions.",
-          "img": "/images/learning-by-doing.jpeg"
+          "img": "/images/illustrations/academie_one_academie_learning_by_doing.svg"
         },
         {
           "title": "Flexible schedule",
           "titleClass": "text-bold",
           "body": "The Education cluster will be open seven days a week, 24 hours a day, so you are free to set your schedule. Cadets usually spend an average of 40 hours per week.",
-          "img": "/images/flexible-schedule.jpeg"
+          "img": "/images/illustrations/academie_one_academie_flexible schedule.svg"
         }
       ]
     },
@@ -275,21 +275,21 @@
           "titleClass": "text-bold",
           "body": "No prior coding or math experience required; training starts from scratch.",
           "imgAlt": "Silicon Valley Lifestyle",
-          "img": "/images/silicon-valley-lifestyle.JPG"
+          "img": "/images/illustrations/academie_one_academie_For_beginners.svg"
         },
         {
           "title": "Tuition Free",
           "titleClass": "text-bold",
           "body": "World class IT education with a 100% scholarship.",
           "imgAlt": "Tuition Free",
-          "img": "/images/tuition-free.JPG"
+          "img": "/images/illustrations/academie_one_academie_tuition_free.svg"
         },
         {
           "title": "Job Guaranteed",
           "titleClass": "text-bold",
           "body": "Build your experience and expand your portfolio with international projects with a competitive salary.",
           "imgAlt": "Job Guaranteed",
-          "img": "/images/job-guaranteed.PNG"
+          "img": "/images/illustrations/academie_one_academie_job_guaranteed.svg"
         }
       ]
     },
@@ -341,13 +341,15 @@
       "h4Title": "Campus",
       "body": "iMacs, library, gym, cafeteria, gaming area with chess, tennis and PS4, and meditation areas available 24/7 on the palms of your hands on the Academie One campus located in the historical refurbished tea packing factory...",
       "bodyTail": "... in the city of Almaty.",
-      "img": "/images/cluster.jpg",
+      "img": "/images/illustrations/academie_one_academie_campus.svg",
+      "img2": "/images/illustrations/academie_one_academie_campus.svg",
       "imgPos": "bottom"
     },
     "Almaty": {
       "h4Title": "Almaty",
       "body": "Surrounded by beautiful mountain ranges, it is home to many technology companies and large enterprises. It is ideal for studying and living with excellent infrastructure, stunning views, and warm culture.",
-      "img": "/images/almaty-new.jpg",
+      "img": "/images/illustrations/academie_one_academie_almaty_dark_bg.svg",
+      "img2": "/images/illustrations/academie_one_academie_almaty_light_bg.svg",
       "imgPos": "bottom",
       "imgAlt": "Almaty"
     },
@@ -393,7 +395,7 @@
       "subtitleVariant": "body",
       "subtitleClass": "text-bold",
       "body": "Over the Piscine you will spend a 4-week in the premises of Academie One* to really discover the Academie, its unique method of learning and above all what programming really is. Over four weeks you will have coding exercises and projects to do and evaluate, while getting  to know the other Academie candidates.",
-      "img": "/images/tmp.png",
+      "img": "/images/illustrations/academie_journey_pisciner.svg",
       "imgPos": "right",
       "imgAlt": "Piscine",
       "items": [
@@ -422,7 +424,7 @@
       "subtitle": "Сadet - become a world class developer in 2 years",
       "subtitleClass": "text-bold",
       "body": "After successfully passing Piscine you become a Cadet.\n\nYou start from the fundamentals and transition to one of the specializations during your studies. This would help you become a developer who can solve world-class problems alongside with some of the biggest names in tech.",
-      "img": "/images/tmp.png",
+      "img": "/images/illustrations/academie_journey_cadet.svg",
       "imgPos": "right",
       "imgAlt": "Cadet",
       "items": [
@@ -504,19 +506,19 @@
           "title": "Guaranteed employment",
           "titleClass": "text-bold",
           "body": "Once you graduate the Academie you are to be provided by the guaranteed international working experience.",
-          "img": "/images/tmp.png"
+          "img": "/images/illustrations/academie_journey_job_guaranteed.svg"
         },
         {
           "title": "Competitive salary",
           "titleClass": "text-bold",
           "body": "Software developers in Kazakhstan earn 2-5x more in average than people of other professions. Be ready to kickstart your career and get compensated fairly.",
-          "img": "/images/tmp.png"
+          "img": "/images/illustrations/academie_journey_competitive_salary.svg"
         },
         {
           "title": "International projects",
           "titleClass": "text-bold",
           "body": "International projects that you will work on would endow you a colossal potential to grow; thus, be even more ready to launch your IT career globally.",
-          "img": "/images/tmp.png"
+          "img": "/images/illustrations/academie_journey_international_projects.svg"
         }
       ]
     },

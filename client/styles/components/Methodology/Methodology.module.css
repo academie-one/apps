@@ -34,6 +34,6 @@
 
 @screen md {
   .items {
-    @apply space-y-16;
+    @apply space-y-16 justify-items-center;
   }
 }
