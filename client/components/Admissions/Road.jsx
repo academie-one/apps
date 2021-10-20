@@ -1,7 +1,7 @@
 import React, {useContext} from 'react';
 import ThemeContext from '../shared/ThemeContext';
 import Typography from '../shared/Typography';
-import styles from '../../styles/components/Admissions/Admissions.module.css'
+import styles from '../../styles/components/Admissions/Admissions.module.css';
 
 const chooseImg = (theme, data) => {
   return (theme === 'dark' ? data.img : data.img2); 

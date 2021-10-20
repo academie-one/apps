@@ -4,7 +4,11 @@ import Typography from '../shared/Typography';
 import ThemeContext from '../shared/ThemeContext';
 
 const chooseImg = (theme, data) => {
-  return (theme === 'dark' ? data.img : data.img2); 
+  if (data.img && data.img2)
+    return (theme === 'dark' ? data.img : data.img2);
+  if (data.img)
+    return (data.img);
+  return (data.img2);
 };
 
 const JourneyItems = ({items, direction = 'row'}) => {
@@ -13,7 +17,7 @@ const JourneyItems = ({items, direction = 'row'}) => {
     <div className={direction === 'row' ? styles.itemsRow : styles.itemsCol}>
       {items && items.map((el, index) => (
         <div key={index} className={styles.item}>
-          {el.img && (
+          {(el.img || el.img2) && (
             <img className={`w-3/4 h-60`} src={chooseImg(theme, el)} alt={el.imgAlt} />
           )}
 
