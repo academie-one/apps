@@ -250,19 +250,22 @@
           "title": "Peer Learning",
           "titleClass": "text-bold",
           "body": "The Peer-to-Peer methodology teaches cadets to work as a team: share information, ideas, and experiences. Be a student and a teacher simultaneously.",
-          "img": "/images/illustrations/academie_one_academie_peer_lerning.svg"
+          "img": "/images/illustrations/academie_one_academie_peer_lerning_dark_bg.svg",
+          "img2": "/images/illustrations/academie_one_academie_peer_lerning.svg"
         },
         {
           "title": "Learning by doing",
           "titleClass": "text-bold",
           "body": "Students do not talk in their professors' memorized words; instead, they explore the problem and defend their solutions.",
-          "img": "/images/illustrations/academie_one_academie_learning_by_doing.svg"
+          "img": "/images/illustrations/academie_one_academie_learning_by_doing_dark_bg.svg",
+          "img2": "/images/illustrations/academie_one_academie_learning_by_doing.svg"
         },
         {
           "title": "Flexible schedule",
           "titleClass": "text-bold",
           "body": "The Education cluster will be open seven days a week, 24 hours a day, so you are free to set your schedule. Cadets usually spend an average of 40 hours per week.",
-          "img": "/images/illustrations/academie_one_academie_flexible schedule.svg"
+          "img2": "/images/illustrations/academie_one_academie_flexible schedule.svg",
+          "img": "/images/illustrations/academie_one_academie_flexible schedule_dark_bg.svg"
         }
       ]
     },
@@ -509,19 +512,22 @@
           "title": "Guaranteed employment",
           "titleClass": "text-bold",
           "body": "Once you graduate the Academie you are to be provided by the guaranteed international working experience.",
-          "img": "/images/illustrations/academie_journey_job_guaranteed.svg"
+          "img": "/images/illustrations/academie_journey_job_guaranteed_dark_bg.svg",
+          "img2": "/images/illustrations/academie_journey_job_guaranteed.svg"
         },
         {
           "title": "Competitive salary",
           "titleClass": "text-bold",
           "body": "Software developers in Kazakhstan earn 2-5x more in average than people of other professions. Be ready to kickstart your career and get compensated fairly.",
-          "img": "/images/illustrations/academie_journey_competitive_salary.svg"
+          "img": "/images/illustrations/competitive_salary_dark_bg.svg",
+          "img2": "/images/illustrations/academie_journey_competitive_salary.svg"
         },
         {
           "title": "International projects",
           "titleClass": "text-bold",
           "body": "International projects that you will work on would endow you a colossal potential to grow; thus, be even more ready to launch your IT career globally.",
-          "img": "/images/illustrations/academie_journey_international_projects.svg"
+          "img": "/images/illustrations/academie_journey_international_projects__dark_bg.svg",
+          "img2": "/images/illustrations/academie_journey_international_projects.svg"
         }
       ]
     },
@@ -531,7 +537,8 @@
           "body": "Avantage One is a global IT service company in next-generation digital services and consulting. We are working on bringing contracts from innovative companies all over the globe to Kazakhstan.\n\nAccelerate your career in a company of talented engineers solving challenging problems on an International scale."
         }
       ],
-      "img": "/images/avantage.jpg",
+      "img": "/images/illustrations/avantage-02.svg",
+      "img2": "/images/illustrations/avantage-01.svg",
       "imgAlt": "Avantage",
       "imgPos": "left"
     },

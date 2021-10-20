@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 24.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 193.93 193.98" style="enable-background:new 0 0 193.93 193.98;" xml:space="preserve">
+	 viewBox="0 0 192.98 192.98" style="enable-background:new 0 0 192.98 192.98;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#6B5641;}
 	.st1{fill:#FFFFFF;}
@@ -60,45 +60,19 @@
 </style>
 <g>
 	<g>
+		<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="55.479" y1="96.9537" x2="210.8397" y2="96.9537">
+			<stop  offset="0" style="stop-color:#B6DCE0"/>
+			<stop  offset="1" style="stop-color:#8178E6"/>
+		</linearGradient>
+		<path style="fill:url(#SVGID_2_);" d="M137.5,63.3v33.25c0,41.36-41.01,52.86-41.01,52.86s-41.01-11.73-41.01-52.86V63.3
+			L96.49,44.5L137.5,63.3z"/>
 		<g>
-			<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="22.4848" y1="151.4357" x2="178.2135" y2="151.4357">
-				<stop  offset="0" style="stop-color:#B6DCE0"/>
-				<stop  offset="1" style="stop-color:#8178E6"/>
-			</linearGradient>
-			<polygon style="fill:url(#SVGID_2_);" points="96.97,116.22 22.48,151.44 96.97,186.65 171.45,151.44 			"/>
-			<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="22.4848" y1="127.3489" x2="178.2135" y2="127.3489">
-				<stop  offset="0" style="stop-color:#B9DCE0"/>
-				<stop  offset="1" style="stop-color:#9699E4"/>
-			</linearGradient>
-			<polygon style="fill:url(#SVGID_4_);" points="96.97,92.13 22.48,127.35 96.97,162.56 171.45,127.35 			"/>
-			<linearGradient id="SVGID_5_" gradientUnits="userSpaceOnUse" x1="22.4848" y1="103.2622" x2="178.2135" y2="103.2622">
-				<stop  offset="0" style="stop-color:#BCDCE0"/>
-				<stop  offset="1" style="stop-color:#AABBE2"/>
-			</linearGradient>
-			<polygon class="st20" points="96.97,68.05 22.48,103.26 96.97,138.48 171.45,103.26 			"/>
-			<polygon class="st31" points="96.97,43.96 22.48,79.18 96.97,114.39 171.45,79.18 			"/>
+			<circle class="st25" cx="96.49" cy="96.49" r="81.86"/>
 		</g>
-		<g>
-			<g>
-				<g>
-					<line class="st44" x1="96.97" y1="79.18" x2="96.97" y2="79.18"/>
-					<line class="st45" x1="96.97" y1="71.3" x2="96.97" y2="12.26"/>
-					<line class="st44" x1="96.97" y1="8.33" x2="96.97" y2="8.33"/>
-				</g>
-			</g>
-			<g>
-				<g>
-					<line class="st44" x1="78.84" y1="26.45" x2="78.84" y2="26.45"/>
-					<line class="st46" x1="84.88" y1="20.41" x2="93.95" y2="11.35"/>
-					<line class="st44" x1="96.97" y1="8.33" x2="96.97" y2="8.33"/>
-					<line class="st46" x1="103.01" y1="14.37" x2="112.07" y2="23.43"/>
-					<line class="st44" x1="115.09" y1="26.45" x2="115.09" y2="26.45"/>
-				</g>
-			</g>
-		</g>
+		<polyline class="st26" points="78.86,93.17 93.11,107.44 116.8,82.22 		"/>
 	</g>
 	<g>
-		<rect x="0" y="0.52" class="st27" width="193.93" height="193.93"/>
+		<rect x="-0.48" y="-0.48" class="st27" width="193.93" height="193.93"/>
 	</g>
 </g>
 </svg>

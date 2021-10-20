@@ -1,9 +1,16 @@
-import React from 'react';
+import React, {useContext} from 'react';
 import JourneyItems from './JourneyItems';
 import Typography from '../shared/Typography';
 import styles from '../../styles/components/Journey/JourneyContainer.module.css';
+import ThemeContext from '../shared/ThemeContext';
+
+const chooseImg = (theme, data) => {
+  return (theme === 'dark' ? data.img : data.img2); 
+};
+
 
 const JourneyContainer = ({data, itemsDirection = 'row'}) => {
+  const {theme} = useContext(ThemeContext);
   let containerType = 'row';
 
   if (data && data.img) {
@@ -54,7 +61,7 @@ const JourneyContainer = ({data, itemsDirection = 'row'}) => {
           }
         >
           <img
-            src={data.img}
+            src={chooseImg(theme, data)}
             alt={data.imgAlt}
             className={`${styles.img} ${
               data.imgPos === 'top' || data.imgPos === 'left'
