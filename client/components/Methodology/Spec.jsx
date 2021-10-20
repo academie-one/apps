@@ -3,6 +3,10 @@ import ThemeContext from '../shared/ThemeContext';
 import Typography from '../shared/Typography';
 import styles from '../../styles/components/Methodology/Methodology.module.css';
 
+const chooseImg = (theme, data) => {
+  return (theme === 'dark' ? data.img2 : data.img); 
+};
+
 const Spec = ({data}) => {
   const {theme} = useContext(ThemeContext);
 
@@ -25,7 +29,7 @@ const Spec = ({data}) => {
         <div className={styles.container2}>
             {data.item.map((el, index) => (
                 <div className={styles.icons} key={index}>
-                    {el.img && <img className={styles.iconItems} src={el.img} alt={el.title}/>}
+                    {el.img && <img className={styles.iconItems} src={chooseImg(theme, el)} alt={el.title}/>}
                     {el.title && <Typography variant="body">{el.title}</Typography>}
                 </div>
                 ))}

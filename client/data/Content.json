@@ -461,43 +461,53 @@
       "item": [
         {
           "title": "AI",
-          "img": "/images/Methodology/skills/ai.png"
+          "img": "/images/Methodology/skills/ai.png",
+          "img2": "/images/Methodology/skills/dark_icon/ai.png"
         },
         {
           "title": "Security",
-          "img": "/images/Methodology/skills/security.png"
+          "img": "/images/Methodology/skills/security.png",
+          "img2": "/images/Methodology/skills/dark_icon/security.png"
         },
         {
           "title": "Mobile ",
-          "img": "/images/Methodology/skills/mobile.png"
+          "img": "/images/Methodology/skills/mobile.png",
+          "img2": "/images/Methodology/skills/dark_icon/mobile.png"
         },
         {
           "title": "Game ",
-          "img": "/images/Methodology/skills/game.png"
+          "img": "/images/Methodology/skills/game.png",
+          "img2": "/images/Methodology/skills/dark_icon/game.png"
         },
         {
           "title": "Network",
-          "img": "/images/Methodology/skills/network.png"
+          "img": "/images/Methodology/skills/network.png",
+          "img2": "/images/Methodology/skills/dark_icon/network.png"
         },
         {
           "title": "Crypto",
-          "img": "/images/Methodology/skills/cyber.png"
+          "img": "/images/Methodology/skills/cyber.png",
+          "img2": "/images/Methodology/skills/dark_icon/cyber.png"
         },
         {
           "title": "Graphic",
-          "img": "/images/Methodology/skills/graphic.png"
+          "img": "/images/Methodology/skills/graphic.png",
+          "img2": "/images/Methodology/skills/dark_icon/graphic.png"
         },
         {
           "title": "Web ",
-          "img": "/images/Methodology/skills/web.png"
+          "img": "/images/Methodology/skills/web.png",
+          "img2": "/images/Methodology/skills/dark_icon/web.png"
         },
         {
           "title": "Data",
-          "img": "/images/Methodology/skills/data.png"
+          "img": "/images/Methodology/skills/data.png",
+          "img2": "/images/Methodology/skills/dark_icon/data.png"
         },
         {
           "title": "System",
-          "img": "/images/Methodology/skills/imac.png"
+          "img": "/images/Methodology/skills/imac.png",
+          "img2": "/images/Methodology/skills/dark_icon/imac.png"
         }
       ]
     },
