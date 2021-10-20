@@ -17,7 +17,7 @@
 }
 
 .img {
-  @apply w-3/4
+  @apply w-3/4;
 }
 
 .circleCorale {

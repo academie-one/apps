@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 24.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 251.75 200.68" style="enable-background:new 0 0 251.75 200.68;" xml:space="preserve">
+	 viewBox="0 0 225.74 183.12" style="enable-background:new 0 0 225.74 183.12;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:none;stroke:#C7C7C7;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:0,8;}
 	.st1{fill:url(#SVGID_1_);}
@@ -71,39 +71,30 @@
 </style>
 <g>
 	<g>
-		<polygon class="st59" points="46.14,55.17 205.61,55.17 127.37,190.68 		"/>
-		<polygon class="st59" points="127.37,10 49.13,145.51 205.61,145.51 		"/>
+		<line class="st0" x1="172.72" y1="44.9" x2="1" y2="168.85"/>
 		<g>
-			<polygon class="st59" points="205.61,55.17 127.37,10 49.13,55.17 49.13,145.51 127.37,190.68 205.61,145.51 			"/>
-			<polyline class="st59" points="205.61,55.17 127.37,100.34 49.13,55.17 			"/>
-			<polyline class="st59" points="49.13,145.51 127.37,100.34 205.61,145.51 			"/>
-			<line class="st59" x1="127.37" y1="190.68" x2="127.37" y2="100.34"/>
-			<line class="st59" x1="127.37" y1="100.34" x2="127.37" y2="10"/>
+			<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="184.7362" y1="26.0023" x2="214.7362" y2="26.0023">
+				<stop  offset="0" style="stop-color:#B1D7DB"/>
+				<stop  offset="1" style="stop-color:#8078E1"/>
+			</linearGradient>
+			<circle class="st1" cx="199.74" cy="26" r="15"/>
 		</g>
-		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="115.3832" y1="96.779" x2="139.353" y2="103.9046">
-			<stop  offset="0" style="stop-color:#B1D7DB"/>
-			<stop  offset="1" style="stop-color:#8078E1"/>
-		</linearGradient>
-		<circle class="st1" cx="127.37" cy="100.34" r="12.5"/>
-		<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="36.1408" y1="55.1709" x2="56.1408" y2="55.1709">
-			<stop  offset="0" style="stop-color:#FFB291"/>
-			<stop  offset="1" style="stop-color:#8078E1"/>
-		</linearGradient>
-		<circle class="st2" cx="46.14" cy="55.17" r="10"/>
-		<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="195.6064" y1="55.1709" x2="215.6064" y2="55.1709">
-			<stop  offset="0" style="stop-color:#FFB291"/>
-			<stop  offset="1" style="stop-color:#E6C0E3"/>
-		</linearGradient>
-		<circle class="st3" cx="205.61" cy="55.17" r="10"/>
-		<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="117.3681" y1="190.6836" x2="137.3681" y2="190.6836">
-			<stop  offset="0" style="stop-color:#A7E6E1"/>
-			<stop  offset="1" style="stop-color:#E6C0E3"/>
-		</linearGradient>
-		<circle class="st4" cx="127.37" cy="190.68" r="10"/>
-		<circle class="st5" cx="205.61" cy="145.51" r="10"/>
-		<circle class="st6" cx="49.13" cy="145.51" r="10"/>
-		<circle class="st7" cx="127.37" cy="10" r="10"/>
+		<g>
+			<ellipse transform="matrix(0.5669 -0.8238 0.8238 0.5669 65.0868 175.8029)" class="st16" cx="199.74" cy="26" rx="25" ry="25"/>
+		</g>
+		<g>
+			<circle class="st17" cx="81.91" cy="110.4" r="48"/>
+		</g>
+		<g>
+			<circle class="st18" cx="81.91" cy="110.4" r="7.88"/>
+		</g>
+		<g>
+			<circle class="st19" cx="81.91" cy="110.4" r="24"/>
+		</g>
 	</g>
-	<rect y="-0.69" class="st22" width="251.75" height="203.89"/>
+	<line class="st20" x1="107.5" y1="15.46" x2="106.65" y2="39.98"/>
+	<line class="st13" x1="166.71" y1="115.46" x2="192.71" y2="116.61"/>
+	<circle class="st21" cx="73.59" cy="179.62" r="3"/>
+	<circle class="st5" cx="7.19" cy="127.59" r="3.79"/>
 </g>
 </svg>
