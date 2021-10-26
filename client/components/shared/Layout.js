@@ -7,7 +7,10 @@ import Link from 'next/link';
 import {useRouter} from 'next/router';
 import ThemeContext from './ThemeContext';
 
+import Typography from './Typography';
+
 import styles from '../../styles/components/shared/Layout.module.css';
+import styles2 from '../../styles/components/Home/HomeHero.module.css';
 
 const Layout = ({children, title}) => {
   const router = useRouter();
@@ -49,6 +52,15 @@ const Layout = ({children, title}) => {
         </div>
         <Sidebar classes={styles.sidebar} />
         <main ref={ref} className={styles.main}>
+          {router.pathname === '/' ?
+          <div className={`relative text-center`}>
+            <div className={styles2.leftText}>
+              <Typography variant={'h2'}>{"Code your\n future"}</Typography>
+              <Typography variant={'h4'}>{"Start IT career"}</Typography>
+          </div>
+            <img src={'https://angry-northcutt-c85a37.netlify.app/images/academie_one_KV_desktop.png'} alt="wtf"/> 
+          </div>
+          : ''}
           <div
             className={`${styles.content} ${
               router.pathname === '/' ? '' : 'py-20'

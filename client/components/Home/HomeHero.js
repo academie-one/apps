@@ -1,5 +1,5 @@
 import React, {useContext} from 'react';
-import Typography from '../shared/Typography';
+// import Typography from '../shared/Typography';
 import styles from '../../styles/components/Home/HomeHero.module.css';
 import ThemeContext from '../shared/ThemeContext';
 
@@ -12,10 +12,8 @@ const HomeHero = ({data}) => {
   };
 
   return (
-    <div>
-      <div className={styles.circleContainer}>
-        <img src={data.heroImage} alt="cirlce_hero"/>
-      </div>
+    <div className={styles.container}>
+      
     </div>
   );
 };
