@@ -11,7 +11,7 @@
 }
 
 .circleContainer {
-  @apply w-3/4 items-center;
+  @apply h-auto w-screen justify-start;
 }
 
 .blueText {

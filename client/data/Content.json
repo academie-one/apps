@@ -3,7 +3,7 @@
     "textLeft1": "Code your\n future",
     "textLeft2": "your\n future",
     "textRight": "Start IT\n career",
-    "heroImage": "images/academie_one_KV_expanded.svg"
+    "heroImage": "images/academie_one_KV_desktop.png"
   },
   "Foundation": {
     "PageName": {
@@ -521,7 +521,7 @@
       "body": "Quarantine and pandemic have transformed entire industries and businesses are now looking for growth opportunities. We are seeing a growing demand for software engineers, machine learning engineers, and in-house developers across a variety of industries. With Academie One, get ready to enter the IT world the right way.",
       "img": "/images/illustrations/academie_journey_career.svg",
       "img2": "/images/illustrations/academie_journey_career.svg",
-      "imgPos": "top",
+      "imgPos": "right",
       "imgAlt": "career",
       "items": [
         {

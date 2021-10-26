@@ -12,15 +12,9 @@ const HomeHero = ({data}) => {
   };
 
   return (
-    <div className={styles.container}>
-      <div className={styles.leftText}>
-        <Typography className={styles.blueText} variant={'h2'}>{data.textLeft1}</Typography>
-      </div>
+    <div>
       <div className={styles.circleContainer}>
-        <img src={data.heroImage} style={theme === 'dark' ? inverted : {}} alt="cirlce_hero"/>
-      </div>
-      <div className={styles.rightText}>
-        <Typography variant={'h2'}>{data.textRight}</Typography>
+        <img src={data.heroImage} alt="cirlce_hero"/>
       </div>
     </div>
   );
