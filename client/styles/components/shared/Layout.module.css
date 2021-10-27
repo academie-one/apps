@@ -24,7 +24,7 @@
 
 @screen md {
   .content {
-    @apply w-6/12 mx-auto;
+    @apply w-1/2 m-auto;
   }
 }
 

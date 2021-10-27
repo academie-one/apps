@@ -28,8 +28,8 @@
 }
 
 .circleContainer {
-  @apply h-auto mx-auto;
-  width: 200%;
+  @apply h-screen mx-auto w-screen;
+  
   z-index: 1;
 }
 

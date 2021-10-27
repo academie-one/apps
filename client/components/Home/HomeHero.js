@@ -1,5 +1,5 @@
 import React, {useContext} from 'react';
-// import Typography from '../shared/Typography';
+import Typography from '../shared/Typography';
 import styles from '../../styles/components/Home/HomeHero.module.css';
 import ThemeContext from '../shared/ThemeContext';
 
@@ -13,7 +13,11 @@ const HomeHero = ({data}) => {
 
   return (
     <div className={styles.container}>
-      
+      <div className={styles.leftText}>
+        <Typography variant={'h2'}>{"Code your\n future"}</Typography>
+        <Typography variant={'h4'}>{"Start IT career"}</Typography>
+      </div>
+      <img src={data.heroImage} alt="wtf"/> 
     </div>
   );
 };
