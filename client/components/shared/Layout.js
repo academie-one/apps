@@ -51,7 +51,7 @@ const Layout = ({children, title}) => {
         <main ref={ref} className={styles.main}>
           <div
             className={`${styles.content} ${
-              router.pathname === '/' ? 'w-4/5' : 'py-20'
+              router.pathname === '/' ? 'w-full' : 'py-20'
             }`}
           >
             {children}

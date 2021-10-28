@@ -8,7 +8,7 @@
 }
 
 .container {
-  @apply relative text-center;
+  @apply relative text-center ;
 }
 
 .leftText {
