@@ -612,20 +612,8 @@
     },
     "Social": {
       "title": "Social Networks",
-      "items": [
-        {
-          "body": "Follow us on social media and ask your questions through social networks",
-          "icon1": "/images/socials/facebook.svg",
-          "icon2": "/images/socials/instagram.svg",
-          "icon3": "/images/socials/telegram.svg"
-        },
-        {
-          "body": "Social accounts for entertainment",
-          "icon1": "/images/socials/tiktok.svg",
-          "icon2": "/images/socials/spotify.svg",
-          "icon3": "/images/socials/youtube.svg"
-        }
-      ]
+      "body1": "Follow us on social media and ask your questions through social networks",
+      "body2": "Social accounts for entertainment"
       
     }
   },

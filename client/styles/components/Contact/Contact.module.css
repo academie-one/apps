@@ -5,6 +5,10 @@
   .module {
     @apply flex flex-col flex-1 mr-6 align-middle space-y-2;
   }
+
+  .socials {
+    @apply flex flex-row space-x-4;
+  }
   
   .items {
     @apply flex flex-col mt-4 space-y-8;
