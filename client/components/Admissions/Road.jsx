@@ -25,7 +25,7 @@ const Road = ({data}) => {
 
   return (
     <div className={styles.container}>
-      <img src={chooseImg(theme, data)} alt="progress" style={imgStyle}/>
+      {/* <img src={chooseImg(theme, data)} alt="progress" style={imgStyle}/> */}
       <div className="flex flex-col mt-12">
         {data.items.map((el, index) => (
           <div

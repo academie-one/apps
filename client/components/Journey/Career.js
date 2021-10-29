@@ -44,8 +44,9 @@ const Career = ({data, itemsDirection = 'row'}) => {
               </Typography>
             )}
           </div>
-          <div className={`col-span-3`}>
+          <div className={styles.img}>
               <img src={data.img} alt="spaceGirl"/>
+              <hr className={styles.hr} />
           </div>
         </div>
         <JourneyItems items={data.items} direction={itemsDirection} />
