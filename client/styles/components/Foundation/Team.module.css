@@ -2,6 +2,10 @@
   @apply mb-8;
 }
 
+.team {
+  @apply grid grid-cols-2 mt-4 gap-x-6 gap-y-2;
+}
+
 .gridContainer {
   @apply mb-16;
 }

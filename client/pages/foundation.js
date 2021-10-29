@@ -1,5 +1,4 @@
 import {Foundation as data} from '../data/Content.json';
-import Message from '../components/Foundation/Message';
 import BrandManifesto from '../components/Foundation/BrandManifesto';
 import Container from '../components/shared/Container';
 import Team from '../components/Foundation/Team';
@@ -14,7 +13,7 @@ const foundation = () => {
       {/* <Container data={data.Brand} /> */}
       {/* <BrandManifesto data={data.BrandManifesto} /> */}
       {/* <Values data={data.Values} /> */}
-      <Message data={data.Message} />
+      <Team data={data.Team} />
 
 
     </>

@@ -1,7 +1,7 @@
 import Typography from '../shared/Typography';
-import styles from '../../styles/components/Foundation/Team.module.css';
+import styles from '../../styles/components/Foundation/Partners.module.css';
 
-const Team = ({ data }) => {
+const Partners = ({ data }) => {
   return (
     <>
       <Typography variant="h2">{data.title}</Typography>
@@ -20,4 +20,4 @@ const Team = ({ data }) => {
   );
 };
 
-export default Team;
+export default Partners;

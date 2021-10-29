@@ -1,5 +1,5 @@
 import Typography from '../shared/Typography';
-import styles from '../../styles/components/Foundation/Message.module.css';
+import styles from '../../styles/components/Foundation/Team.module.css';
 
 const Project = ({ data }) => {
   return (
