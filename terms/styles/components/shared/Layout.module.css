@@ -1,5 +1,5 @@
 .container {
-  @apply relative h-screen grid grid-cols-12 grid-rows-6;
+  @apply relative grid grid-cols-12 grid-rows-6;
 }
 
 .sidebar {
