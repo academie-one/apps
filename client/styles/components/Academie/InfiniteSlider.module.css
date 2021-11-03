@@ -13,21 +13,10 @@
 
 .sliderWhite::before,
 .sliderWhite::after {
-  @apply -m-px;
-  background: linear-gradient(
-    to right,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(255, 255, 255, 0) 100%
-  );
 }
 
 .sliderDark::before,
 .sliderDark::after {
-  background: linear-gradient(
-    to right,
-    rgba(16, 24, 32, 1) 0%,
-    rgba(16, 24, 32, 0) 100%
-  );
 }
 
 .slider::before,
