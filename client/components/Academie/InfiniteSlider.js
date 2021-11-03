@@ -4,7 +4,7 @@ import ThemeContext from '../shared/ThemeContext';
 
 const Carousel = ({ items }) => {
   const { theme } = useContext(ThemeContext);
-  const isDark = localStorage.getItem('theme')
+  // const isDark = localStorage.getItem('theme')
 
   return (
     <div
@@ -19,7 +19,7 @@ const Carousel = ({ items }) => {
               src={item.img}
               className={styles.companyLogo}
               alt={item.imgAlt}
-              id={localStorage.getItem('theme') === 'dark' ? styles.whiteLogo : null}
+              id={theme === 'dark' ? styles.whiteLogo : null}
             />
           )),
         )}
