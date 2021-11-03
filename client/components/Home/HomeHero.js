@@ -18,7 +18,7 @@ const HomeHero = ({data}) => {
         <Typography variant={'h2'}>{"Code your\n future"}</Typography>
         <Typography variant={'h4'}>{"Start IT career"}</Typography>
       </div>
-
+      {console.log(isMobile)}
       <img src={(isMobile) ? data.img : data.heroImage} alt="mobile-wtf"/>
     </div>
   );

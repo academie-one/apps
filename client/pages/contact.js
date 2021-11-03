@@ -25,6 +25,7 @@ const contact = () => {
       <Map height={300} defaultCenter={[43.25797, 76.90636]} defaultZoom={17}>
         <Marker width={50} anchor={[43.25851, 76.90616]} />
       </Map>
+      &nbsp;
       <Social data={data.Social} />
     </div>
   );
