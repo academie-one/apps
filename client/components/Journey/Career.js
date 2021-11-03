@@ -1,8 +1,9 @@
-import React, {useContext} from 'react';
+import React, { useContext } from 'react';
 import JourneyItems from './JourneyItems';
 import Typography from '../shared/Typography';
 import styles from '../../styles/components/Journey/JourneyCareer.module.css';
 import ThemeContext from '../shared/ThemeContext';
+import { isMobile } from 'react-device-detect';
 
 const chooseImg = (theme, data) => {
   return (theme === 'dark' ? data.img : data.img2); 
@@ -38,16 +39,20 @@ const Career = ({data, itemsDirection = 'row'}) => {
                 {data.subtitle}
               </Typography>
             )}
+            {(isMobile) ? <div className={styles.img}>
+              <img src={data.img} alt="spaceGirl"/>
+            </div> : ""
+            }
             {data.body && (
               <Typography variant={data.bodyVariant} className={data.bodyClass}>
                 {data.body}
               </Typography>
             )}
           </div>
-          <div className={styles.img}>
+          {(!(isMobile)) ? <div className={styles.img}>
               <img src={data.img} alt="spaceGirl"/>
-              <hr className={styles.hr} />
-          </div>
+            </div> : ""
+            }
         </div>
         <JourneyItems items={data.items} direction={itemsDirection} />
     </div>
