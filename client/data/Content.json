@@ -78,6 +78,22 @@
           "name": "Alibek Sansyzbayev",
           "title": "Founder of the Academie",
           "img": "/images/yerdos.jpg"
+        },
+        {
+          "name": "Yerdos Mendybayev",
+          "title": "Founding partner of the Academie",
+          "img": "/images/yerdos.jpg"
+        },
+        {
+          "name": "Dzhambul Revshanov",
+          "title": "Founding partner of the Academie",
+          "img": "/images/yerdos.jpg",
+          "bio": "the majority shareholder and historical leader of the Iliad Group. Self-taught entrepreneur, he has been working in the telematics, Internet and telecommunications industry since the end of the 1980s."
+        },
+        {
+          "name": "Dzhambul Revshanov",
+          "title": "Founding partner of the Academie",
+          "img": "/images/yerdos.jpg"
         }
       ]
     },
