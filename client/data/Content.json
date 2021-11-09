@@ -82,7 +82,7 @@
         },
         {
           "name": "Yerdos Mendybayev",
-          "title": "Founding partner of the Academie",
+          "title": "Founding partner",
           "img": "/images/yerdos.jpg"
         },
         {
@@ -638,8 +638,8 @@
     },
     "Social": {
       "title": "Social Networks",
-      "body1": "Follow us on social media and ask your questions through social networks",
-      "body2": "Social accounts for entertainment"
+      "body1": "Follow us on social media and ask your questions",
+      "body2": "Follow us for entertainment"
       
     }
   },
