@@ -5,22 +5,31 @@ import ThemeContext from '../shared/ThemeContext';
 
 let flag = 0;
 
-const chooseImg = (data) => {
-  return (flag ? data.heroImage : data.img);
+const chooseImg = (ismobile, data) => {
+  return (ismobile ? data.img : data.heroImage);
 }
 
 const HomeHero = ({data}) => {
+  const [isMobile, setIsMobile] = React.useState(false);
+
+  React.useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 768);
+    };
+
+    handleResize();
+
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+  
+
   const {theme} = useContext(ThemeContext);
 
   const inverted = {
     WebkitFilter: 'invert(1)',
     filter: 'invert(1)',
   };
-
-  React.useEffect(() => {
-    if (window.innerWidth >= 768)
-      flag = 1;
-  }, []);
 
 
   return (
@@ -29,7 +38,8 @@ const HomeHero = ({data}) => {
         <Typography variant={'h2'}>{"Code your\n future"}</Typography>
         <Typography variant={'h4'}>{"Start IT career"}</Typography>
       </div>
-      <img src={chooseImg(data)} alt="mobile-wtf"/>
+      {console.log(isMobile)}
+      <img src={chooseImg(isMobile, data)} alt="mobile-wtf"/>
     </div>
   );
 };
