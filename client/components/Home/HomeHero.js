@@ -36,7 +36,8 @@ const HomeHero = ({data}) => {
     <div className={styles.container}>
       <div className={styles.leftText}>
         <Typography variant={'h2'}>{"Code your\n future"}</Typography>
-        <Typography variant={'h4'}>{"Start IT career"}</Typography>
+        &nbsp;
+        <Typography variant={'font-medium'}>{"Start IT career"}</Typography>
       </div>
       {console.log(isMobile)}
       <img src={chooseImg(isMobile, data)} alt="mobile-wtf"/>
