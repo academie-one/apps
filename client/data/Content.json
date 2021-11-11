@@ -325,9 +325,10 @@
     "Edu": {
       "title": "01 Edu System by world renown Nicolas Sadirac",
       "titleVariant": "h4",
-      "img": "https://01-edu.org/images/w/o/r/l/d/world-network-f321d572.png",
-      "img2": "https://01-edu.org/images/w/o/r/l/d/world-network-f321d572.png",
+      "img": "./images/01Talent.png",
+      "img2": "./images/01Talent2.png",
       "imgPos": "left",
+      "imgInvert": "direct",
       "items": [
         {
           "body":"01 Edu System is a collaborative education platform to open and run revolutionary coding schools. The platform presents an innovative curriculum in software engineering and programming. With a renowned industry-leading reputation, the curriculum has been rigorously designed for learning skills of the digital world and technology industry. "
