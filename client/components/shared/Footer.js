@@ -3,6 +3,7 @@ import ThemeContext from './ThemeContext';
 import Typography from './Typography';
 import Link from 'next/link';
 import styles from '../../styles/components/shared/Footer.module.css';
+import { isMobile } from 'react-device-detect';
 
 const Footer = ({propsClick}) => {
   const {theme} = useContext(ThemeContext);
@@ -57,10 +58,10 @@ const Footer = ({propsClick}) => {
   return (
     <div className={`${styles.navFooterLinks}`}>
       <div className={`flex flex-row space-x-2`}>
-        <Typography variant="caption" onClick={handleClick}>
+        <Typography variant={isMobile ? 'body' : 'caption'} className={styles.typo} onClick={handleClick}>
           <Link href="/contact">Contact</Link>
         </Typography>
-        <Typography variant="caption" onClick={handleClick}>
+        <Typography variant={isMobile ? 'body' : 'caption'} className={styles.typo} onClick={handleClick}>
           <Link href="/media">Media</Link>
         </Typography>
       </div>

@@ -31,13 +31,13 @@ const Social = ({data}) => {
 const enterLinks = [
     {
         icon: 'tiktok',
-        web: 'https://t.me/theacademie',
+        web: 'https://www.tiktok.com/@the.academie',
         key: 4,
         imgInvert: "direct"
     },
     {
         icon: 'spotify',
-        web: 'https://t.me/theacademie',
+        web: 'https://open.spotify.com/track/4cOdK2wGLETKBW3PvgPWqT?si=0248162981314472',
         key: 5,
         imgInvert: "direct"
     },
