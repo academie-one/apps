@@ -16,9 +16,9 @@
   z-index: 1000; */
   @apply space-y-4;
   position: absolute;
-  top: 50%;
+  top: 54%;
   left: 48%;
-  transform: translate(-50%, -50%);
+  transform: translate(-45%, -50%);
   z-index: 1;
 }
 
@@ -44,4 +44,17 @@
 
 .heroTitle {
   font-size: 2rem;
+}
+
+@screen sm {
+  .leftText {
+    /* @apply inline-block items-center text-center align-middle;
+    z-index: 1000; */
+    @apply space-y-4;
+    position: absolute;
+    top: 52%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
 }
