@@ -1,7 +1,6 @@
 import React, {useEffect} from 'react';
-import styles from '../../styles/components/shared/DarkModeToggle.module.css';
 
-const darkModeToggle = ({darkMode, setDarkMode, navOpen}) => {
+const DarkModeToggle = ({darkMode, setDarkMode, navOpen}) => {
   const toggleMode = () => {
     localStorage.theme = darkMode ? 'light' : 'dark';
     setDarkMode(!darkMode);
@@ -31,4 +30,4 @@ const darkModeToggle = ({darkMode, setDarkMode, navOpen}) => {
   );
 };
 
-export default darkModeToggle;
+export default DarkModeToggle;
