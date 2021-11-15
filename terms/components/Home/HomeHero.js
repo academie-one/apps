@@ -1,8 +1,10 @@
 import Container from '../shared/Container';
+import Homepage from './HomePage';
 
 const HomeHero = ( {data} ) => {
   return (
     <div>
+      <Homepage />
       <Container data={data.General} />
       <Container data={data.Definitions} />
       <Container data={data.Subject} />
