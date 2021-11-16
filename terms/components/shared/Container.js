@@ -6,7 +6,7 @@ const Container = ({data}) => {
 
   return (
       <div className={styles.container}>
-        <Typography variant={"h2"}>{data.title}</Typography>
+        <Typography variant={"h4"}>{data.title}</Typography>
         <div className="flex flex-col mt-12">
           {data.items.map((el, index) => (
             <div

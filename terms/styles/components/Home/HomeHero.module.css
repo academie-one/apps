@@ -1,5 +1,5 @@
 .container {
-  @apply flex flex-col justify-center flex-1 my-12;
+  @apply flex flex-col mx-auto justify-center flex-1 my-12;
 }
 
 .content {

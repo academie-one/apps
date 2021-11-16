@@ -24,7 +24,7 @@ const MyApp = ({Component, pageProps}) => {
   return (
     <>
       <ThemeContext.Provider value={{theme, setTheme}}>
-        <Layout title={'academie one'}>
+        <Layout title={'Terms & Conditions'}>
           <Component {...pageProps} />  
         </Layout>
       </ThemeContext.Provider>
