@@ -8,7 +8,6 @@ const chooseImg = (theme, data) => {
   return (theme === 'dark' ? data.img : data.img2); 
 };
 
-
 const JourneyContainer = ({data, itemsDirection = 'row'}) => {
   const {theme} = useContext(ThemeContext);
   let containerType = 'row';

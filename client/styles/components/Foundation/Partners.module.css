@@ -1,0 +1,3 @@
+.team {
+    @apply grid grid-cols-3 mt-4 gap-x-6 gap-y-2;
+  }

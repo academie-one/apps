@@ -5,8 +5,18 @@
   transform: translate(1vw, -20vh);
 }
 
+.typo {
+  @apply text-body
+}
+
 @screen md {
   .navFooterLinks {
     @apply left-0
+  }
+}
+
+@screen sm {
+  .typo {
+    @apply text-caption
   }
 }

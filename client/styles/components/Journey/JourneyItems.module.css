@@ -6,6 +6,10 @@
   @apply grid grid-flow-row gap-y-4;
 }
 
+.itemImg {
+  @apply w-3/4 h-60 m-auto;
+}
+
 .item {
   @apply space-y-2;
 }

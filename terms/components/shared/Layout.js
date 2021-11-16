@@ -2,6 +2,7 @@ import React, {useEffect, useState, useRef} from 'react';
 import Head from './HeadMeta';
 import Header from './Header';
 import DarkModeToggle from './DarkModeToggle';
+import Sidebar from './Sidebar';
 import Link from 'next/link';
 import {useRouter} from 'next/router';
 
@@ -24,23 +25,22 @@ const Layout = ({children, title}) => {
       <div
         className={`${styles.container} bg-white dark:text-white text-darkMatter dark:bg-darkMatter`}
       >
-        <Header
-          classes={styles.header}
-          darkMode={darkMode}
-          setDarkMode={setDarkMode}
-        />
+        <Header classes={styles.header}
+         darkMode={darkMode}
+         setDarkMode={setDarkMode} />
         <div className={styles.logo}>
           <Link href={`/`} passHref>
-            <button className={`w-full h-full`}>
+            <button className={`w-full h-full focus:outline-none`}>
               <img
                 type="image/svg+xml"
                 src={
                   darkMode
-                    ? '/icons/logo_white_new.png'
+                    ? '/icons/logo_white3.png'
                     : '/icons/logo_new2.png'
                 }
                 alt="logo"
                 width="100%"
+                height="100%"
               />
             </button>
           </Link>
@@ -48,6 +48,7 @@ const Layout = ({children, title}) => {
         <div className={styles.darkModeIcon}>
           <DarkModeToggle darkMode={darkMode} setDarkMode={setDarkMode} />
         </div>
+        <Sidebar classes={styles.sidebar} />
         <main ref={ref} className={styles.main}>
           <div className={styles.content}>{children}</div>
         </main>

@@ -99,12 +99,21 @@ const Header = () => {
           <li className={styles.navbarLinkItem} onClick={handleClick}>
             <Typography
               variant="menu"
+              style={currentPage === '/faq' ? highlightCurrentPage : {}}
+            >
+              <Link href="/faq">FAQ</Link>
+            </Typography>
+          </li>
+          <li className={styles.navbarLinkItem} onClick={handleClick}>
+            <Typography
+              variant="menu"
               color={'blue'}
               style={currentPage === '/coming-soon' ? highlightCurrentPage : {}}
             >
-              <Link href="/coming-soon">Apply</Link>
+              <Link href="https://zero.academie.one/">Apply</Link>
             </Typography>
           </li>
+          
           <Footer propsClick={handleClick} />
         </ul>
       </nav>

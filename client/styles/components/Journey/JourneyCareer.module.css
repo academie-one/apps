@@ -1,0 +1,36 @@
+.careerBlock {
+    @apply mb-8;
+}
+
+.container {
+    @apply grid-flow-col gap-x-8 auto-cols-fr;
+}
+
+.leftside {
+    @apply col-span-2 space-y-6;
+}
+
+.circleCorale {
+    border-radius: 50%;
+    text-align: center;
+    @apply w-11 h-11;
+    background: #ff9d8f;
+}
+
+.img {
+    @apply my-6 space-y-6;
+}
+
+@screen md {
+    .container {
+        @apply grid grid-cols-5 gap-4 gap-y-2;
+    }
+    
+    .img {
+        @apply col-span-3;
+    }
+
+    .hr {
+        border-top: 0px;
+    }
+  }

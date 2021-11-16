@@ -1,10 +1,10 @@
 import {Foundation as data} from '../data/Content.json';
-import Message from '../components/Foundation/Message';
 import BrandManifesto from '../components/Foundation/BrandManifesto';
 import Container from '../components/shared/Container';
 import Team from '../components/Foundation/Team';
 import Project from '../components/Foundation/Project';
 import Values from '../components/Foundation/Values';
+import Partners from '../components/Foundation/Partners';
 
 const foundation = () => {
   return (
@@ -14,7 +14,8 @@ const foundation = () => {
       {/* <Container data={data.Brand} /> */}
       {/* <BrandManifesto data={data.BrandManifesto} /> */}
       {/* <Values data={data.Values} /> */}
-      <Message data={data.Message} />
+      <Team data={data.Team} />
+      {/* <Partners data={data.FoundPartners} /> */}
 
 
     </>
