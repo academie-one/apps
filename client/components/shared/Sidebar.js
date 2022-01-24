@@ -53,14 +53,14 @@ const Sidebar = ({classes}) => {
             <Link href="/admissions"> Admissions</Link>
           </Typography>
         </li>
-        <li className={styles.navbarLinkItem}>
+        {/* <li className={styles.navbarLinkItem}>
           <Typography
             style={currentPage === '/foundation' ? highlightCurrentPage : {}}
             variant="menu"
           >
             <Link href="/foundation">About us</Link>
           </Typography>
-        </li>
+        </li> */}
         <li className={styles.navbarLinkItem}>
           <Typography
             style={currentPage === '/faq' ? highlightCurrentPage : {}}
@@ -79,7 +79,7 @@ const Sidebar = ({classes}) => {
             style={currentPage === '/coming-soon' ? highlightCurrentPage : {}}
             variant="apply-menu"
           >
-            <Link href="https://zero.academie.one/">Apply</Link>
+            <Link href='/coming-soon'>Apply</Link>
           </Typography>
         </li>
       </ul>

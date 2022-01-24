@@ -88,14 +88,14 @@ const Header = () => {
               <Link href="/admissions">Admission</Link>
             </Typography>
           </li>
-          <li className={styles.navbarLinkItem} onClick={handleClick}>
+          {/* <li className={styles.navbarLinkItem} onClick={handleClick}>
             <Typography
               variant="menu"
               style={currentPage === '/foundation' ? highlightCurrentPage : {}}
             >
               <Link href="/foundation">About us</Link>
             </Typography>
-          </li>
+          </li> */}
           <li className={styles.navbarLinkItem} onClick={handleClick}>
             <Typography
               variant="menu"
@@ -110,7 +110,7 @@ const Header = () => {
               color={'blue'}
               style={currentPage === '/coming-soon' ? highlightCurrentPage : {}}
             >
-              <Link href="https://zero.academie.one/">Apply</Link>
+              <Link href="/coming-soon">Apply</Link>
             </Typography>
           </li>
           

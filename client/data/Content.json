@@ -1,11 +1,4 @@
 {
-  "Hero": {
-    "textLeft1": "Code your\n future",
-    "textLeft2": "your\n future",
-    "textRight": "Start IT career",
-    "heroImage": "images/academie_one_KV_desktop.png",
-    "img": "images/academie_one_KV_mobile.png"
-  },
   "Foundation": {
     "PageName": {
       "h1Title": "About us"
@@ -266,6 +259,13 @@
       "title": "Academie",
       "titleVariant": "h2",
       "body": "We believe in high-quality IT education for those who want to take on challenges, regardless of their background. Thus, helping talents to unleash their full creativity."
+    },
+    "Hero": {
+      "h2Title": "Code Your Future. Start IT Career.",
+      "body": "Academie One is open for anyone from 18 to 42 and does not       require prior knowledge of programming, diploma or certificate.",
+      "img": "/images/hero_logo2.png",
+      "imgPos": "bottom",
+      "imgAlt": "Academie One Logo Blue"
     },
     "Methodology": {
       "title": "Methodology",
