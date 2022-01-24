@@ -1,10 +1,11 @@
 {
   "Hero": {
-    "textLeft1": "Code your\n future",
-    "textLeft2": "your\n future",
-    "textRight": "Start IT career",
-    "heroImage": "images/academie_one_KV_desktop.png",
-    "img": "images/academie_one_KV_mobile.png"
+    "h2Title": "We combine education with a career and guaranteed employment  in IT.",
+    "body": "Academie One is open for anyone from 18 to 42 and does not       require prior knowledge of programming, diploma or certificate.",
+    "body2": "Everyone can change the future – be One!",
+    "img": "/images/hero_logo2.png",
+    "imgPos": "bottom",
+    "imgAlt": "Academie One Logo Blue"
   },
   "Foundation": {
     "PageName": {
