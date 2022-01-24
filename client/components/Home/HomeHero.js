@@ -18,8 +18,9 @@ const HomeHero = ({data}) => {
           <Typography variant="h2" className={styles.heroTitle}>
             {data.h2Title}
           </Typography>
+          
           <Typography variant="body">{data.body}</Typography>
-          <Typography variant="body">{data.body2}</Typography>
+          
         </div>
       </div>
     </div>
