@@ -1,12 +1,12 @@
 import {
-  HeroPage as data,
+  Academie as data,
 } from '../data/Content.json';
 import HomeHero from '../components/Home/HomeHero';
 
 const Home = () => {
   return (
     <>
-      <HomeHero data={data.HeroPage} />
+      <HomeHero data={data.Hero} />
     </>
   );
 };
