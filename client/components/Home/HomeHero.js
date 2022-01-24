@@ -5,13 +5,13 @@ const HomeHero = ({data}) => {
   return (
     <div className={styles.container}>
       <div className={styles.imageContainer}>
-        {/* <img
+        <img
           src={data.img}
           alt="academie logo"
           className={styles.image}
           width={'100%'}
           height={'auto'}
-        /> */}
+        />
       </div>
       <div className={styles.content}>
         <div>
