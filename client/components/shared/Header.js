@@ -110,7 +110,7 @@ const Header = () => {
               color={'blue'}
               style={currentPage === '/coming-soon' ? highlightCurrentPage : {}}
             >
-              <Link href="/coming-soon">Apply</Link>
+              <Link href="https://zero.academie.one/">Apply</Link>
             </Typography>
           </li>
           

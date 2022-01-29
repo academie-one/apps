@@ -79,7 +79,7 @@ const Sidebar = ({classes}) => {
             style={currentPage === '/coming-soon' ? highlightCurrentPage : {}}
             variant="apply-menu"
           >
-            <Link href='/coming-soon'>Apply</Link>
+            <Link href='https://zero.academie.one/'>Apply</Link>
           </Typography>
         </li>
       </ul>
