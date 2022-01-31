@@ -6,6 +6,7 @@ const HeadMeta = ({title}) => {
       <title>{title}</title>
       <meta charSet="utf-8" />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      <meta name="yandex-verification" content="e6168389bf832d39" />
       
       <title>Academie One: education and guaranteed employment in IT</title>
       <meta name="title" content="Academie One: education and guaranteed employment in IT" />
