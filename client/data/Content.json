@@ -324,18 +324,21 @@
       ]
     },
     "Edu": {
-      "title": "01 Edu System by world renown Nicolas Sadirac",
+      "title": "Peer-to-peer learning platform provided by",
       "titleVariant": "h4",
-      "img": "./images/01Talent3.png",
-      "img2": "./images/01Talent2.png",
+      "img": "./images/Artboard 1.png",
+      "img2": "./images/Artboard 1_1.png",
       "imgPos": "left",
       "imgInvert": "direct",
       "items": [
         {
-          "body":"01 Edu System is a collaborative education platform to open and run revolutionary coding schools. The platform presents an innovative curriculum in software engineering and programming. With a renowned industry-leading reputation, the curriculum has been rigorously designed for learning skills of the digital world and technology industry. "
+          "body":"01Edu is the ultimate upgrade of the peer-to-peer and gamified pedagogy developed by Nicolas Sadirac and his team, a learning platform based on co-creativity, peer-to-peer learning and collective intelligence."
         },
         {
-          "body":"Its founder Nicolas Sadirac has rigorously designed the curriculum for 20 years to prepare world-class software engineers. There are no teachers, no lectures, but there are amazing results that allow cadets receive first-rate programming knowledge."
+          "body":"Enhanced and refined from his 20+ years of experience building digital education schools and platforms, Nicolas rigorously designed the curriculum to train world-class software engineers with the most in demand skills to join the best tech teams."
+        },
+        {
+          "body":"The 2 years on campus curriculum is gamified and project based and uses a peer-to-peer learning approach. There are  no teacher and no lecture, you will learn from your peers and teach them as you progress."
         }
       ]
     },
