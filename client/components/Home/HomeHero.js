@@ -5,8 +5,8 @@ import ThemeContext from '../shared/ThemeContext';
 
 let flag = 0;
 
-const chooseImg = (ismobile, data) => {
-  return (ismobile ? data.img : data.heroImage);
+const chooseImg = (theme, data) => {
+  return (theme === 'dark' ? data.video2 : data.video1);
 }
 
 const HomeHero = ({data}) => {
@@ -34,12 +34,9 @@ const HomeHero = ({data}) => {
 
   return (
     <div className={styles.container}>
-      <div className={styles.leftText}>
-        <Typography variant={'h2'}>{"Code your\n future"}</Typography>
-        &nbsp;
-        <Typography className={'font-medium'}>{"Start IT career"}</Typography>
-      </div>
-      <img src={chooseImg(isMobile, data)} alt="mobile-wtf"/>
+        <video className={styles.backVideo} autoPlay muted loop>
+          <source src={data.video1}  type="video/mp4" />
+        </video>
     </div>
   );
 };

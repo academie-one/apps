@@ -11,6 +11,10 @@
   @apply relative text-center ;
 }
 
+.backVideo {
+  @apply fixed right-0 bottom-0 w-screen h-screen;
+}
+
 .leftText {
   /* @apply inline-block items-center text-center align-middle;
   z-index: 1000; */
