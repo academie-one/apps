@@ -12,6 +12,7 @@
 }
 
 .backVideo {
+  object-fit: cover;
   @apply fixed right-0 bottom-0 w-screen h-screen;
 }
 

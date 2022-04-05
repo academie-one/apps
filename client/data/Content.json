@@ -5,8 +5,10 @@
     "textRight": "Start IT career",
     "heroImage": "images/academie_one_KV_desktop.png",
     "img": "images/academie_one_KV_mobile.png",
-    "video1": "videos/blast_animation.mp4",
-    "video2": "videos/linear_animation.mp4"
+    "video1": "videos/MAINPAGE_bright_theme.mp4",
+    "video2": "videos/MAINPAGE_dark_theme.mp4",
+    "mob_video1": "videos/MAINPAGE_mobile_bright_theme.mp4",
+    "mob_video2": "videos/MAINPAGE_mobile_dark_theme.mp4"
   },
   "Foundation": {
     "PageName": {
