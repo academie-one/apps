@@ -37,7 +37,7 @@ const HomeHero = ({data}) => {
   return (
     <div className={styles.container}>
       {theme == 'dark' ? (
-        <video key={1} poster={data.heroImage} className={styles.backVideo} autoPlay muted oncontextmenu="return false;">
+        <video key={1} poster={data.img} className={styles.backVideo} autoPlay muted context="false" oncontextmenu="return false;">
           {isMobile ?
             <source src={data.mob_video2} type="video/mp4" />
             :
@@ -45,7 +45,7 @@ const HomeHero = ({data}) => {
           }
         </video>
         ) : (
-          <video key={2} poster={data.heroImage} className={styles.backVideo} autoPlay muted oncontextmenu="return false;"> 
+          <video key={2} poster={data.img} className={styles.backVideo} autoPlay muted context="false" oncontextmenu="return false;"> 
             {isMobile ?
             <source src={data.mob_video1} type="video/mp4" />
             :
