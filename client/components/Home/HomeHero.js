@@ -1,16 +1,6 @@
 import React, {useContext } from 'react';
-import Typography from '../shared/Typography';
 import styles from '../../styles/components/Home/HomeHero.module.css';
 import ThemeContext from '../shared/ThemeContext';
-import YouTube from 'react-youtube';
-
-let flag = 0;
-
-const chooseImg = (theme, data, isMobile) => {
-  if (!isMobile)
-    return (theme === 'dark' ?  data.video1 : data.video2);
-  return (theme === 'dark' ?  data.mob_video1 : data.mob_video2);
-}
 
 const HomeHero = ({data}) => {
   const [isMobile, setIsMobile] = React.useState(false);
@@ -47,7 +37,7 @@ const HomeHero = ({data}) => {
   return (
     <div className={styles.container}>
       {theme == 'dark' ? (
-        <video key={1} className={styles.backVideo} autoPlay muted>
+        <video key={1} poster={data.heroImage} className={styles.backVideo} autoPlay muted oncontextmenu="return false;">
           {isMobile ?
             <source src={data.mob_video2} type="video/mp4" />
             :
@@ -55,7 +45,7 @@ const HomeHero = ({data}) => {
           }
         </video>
         ) : (
-          <video key={2} className={styles.backVideo} autoPlay muted> 
+          <video key={2} poster={data.heroImage} className={styles.backVideo} autoPlay muted oncontextmenu="return false;"> 
             {isMobile ?
             <source src={data.mob_video1} type="video/mp4" />
             :
@@ -63,7 +53,6 @@ const HomeHero = ({data}) => {
           }
           </video>
         )}
-        {/* <YouTube className={styles.backVideo} videoId={chooseImg(theme)} opts={opts}/> */}
     </div>
   );
 };
