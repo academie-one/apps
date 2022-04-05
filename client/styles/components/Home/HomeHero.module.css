@@ -13,6 +13,7 @@
 
 .backVideo {
   object-fit: cover;
+  pointer-events: none;
   @apply fixed right-0 bottom-0 w-screen h-screen;
 }
 

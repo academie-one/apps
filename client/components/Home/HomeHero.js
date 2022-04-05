@@ -55,7 +55,7 @@ const HomeHero = ({data}) => {
           }
         </video>
         ) : (
-          <video key={2} className={styles.backVideo} autoPlay muted>
+          <video key={2} className={styles.backVideo} autoPlay muted> 
             {isMobile ?
             <source src={data.mob_video1} type="video/mp4" />
             :
