@@ -5,23 +5,23 @@ import '../styles/globals.css';
 import Router from "next/router";
 
 
- function ym() {
-  return (
-    "<script src='https://mc.yandex.ru/metrika/watch.js' type='text/javascript'></script>\
-    <script type='text/javascript'>\
-          try {\
-                var yaCounterXXXXX = new Ya.Metrika({\
-                id:72873511,\
-                clickmap:true,\
-                trackLinks:true,\
-                accurateTrackBounce:true,\
-                webvisor:true,\
-                trackHash:true\
-                });\
-          } catch(e) { }\
-    </script>"
-  );
-}
+//  function ym() {
+//   return (
+//     "<script src='https://mc.yandex.ru/metrika/watch.js' type='text/javascript'></script>\
+//     <script type='text/javascript'>\
+//           try {\
+//                 var yaCounterXXXXX = new Ya.Metrika({\
+//                 id:72873511,\
+//                 clickmap:true,\
+//                 trackLinks:true,\
+//                 accurateTrackBounce:true,\
+//                 webvisor:true,\
+//                 trackHash:true\
+//                 });\
+//           } catch(e) { }\
+//     </script>"
+//   );
+// }
 
 function FacebookPixel() {
   React.useEffect(() => {
@@ -63,7 +63,7 @@ const MyApp = ({Component, pageProps}) => {
         <Layout title={'academie one'}>
           <Component {...pageProps} />
           <FacebookPixel />
-          <div dangerouslySetInnerHTML={{__html: ym()}}/>
+          {/* <div dangerouslySetInnerHTML={{__html: ym()}}/> */}
       
         </Layout>
       </ThemeContext.Provider>
