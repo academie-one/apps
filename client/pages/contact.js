@@ -4,6 +4,7 @@ import Container from '../components/shared/Container';
 import {GoogleMap, LoadScript} from '@react-google-maps/api';
 import Social from '../components/Contact/Social';
 import {Map, Marker} from 'pigeon-maps';
+import Typography from '../components/shared/Typography'; 
 
 const containerStyle = {
   width: '400px',
@@ -19,6 +20,16 @@ const contact = () => {
   return (
     <div className="mb-16">
       <Container data={data.PageName} />
+      <div className="flex space-x-1">
+        <Typography variant="body">For general inquiries, please contact us at</Typography>
+        <a href="mailto:contact@academie.one">
+          <Typography variant="body">
+            contact@academie.one
+          </Typography>
+        </a>
+        <br />
+        <br />
+      </div>
       <a href="https://go.2gis.com/pn3hx" target="blank">
         <Container data={data.Address} />
       </a>
