@@ -20,15 +20,13 @@ const contact = () => {
   return (
     <div className="mb-16">
       <Container data={data.PageName} />
-      <div className="flex space-x-1">
+      <div className="flex space-x-1 mb-8">
         <Typography variant="body">For general inquiries, please contact us at</Typography>
         <a href="mailto:contact@academie.one">
           <Typography variant="body">
             contact@academie.one
           </Typography>
         </a>
-        <br />
-        <br />
       </div>
       <a href="https://go.2gis.com/pn3hx" target="blank">
         <Container data={data.Address} />

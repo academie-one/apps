@@ -11,15 +11,13 @@ const Media = () => {
       {/* <Container data={data.News} /> */}
       <MediaLinks data={data} />
       {/* <Container data={data.inquire} /> */}
-      <div className="flex space-x-1">
+      <div className="flex space-x-1 mb-8">
         <Typography variant="body">For press inquiries, contact us at </Typography>
         <a href="mailto:media@academie.one">
           <Typography variant="body">
             media@academie.one
           </Typography>
         </a>
-        <br />
-        <br />
       </div>
       <Container data={data.partners} />
     </>
