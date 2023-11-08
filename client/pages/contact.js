@@ -28,12 +28,12 @@ const contact = () => {
           </Typography>
         </a>
       </div>
-      <a href="https://go.2gis.com/pn3hx" target="blank">
+      <a href="https://go.2gis.com/lcsth" target="blank">
         <Container data={data.Address} />
+        <Map height={300} defaultCenter={[43.25797, 76.90636]} defaultZoom={17}>
+          <Marker width={50} anchor={[43.25851, 76.90616]} />
+        </Map>
       </a>
-      <Map height={300} defaultCenter={[43.25797, 76.90636]} defaultZoom={17}>
-        <Marker width={50} anchor={[43.25851, 76.90616]} />
-      </Map>
       &nbsp;
       <Social data={data.Social} />
     </div>
